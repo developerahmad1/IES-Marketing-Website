@@ -6,7 +6,7 @@ import Home from './Components/Home';
 import AboutUs from './Components/AboutUs';
 import OurProjects from './Components/OurProjects';
 import Blogs from './Components/Blogs';
-import ContactUS from './Components/ContactUs';
+import ContactUS from './Components/ContactUS';
 import Signup from './Components/Signup';
 import Login from './Components/Login';
 import ScrollToTop from './Components/ScrollToTop';
