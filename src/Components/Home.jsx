@@ -8,6 +8,7 @@ import img6 from "../assets/img6.png"
 import { useAppContext } from '../Context/AppContext.jsx';
 
 import "./CSS/Home.css"
+import OurProjects from './OurProjects.jsx';
 
 const Home = () => {
   const { openChatBot } = useAppContext()
@@ -110,105 +111,7 @@ const Home = () => {
       </div>
 
       {/* Third Section: Our Projects*/}
-      <div className="flex flex-col items-center px-4 md:px-8 py-8">
-        <h2 className="text-3xl md:text-4xl font-bold text-center">
-          Here are a few more of <span className="text-orange-600">our projects</span>
-        </h2>
-        <p className="text-gray-700 text-center mt-4 mb-8 max-w-xl">
-          As a project or topic, could you please provide more details or clarify what you're looking for regarding this
-        </p>
-
-        {/* Projects Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
-          {/* Card 1 */}
-          <div className="border border-gray-200 rounded-lg shadow-md overflow-hidden">
-            <img
-              src="https://via.placeholder.com/350x200"
-              alt="Dreamland Real Estate"
-              className="w-full"
-            />
-            <div className="p-4">
-              <div className="flex justify-between items-center">
-                <span className="text-orange-600 font-semibold">$350,000</span>
-                <div className="space-x-2">
-                  <button className="bg-gray-200 text-gray-800 rounded-full px-3 py-1">Buy</button>
-                  <button className="bg-gray-200 text-gray-800 rounded-full px-3 py-1">Rent</button>
-                </div>
-              </div>
-              <h3 className="text-xl font-bold mt-2">Dreamland Real Estate</h3>
-              <div className="text-gray-600 mt-2 flex items-center space-x-2">
-                <span>1 Bed</span>
-                <span>•</span>
-                <span>1 Bath</span>
-                <span>•</span>
-                <span>1200 sq ft</span>
-              </div>
-              <p className="text-gray-600 mt-2">Cumilla kondirpar</p>
-            </div>
-          </div>
-
-          {/* Card 2 */}
-          <div className="border border-gray-200 rounded-lg shadow-md overflow-hidden">
-            <img
-              src="https://via.placeholder.com/350x200"
-              alt="Urban Living Experts"
-              className="w-full"
-            />
-            <div className="p-4">
-              <div className="flex justify-between items-center">
-                <span className="text-orange-600 font-semibold">$457,000</span>
-                <div className="space-x-2">
-                  <button className="bg-gray-200 text-gray-800 rounded-full px-3 py-1">Buy</button>
-                  <button className="bg-gray-200 text-gray-800 rounded-full px-3 py-1">Rent</button>
-                </div>
-              </div>
-              <h3 className="text-xl font-bold mt-2">Urban Living Experts</h3>
-              <div className="text-gray-600 mt-2 flex items-center space-x-2">
-                <span>1 Bed</span>
-                <span>•</span>
-                <span>1 Bath</span>
-                <span>•</span>
-                <span>1200 sq ft</span>
-              </div>
-              <p className="text-gray-600 mt-2">Cumilla kondirpar</p>
-            </div>
-
-
-          </div>
-
-          {/* Card 3 */}
-          <div className="border border-gray-200 rounded-lg shadow-md overflow-hidden">
-            <img
-              src="https://via.placeholder.com/350x200"
-              alt="Apartment Member"
-              className="w-full"
-            />
-            <div className="p-4">
-              <div className="flex justify-between items-center">
-                <span className="text-orange-600 font-semibold">$550,000</span>
-                <div className="space-x-2">
-                  <button className="bg-gray-200 text-gray-800 rounded-full px-3 py-1">Buy</button>
-                  <button className="bg-gray-200 text-gray-800 rounded-full px-3 py-1">Rent</button>
-                </div>
-              </div>
-              <h3 className="text-xl font-bold mt-2">Apartment Member</h3>
-              <div className="text-gray-600 mt-2 flex items-center space-x-2">
-                <span>1 Bed</span>
-                <span>•</span>
-                <span>1 Bath</span>
-                <span>•</span>
-                <span>1200 sq ft</span>
-              </div>
-              <p className="text-gray-600 mt-2">Cumilla kondirpar</p>
-            </div>
-          </div>
-
-
-
-
-
-        </div>
-      </div>
+   <OurProjects />
       {/* Discover Pervfect Home  */}
       <div className='flex justify-center items-center flex-wrap px-4 md:px-8 py-8 w-full'>
         <div className='bg-[#fff1e1] w-full px-[30px] py-[20px] rounded-[20px] flex justify-center items-center gap-5 flex-wrap'>

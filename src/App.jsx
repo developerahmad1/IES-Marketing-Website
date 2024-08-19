@@ -15,6 +15,8 @@ import ChatBot from './Components/ChatBot';
 import Carrier from './Components/Carrier';
 import OneBlog from './Components/OneBlog';
 import Gallery from './Components/Gallery';
+import OneProject from './Components/OurProjects/SmartHousing';
+import SmartHousing from './Components/OurProjects/SmartHousing';
 
 const App = () => {
 
@@ -34,6 +36,7 @@ const App = () => {
           <Route path="/gallery" element={<Gallery/>} />
           <Route path="/carrier" element={<Carrier />} />
           <Route path="/blog/:id" element={<OneBlog />} />
+          <Route path="/project/smart-housing" element={<SmartHousing />} />
         </Routes>
       </div>
       <div className=''>
