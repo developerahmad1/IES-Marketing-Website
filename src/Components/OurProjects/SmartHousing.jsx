@@ -1,5 +1,5 @@
 import React from 'react';
-import "../Css/SmartHousing.css";
+import "../CSS/SmartHousing.css";
 import { useParams } from 'react-router-dom';
 import img1 from "../../assets/SmartHousing.jpg";  // Importing the image
 import OurProjects from '../OurProjects';
