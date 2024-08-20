@@ -44,8 +44,8 @@ const OurProjects = () => {
           </div>
         </Link>
 
-        {/* Second Project */}
-        {/* <Link to={`/project/2`} onClick={scrollToTop}
+        {/* Royal Swiss */}
+         <Link to={`/project/royal-swiss`} onClick={scrollToTop}
           className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
         >
           <div className="relative h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
@@ -57,11 +57,11 @@ const OurProjects = () => {
           </div>
           <div className="p-6">
             <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-              UI/UX Review Check
+              Royal Swiss Multan
             </h5>
             <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-              The place is close to Barceloneta Beach and bus stop just 2 min by walk and near to 'Naviglio' where you can enjoy the main night life in Barcelona.
-            </p>
+            Royal Swiss Housing is the latest project in Multan aimed to revolutionize the standards of housing in the city. This project promises to redefine urban living by providing a luxurious lifestyle, superior amenities, and a serene environment with modernity. This gated community features a 220-foot main boulevard and provides a wide range of residential options. It assures to provide a safe and secure space for families equipped with state-of-the-art facilities, including community centres, parks, commercial areas, fitness centres, etc. It is developing at a faster pace, and developmental standards are exemplary, featuring efficient drainage systems, wide roads, and reliable utility services
+                        </p>
           </div>
           <div className="p-6 pt-0">
             <button
@@ -71,7 +71,7 @@ const OurProjects = () => {
               View More
             </button>
           </div>
-        </Link> */}
+        </Link> 
 
         {/* Third Project */}
         {/* <Link to={`/project/3`} onClick={scrollToTop}
