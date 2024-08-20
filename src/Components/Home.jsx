@@ -111,6 +111,16 @@ const Home = () => {
         </div>
       </div>
 
+      {/* Pakistan best Real State Company  */}
+      <section className='my-6 mb-12 px-5 sm:px-40 text-justify'>
+        <h2 className="text-3xl font-bold mt-10 mb-4">Pakistan’s Best Real Estate Company </h2>
+        <p className="text-[15px] sm:text-lg leading-relaxed">
+          IES Marketing is known to be one of the best and reliable real estate or marketing companies in Pakistan. Since 2015, IES Marketing provided extraordinary services to clients and met their unique needs. With years of experience in the real estate industry, IES Marketing has built a strong reputation for its deep understanding of the market dynamics in Pakistan. It is known for innovative marketing strategies and utilizing digital media platforms or social media to reach a broad audience. Embracing technology, IES utilizes advanced tools and software for property listing. Furthermore, their ability to adapt to market changes and leverage technology further solidifies their position as a leader in the industry
+        </p>
+      </section>
+
+
+
       {/* Third Section: Our Projects*/}
       <OurProjects />
       {/* Discover Pervfect Home  */}
@@ -298,8 +308,8 @@ const Home = () => {
           </div>
           <div className="p-0 mb-6">
             <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-            IES is a trustworthy name in the real estate market. Their team is so polite and professional and guided me well through the entire procedure from choosing an ideal plot to getting the file.
-                        </p>
+              IES is a trustworthy name in the real estate market. Their team is so polite and professional and guided me well through the entire procedure from choosing an ideal plot to getting the file.
+            </p>
           </div>
         </div>
       </div>

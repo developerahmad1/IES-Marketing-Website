@@ -69,6 +69,22 @@ const About = () => {
         </div>
       </section>
 
+      {/* our Story  */}
+      <section className='my-6 px-5 mb-12 sm:px-40 text-justify'>
+        <h2 className="text-3xl font-bold mt-10 mb-4">About Us</h2>
+        <p className="text-[15px] sm:text-lg leading-relaxed">IES Marketing is a real estate agency offering extraordinary services to elevate the business of real estate. After many years of experience in the real estate and marketing industries and successful projects, we understand future opportunities and possible challenges of real estate marketing. We focus on a customized strategy for marketing that perfectly aligns with the client's business objectives. Our team of experts primarily focuses on delivering outstanding results, contributing to business growth and long-term success of projects. IES Marketing is one of the Pakistan's top real estate marketing company dealing in exclusive housing projects or societies. Also, we have achieved excellence in many well-known projects across Pakistan. We are highly dedicated to deliver innovative marketing solutions to create lasting value for our clients. Briefly, IES Marketing is elevating real estate industry to help potential buyers and sellers attain excellent results by making top-tier real estate choices.</p>
+      </section>
+
+      {/* Pakistan best Real State Company  */}
+      <section className='my-6 mb-12 px-5 sm:px-40 text-justify'>
+        <h2 className="text-3xl font-bold mt-10 mb-4">Owners</h2>
+        <p className="text-[15px] sm:text-lg leading-relaxed">
+          Since 2015, the strategic insights and leadership of Syed Ali Akbar Kirmani, CEO of IES marketing, have been instrumental in establishing a trusted name in the real estate industry. Chaudhary Tayyab Sultan is a Managing Director of IES Marketing who ensures that IES Marketing consistently meets or exceeds client's expectations. Both CEO and Managing director have built IES Marketing from the ground up, driven by a shared vision of unparalleled services of real estate marketing. Under their supervision, IES Marketing continues to expand and set new standards of excellence.
+        </p>
+      </section>
+
+
+
       {/* Our Results Section */}
       <section className="py-20 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -76,7 +92,7 @@ const About = () => {
             Our results in numbers
           </h2>
           <div className="flex flex-col gap-5 xl:gap-8 lg:flex-row lg:justify-between">
-            <div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 rounded-2xl shadow-md shadow-gray-100">
+            <div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 shadow-md shadow-gray-100  border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl">
               <div className="flex gap-5">
                 <div className="font-manrope text-2xl font-bold text-indigo-600">
                   240%
@@ -90,7 +106,7 @@ const About = () => {
                 {/* icon here */}
               </div>
             </div>
-            <div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 rounded-2xl shadow-md shadow-gray-100">
+            <div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 shadow-md shadow-gray-100  border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl">
               <div className="flex gap-5">
                 <div className="font-manrope text-2xl font-bold text-indigo-600">
                   175+
@@ -104,7 +120,7 @@ const About = () => {
                 {/* icon here */}
               </div>
             </div>
-            <div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 rounded-2xl shadow-md shadow-gray-100">
+            <div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 shadow-md shadow-gray-100  border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl">
               <div className="flex gap-5">
                 <div className="font-manrope text-2xl font-bold text-indigo-600">
                   625+
@@ -389,19 +405,18 @@ const About = () => {
             <li>
               <ul role="list" class="flex flex-col gap-y-6 sm:gap-y-8">
                 <li>
-                  <figure class="relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10"><svg aria-hidden="true"
+                  <figure class="relative bg-white p-6 shadow-xl shadow-slate-900/10 border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl"><svg aria-hidden="true"
                     width="105" height="78" class="absolute left-6 top-6 fill-slate-100">
                     <path
                       d="M25.086 77.292c-4.821 0-9.115-1.205-12.882-3.616-3.767-2.561-6.78-6.102-9.04-10.622C1.054 58.534 0 53.411 0 47.686c0-5.273.904-10.396 2.712-15.368 1.959-4.972 4.746-9.567 8.362-13.786a59.042 59.042 0 0 1 12.43-11.3C28.325 3.917 33.599 1.507 39.324 0l11.074 13.786c-6.479 2.561-11.677 5.951-15.594 10.17-3.767 4.219-5.65 7.835-5.65 10.848 0 1.356.377 2.863 1.13 4.52.904 1.507 2.637 3.089 5.198 4.746 3.767 2.41 6.328 4.972 7.684 7.684 1.507 2.561 2.26 5.5 2.26 8.814 0 5.123-1.959 9.19-5.876 12.204-3.767 3.013-8.588 4.52-14.464 4.52Zm54.24 0c-4.821 0-9.115-1.205-12.882-3.616-3.767-2.561-6.78-6.102-9.04-10.622-2.11-4.52-3.164-9.643-3.164-15.368 0-5.273.904-10.396 2.712-15.368 1.959-4.972 4.746-9.567 8.362-13.786a59.042 59.042 0 0 1 12.43-11.3C82.565 3.917 87.839 1.507 93.564 0l11.074 13.786c-6.479 2.561-11.677 5.951-15.594 10.17-3.767 4.219-5.65 7.835-5.65 10.848 0 1.356.377 2.863 1.13 4.52.904 1.507 2.637 3.089 5.198 4.746 3.767 2.41 6.328 4.972 7.684 7.684 1.507 2.561 2.26 5.5 2.26 8.814 0 5.123-1.959 9.19-5.876 12.204-3.767 3.013-8.588 4.52-14.464 4.52Z">
                     </path>
                   </svg>
                     <blockquote class="relative">
-                      <p class="text-lg tracking-tight text-slate-900">I love the fitness apparel and gear I purchased from
-                        this site. The quality is exceptional and the prices are unbeatable.</p>
+                      <p class="text-lg tracking-tight text-slate-900">I had taken consultation from IES Marketing team regarding purchase of property in Multan. Thanks to their team for complete guidance and making the process simpler for me. Highly recommended!</p>
                     </blockquote>
                     <figcaption class="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
                       <div>
-                        <div class="font-display text-base text-slate-900">Sheryl Berge</div>
+                        <div class="font-display text-base text-slate-900">Muhammad Waqas</div>
                       </div>
                       <div class="overflow-hidden rounded-full bg-slate-50">
                         <img alt="" class="h-14 w-14 object-cover" src="https://randomuser.me/api/portraits/men/15.jpg" />
@@ -414,19 +429,18 @@ const About = () => {
             <li>
               <ul role="list" class="flex flex-col gap-y-6 sm:gap-y-8">
                 <li>
-                  <figure class="relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10"><svg aria-hidden="true"
+                  <figure class="relative bg-white p-6 shadow-xl shadow-slate-900/10 border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl"><svg aria-hidden="true"
                     width="105" height="78" class="absolute left-6 top-6 fill-slate-100">
                     <path
                       d="M25.086 77.292c-4.821 0-9.115-1.205-12.882-3.616-3.767-2.561-6.78-6.102-9.04-10.622C1.054 58.534 0 53.411 0 47.686c0-5.273.904-10.396 2.712-15.368 1.959-4.972 4.746-9.567 8.362-13.786a59.042 59.042 0 0 1 12.43-11.3C28.325 3.917 33.599 1.507 39.324 0l11.074 13.786c-6.479 2.561-11.677 5.951-15.594 10.17-3.767 4.219-5.65 7.835-5.65 10.848 0 1.356.377 2.863 1.13 4.52.904 1.507 2.637 3.089 5.198 4.746 3.767 2.41 6.328 4.972 7.684 7.684 1.507 2.561 2.26 5.5 2.26 8.814 0 5.123-1.959 9.19-5.876 12.204-3.767 3.013-8.588 4.52-14.464 4.52Zm54.24 0c-4.821 0-9.115-1.205-12.882-3.616-3.767-2.561-6.78-6.102-9.04-10.622-2.11-4.52-3.164-9.643-3.164-15.368 0-5.273.904-10.396 2.712-15.368 1.959-4.972 4.746-9.567 8.362-13.786a59.042 59.042 0 0 1 12.43-11.3C82.565 3.917 87.839 1.507 93.564 0l11.074 13.786c-6.479 2.561-11.677 5.951-15.594 10.17-3.767 4.219-5.65 7.835-5.65 10.848 0 1.356.377 2.863 1.13 4.52.904 1.507 2.637 3.089 5.198 4.746 3.767 2.41 6.328 4.972 7.684 7.684 1.507 2.561 2.26 5.5 2.26 8.814 0 5.123-1.959 9.19-5.876 12.204-3.767 3.013-8.588 4.52-14.464 4.52Z">
                     </path>
                   </svg>
                     <blockquote class="relative">
-                      <p class="text-lg tracking-tight text-slate-900">As a professional athlete, I rely on high-performance
-                        gear for my training. This site offers a great selection of top-notch products.</p>
+                      <p class="text-lg tracking-tight text-slate-900">I needed a 5-Marla plot at a prime location of Multan and consulted IES team for finding the best society. The sales person guided me well and helped me to find and get the plot. IES is the Best.</p>
                     </blockquote>
                     <figcaption class="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
                       <div>
-                        <div class="font-display text-base text-slate-900">Leland Kiehn</div>
+                        <div class="font-display text-base text-slate-900">Saeed</div>
                       </div>
                       <div class="overflow-hidden rounded-full bg-slate-50">
                         <img alt="" class="h-14 w-14 object-cover" src="https://randomuser.me/api/portraits/women/15.jpg" />
@@ -439,19 +453,18 @@ const About = () => {
             <li>
               <ul role="list" class="flex flex-col gap-y-6 sm:gap-y-8">
                 <li>
-                  <figure class="relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10"><svg aria-hidden="true"
+                  <figure class="relative bg-white p-6 shadow-xl shadow-slate-900/10 border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl"><svg aria-hidden="true"
                     width="105" height="78" class="absolute left-6 top-6 fill-slate-100">
                     <path
                       d="M25.086 77.292c-4.821 0-9.115-1.205-12.882-3.616-3.767-2.561-6.78-6.102-9.04-10.622C1.054 58.534 0 53.411 0 47.686c0-5.273.904-10.396 2.712-15.368 1.959-4.972 4.746-9.567 8.362-13.786a59.042 59.042 0 0 1 12.43-11.3C28.325 3.917 33.599 1.507 39.324 0l11.074 13.786c-6.479 2.561-11.677 5.951-15.594 10.17-3.767 4.219-5.65 7.835-5.65 10.848 0 1.356.377 2.863 1.13 4.52.904 1.507 2.637 3.089 5.198 4.746 3.767 2.41 6.328 4.972 7.684 7.684 1.507 2.561 2.26 5.5 2.26 8.814 0 5.123-1.959 9.19-5.876 12.204-3.767 3.013-8.588 4.52-14.464 4.52Zm54.24 0c-4.821 0-9.115-1.205-12.882-3.616-3.767-2.561-6.78-6.102-9.04-10.622-2.11-4.52-3.164-9.643-3.164-15.368 0-5.273.904-10.396 2.712-15.368 1.959-4.972 4.746-9.567 8.362-13.786a59.042 59.042 0 0 1 12.43-11.3C82.565 3.917 87.839 1.507 93.564 0l11.074 13.786c-6.479 2.561-11.677 5.951-15.594 10.17-3.767 4.219-5.65 7.835-5.65 10.848 0 1.356.377 2.863 1.13 4.52.904 1.507 2.637 3.089 5.198 4.746 3.767 2.41 6.328 4.972 7.684 7.684 1.507 2.561 2.26 5.5 2.26 8.814 0 5.123-1.959 9.19-5.876 12.204-3.767 3.013-8.588 4.52-14.464 4.52Z">
                     </path>
                   </svg>
                     <blockquote class="relative">
-                      <p class="text-lg tracking-tight text-slate-900">The fitness apparel I bought here fits perfectly and
-                        feels amazing. I highly recommend this store to anyone looking for quality gear.</p>
+                      <p class="text-lg tracking-tight text-slate-900">IES is a trustworthy name in the real estate market. Their team is so polite and professional and guided me well through the entire procedure from choosing an ideal plot to getting the file.</p>
                     </blockquote>
                     <figcaption class="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
                       <div>
-                        <div class="font-display text-base text-slate-900">Peter Renolds</div>
+                        <div class="font-display text-base text-slate-900">Muhammad Talha</div>
                       </div>
                       <div class="overflow-hidden rounded-full bg-slate-50">
                         <img alt="" class="h-14 w-14 object-cover" src="https://randomuser.me/api/portraits/men/10.jpg" />
