@@ -187,8 +187,8 @@ const SmartHousing = () => {
                         <h2 className="text-3xl font-bold mb-4">Smart Housing Society Payment Plan </h2>
                         <p className="text-lg leading-relaxed">Smart Housing Society Multan offered budget-friendly payment plans for locals and interested people from different cities. It has a 4-year plan with 40 monthly and 8 quarterly installments. Almost 18% of the plot's total price needs to be paid as a down payment. The total price of 3.5 and 5 Marla plots is PKR 2,450,000 and PKR 3,500,000, respectively. Moreover, the total price of 7 and 10 Marla plots also seem affordable. Interested buyers also have to pay the balloting amount and quarterly installments to take possession of the plot.</p>
                         <div className='flex justify-start items-start mt-10 gap-3 flex-wrap'>
-                            <img src={paymentPlan} alt="" className='mx-auto' />
-                            <img src={paymentPlan2} alt="" className='mx-auto max-w-[400px]' />
+                            <img src={paymentPlan} alt="" className='mx-auto border rounded-2xl transition-all duration-[0.5s] hover:shadow-2xl' />
+                            <img src={paymentPlan2} alt="" className='mx-auto max-w-[400px] border transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl' />
                         </div>
                     </section>
 
