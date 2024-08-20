@@ -21,30 +21,32 @@ import SmartHousing from './Components/OurProjects/SmartHousing';
 const App = () => {
 
   return (
-    <Router>
-      <ScrollToTop />
-      <Navbar />
-      <div className="mt-[86px]">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about-us" element={<AboutUs />} />
-          <Route path="/our-projects" element={<OurProjects />} />
-          <Route path="/blogs" element={<Blogs />} />
-          <Route path="/contact-us" element={<ContactUS />} />
-          <Route path="/signup" element={<Signup />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/gallery" element={<Gallery/>} />
-          <Route path="/carrier" element={<Carrier />} />
-          <Route path="/blog/:id" element={<OneBlog />} />
-          <Route path="/project/smart-housing" element={<SmartHousing />} />
-        </Routes>
-      </div>
-      <div className=''>
-        <ChatBot />
-      </div>
-      <Footer />
-      <Toaster />
-    </Router>
+    <div className='overflow-x-hidden'>
+      <Router>
+        <ScrollToTop />
+        <Navbar />
+        <div className="mt-[86px]">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about-us" element={<AboutUs />} />
+            <Route path="/our-projects" element={<OurProjects />} />
+            <Route path="/blogs" element={<Blogs />} />
+            <Route path="/contact-us" element={<ContactUS />} />
+            <Route path="/signup" element={<Signup />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/carrier" element={<Carrier />} />
+            <Route path="/blog/:id" element={<OneBlog />} />
+            <Route path="/project/smart-housing" element={<SmartHousing />} />
+          </Routes>
+        </div>
+        <div className=''>
+          <ChatBot />
+        </div>
+        <Footer />
+        <Toaster />
+      </Router>
+    </div>
   );
 };
 

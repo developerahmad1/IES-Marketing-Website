@@ -12,6 +12,7 @@ import img8 from "../../assets/smarthousing8.jpg";
 import img9 from "../../assets/smarthousing9.jpg";
 import img10 from "../../assets/smarthousing10.jpg";
 import paymentPlan from "../../assets/smartHousing-payments.jpg";
+import paymentPlan2 from "../../assets/smartHousing-payments2.jpg";
 import OurProjects from '../OurProjects';
 
 const SmartHousing = () => {
@@ -182,7 +183,10 @@ const SmartHousing = () => {
                     <section className='mb-12'>
                         <h2 className="text-3xl font-bold mb-4">Smart Housing Society Payment Plan </h2>
                         <p className="text-lg leading-relaxed">Smart Housing Society Multan offered budget-friendly payment plans for locals and interested people from different cities. It has a 4-year plan with 40 monthly and 8 quarterly installments. Almost 18% of the plot's total price needs to be paid as a down payment. The total price of 3.5 and 5 Marla plots is PKR 2,450,000 and PKR 3,500,000, respectively. Moreover, the total price of 7 and 10 Marla plots also seem affordable. Interested buyers also have to pay the balloting amount and quarterly installments to take possession of the plot.</p>
+                        <div className='flex justify-start items-start mt-10 gap-3 flex-wrap'>
                         <img src={paymentPlan} alt="" className='mx-auto' />
+                        <img src={paymentPlan2} alt="" className='mx-auto max-w-[400px]' />
+                        </div>
                     </section>
 
                     {/* Conclusion */}

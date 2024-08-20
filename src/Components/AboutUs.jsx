@@ -6,6 +6,12 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaSquareWhatsapp } from "react-icons/fa6";
 
 const About = () => {
+  function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
   return (
     <div>
       {/* IES */}
@@ -15,8 +21,7 @@ const About = () => {
             Buy You Property with <br /><span className="text-[#fa8b17]">IES Marketing</span>
           </h1>
           <p className="max-w-2xl text-justify mx-auto  text-base font-normal leading-7 text-gray-500 mb-9">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie
-          </p>
+          IES Marketing is a real estate agency offering extraordinary services to elevate the business of real estate. After many years of experience in the real estate and marketing industries and successful projects, we understand future opportunities and possible challenges of real estate marketing.           </p>
           {/* icon here */}
         </div>
       </section>
@@ -31,11 +36,12 @@ const About = () => {
             </div>
             <div className="lg:pl-[100px] flex items-center">
               <div className="data w-full">
-                <h2 className="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
-                  About Us
+                <h2 className="font-manrope font-bold text-4xl lg:text-3xl text-black mb-9 max-lg:text-center relative">
+                  Syed Ali Akbar Kirmani <span className='text-2xl'>(CEO)</span>
                 </h2>
                 <p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                  Driven by a passion for seamless user experiences, we've meticulously curated pagedone to empower creators, designers, and developers alike. Our mission is to provide a comprehensive toolkit, enabling you to build intuitive, beautiful interfaces that resonate with users on every interaction.
+                  Syed Ali Akbar Kirmani:
+                  “IES Marketing is a full-service real estate marketing agency that helps clients in the real-estate industry increases their brand awareness, generate leads, and close more deals.”
                 </p>
               </div>
               {/* icon here */}
@@ -52,11 +58,12 @@ const About = () => {
               <div className="data w-full">
                 <img src="https://pagedone.io/asset/uploads/1702034785.png" alt="About Us tailwind page" className="block lg:hidden mb-9 mx-auto" />
                 {/* icon here */}
-                <h2 className="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center">
-                  We are Creative Since 2022
+                <h2 className="font-manrope font-bold text-4xl lg:text-4xl text-black mb-9 max-lg:text-center">
+                Chaudhary Tayyab Sultan
                 </h2>
                 <p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto text-justify">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                  Chaudhary Tayyab Sultan:
+                  “We have a devoted team determined to bring growth to our community, serving to maintain existing business and backing our clients in making their ideal choices for life
                 </p>
               </div>
               {/* icon here */}
@@ -69,7 +76,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* our Story  */}
+      {/* About US  */}
       <section className='my-6 px-5 mb-12 sm:px-40 text-justify'>
         <h2 className="text-3xl font-bold mt-10 mb-4">About Us</h2>
         <p className="text-[15px] sm:text-lg leading-relaxed">IES Marketing is a real estate agency offering extraordinary services to elevate the business of real estate. After many years of experience in the real estate and marketing industries and successful projects, we understand future opportunities and possible challenges of real estate marketing. We focus on a customized strategy for marketing that perfectly aligns with the client's business objectives. Our team of experts primarily focuses on delivering outstanding results, contributing to business growth and long-term success of projects. IES Marketing is one of the Pakistan's top real estate marketing company dealing in exclusive housing projects or societies. Also, we have achieved excellence in many well-known projects across Pakistan. We are highly dedicated to deliver innovative marketing solutions to create lasting value for our clients. Briefly, IES Marketing is elevating real estate industry to help potential buyers and sellers attain excellent results by making top-tier real estate choices.</p>
@@ -144,13 +151,10 @@ const About = () => {
         <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
             <div className="max-w-lg">
-              <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">Our Story</h2>
-              <p className="mt-4 text-gray-600 text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis
-                eros at lacus feugiat hendrerit sed ut tortor. Suspendisse et magna quis elit efficitur consequat.
-                Mauris eleifend velit a pretium iaculis. Donec sagittis velit et magna euismod, vel aliquet nulla
-                malesuada. Nunc pharetra massa lectus, a fermentum arcu volutpat vel.</p>
+              <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">Our Vision & Mission</h2>
+              <p className="mt-4 text-gray-600 text-lg">IES aims to become a leading real estate marketing agency by providing marketing solutions that empower our clients to reach their full potential. Our commitment to excellence and client's satisfaction makes us the go-to place for people looking for a reliable company to fulfill their real estate marketing needs. Also, we make sure to foster positive relationships and uphold higher standards of honesty with clients. Moreover, IES Marketing stands out as Pakistan's only real estate marketing company with a strong focus and effort on women's empowerment.</p>
               <div className="mt-8">
-                <a href="#" className="text-blue-500 hover:text-blue-600 font-medium">Learn more about us
+                <a href="#" className="text-blue-500 hover:text-blue-600 font-medium" onClick={scrollToTop}>Learn more about us
                   <span className="ml-2">&#8594;</span></a>
               </div>
             </div>
@@ -440,7 +444,7 @@ const About = () => {
                     </blockquote>
                     <figcaption class="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
                       <div>
-                        <div class="font-display text-base text-slate-900">Saeed</div>
+                        <div class="font-display text-base text-slate-900">Iqra</div>
                       </div>
                       <div class="overflow-hidden rounded-full bg-slate-50">
                         <img alt="" class="h-14 w-14 object-cover" src="https://randomuser.me/api/portraits/women/15.jpg" />
