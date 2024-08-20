@@ -108,14 +108,14 @@ const Login = () => {
                 >
                   {loading ? 'Login......' : 'Login'} {/* Show 'Login...' while loading */}
                 </button>
-                <button className="flex items-center justify-center bg-white text-black border-2 border-black px-4 py-2 rounded-full text-center hover:bg-black hover:text-white transition duration-[0.5s] w-full">
+                {/* <button className="flex items-center justify-center bg-white text-black border-2 border-black px-4 py-2 rounded-full text-center hover:bg-black hover:text-white transition duration-[0.5s] w-full">
                   <img
                     src="https://cdn4.iconfinder.com/data/icons/logos-brands-7/512/google_logo-google_icongoogle-512.png"
                     alt="Google Logo"
                     className="w-6 h-6 mr-2"
                   />
                   Sign in with Google
-                </button>
+                </button> */}
                 <p className="text-sm font-light text-gray-800 text-center dark:text-gray-400">
                   Don’t have an account yet?{' '}
                   <Link

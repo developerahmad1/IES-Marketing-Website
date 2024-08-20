@@ -42,7 +42,7 @@ const SmartHousing = () => {
                                         Smart Housing Society Multan is a trustable and transparent society, offering contemporary living and urban convenience with a rapidly developing landscape.                                    </p>
                                     <a
                                         className="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-gray-200 rounded hover:bg-gray-100 text-gray-800 transition duration-200"
-                                        href="https://wa.me/923054474602?text=Hi.%20Sir%20I%20am%20interested%20in%20Smart%20Housing.%20Can%20get%20More%20Information%20About%20it%20?" target='_main'
+                                        href="https://wa.me/923338400106?text=Hi.%20Sir%20I%20am%20interested%20in%20Smart%20Housing.%20Can%20get%20More%20Information%20About%20it%20?" target='_main'
                                     >
                                         Book Now
                                     </a>

@@ -75,7 +75,7 @@ const Navbar = () => {
               Gallery
             </NavLink>
             <NavLink
-              to="/carrier"
+              to="/career"
               className={({ isActive }) =>
                 isActive ? 'font-[700]' : 'text-gray-700 hover:text-black'
               }
@@ -165,7 +165,7 @@ const Navbar = () => {
                   Gallery
                 </NavLink>
                 <NavLink
-                  to="/carrier"
+                  to="/career"
                   className={({ isActive }) =>
                     isActive
                       ? 'font-[700] block text-gray-700'
