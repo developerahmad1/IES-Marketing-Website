@@ -98,8 +98,8 @@ const ChatBot = () => {
                                             <img src={iesWhiteLogo} alt="IES" className='w-[20px]' />
                                         }
                                     </span>
-                                    <div className={`p-3 rounded-lg max-w-[75%] ${msg.type === "user" ? "bg-gray-700 text-white" : "bg-gray-200 text-gray-800"}`}>
-                                        <p className="leading-relaxed">{msg.text}</p>
+                                    <div className={`p-3 rounded-[15px]  max-w-[75%] ${msg.type === "user" ? "bg-gray-700 text-white rounded-tr-[0px]" : "bg-gray-200 text-gray-800 rounded-tl-[0px]"}`}>
+                                        <p className="leading-relaxed ">{msg.text}</p>
                                         <div className="flex justify-between items-center text-xs mt-1 min-w-[120px]">
                                             <span className="text-gray-500">{msg.time}</span>
                                             {msg.type === "user" && <span className="text-white pl-[10px]">{msg.status}</span>}
