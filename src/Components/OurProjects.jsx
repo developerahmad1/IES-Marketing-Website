@@ -28,7 +28,7 @@ const OurProjects = () => {
           </div>
           <div className="p-6">
             <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-              Smart Housing In Multan
+              Smart Housing Multan
             </h5>
             <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
             Smart Housing Multan (SHM) is a modern housing society in the City of Saints with cutting-edge automation systems and modern infrastructure. The residents can enjoy exclusive perks, elite amenities, and upscale conveniences by choosing Smart Housing Society.

@@ -3,3 +3,8 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+
+ul {
+  list-style-image: url('https://www.freeiconspng.com/thumbs/checkmark-png/black-checkmark-png-4.png');
+}
