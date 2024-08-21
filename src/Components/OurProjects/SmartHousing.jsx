@@ -60,9 +60,9 @@ const SmartHousing = () => {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold mb-4">Introduction</h2>
                         <p className="text-lg leading-relaxed">
-                            Smart Housing Multan (SHM) is a modern housing society in the City of Saints with cutting-edge automation systems and modern infrastructure. It is situated at a prime location as people can easily reach it by driving a few minutes from M5 Motorway Interchange, Nishter 2, and Muhammad Nawaz Sharif University of Agriculture. </p>                        
-                            <p className='text-lg leading-relaxed'>
-                        Moreover, it is located along the routes leading to Muzzafargarh, Shujabad, and Dera Ghazi Khan, making it an ideal spot for investment and residence. It has 220 feet wide main entrance and 110 feet main boulevard. The residents can enjoy exclusive perks, elite amenities, and upscale conveniences by choosing Smart Housing Society.
+                            Smart Housing Multan (SHM) is a modern housing society in the City of Saints with cutting-edge automation systems and modern infrastructure. It is situated at a prime location as people can easily reach it by driving a few minutes from M5 Motorway Interchange, Nishter 2, and Muhammad Nawaz Sharif University of Agriculture. </p>
+                        <p className='text-lg leading-relaxed'>
+                            Moreover, it is located along the routes leading to Muzzafargarh, Shujabad, and Dera Ghazi Khan, making it an ideal spot for investment and residence. It has 220 feet wide main entrance and 110 feet main boulevard. The residents can enjoy exclusive perks, elite amenities, and upscale conveniences by choosing Smart Housing Society.
                         </p>
                     </section>
 
@@ -145,7 +145,7 @@ const SmartHousing = () => {
                         <h2 className="text-3xl font-bold mb-4">Popular landmarks near Smart Housing Multan</h2>
                         <p className="text-xl font-semibold mb-2"> Smart Housing Multan can be accessed from multiple routes:</p>
                         {/* <p className="text-lg leading-relaxed"></p> */}
-                        
+
                         <li>M5 Motorway Interchange</li>
                         <li>Al-Khidmat charity hospital</li>
                         <li>DHQ Multan Vehari Road</li>
@@ -201,8 +201,9 @@ const SmartHousing = () => {
                     {/* FAQS */}
                     <section className='mb-12'>
                         <h3 className="text-xl font-semibold mt-3">Is it safe to invest in Smart Housing Multan?</h3>
-                        <p className=" text-lg leading-relaxed
-">It is completely safe to invest in the Smart Housing Multan Project because it is verified by government authorities. The investors can potentially buy commercial or residential plots in this emerging residential community without any legal concerns. Smart Housing Multan presents a favorable prospect for those looking to secure a stable and potentially lucrative real estate investment in Multan City.</p>
+                        <p className=" text-lg leading-relaxed">
+                            It is completely safe to invest in the Smart Housing Multan Project because it is verified by government authorities. The investors can potentially buy commercial or residential plots in this emerging residential community without any legal concerns. Smart Housing Multan presents a favorable prospect for those looking to secure a stable and potentially lucrative real estate investment in Multan City.
+                        </p>
                         <h3 className="text-xl font-semibold mt-5">Is Smart Housing Multan NOC approved?</h3>
                         <p className="text-lg leading-relaxed">Smart Housing Multan is an NOC-approved project that signifies its compliance with local regulations and ensures that it meets the required development standards. Investors can proceed with confidence, knowing that Smart Housing has secured the essential approvals. This No Objection Certificate contributes to the project's credibility and integrity in the real estate market.</p>
                         <h3 className="text-xl font-semibold mt-5">Is Smart Housing Multan good for long-term investment?</h3>
@@ -214,11 +215,14 @@ const SmartHousing = () => {
                         <h3 className="text-xl font-semibold mt-5">How much time will Smart Housing Society Multan take to develop?</h3>
                         <p className="text-lg leading-relaxed">Smart Housing Society Multan is developing at a faster pace and promises to provide a well-developed community equipped with smart features and luxurious amenities in a short time period. A-block is ready for construction of houses, while B, A-extension, and Nishter block are at the initial stages of development.</p>
                     </section>
+
+
                 </div>
             </div>
 
+
             {/* Images */}
-            <section className='mb-12'>
+            <section className='mb-12 px-2 sm:px-5'>
                 <h3 className="text-3xl font-bold mb-4 text-center pb-4">Images Of Smart Housing</h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                     {images.map((src, index) => (
@@ -232,6 +236,20 @@ const SmartHousing = () => {
                     ))}
                 </div>
             </section>
+
+            {/* Disclaimer */}
+            <section className='my-10 px-3 sm:px-20 text-justify'>
+                <h2 className="text-3xl font-bold mb-4">Disclaimer</h2>
+                <p className="text-xl font-semibold mt-5">
+                    We collect information from credible and authentic online sources to provide up-to-date property details. We make no representations or claims about the accuracy of the data. We do not claim liability in case of any financial and investment-related losses experienced by users. Potential buyers or users are urged to exercise caution and take full responsibility for their investment.
+                </p>
+            </section>
+
+
+
+
+
+
             <OurProjects />
         </div >
     );

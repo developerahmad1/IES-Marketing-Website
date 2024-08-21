@@ -12,7 +12,39 @@ import OurProjects from './OurProjects.jsx';
 import Blogs from './Blogs.jsx';
 
 const Home = () => {
-  const { openChatBot } = useAppContext()
+  const { openChatBot, userMsg, setUserMsg, iesMessages, setiesMessages } = useAppContext()
+  
+  const handleSendMessage = (e) => {
+    e.preventDefault();
+
+    if (userMsg.trim()) {
+        const newMessage = {
+            text: userMsg,
+            type: "user",
+            time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+            status: "Delivered"
+        };
+        setiesMessages((previesMessages) => [
+            ...previesMessages,
+            newMessage
+        ]);
+        setUserMsg("");
+
+        setTimeout(() => {
+            setiesMessages((previesMessages) => {
+                if (previesMessages[previesMessages.length - 1]?.type !== "ai") {
+                    return [
+                        ...previesMessages,
+                        { text: "This is the AI response.", type: "ai", time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) }
+                    ];
+                }
+                return previesMessages;
+            });
+        }, 100);
+    }
+};
+
+  
   return (
     <div className="bg-white min-h-screen flex flex-col md:px-8 py-8 space-y-16">
       {/* First Section: Manage your Property */}
@@ -27,13 +59,15 @@ const Home = () => {
           </p>
 
           {/* <form className='mt-6'> */}
-          <div className="relative flex items-center mt-5">
+          <form className="relative flex items-center mt-5" onSubmit={handleSendMessage}>
             <input
               type="text"
               id="search"
               className="block w-full p-4 text-sm text-gray-900 border border-gray-300 bg-gray-50 focus:ring-blue-500 focus:border-blue-500 rounded-[200px] pr-0"
               placeholder="Enter your message....."
-              required
+              // required
+              value={userMsg}
+              onChange={(e) => setUserMsg(e.target.value)}
             />
             <button
               type="submit"
@@ -42,7 +76,7 @@ const Home = () => {
             >
               Contact Us
             </button>
-          </div>
+          </form>
           {/* </form> */}
 
 

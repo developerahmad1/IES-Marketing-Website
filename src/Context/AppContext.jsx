@@ -6,7 +6,10 @@ const AppContext = createContext();
 // Create a provider component
 export const AppContextProvider = ({ children }) => {
   const [isOpenChatBot, setIsOpenChatBot] = useState(false);
-
+  const [userMsg, setUserMsg] = useState("");
+  const [iesMessages, setiesMessages] = useState([
+      { text: "Hi, how can I help you today?", type: "ai", time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) }
+  ]);
   const openChatBot = () => setIsOpenChatBot(true);
   const closeChatBot = () => setIsOpenChatBot(false);
   console.log("isOpenChatBot", isOpenChatBot)
@@ -54,7 +57,6 @@ export const AppContextProvider = ({ children }) => {
       date: '2 year ago',
       paragraphs: [],
     },
-    // Additional 12 real estate blog entries
     {
       id: 4,
       imgSrc: 'https://pagedone.io/asset/uploads/1696244619.png',
@@ -160,6 +162,10 @@ export const AppContextProvider = ({ children }) => {
       closeChatBot,
       isOpenChatBot,
       setIsOpenChatBot,
+      userMsg,
+      setUserMsg,
+      iesMessages,
+      setiesMessages,
       blogsData,
     }}>
       {children}

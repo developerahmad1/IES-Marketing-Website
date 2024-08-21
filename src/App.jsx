@@ -18,6 +18,7 @@ import Gallery from './Components/Gallery';
 import OneProject from './Components/OurProjects/SmartHousing';
 import SmartHousing from './Components/OurProjects/SmartHousing';
 import RoyalSwiss from './Components/OurProjects/RoyalSwiss';
+import Adamshousing from './Components/OurProjects/Adamshousing';
 
 const App = () => {
 
@@ -40,6 +41,7 @@ const App = () => {
             <Route path="/blog/:id" element={<OneBlog />} />
             <Route path="/project/smart-housing" element={<SmartHousing />} />
             <Route path="/project/royal-swiss" element={<RoyalSwiss />} />
+            <Route path="/project/adams-housing" element={<Adamshousing />} />
           </Routes>
         </div>
         <div className=''>
