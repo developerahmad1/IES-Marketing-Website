@@ -79,7 +79,7 @@ const ChatBot = () => {
                         <p className="text-sm text-[#6b7280] leading-3">Powered by Mendable and Vercel</p>
                     </div>
 
-                    <div className="flex-1 overflow-y-auto px-3 mt-[120px]">
+                    <div className="flex-1 overflow-y-auto overflow-x-hidden px-3 mt-[120px]">
                         {iesMessages.map((msg, index) => (
                             <div
                                 key={index}
@@ -110,7 +110,7 @@ const ChatBot = () => {
 
                         {/* <hr className='bg-black h-[2px] mb-[5px]'/> */}
                     <div className="flex items-center pt-0 mt-auto">
-                        <form className="flex items-center justify-center w-full space-x-2" onSubmit={handleSendMessage}>
+                        <form className="flex items-center justify-center w-full space-x-2 pr-2 sm:mr-0" onSubmit={handleSendMessage}>
                             <input
                                 className="flex h-10 w-full rounded-md border border-[#e5e7eb] px-3 py-2 text-sm placeholder-[#6b7280] focus:outline-none focus:ring-2 focus:ring-[#9ca3af] disabled:cursor-not-allowed disabled:opacity-50 text-[#030712] focus-visible:ring-offset-2"
                                 placeholder="Type your message"
