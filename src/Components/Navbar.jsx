@@ -213,13 +213,12 @@ const Navbar = () => {
                 >
                   Call Now
                 </a>
-                <NavLink
-                  to="/contact-us"
-                  className="block bg-black-800 text-white px-4 py-2 border-black border-2 rounded-full text-center bg-black transition duration-300"
-                  onClick={toggleNav}
+                <button
+                  className="block w-full bg-black-800 text-white px-4 py-2 border-black border-2 rounded-full text-center bg-black transition duration-300"
+                  onClick={()=> {toggleNav(); openChatBot()}}
                 >
                   Contact Us
-                </NavLink>
+                </button>
               </div>
             </nav>
           </>

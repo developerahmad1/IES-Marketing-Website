@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import smartHousingImg from "../assets/SmartHousing.jpg";
 import royalSwissImg from "../assets/royalswiss1.jpg";
 import adamsHousingImg from "../assets/AdamsHousing1.jpg";
+import cityHousingImg from "../assets/City Housing 1.jpg";
 
 const OurProjects = () => {
   function scrollToTop() {
@@ -75,7 +76,7 @@ const OurProjects = () => {
           </div>
         </Link>
 
-        {/* Third Project */}
+        {/* Adams housing */}
         <Link to="/project/adams-housing" onClick={scrollToTop}
           className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
         >
@@ -92,6 +93,35 @@ const OurProjects = () => {
             </h5>
             <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
               Adams Housing Multan stands as a beacon of modern living that offers contemporary amenities and high-quality infrastructure and provides residents with convenient access to the city's landmarks and commercial hubs. Adams Housing prioritizes sustainability, incorporating green building practices, and ensuring ample green space for recreation.            </p>
+          </div>
+          <div className="p-6 pt-0">
+            <button
+              className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+              type="button"
+            >
+              View More
+            </button>
+          </div>
+        </Link>
+
+        {/* city Housing */}
+        <Link to="/project/citi-housing" onClick={scrollToTop}
+          className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
+        >
+          <div className="relative h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+            <img
+              src={cityHousingImg}
+              alt="card-image"
+              className="object-cover w-full h-full"
+            />
+          </div>
+          <div className="p-6">
+            <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+              CITI Housing Multan
+            </h5>
+            <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+              Citi Housing (Pvt.) Limited is the developer of the Citi Housing Multan project. Citi Housing Group is known for transparent dealings with customers and focuses on the quality work. Mr. Amir Malik is the Chairman of the Citi Housing (Pvt.) Limited played a significant role in reshaping the housing landscape. As a son-in-law of Mr. Malik Riaz, Mr. Amir Malik got reputation and trust in the real estate industry because his father-in-law owns the largest projects of Pakistan, including Bahria town. Mr. Zoraiz Malik, CEO of Citi Housing Group, executed and managed many housing projects in different areas of Pakistan.
+            </p>
           </div>
           <div className="p-6 pt-0">
             <button

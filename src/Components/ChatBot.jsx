@@ -3,6 +3,9 @@ import { MdMessage } from "react-icons/md";
 import { IoPerson } from "react-icons/io5";
 import iesWhiteLogo from "../assets/ies icon.png";
 import { useAppContext } from '../Context/AppContext.jsx';
+import { MdCancel } from "react-icons/md";
+import { MdOutlineCancel } from "react-icons/md";
+import { RxCross2 } from "react-icons/rx";
 
 const ChatBot = () => {
     const { isOpenChatBot, setIsOpenChatBot, openChatBot, closeChatBot, userMsg, setUserMsg, iesMessages, setiesMessages } = useAppContext();
@@ -52,17 +55,18 @@ const ChatBot = () => {
             ]);
             setUserMsg("");
 
-            setTimeout(() => {
-                setiesMessages((previesMessages) => {
-                    if (previesMessages[previesMessages.length - 1]?.type !== "ai") {
-                        return [
-                            ...previesMessages,
-                            { text: "This is the AI response.", type: "ai", time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) }
-                        ];
-                    }
-                    return previesMessages;
-                });
-            }, 100);
+            // Auto Reply
+            // setTimeout(() => {
+            //     setiesMessages((previesMessages) => {
+            //         if (previesMessages[previesMessages.length - 1]?.type !== "ai") {
+            //             return [
+            //                 ...previesMessages,
+            //                 { text: "This is the AI response.", type: "ai", time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) }
+            //             ];
+            //         }
+            //         return previesMessages;
+            //     });
+            // }, 100);
         }
     };
 
@@ -108,7 +112,7 @@ const ChatBot = () => {
                         <div ref={endOfiesMessagesRef} />
                     </div>
 
-                        {/* <hr className='bg-black h-[2px] mb-[5px]'/> */}
+                    {/* <hr className='bg-black h-[2px] mb-[5px]'/> */}
                     <div className="flex items-center pt-0 mt-auto">
                         <form className="flex items-center justify-center w-full space-x-2 pr-2 sm:mr-0" onSubmit={handleSendMessage}>
                             <input
@@ -128,14 +132,18 @@ const ChatBot = () => {
                 </div>
             )}
 
-            <button
-                ref={buttonRef} // Set ref for the button
-                className="fixed bottom-4 right-4 inline-flex items-center justify-center text-sm font-medium disabled:pointer-events-none disabled:opacity-50 rounded-full w-16 h-16 bg-black text-white text-[25px] p-0 normal-case leading-5 hover:scale-[1.06] duration-[0.2s] border-2"
-                type="button"
-                onClick={() => setIsOpenChatBot(!isOpenChatBot)}
-            >
-                <MdMessage className='text-3xl' />
-            </button>
+            <div className='flex justify-center items-center fixed bottom-4 right-4'>
+                {isOpenChatBot? null :
+                <div className='text-[10px] z-3 cursor-pointer py-3 px-2 pr-10 bg-white shadow-2xl border rounded-sm transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl mr-1' onClick={openChatBot}>Chat via Chat Bot</div>}
+                <button
+                    ref={buttonRef} // Set ref for the button
+                    className=" inline-flex items-center justify-center font-medium disabled:pointer-events-none disabled:opacity-50 rounded-full w-[61px] h-[61px] bg-black text-white text-[25px] p-0 normal-case leading-5 hover:scale-[1.06] duration-[0.2s] border-2"
+                    type="button"
+                    onClick={() => setIsOpenChatBot(!isOpenChatBot)}
+                >
+                    {isOpenChatBot? <RxCross2 className='text-4xl' />  : <MdMessage className='text-3xl' />}
+                </button>
+            </div>
         </div>
     );
 };
@@ -312,3 +320,6 @@ export default ChatBot;
 
 
 // https://chatgpt.com/c/84c250ff-a44a-4bfe-b2af-665807532894
+
+// Admin Pannel Ui Design
+// https://codepen.io/macridgway23/pen/rNMgRgY

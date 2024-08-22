@@ -20,6 +20,8 @@ import SmartHousing from './Components/OurProjects/SmartHousing';
 import RoyalSwiss from './Components/OurProjects/RoyalSwiss';
 import Adamshousing from './Components/OurProjects/Adamshousing';
 import AnyRoute404 from './Components/AnyRoute404';
+import ChatWithWhatsapp from './Components/ChatWithWhatsapp';
+import CityHousing from './Components/OurProjects/CitiHousing';
 
 const App = () => {
 
@@ -44,11 +46,11 @@ const App = () => {
             <Route path="/project/smart-housing" element={<SmartHousing />} />
             <Route path="/project/royal-swiss" element={<RoyalSwiss />} />
             <Route path="/project/adams-housing" element={<Adamshousing />} />
+            <Route path="/project/citi-housing" element={<CityHousing />} />
           </Routes>
         </div>
-        <div className=''>
-          <ChatBot />
-        </div>
+        <ChatWithWhatsapp />
+        <ChatBot />
         <Footer />
         <Toaster />
       </Router>
