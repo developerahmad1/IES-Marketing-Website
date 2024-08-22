@@ -112,7 +112,7 @@ const ChatBot = () => {
                     <div className="flex items-center pt-0 mt-auto">
                         <form className="flex items-center justify-center w-full space-x-2 pr-2 sm:mr-0" onSubmit={handleSendMessage}>
                             <input
-                                className="flex h-10 w-full rounded-md border border-[#e5e7eb] px-3 py-2 text-sm placeholder-[#6b7280] focus:outline-none focus:ring-2 focus:ring-[#9ca3af] disabled:cursor-not-allowed disabled:opacity-50 text-[#030712] focus-visible:ring-offset-2"
+                                className="flex h-10 w-full rounded-md border border-[#e5e7eb] px-3 py-2 text-sm placeholder-[#6b7280] focus:outline-none focus:ring-2 focus:ring-[#9ca3af] disabled:opacity-50 text-[#030712]"
                                 placeholder="Type your message"
                                 value={userMsg}
                                 onChange={(e) => setUserMsg(e.target.value)}
@@ -292,3 +292,23 @@ export default ChatBot;
 // };
 
 // export default ChatBot;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// https://chatgpt.com/c/84c250ff-a44a-4bfe-b2af-665807532894

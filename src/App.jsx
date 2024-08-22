@@ -7,8 +7,8 @@ import AboutUs from './Components/AboutUs';
 import OurProjects from './Components/OurProjects';
 import Blogs from './Components/Blogs';
 import ContactUS from './Components/ContactUS';
-import Signup from './Components/Signup';
-import Login from './Components/Login';
+// import Signup from './Components/Signup';
+// import Login from './Components/Login';
 import ScrollToTop from './Components/ScrollToTop';
 import Footer from './Components/Footer';
 import ChatBot from './Components/ChatBot';
@@ -19,6 +19,7 @@ import OneProject from './Components/OurProjects/SmartHousing';
 import SmartHousing from './Components/OurProjects/SmartHousing';
 import RoyalSwiss from './Components/OurProjects/RoyalSwiss';
 import Adamshousing from './Components/OurProjects/Adamshousing';
+import AnyRoute404 from './Components/AnyRoute404';
 
 const App = () => {
 
@@ -29,13 +30,14 @@ const App = () => {
         <Navbar />
         <div className="mt-[86px]">
           <Routes>
+            <Route path="/*" element={<AnyRoute404 />} />
             <Route path="/" element={<Home />} />
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/our-projects" element={<OurProjects />} />
             <Route path="/blogs" element={<Blogs />} />
             <Route path="/contact-us" element={<ContactUS />} />
-            <Route path="/signup" element={<Signup />} />
-            <Route path="/login" element={<Login />} />
+            {/* <Route path="/signup" element={<Signup />} /> */}
+            {/* <Route path="/login" element={<Login />} /> */}
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/career" element={<Carrier />} />
             <Route path="/blog/:id" element={<OneBlog />} />

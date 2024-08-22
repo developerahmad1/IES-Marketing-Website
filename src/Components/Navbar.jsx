@@ -2,13 +2,13 @@ import React, { useState, useContext } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import iesLogo from '../assets/IES balck logo .png';
-import { AuthContext } from '../Context/isLoginUser';
+// import { AuthContext } from '../Context/isLoginUser';
 import { useAppContext } from '../Context/AppContext.jsx';
 import './CSS/Navbar.css';
 
 const Navbar = () => {
   const { openChatBot } = useAppContext();
-  const { isLogin, logout } = useContext(AuthContext);
+  // const { isLogin, logout } = useContext(AuthContext);
   const [navOpen, setNavOpen] = useState(false);
   const location = useLocation(); // Hook to access the current route
 
@@ -94,7 +94,7 @@ const Navbar = () => {
 
           {/* Buttons for larger screens */}
           <div className="hidden md:flex ml-auto space-x-5">
-            {isLogin ? (
+            {/* {isLogin ? (
               <NavLink
                 to="/login"
                 onClick={() => logout()}
@@ -112,7 +112,7 @@ const Navbar = () => {
                   </span>
                 </button>
               </NavLink>
-            )}
+            )} */}
             <button onClick={openChatBot}>
               <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-[#2f3130] group bg-gradient-to-br from-black to-black group-hover:from-black group-hover:to-black hover:text-white rounded-full">
                 <span className="relative py-2.5 transition-all ease-in duration-75 text-white group-hover:bg-opacity-0 rounded-full px-6 w-32">
@@ -186,7 +186,7 @@ const Navbar = () => {
                 >
                   About Us
                 </NavLink>
-                {isLogin ? (
+                {/* {isLogin ? (
                   <NavLink
                     to="/login"
                     className="block bg-black-800 w-full hover:text-white px-4 py-2 border-[red] border-2 rounded-full text-black text-center hover:bg-[red] transition duration-300"
@@ -205,7 +205,14 @@ const Navbar = () => {
                   >
                     Signup
                   </NavLink>
-                )}
+                )} */}
+                <a
+                  href="tel:03054474602"
+                  className="block bg-black-800 hover:text-white px-4 py-2 border-black border-2 rounded-full text-black text-center hover:bg-black transition duration-300"
+                  onClick={toggleNav}
+                >
+                  Call Now
+                </a>
                 <NavLink
                   to="/contact-us"
                   className="block bg-black-800 text-white px-4 py-2 border-black border-2 rounded-full text-center bg-black transition duration-300"
