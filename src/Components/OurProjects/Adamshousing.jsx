@@ -18,7 +18,7 @@ import OurProjects from '../OurProjects';
 const Adamshousing = () => {
   const images = [img1, img2, img3, img4, img5, img6, img7, img8];
 
-  
+
   return (
     <div className='mt-[100px]'>
       <header className="my-24">
@@ -69,7 +69,7 @@ const Adamshousing = () => {
 
           {/* History */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold mb-4">Adams Housing Multan Developer History and Owners</h2>
+            <h2 className="text-3xl font-bold mb-4 text-start">Adams Housing Multan Developer History and Owners</h2>
             <p className="text-lg leading-relaxed">
               Adams Housing Multan is a project of the reputable Adams Group, known for its commitment to quality, innovation, and client satisfaction. Over ten years of experience building attractive homes and highly functional societies has made Adams Group one of the most reliable developers in Pakistan. Adams Developers have an excellent track record of delivering high-quality projects and are working hard to complete the development process of Adams Housing Multan.
             </p>
@@ -80,7 +80,7 @@ const Adamshousing = () => {
 
           {/* Delivered Projects */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold mb-4">Successfully delivered projects of Adams Group.</h2>
+            <h2 className="text-3xl font-bold mb-4 text-start">Successfully delivered projects of Adams Group.</h2>
             <p className="text-lg leading-relaxed">Some of the successful projects of Adams Group are:</p>
             <p className="text-lg leading-relaxed">
               <li>	Adams housing Dera Ghazi Khan</li>
@@ -96,7 +96,7 @@ const Adamshousing = () => {
 
           {/* NOC Status */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold mb-4">Adams Housing Multan NOC Status</h2>
+            <h2 className="text-3xl font-bold mb-4 text-start">Adams Housing Multan NOC Status</h2>
             <p className="text-lg leading-relaxed">Some
               Adams Housing Multan is an MDA-approved project in the heart of Multan City, legally verified by the Multan Development Authority and Directorate of Urban Development. In addition, this housing society has received a No Objection Certificate (NOC) for 1000 Kanal land area by adhering to legal standards and regulations. This approval ensures that this housing project complies with all zoning, planning, and developmental regulations set by the MDA. A valid NOC instills confidence among investors and buyers and increases the resale value of plots.
             </p>
@@ -104,7 +104,7 @@ const Adamshousing = () => {
 
           {/* development Status */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold mb-4">Adams Housing Multan Development Status</h2>
+            <h2 className="text-3xl font-bold mb-4 text-start">Adams Housing Multan Development Status</h2>
             <p className="text-lg leading-relaxed">
               Adams Housing Multan has made significant progress in the development, and the construction process is in full swing. The roads within the housing society are fully developed. This includes main and secondary roads, ensuring smooth transportation and connectivity within the community. Moreover, the basic infrastructure, such as water supply, electricity, sewage system, and gas connection, is in place and ready for residents to livee. Basic amenities necessary for daily living, such as medical facilities and security services, are available in society.            </p>
             <p className="text-lg leading-relaxed">
@@ -114,7 +114,7 @@ const Adamshousing = () => {
 
           {/* Main Features */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold mb-4">Main features of Adams Housing Multan.</h2>
+            <h2 className="text-3xl text-start font-bold mb-4">Main features of Adams Housing Multan.</h2>
             <p className="text-lg leading-relaxed">
               Adams Housing Multan offers a wide range of features to society's residents:
             </p>
@@ -145,7 +145,7 @@ const Adamshousing = () => {
 
           {/* Location */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold mb-4">Adams Housing Multan Location</h2>
+            <h2 className="text-3xl font-bold mb-4 text-start">Adams Housing Multan Location</h2>
             <p className="text-lg leading-relaxed">
               Adams Housing Multan Society is located near the Judicial Complex or New Katchery in Mouza Jahangirabad. It has two entrance gates on two main routes: Mattital Road and Northern Bypass Road opposite PIA Employees Housing. Additionally, this society became popular for its prime location, which allows easier access and ensures that residents are never far from essential services.            </p>
           </section>
@@ -153,7 +153,7 @@ const Adamshousing = () => {
 
           {/* Accessibiulities */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold mb-4">Adams Housing Multan Accessibilities</h2>
+            <h2 className="text-3xl font-bold mb-4 text-start">Adams Housing Multan Accessibilities</h2>
             <p className="text-lg leading-relaxed">
               Adams Housing Multan offers a lucrative investment opportunity due to its robust infrastructure, modern amenities, and strategic location. Some nearest accessibilities to Adams Housing are:
             </p>
@@ -170,7 +170,7 @@ const Adamshousing = () => {
 
           {/* Populare Places */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold mb-4">Popular Places near Adams Housing Multan</h2>
+            <h2 className="text-3xl font-bold mb-4 text-start">Popular Places near Adams Housing Multan</h2>
             <p className="text-lg leading-relaxed">
               Adams housing is not just a place to live as it offers a perfect blend of modern comforts, healthcare facilities, educational facilities, and easier transportation routes. Some popular landmarks and places near Adams Housing are:
             </p>
@@ -189,7 +189,7 @@ const Adamshousing = () => {
 
           {/* Other Near By Projects */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold mb-4">
+            <h2 className="text-3xl font-bold mb-4 text-start">
               Other Nearby Housing Projects
             </h2>
             <p className="text-lg leading-relaxed">
@@ -210,7 +210,7 @@ const Adamshousing = () => {
 
           {/* Blocks */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold mb-4">
+            <h2 className="text-3xl font-bold mb-4 text-start">
               Adams Housing Multan Blocks
             </h2>
             <p className="text-lg leading-relaxed">
@@ -220,7 +220,7 @@ const Adamshousing = () => {
 
           {/* Paymemnt Plans */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold mb-4">
+            <h2 className="text-3xl font-bold mb-4 text-start">
               Adams Housing Multan Payment plan
             </h2>
             <p className="text-lg leading-relaxed">
@@ -236,7 +236,7 @@ const Adamshousing = () => {
 
           {/* Additional Notes */}
           <section className="mb-12">
-            <h5 className="text-2xl font-bold mb-4">
+            <h5 className="text-2xl font-bold mb-4 text-start">
               Additional notes:
             </h5>
             <p className="text-lg leading-relaxed">
@@ -249,7 +249,7 @@ const Adamshousing = () => {
 
           {/* conclusion */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold mb-4">
+            <h2 className="text-3xl font-bold mb-4 text-start">
               Conclusion
             </h2>
             <p className="text-lg leading-relaxed">
@@ -263,37 +263,37 @@ const Adamshousing = () => {
             <h5 className="text-3xl font-bold mb-4">
               FAQS
             </h5>
-            <h3 className="text-xl font-semibold mt-3">
+            <h3 className="text-xl font-semibold mt-3 text-start">
               Who is the owner of the Adams Housing Multan?
             </h3>
             <p className=" text-lg leading-relaxed">
               Mr. Riyaz Beryar is the owner of the Adams Housing Multan and CEO of Adams Group. He is known for his visionary leadership and commitment to quality work and excellence. Moreover, Mr. Beryar has introduced this housing project to provide high-standard living spaces and offered a society with a blend of comprehensive amenities, modern infrastructure, and a community-centric environment.
             </p>
-            <h3 className="text-xl font-semibold mt-3">
+            <h3 className="text-xl font-semibold mt-3 text-start">
               Where is Adams Housing located in Multan?
             </h3>
             <p className=" text-lg leading-relaxed">
               Adams Housing Multan is strategically located on the Mattital Road and Bypass Road in Mouza Jahangirabad. This prime location of Adams Housing provides residents with easy access to key areas of the city, including educational institutions, healthcare facilities, commercial centers, and major landmarks. Its location ensures that society benefits from excellent connectivity and convenience, making it an attractive choice.
             </p>
-            <h3 className="text-xl font-semibold mt-3">
+            <h3 className="text-xl font-semibold mt-3 text-start">
               Are Adams Housing Multan plots available on installments?
             </h3>
             <p className=" text-lg leading-relaxed">
               Adams Housing Multan offers plots on installment plans to facilitate potential buyers and investors. This payment plan allows individuals to purchase property with a flexible payment schedule. These plans generally require an initial down payment followed by monthly or quarterly installments. Also, interested people can get residential or commercial property with cash payment.
             </p>
-            <h3 className="text-xl font-semibold mt-3">
+            <h3 className="text-xl font-semibold mt-3 text-start">
               Is Adams Housing Multan legally approved society?
             </h3>
             <p className=" text-lg leading-relaxed">
               Adams Housing Multan is a legally approved society from Multan Developmental Authority. Its land area of 1000 Kanal is approved for development and sale. It received ‘No Objection Certificate’ from developmental authorities of Multan to gain trust of investors and known as an authentic or legal society.
             </p>
-            <h3 className="text-xl font-semibold mt-3">
+            <h3 className="text-xl font-semibold mt-3 text-start">
               What is the payment plan of Adams Housing Multan?
             </h3>
             <p className=" text-lg leading-relaxed">
               Adams Housing Multan projects offers an affordable 4-year payment plan that involves 48 monthly installments and 16 quarterly installments. In addition, you have to pay the downpayment or booking amount to get the plot file, while you have to pay 10% extra amount if you are interested in buying corner plot.
             </p>
-            <h3 className="text-xl font-semibold mt-3">
+            <h3 className="text-xl font-semibold mt-3 text-start">
               Is Adams Housing fully developed society?
             </h3>
             <p className=" text-lg leading-relaxed">
@@ -306,21 +306,21 @@ const Adamshousing = () => {
 
 
 
-            {/* Images */}
-            <section className='mb-12 px-2 sm:px-5'>
-                <h3 className="text-3xl font-bold mb-4 text-center pb-4">Images Of Smart Housing</h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                    {images.map((src, index) => (
-                        <div key={index} className="w-full h-48 md:h-64 lg:h-80 bg-gray-200 flex items-center justify-center overflow-hidden border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl">
-                            <img
-                                className="max-w-full max-h-full object-contain"
-                                src={src}
-                                alt={`Gallery image ${index + 1}`}
-                            />
-                        </div>
-                    ))}
-                </div>
-            </section>
+      {/* Images */}
+      <section className='mb-12 px-2 sm:px-5'>
+        <h3 className="text-3xl font-bold mb-4 text-center pb-4">Images Of Smart Housing</h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {images.map((src, index) => (
+            <div key={index} className="w-full h-48 md:h-64 lg:h-80 bg-gray-200 flex items-center justify-center overflow-hidden border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl">
+              <img
+                className="max-w-full max-h-full object-contain"
+                src={src}
+                alt={`Gallery image ${index + 1}`}
+              />
+            </div>
+          ))}
+        </div>
+      </section>
 
 
 

@@ -57,6 +57,7 @@ const SmartHousing = () => {
             <div className="bg-white text-black text-justify min-h-screen py-12 px-4 md:px-20">
                 <div className="max-w-4xl mx-auto">
                     {/* Introduction Section */}
+
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold mb-4">Introduction</h2>
                         <p className="text-lg leading-relaxed">
@@ -68,28 +69,28 @@ const SmartHousing = () => {
 
                     {/* Smart Housing Developer History and Owners Section */}
                     <section className="mb-12">
-                        <h2 className="text-3xl font-bold mb-4">Smart Housing Developer History and Owners</h2>
+                        <h2 className="text-3xl font-bold mb-4 text-start">Smart Housing Developer History and Owners</h2>
                         <p className="text-lg leading-relaxed">
                             The owner and developer of Smart Housing Society is Mr. Malik Muhammad Zafar, CEO of M Zafar & Company (MZ&Co.). Mr. Malik Muhammad Akhter is a Managing Director of the company and Mr, Malik Muhammad Safdar Dirctor Sales and Marketing, working on this housing project. It is the 7th project of Mr. Zafar & Company that gained recognition in the real estate industry by working on multiple top-notch projects and fulfilling its promise to provide land for everyone. This company was established in 2014 and promised to provide a luxurious and comfortable lifestyle in Pakistan.                        </p>
                     </section>
 
                     {/* Smart Housing NOC Status Section */}
                     <section className="mb-12">
-                        <h2 className="text-3xl font-bold mb-4">Smart Housing NOC Status</h2>
+                        <h2 className="text-3xl font-bold mb-4 text-start">Smart Housing NOC Status</h2>
                         <p className="text-lg leading-relaxed">
                             Smart Housing is an authentic project verified by the development authorities and got technical approval in accordance with the Punjab Development Authorities Private Housing Scheme Rules 2021. On 24th November 2022, the society's owners applied for a "No Objection Certificate" from the Multan Development Authority (MDA) and got approval from the Directorate of Urban Approval on 1st February 2023. Its total land area is 224 Kanal, according to the data provided in the official document approved by the government authorities. The developers are directed to accelerate the development process and introduce basic facilities into society within a few months.                        </p>
                     </section>
 
                     {/* Smart Housing Development Status Section */}
                     <section className="mb-12">
-                        <h2 className="text-3xl font-bold mb-4"></h2><p className='text-lg leading-relaxed'>Smart housing development is ongoing, and advanced technologies are integrated to establish a luxurious and comfortable living environment. It has all the basic facilities, including water supply, education and sports complexes, hospitals, and mosques. In addition, it features a smart and captivating entrance design crafted with appealing lights and modern materials. Smart Officers Club provides many facilities to residents. This smart club also serves as an ideal venue for professional and social engagements, like seminars, corporate events, musical evenings, etc.
+                        <h2 className="text-3xl font-bold mb-4 text-start"></h2>Smart Housing Development Status<p className='text-lg leading-relaxed'>Smart housing development is ongoing, and advanced technologies are integrated to establish a luxurious and comfortable living environment. It has all the basic facilities, including water supply, education and sports complexes, hospitals, and mosques. In addition, it features a smart and captivating entrance design crafted with appealing lights and modern materials. Smart Officers Club provides many facilities to residents. This smart club also serves as an ideal venue for professional and social engagements, like seminars, corporate events, musical evenings, etc.
                             A smart Islamic centre and Jamia masjid are also present in the Smart Housing that is accessible by visitors or society residents and contributes to their spiritual growth. Their remarkable architecture and commitment to sustainable living make it an essential part of the landscape. Additionally, it also features smart street lights with motion sensors that alter the light intensity according to traffic flow on the road. Smart Surveillance System utilizes the latest CCTV technology for real-time monitoring. Homeowners can monitor their houses through their smartphones. These cameras provide quick alerts when unusual activities are detected
                         </p>
                     </section>
 
                     {/* Main Features of Smart Housing Society Section */}
                     <section className="mb-12">
-                        <h2 className="text-3xl font-bold mb-4">Main Features of Smart Housing Society</h2>
+                        <h2 className="text-3xl font-bold mb-4 text-start">Main Features of Smart Housing Society</h2>
                         <p className="text-lg leading-relaxed">
                             <li>Main boulevard (110 feet)</li>
                             <li>Family parks</li>
@@ -114,13 +115,13 @@ const SmartHousing = () => {
 
                     {/* Smart Housing Location Section */}
                     <section className="mb-12">
-                        <h2 className="text-3xl font-bold mb-4">Smart Housing Location</h2>
+                        <h2 className="text-3xl font-bold mb-4 text-start">Smart Housing Location</h2>
                         <p className="text-lg leading-relaxed">
                             Smart Housing is located in Mouza Alamgir near Nag Shah Chowk and M5 Motorway on Main Shujabad Road in Multan City. This housing project is 5 to 30 minutes away from popular spots in Multan, like Multan Cantt, Multan Bypass, Multan International Airport, etc., catering to the diverse needs of its residents.                        </p>
                     </section>
                     {/* Map Location */}
                     <section className="mb-12">
-                        <h2 className="text-3xl font-bold mb-4">Location of Smart Housing</h2>
+                        <h2 className="text-3xl font-bold mb-4 text-start">Location of Smart Housing</h2>
                         <div>
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13812.318492705257!2d71.44402929246822!3d30.063252069052993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8b66bb588cb3c26b%3A0xf56b38f814d92751!2sSmart%20Housing%20Multan!5e0!3m2!1sen!2s!4v1724130783166!5m2!1sen!2s" width="900" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
@@ -128,7 +129,7 @@ const SmartHousing = () => {
 
                     {/* Smart Housing Multan Assessbelities */}
                     <section className="mb-12">
-                        <h2 className="text-3xl font-bold mb-4">Smart Housing Multan Accessibilities</h2>
+                        <h2 className="text-3xl font-bold mb-4 text-start">Smart Housing Multan Accessibilities</h2>
                         <p className="text-xl font-semibold mb-2">Smart Housing Multan can be accessed from multiple routes:</p>
                         <li>Just 2 minutes from Nag Shah Chowk</li>
                         <li>Just 5 minutes from Zakariya Road</li>
@@ -142,7 +143,7 @@ const SmartHousing = () => {
 
                     {/* popular land marks */}
                     <section className="mb-12">
-                        <h2 className="text-3xl font-bold mb-4">Popular landmarks near Smart Housing Multan</h2>
+                        <h2 className="text-3xl font-bold mb-4 text-start">Popular landmarks near Smart Housing Multan</h2>
                         <p className="text-xl font-semibold mb-2"> Smart Housing Multan can be accessed from multiple routes:</p>
                         {/* <p className="text-lg leading-relaxed"></p> */}
 
@@ -163,7 +164,7 @@ const SmartHousing = () => {
 
                     {/* Blocks */}
                     <section className='mb-12'>
-                        <h2 className="text-4xl font-bold mb-4">Smart Housing Multan Blocks</h2>
+                        <h2 className="text-4xl font-bold mb-4 text-start">Smart Housing Multan Blocks</h2>
                         <p className="text-lg leading-relaxed">Smart Housing Society has launched four blocks: A-block, B-block, A-block extension, and Nishter block. Get residential or commercial plots at cash payment in A-block, B-block, and A- A-extension block.</p>
                         {/* A Block */}
                         <h3 className="text-xl mt-5 font-semibold">A Block </h3>
@@ -184,7 +185,7 @@ const SmartHousing = () => {
 
                     {/* Payment Plans */}
                     <section className='mb-12'>
-                        <h2 className="text-3xl font-bold mb-4">Smart Housing Society Payment Plan </h2>
+                        <h2 className="text-3xl font-bold mb-4 text-start">Smart Housing Society Payment Plan </h2>
                         <p className="text-lg leading-relaxed">Smart Housing Society Multan offered budget-friendly payment plans for locals and interested people from different cities. It has a 4-year plan with 40 monthly and 8 quarterly installments. Almost 18% of the plot's total price needs to be paid as a down payment. The total price of 3.5 and 5 Marla plots is PKR 2,450,000 and PKR 3,500,000, respectively. Moreover, the total price of 7 and 10 Marla plots also seem affordable. Interested buyers also have to pay the balloting amount and quarterly installments to take possession of the plot.</p>
                         <div className='flex justify-start items-start mt-10 gap-3 flex-wrap'>
                             <img src={paymentPlan} alt="" className='mx-auto border rounded-2xl transition-all duration-[0.5s] hover:shadow-2xl' />
@@ -194,25 +195,25 @@ const SmartHousing = () => {
 
                     {/* Conclusion */}
                     <section className='mb-12'>
-                        <h2 className="text-3xl font-bold mb-4">Conclusion</h2>
+                        <h2 className="text-3xl font-bold mb-4 text-start">Conclusion</h2>
                         <p className="text-lg leading-relaxed">Smart Housing Society Multan is a trustable and transparent society, offering contemporary living and urban convenience with a rapidly developing landscape. It is the best option to consider for those interested in investing or looking for multana property for living purposes. We can provide the latest updates about payment plans and society's future development goals. Please get in touch with our cooperative team! Contact IES Marketing for detailed information and guidance on amenities and society's future development plans to ensure informed investment decisions. Grab the Chance, and Don't Let this Slip away! </p>
                     </section>
 
                     {/* FAQS */}
                     <section className='mb-12'>
-                        <h3 className="text-xl font-semibold mt-3">Is it safe to invest in Smart Housing Multan?</h3>
+                        <h3 className="text-xl font-semibold mt-3 text-start">Is it safe to invest in Smart Housing Multan?</h3>
                         <p className=" text-lg leading-relaxed">
                             It is completely safe to invest in the Smart Housing Multan Project because it is verified by government authorities. The investors can potentially buy commercial or residential plots in this emerging residential community without any legal concerns. Smart Housing Multan presents a favorable prospect for those looking to secure a stable and potentially lucrative real estate investment in Multan City.
                         </p>
-                        <h3 className="text-xl font-semibold mt-5">Is Smart Housing Multan NOC approved?</h3>
+                        <h3 className="text-xl font-semibold mt-5 text-start">Is Smart Housing Multan NOC approved?</h3>
                         <p className="text-lg leading-relaxed">Smart Housing Multan is an NOC-approved project that signifies its compliance with local regulations and ensures that it meets the required development standards. Investors can proceed with confidence, knowing that Smart Housing has secured the essential approvals. This No Objection Certificate contributes to the project's credibility and integrity in the real estate market.</p>
-                        <h3 className="text-xl font-semibold mt-5">Is Smart Housing Multan good for long-term investment?</h3>
+                        <h3 className="text-xl font-semibold mt-5 text-start">Is Smart Housing Multan good for long-term investment?</h3>
                         <p className="text-lg leading-relaxed">Smart Housing Multan appears to be a promising option for long-term investment due to its enhanced potential in the near future. The project's approval and the successful history of the developers contribute to its reliability. However, it is crucial for investors to assess market trends and consider financial goals before making any investment. The planned amenities and ongoing infrastructure development are clear indicators that it will be good to consider to seek long-term benefits.</p>
-                        <h3 className="text-xl font-semibold mt-5">How can I buy a plot in Smart Housing Society Multan?</h3>
+                        <h3 className="text-xl font-semibold mt-5 text-start">How can I buy a plot in Smart Housing Society Multan?</h3>
                         <p className="text-lg leading-relaxed">It is an easy process to get a plot file in Smart Housing Society Multan. Ask a reliable marketing company to get plot file or visit the on-site office of Smart Housing for detailed information about payment plans, pricing, and types of plots. Do not forget to bring required documents with you. These documents include CNIC, photographs, domicile and other important documents specified by the society. Choose a plot that suits your budget and needs and get a payment plan. Pay the down payment and get your plot file in your hand.</p>
-                        <h3 className="text-xl font-semibold mt-5">How many balloting events have been conducted in Smart Housing Society Multan?</h3>
+                        <h3 className="text-xl font-semibold mt-5 text-start">How many balloting events have been conducted in Smart Housing Society Multan?</h3>
                         <p className="text-lg leading-relaxed">Two balloting events have been conducted in Smart Housing Society Multan and the second one is recently conducted on 20th July 2024 for three blocks; A-extension, B, and Nishter block. Plot numbers are assigned to members of society who purchased a plot in this block before the event. All data regarding the owners of plots, plot number, and location are uploaded on their website.</p>
-                        <h3 className="text-xl font-semibold mt-5">How much time will Smart Housing Society Multan take to develop?</h3>
+                        <h3 className="text-xl font-semibold mt-5 text-start">How much time will Smart Housing Society Multan take to develop?</h3>
                         <p className="text-lg leading-relaxed">Smart Housing Society Multan is developing at a faster pace and promises to provide a well-developed community equipped with smart features and luxurious amenities in a short time period. A-block is ready for construction of houses, while B, A-extension, and Nishter block are at the initial stages of development.</p>
                     </section>
 
