@@ -20,7 +20,7 @@ const Adamshousing = () => {
 
 
   return (
-    <div className='mt-[100px]'>
+    <div className='mt-[90px]'>
       <header className="my-24">
         <div
           className="w-full bg-center bg-cover"

@@ -12,7 +12,6 @@ import ContactUS from './Components/ContactUS';
 import ScrollToTop from './Components/ScrollToTop';
 import Footer from './Components/Footer';
 import ChatBot from './Components/ChatBot';
-import Carrier from './Components/Carrier';
 import OneBlog from './Components/OneBlog';
 import Gallery from './Components/Gallery';
 import OneProject from './Components/OurProjects/SmartHousing';
@@ -24,6 +23,7 @@ import ChatWithWhatsapp from './Components/ChatWithWhatsapp';
 import CityHousing from './Components/OurProjects/CitiHousing';
 import DHAMultan from './Components/OurProjects/DHAMultan';
 import RoyalOrchad from './Components/OurProjects/RoyalOrchad';
+import Carreer from './Components/Carreer';
 
 const App = () => {
 
@@ -43,7 +43,7 @@ const App = () => {
             {/* <Route path="/signup" element={<Signup />} /> */}
             {/* <Route path="/login" element={<Login />} /> */}
             <Route path="/gallery" element={<Gallery />} />
-            <Route path="/career" element={<Carrier />} />
+            <Route path="/career" element={<Carreer />} />
             <Route path="/blog/:id" element={<OneBlog />} />
             <Route path="/project/smart-housing" element={<SmartHousing />} />
             <Route path="/project/royal-swiss" element={<RoyalSwiss />} />
@@ -70,7 +70,7 @@ export default App;
 
 
 
-// #fa8b17    h #ff8200   Mustard   
+// #fa8b17    h #ff8200   Mustard
 // #2f3130    h 000000 Black
 // #f8f2e6    White
 

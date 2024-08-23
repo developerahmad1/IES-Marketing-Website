@@ -30,17 +30,17 @@ const Home = () => {
         ]);
         setUserMsg("");
 
-        setTimeout(() => {
-            setiesMessages((previesMessages) => {
-                if (previesMessages[previesMessages.length - 1]?.type !== "ai") {
-                    return [
-                        ...previesMessages,
-                        { text: "This is the AI response.", type: "ai", time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) }
-                    ];
-                }
-                return previesMessages;
-            });
-        }, 100);
+        // setTimeout(() => {
+        //     setiesMessages((previesMessages) => {
+        //         if (previesMessages[previesMessages.length - 1]?.type !== "ai") {
+        //             return [
+        //                 ...previesMessages,
+        //                 { text: "This is the AI response.", type: "ai", time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) }
+        //             ];
+        //         }
+        //         return previesMessages;
+        //     });
+        // }, 100);
     }
 };
 

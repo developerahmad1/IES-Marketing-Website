@@ -8,11 +8,10 @@ export const AppContextProvider = ({ children }) => {
   const [isOpenChatBot, setIsOpenChatBot] = useState(false);
   const [userMsg, setUserMsg] = useState("");
   const [iesMessages, setiesMessages] = useState([
-      { text: "Hi, how can I help you today?", type: "ai", time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) }
+      { text: "Hi its Developer Ahmad. If you need any assistance, Chat with me Or WhatsApp 03054474602", type: "ai", time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) }
   ]);
   const openChatBot = () => setIsOpenChatBot(true);
   const closeChatBot = () => setIsOpenChatBot(false);
-  console.log("isOpenChatBot", isOpenChatBot)
 
   const blogsData = [
     {

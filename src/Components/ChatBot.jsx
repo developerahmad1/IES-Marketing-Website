@@ -6,13 +6,28 @@ import { useAppContext } from '../Context/AppContext.jsx';
 import { MdCancel } from "react-icons/md";
 import { MdOutlineCancel } from "react-icons/md";
 import { RxCross2 } from "react-icons/rx";
+import iesFavIcon from "../../public/ies fav icon.jpg"
+import { BsThreeDotsVertical } from "react-icons/bs";
+import { FaAngleDown } from "react-icons/fa6";
+import { IoSend } from "react-icons/io5";
 
 const ChatBot = () => {
     const { isOpenChatBot, setIsOpenChatBot, openChatBot, closeChatBot, userMsg, setUserMsg, iesMessages, setiesMessages } = useAppContext();
-
+    const [isMobile, setIsMobile] = useState(false);
     const endOfiesMessagesRef = useRef(null);
     const chatBotRef = useRef(null);
-    const buttonRef = useRef(null); // Add ref for the button
+    const buttonRef = useRef(null);
+    const [isHoverOnButton, setIsHoverOnButton] = useState(false)
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 640); // Check if the screen width is less than or equal to 640px
+        };
+
+        handleResize(); // Set initial state
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
 
     useEffect(() => {
         if (isOpenChatBot && endOfiesMessagesRef.current) {
@@ -76,14 +91,25 @@ const ChatBot = () => {
                 <div
                     ref={chatBotRef}
                     style={{ boxShadow: 'rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px' }}
-                    className="fixed bottom-[calc(4rem+1.5rem)] right-0 mr-4 bg-white p-2 sm:p-6 pr-0 rounded-lg border border-[#e5e7eb] w-[90%] sm:w-[440px] h-[634px] flex flex-col mt-[100px] shadow-2xl"
+                    className={`fixed ${isMobile ? 'top-0 border-none m-0 pt-0 pl-0  left-0 w-full h-full mt-0' : 'bottom-[calc(4rem+1.5rem)] mt-[10px] right-0 mr-4  h-[94vh] w-[90%] sm:w-[440px] mb-5  rounded-t-[100px]'} bg-white  pr-0 rounded-lg border top-0 border-[#e5e7eb] flex flex-col  shadow-2xl z-50`}
                 >
-                    <div className="flex flex-col space-y-1.5 pb-6">
-                        <h2 className="font-semibold text-lg tracking-tight">Chatbot</h2>
-                        <p className="text-sm text-[#6b7280] leading-3">Powered by Mendable and Vercel</p>
+                    <div className={`flex justify-between items-center bg-black text-white flex-row space-y-1.5 py-4 px-3 ${isMobile ? null : " rounded-t-[30px]"}`}>
+                        <div className='flex justify-center items-center gap-5 ml-4'>
+                            <div className='bg-gray-600 rounded-full'>
+                                <img src={iesFavIcon} alt="" className='border-2 border-white rounded-full w-12' />
+                            </div>
+                            <div>
+                                <h2 className="font-semibold text-lg tracking-tight">Hi There</h2>
+                                <p className="text-sm text-white leading-3">Its <span className='font-bold text-[#ff8e2b]'> Developer Ahmad.</span></p>
+                            </div>
+                        </div>
+                        <div className='flex justify-center items-center gap-2 mr-2'>
+                            {/* <BsThreeDotsVertical className='text-gray-300 cursor-pointer text-[25px]' /> */}
+                            <RxCross2 className='text-gray-300 text-[25px] cursor-pointer' onClick={closeChatBot} />
+                        </div>
                     </div>
 
-                    <div className="flex-1 overflow-y-auto overflow-x-hidden px-3 mt-[120px]">
+                    <div className={`flex-1 overflow-y-auto overflow-x-hidden px-3 ${isMobile ? 'mt-0' : null}`}>
                         {iesMessages.map((msg, index) => (
                             <div
                                 key={index}
@@ -112,37 +138,60 @@ const ChatBot = () => {
                         <div ref={endOfiesMessagesRef} />
                     </div>
 
-                    {/* <hr className='bg-black h-[2px] mb-[5px]'/> */}
-                    <div className="flex items-center pt-0 mt-auto">
-                        <form className="flex items-center justify-center w-full space-x-2 pr-2 sm:mr-0" onSubmit={handleSendMessage}>
-                            <input
-                                className="flex h-10 w-full rounded-md border border-[#e5e7eb] px-3 py-2 text-sm placeholder-[#6b7280] focus:outline-none focus:ring-2 focus:ring-[#9ca3af] disabled:opacity-50 text-[#030712]"
-                                placeholder="Type your message"
-                                value={userMsg}
-                                onChange={(e) => setUserMsg(e.target.value)}
-                            />
-                            <button
+                    {/* Close button inside the chatbot for mobile screens */}
+                    {isMobile && (
+                        <button
+                            className="absolute top-4 right-4 text-black text-2xl"
+                            onClick={closeChatBot}
+                        >
+                            <RxCross2 />
+                        </button>
+                    )}
+
+                    {/* Ensure the input and button are visible on mobile screens */}
+                    <div className="flex items-center pt-2 mt-auto w-full">
+                        <form className="flex items-center justify-center w-full space-x-2 mb-2 px-2" onSubmit={handleSendMessage}>
+                            <div className='w-full relative flex justify-center items-center gap-2'>
+                                <input
+                                    className="flex h-10 w-[85%] rounded-md border border-[#7a7a7a] px-3 py-2 text-sm placeholder-[#6b7280] focus:outline-none focus:ring-2 focus:ring-[#000000] disabled:opacity-50 text-[#030712] pr-[65px]"
+                                    placeholder="Type your message ........"
+                                    value={userMsg}
+                                    onChange={(e) => setUserMsg(e.target.value)}
+
+                                >
+                                </input>
+                                <span className=' inset-y-0 bg-black w-[40px] h-[40px] rounded-full right-4 flex items-center justify-center cursor-pointer' onClick={handleSendMessage}><IoSend className='text-white text-[20px]' /></span>
+                            </div>
+                            {/* <button
                                 type="submit"
                                 className="inline-flex items-center justify-center rounded-md text-sm font-medium text-[#f9fafb] disabled:pointer-events-none disabled:opacity-50 bg-black hover:bg-[#111827E6] h-10 px-4 py-2"
                             >
                                 Send
-                            </button>
+                            </button> */}
                         </form>
                     </div>
                 </div>
             )}
 
             <div className='flex justify-center items-center fixed bottom-4 right-4'>
-                {isOpenChatBot? null :
-                <div className='text-[10px] z-3 cursor-pointer py-3 px-2 pr-10 bg-white shadow-2xl border rounded-sm transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl mr-1' onClick={openChatBot}>Chat via Chat Bot</div>}
-                <button
-                    ref={buttonRef} // Set ref for the button
-                    className=" inline-flex items-center justify-center font-medium disabled:pointer-events-none disabled:opacity-50 rounded-full w-[61px] h-[61px] bg-black text-white text-[25px] p-0 normal-case leading-5 hover:scale-[1.06] duration-[0.2s] border-2"
-                    type="button"
-                    onClick={() => setIsOpenChatBot(!isOpenChatBot)}
-                >
-                    {isOpenChatBot? <RxCross2 className='text-4xl' />  : <MdMessage className='text-3xl' />}
-                </button>
+                {isHoverOnButton && (
+                    <div className='text-[10px] z-3 cursor-pointer py-3 px-2 pr-10 bg-white shadow-2xl border rounded-sm transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl mr-1' onClick={openChatBot}>
+                        Chat via Chat Bot
+                    </div>
+                )}
+                {!isOpenChatBot ?
+                    <button
+                        ref={buttonRef}
+                        className="inline-flex items-center justify-center font-medium disabled:pointer-events-none disabled:opacity-50 rounded-full w-[61px] h-[61px] bg-black text-white text-[25px] p-0 normal-case leading-5 hover:scale-[1.06] duration-[0.2s] border-2"
+                        type="button"
+                        onClick={() => setIsOpenChatBot(!isOpenChatBot)}
+                        onMouseEnter={() => setIsHoverOnButton(true)}
+                        onMouseLeave={() => setIsHoverOnButton(false)}
+                    >
+                        <MdMessage />
+                    </button>
+                    : <div ref={buttonRef}></div>
+                }
             </div>
         </div>
     );
