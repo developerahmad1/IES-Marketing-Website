@@ -133,6 +133,64 @@ const OurProjects = () => {
           </div>
         </Link>
 
+        {/* DHA Multan */}
+        <Link to="/project/DHA-multan" onClick={scrollToTop}
+          className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
+        >
+          <div className="relative h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+            <img
+              src={cityHousingImg}
+              alt="card-image"
+              className="object-cover w-full h-full"
+            />
+          </div>
+          <div className="p-6">
+            <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+              DHA Multan
+            </h5>
+            <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+              Defense Housing Authority (DHA) is a prestigious residential community featuring well-planned residential plots and commercial areas equipped with modern infrastructure and provide a secure living environment. Since 2019, DHA Multan stands as a symbol of contemporary living as it provides high standards of living to residents.
+            </p>
+          </div>
+          <div className="p-6 pt-0">
+            <button
+              className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+              type="button"
+            >
+              View More
+            </button>
+          </div>
+        </Link>
+
+        {/* Royal Orchad*/}
+        <Link to="/project/royal-orchad" onClick={scrollToTop}
+          className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
+        >
+          <div className="relative h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+            <img
+              src={cityHousingImg}
+              alt="card-image"
+              className="object-cover w-full h-full"
+            />
+          </div>
+          <div className="p-6">
+            <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+              Royal Orchard Multan
+            </h5>
+            <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+              Royal Orchard Multan provides a luxurious and comfortable lifestyle in the fast-growing city of South Punjab. It offers various residential and commercial plots with modern infrastructure, including underground electricity, wide roads, and a sewerage system, and follows international community standards. This society features numerous amenities and provides a lucrative investment opportunity.
+            </p>
+          </div>
+          <div className="p-6 pt-0">
+            <button
+              className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+              type="button"
+            >
+              View More
+            </button>
+          </div>
+        </Link>
+
       </div>
     </div>
   );

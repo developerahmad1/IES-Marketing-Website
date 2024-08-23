@@ -12,6 +12,7 @@ import img10 from "../../assets/City Housing 10.jpg";
 import img11 from "../../assets/City Housing 11.jpg";
 import img12 from "../../assets/City Housing 12.jpg";
 import paymentPlan1 from "../../assets/CITI Housing Payment 1.png";
+import OurProjects from '../OurProjects';
 
 const CitiHousing = () => {
     const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12];
@@ -335,11 +336,10 @@ const CitiHousing = () => {
                         </p>
                     </section>
 
-
-
-
                 </div>
             </div>
+
+            <OurProjects />
         </div>
     )
 }

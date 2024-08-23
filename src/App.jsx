@@ -22,6 +22,8 @@ import Adamshousing from './Components/OurProjects/Adamshousing';
 import AnyRoute404 from './Components/AnyRoute404';
 import ChatWithWhatsapp from './Components/ChatWithWhatsapp';
 import CityHousing from './Components/OurProjects/CitiHousing';
+import DHAMultan from './Components/OurProjects/DHAMultan';
+import RoyalOrchad from './Components/OurProjects/RoyalOrchad';
 
 const App = () => {
 
@@ -47,6 +49,8 @@ const App = () => {
             <Route path="/project/royal-swiss" element={<RoyalSwiss />} />
             <Route path="/project/adams-housing" element={<Adamshousing />} />
             <Route path="/project/citi-housing" element={<CityHousing />} />
+            <Route path="/project/DHA-multan" element={<DHAMultan />} />
+            <Route path="/project/royal-orchad" element={<RoyalOrchad />} />
           </Routes>
         </div>
         <ChatWithWhatsapp />
