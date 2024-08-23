@@ -52,7 +52,7 @@ const Home = () => {
         {/* Left Content */}
         <div className="md:w-1/2">
           <h6 className="text-2xl md:text-3xl font-bold leading-tight">
-            Manage your Property
+            Manage your
             <span className="text-[#ff8e2b]"> property</span>
           </h6>
           <p className="text-gray-700 mt-4 md:mt-6 text-justify max-w-md text-xl">
@@ -140,7 +140,6 @@ const Home = () => {
           <p className="text-2xl text-orange-600 font-bold">$125</p> */}
           <p className="text-gray-700 mt-4 max-w-md text-justify">
             IES Marketing
-            <br />
             provides detailed listings of residential or commercial properties available for sale or rent. Our team offers comprehensive property management, marketing and consulting services for buying, selling, or investing in real estate.
           </p>
           <p className='text-gray-700 mt-4 max-w-md text-justify'>
@@ -152,7 +151,7 @@ const Home = () => {
             <li>Marketing and developing services</li>
           </p>
           <a href="https://wa.me/923338400106?text=Hi.%20Sir%20I%20want%20to%20in%20buy%20a%20plot%20?" target='_main'>
-            <button className="mt-6 bg-[#ff8e2b] text-white rounded-full px-6 py-2 hover:bg-[#f67300] transition">
+            <button className="mt-6 bg-[#2f3130] text-white rounded-full px-6 py-2 hover:bg-black transition">
               Purchase Plot
             </button>
           </a>
@@ -172,7 +171,7 @@ const Home = () => {
       {/* Third Section: Our Projects*/}
       <OurProjects />
       {/* Discover Pervfect Home  */}
-      <div className='flex justify-center items-center flex-wrap px-4 md:px-8 py-8 w-full'>
+      {/* <div className='flex justify-center items-center flex-wrap px-4 md:px-8 py-8 w-full'>
         <div className='bg-[#fff1e1] w-full px-[30px] py-[20px] rounded-[20px] flex justify-center items-center gap-5 flex-wrap'>
           <div className='max-w-[500px]'>
             <h3 className='text-5xl text-black font-bold'>Disover Your Perfect Home Now!</h3>
@@ -183,7 +182,7 @@ const Home = () => {
             <img src={img2} className=' h-auto lg:h-[300px] rounded-[20px]' />
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* User feed Back */}
       <div className='flex justify-center items-center flex-wrap gap-y-2 gap-x-[80px] p-5'>
