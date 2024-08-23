@@ -1,8 +1,17 @@
 import React from 'react'
-import img1 from "../../assets/AdamsHousing1.jpg";
+import img1 from "../../assets/DHA 1.jpg";
+import img2 from "../../assets/DHA 2.jpg";
+import img3 from "../../assets/DHA 3.jpg";
+import img4 from "../../assets/DHA 4.jpg";
+import img5 from "../../assets/DHA 5.jpg";
+import img6 from "../../assets/DHA 6.jpg";
+import img7 from "../../assets/DHA 7.jpg";
 import OurProjects from '../OurProjects';
 
 const DHAMultan = () => {
+    const images = [img1, img2, img3, img4, img5, img6, img7];
+
+    
     return (
         <div>
 
@@ -23,8 +32,8 @@ const DHAMultan = () => {
                                     <h2 className="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">
                                         DHA Multan – Redefining Urban Elegance
                                     </h2>
-                                    <p className="max-w-3xl mx-auto mb-10 text-lg text-justify text-gray-300">
-                                        Defense Housing Authority (DHA) is a prestigious residential community featuring well-planned residential plots and commercial areas equipped with modern infrastructure and provide a secure living environment. Since 2019, DHA Multan stands as a symbol of contemporary living as it provides high standards of living to residents.
+                                    <p className="max-w-3xl mx-auto mb-10 text-lg  text-gray-300 text-center">
+                                        Defense Housing Authority (DHA) is a prestigious residential community featuring well-planned residential plots and commercial areas equipped with modern infrastructure and provide a secure living environment.
                                     </p>
                                     <a
                                         className="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-gray-200 rounded hover:bg-gray-100 text-gray-800 transition duration-200"
@@ -316,6 +325,33 @@ const DHAMultan = () => {
 
                 </div>
             </div>
+
+            {/* Images */}
+            <section className='mb-12 px-2 sm:px-5'>
+                <h3 className="text-3xl font-bold mb-4 text-center pb-4">Images Of DHA Multan</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {images.map((src, index) => (
+                        <div key={index} className="w-full h-48 md:h-64 lg:h-80 bg-gray-200 flex items-center justify-center overflow-hidden border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl">
+                            <img
+                                className="max-w-full max-h-full object-contain"
+                                src={src}
+                                alt={`Gallery image ${index + 1}`}
+                            />
+                        </div>
+                    ))}
+                </div>
+            </section>
+
+
+            {/* Disclaimer */}
+            <section className='my-10 px-3 sm:px-20 text-justify'>
+                <h2 className="text-3xl font-bold mb-4 text-start">Disclaimer</h2>
+                <p className="text-xl font-semibold mt-5">
+                    We collect information from credible and authentic online sources to provide up-to-date property details. We make no representations or claims about the accuracy of the data. We do not claim liability in case of any financial and investment-related losses experienced by users. Potential buyers or users are urged to exercise caution and take full responsibility for their investment.
+                </p>
+            </section>
+
+
 
             <OurProjects />
 

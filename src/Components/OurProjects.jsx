@@ -4,6 +4,8 @@ import smartHousingImg from "../assets/SmartHousing.jpg";
 import royalSwissImg from "../assets/royalswiss1.jpg";
 import adamsHousingImg from "../assets/AdamsHousing1.jpg";
 import cityHousingImg from "../assets/City Housing 1.jpg";
+import DHAMultanImg from "../assets/DHA 1.jpg";
+import royalOrchadImg from "../assets/royal orchad 1.jpg";
 
 const OurProjects = () => {
   function scrollToTop() {
@@ -92,7 +94,7 @@ const OurProjects = () => {
               Adams Housing Multan
             </h5>
             <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-              Adams Housing Multan stands as a beacon of modern living that offers contemporary amenities and high-quality infrastructure and provides residents with convenient access to the city's landmarks and commercial hubs. Adams Housing prioritizes sustainability, incorporating green building practices, and ensuring ample green space for recreation.            </p>
+              Adams Housing Multan stands as a beacon of modern living that offers contemporary amenities and high-quality infrastructure, providing residents with convenient access to the city's landmarks. Adams Housing prioritizes sustainability and ensures ample green space for recreation.            </p>
           </div>
           <div className="p-6 pt-0">
             <button
@@ -120,7 +122,7 @@ const OurProjects = () => {
               CITI Housing Multan
             </h5>
             <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-              Citi Housing (Pvt.) Limited is the developer of the Citi Housing Multan project. Citi Housing Group is known for transparent dealings with customers and focuses on the quality work. Mr. Amir Malik is the Chairman of the Citi Housing (Pvt.) Limited played a significant role in reshaping the housing landscape. As a son-in-law of Mr. Malik Riaz, Mr. Amir Malik got reputation and trust in the real estate industry because his father-in-law owns the largest projects of Pakistan, including Bahria town. Mr. Zoraiz Malik, CEO of Citi Housing Group, executed and managed many housing projects in different areas of Pakistan.
+              Citi Housing Multan is an exclusive housing project in the City of Saints, aimed to bring modern living standards. It offers residential plots, commercial areas, and recreational facilities to residents and investors. This gated community features 120 to 180-foot main-boulevard. It provides world-class amenities and ultra-luxurious lifestyles.
             </p>
           </div>
           <div className="p-6 pt-0">
@@ -139,7 +141,7 @@ const OurProjects = () => {
         >
           <div className="relative h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
             <img
-              src={cityHousingImg}
+              src={DHAMultanImg}
               alt="card-image"
               className="object-cover w-full h-full"
             />
@@ -149,7 +151,7 @@ const OurProjects = () => {
               DHA Multan
             </h5>
             <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-              Defense Housing Authority (DHA) is a prestigious residential community featuring well-planned residential plots and commercial areas equipped with modern infrastructure and provide a secure living environment. Since 2019, DHA Multan stands as a symbol of contemporary living as it provides high standards of living to residents.
+              Defense Housing Authority (DHA) is a prestigious residential community featuring well-planned residential plots and commercial areas equipped with modern infrastructure and provide a secure living environment. DHA Multan stands as a symbol of contemporary living for providing high standards of living to residents.
             </p>
           </div>
           <div className="p-6 pt-0">
@@ -168,7 +170,7 @@ const OurProjects = () => {
         >
           <div className="relative h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
             <img
-              src={cityHousingImg}
+              src={royalOrchadImg}
               alt="card-image"
               className="object-cover w-full h-full"
             />
@@ -178,7 +180,7 @@ const OurProjects = () => {
               Royal Orchard Multan
             </h5>
             <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-              Royal Orchard Multan provides a luxurious and comfortable lifestyle in the fast-growing city of South Punjab. It offers various residential and commercial plots with modern infrastructure, including underground electricity, wide roads, and a sewerage system, and follows international community standards. This society features numerous amenities and provides a lucrative investment opportunity.
+              Royal Orchard Multan provides a luxurious and comfortable lifestyle in the fast-growing city of South Punjab. It offers residential and commercial plots with modern infrastructure, including underground electricity, wide roads, and a sewerage system, and follows international community standards.
             </p>
           </div>
           <div className="p-6 pt-0">

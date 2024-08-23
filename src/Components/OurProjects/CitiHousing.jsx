@@ -38,8 +38,8 @@ const CitiHousing = () => {
                                     <h2 className="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">
                                         CITI Housing Multan – High-end Living in Elite Community
                                     </h2>
-                                    <p className="max-w-3xl mx-auto mb-10 text-lg text-justify text-gray-300">
-                                        Citi Housing Multan is an exclusive housing project in the City of Saints, aimed to bring modern living standards. This project offers residential plots, commercial areas, and recreational facilities to residents and investors. Its leading-edge infrastructure ensures a comfortable lifestyle and high-quality amenities, boosting standard of living.</p>
+                                    <p className="max-w-3xl mx-auto mb-10 text-lg text-gray-300 text-center">
+                                        Citi Housing Multan is an exclusive housing project in the City of Saints, aimed to bring modern living standards. Its leading-edge infrastructure ensures a comfortable lifestyle and high-quality amenities, boosting standard of living.</p>
                                     <a
                                         className="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-gray-200 rounded hover:bg-gray-100 text-gray-800 transition duration-200"
                                         href="https://wa.me/923338400106?text=Hi.%20Sir%20I%20am%20interested%20in%20CITI%20Housing.%20Can%20get%20More%20Information%20About%20it%20?" target='_main'

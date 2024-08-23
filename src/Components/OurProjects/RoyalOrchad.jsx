@@ -1,8 +1,20 @@
 import React from 'react'
-import img1 from "../../assets/AdamsHousing1.jpg";
+import img1 from "../../assets/royal orchad 1.jpg";
+import img2 from "../../assets/royal orchad 2.jpg";
+import img4 from "../../assets/royal orchad 4.jpg";
+import img5 from "../../assets/royal orchad 5.jpg";
+import img6 from "../../assets/royal orchad 6.jpg";
+import img7 from "../../assets/royal orchad 7.jpg";
+import img8 from "../../assets/royal orchad 8.jpg";
+import img9 from "../../assets/royal orchad 9.jpg";
+import img10 from "../../assets/royal orchad 10.jpg";
+import img11 from "../../assets/royal orchad 11.jpg";
+import img12 from "../../assets/royal orchad 12.jpg";
+import img13 from "../../assets/royal orchad 13.jpg";
 import OurProjects from '../OurProjects';
 
 const RoyalOrchad = () => {
+    const images = [img1, img2,  img4, img5, img6, img7, img8, img9, img10, img11, img12, img13];
     return (
         <div>
             <header className="my-24">
@@ -21,8 +33,8 @@ const RoyalOrchad = () => {
                                     <h2 className="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">
                                         Royal Orchard Multan – Premier Destination for Modern Living
                                     </h2>
-                                    <p className="max-w-3xl mx-auto mb-10 text-lg text-justify text-gray-300">
-                                        Royal Orchard Multan provides a luxurious and comfortable lifestyle in the fast-growing city of South Punjab. It offers various residential and commercial plots with modern infrastructure, including underground electricity, wide roads, and a sewerage system, and follows international community standards.
+                                    <p className="max-w-4xl mx-auto mb-10 text-lg text-center text-gray-300">
+                                        Royal Orchard Multan provides a luxurious and comfortable lifestyle in the fast-growing city of South Punjab with modern infrastructure, including underground electricity, wide roads, and a sewerage system, and follows international community standards.
                                     </p>
                                     <a
                                         className="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-gray-200 rounded hover:bg-gray-100 text-gray-800 transition duration-200"
@@ -281,6 +293,34 @@ const RoyalOrchad = () => {
 
                 </div>
             </div>
+
+                        {/* Images */}
+            <section className='mb-12 px-2 sm:px-5'>
+                <h3 className="text-3xl font-bold mb-4 text-center pb-4">Images Of DHA Multan</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {images.map((src, index) => (
+                        <div key={index} className="w-full h-48 md:h-64 lg:h-80 bg-gray-200 flex items-center justify-center overflow-hidden border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl">
+                            <img
+                                className="max-w-full max-h-full object-contain"
+                                src={src}
+                                alt={`Gallery image ${index + 1}`}
+                            />
+                        </div>
+                    ))}
+                </div>
+            </section>
+
+
+            {/* Disclaimer */}
+            <section className='my-10 px-3 sm:px-20 text-justify'>
+                <h2 className="text-3xl font-bold mb-4 text-start">Disclaimer</h2>
+                <p className="text-xl font-semibold mt-5">
+                    We collect information from credible and authentic online sources to provide up-to-date property details. We make no representations or claims about the accuracy of the data. We do not claim liability in case of any financial and investment-related losses experienced by users. Potential buyers or users are urged to exercise caution and take full responsibility for their investment.
+                </p>
+            </section>
+
+
+            
             <OurProjects />
 
         </div>
