@@ -150,7 +150,7 @@ const ChatBot = () => {
 
                     {/* Ensure the input and button are visible on mobile screens */}
                     <div className="flex items-center pt-2 mt-auto w-full">
-                        <form className="flex items-center justify-center w-full space-x-2 mb-2 px-2" onSubmit={handleSendMessage}>
+                        <form className={`flex items-center justify-center w-full space-x-2 mb-2 px-2 ${isMobile? "mb-5" : null}`} onSubmit={handleSendMessage}>
                             <div className='w-full relative flex justify-center items-center gap-2'>
                                 <input
                                     className="flex h-10 w-[85%] rounded-md border border-[#7a7a7a] px-3 py-2 text-sm placeholder-[#6b7280] focus:outline-none focus:ring-2 focus:ring-[#000000] disabled:opacity-50 text-[#030712] pr-[65px]"
@@ -158,8 +158,7 @@ const ChatBot = () => {
                                     value={userMsg}
                                     onChange={(e) => setUserMsg(e.target.value)}
 
-                                >
-                                </input>
+                                />
                                 <span className=' inset-y-0 bg-black w-[40px] h-[40px] rounded-full right-4 flex items-center justify-center cursor-pointer' onClick={handleSendMessage}><IoSend className='text-white text-[20px]' /></span>
                             </div>
                             {/* <button
