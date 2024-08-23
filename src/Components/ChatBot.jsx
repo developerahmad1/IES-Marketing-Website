@@ -93,7 +93,7 @@ const ChatBot = () => {
                     style={{ boxShadow: 'rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px' }}
                     className={`fixed ${isMobile ? 'top-0 border-none m-0 pt-0 pl-0  left-0 w-full h-full mt-0' : 'bottom-[calc(4rem+1.5rem)] mt-[10px] right-0 mr-4  h-[94vh] w-[90%] sm:w-[440px] mb-5  rounded-t-[100px]'} bg-white  pr-0 rounded-lg border top-0 border-[#e5e7eb] flex flex-col  shadow-2xl z-50`}
                 >
-                    <div className={`flex justify-between items-center bg-black text-white flex-row space-y-1.5 py-4 px-3 ${isMobile ? null : " rounded-t-[30px]"}`}>
+                    <div className={`flex justify-between items-center bg-black text-white flex-row space-y-1.5 py-4 px-3 ${isMobile ? null : " rounded-t-[18px]"}`}>
                         <div className='flex justify-center items-center gap-5 ml-4'>
                             <div className='bg-gray-600 rounded-full'>
                                 <img src={iesFavIcon} alt="" className='border-2 border-white rounded-full w-12' />
@@ -154,7 +154,7 @@ const ChatBot = () => {
                             <div className='w-full relative flex justify-center items-center gap-2'>
                                 <input
                                     className="flex h-10 w-[85%] rounded-md border border-[#7a7a7a] px-3 py-2 text-sm placeholder-[#6b7280] focus:outline-none focus:ring-2 focus:ring-[#000000] disabled:opacity-50 text-[#030712] pr-[65px]"
-                                    placeholder="Type your message ........"
+                                    placeholder="Type your message . . . . . . . ."
                                     value={userMsg}
                                     onChange={(e) => setUserMsg(e.target.value)}
 
