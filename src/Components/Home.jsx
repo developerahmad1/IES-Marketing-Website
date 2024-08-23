@@ -13,49 +13,53 @@ import Blogs from './Blogs.jsx';
 
 const Home = () => {
   const { openChatBot, userMsg, setUserMsg, iesMessages, setiesMessages } = useAppContext()
-  
+
   const handleSendMessage = (e) => {
     e.preventDefault();
 
     if (userMsg.trim()) {
-        const newMessage = {
-            text: userMsg,
-            type: "user",
-            time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
-            status: "Delivered"
-        };
-        setiesMessages((previesMessages) => [
-            ...previesMessages,
-            newMessage
-        ]);
-        setUserMsg("");
+      const newMessage = {
+        text: userMsg,
+        type: "user",
+        time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+        status: "Delivered"
+      };
+      setiesMessages((previesMessages) => [
+        ...previesMessages,
+        newMessage
+      ]);
+      setUserMsg("");
 
-        // setTimeout(() => {
-        //     setiesMessages((previesMessages) => {
-        //         if (previesMessages[previesMessages.length - 1]?.type !== "ai") {
-        //             return [
-        //                 ...previesMessages,
-        //                 { text: "This is the AI response.", type: "ai", time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) }
-        //             ];
-        //         }
-        //         return previesMessages;
-        //     });
-        // }, 100);
+      // setTimeout(() => {
+      //     setiesMessages((previesMessages) => {
+      //         if (previesMessages[previesMessages.length - 1]?.type !== "ai") {
+      //             return [
+      //                 ...previesMessages,
+      //                 { text: "This is the AI response.", type: "ai", time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) }
+      //             ];
+      //         }
+      //         return previesMessages;
+      //     });
+      // }, 100);
     }
-};
+  };
 
-  
+
   return (
     <div className="bg-white min-h-screen flex flex-col md:px-8 py-8 space-y-16">
       {/* First Section: Manage your Property */}
       <div className="flex flex-col md:flex-row items-center md:justify-between px-4 md:px-8 py-8">
         {/* Left Content */}
         <div className="md:w-1/2">
-          <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-            Manage your <span className="text-orange-600">Property</span>
-          </h1>
-          <p className="text-gray-700 mt-4 md:mt-6 max-w-md">
-            Melbourne Property Market Trends: In-Depth Analysis and Key Insights for Investors, Buyers, and Real Estate Professionals
+          <h6 className="text-2xl md:text-3xl font-bold leading-tight">
+            Manage your Property
+            <span className="text-[#ff8e2b]"> property</span>
+          </h6>
+          <p className="text-gray-700 mt-4 md:mt-6 text-justify max-w-md text-xl">
+            Never depend on a single income, make an investment to  create a secondary source
+          </p>
+          <p className='text-gray-700 mt-4 md:mt-6 text-justify max-w-md'>
+            Pakistan is the 5th world most populous country with a growth rate of 1.9% annually. According to World Bank analysis, Pakistan real estate market is worth 300-400 billion USD. In future, it will reach to 3 trillion USD. Currently, cities are becoming congested with fewer basic living facilities. People are migrating towards new cities in search of better living standards. Rapid urbanization, growth, and modern living facilities are the need of an hour; that's why new housing projects are in full swing in the major cities of Pakistan.
           </p>
 
           {/* <form className='mt-6'> */}
@@ -114,7 +118,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Second Section: Positive Feedback */}
+      {/* What We Offer*/}
       <div className="flex flex-col md:flex-row items-center md:justify-between px-4 md:px-8 py-8">
         {/* Left Image Section */}
         <div className="md:w-1/2 flex justify-center mt-8 md:mt-0">
@@ -130,18 +134,28 @@ const Home = () => {
         {/* Right Content */}
         <div className="md:w-1/2 md:pl-12">
           <h2 className="text-3xl md:text-4xl font-bold">
-            Positive Feedback from Our <span className="text-orange-600">Valued Clients</span>
+            <span className="text-[#ff8e2b]">What We Offer</span>
           </h2>
-          <p className="text-gray-700 mt-4 line-through text-lg">$175</p>
-          <p className="text-2xl text-orange-600 font-bold">$125</p>
+          {/* <p className="text-gray-700 mt-4 line-through text-lg">$175</p>
+          <p className="text-2xl text-orange-600 font-bold">$125</p> */}
           <p className="text-gray-700 mt-4 max-w-md text-justify">
-            Success Stories
+            IES Marketing
             <br />
-            Josh's South Yarra unit bought for $799,000 in 2023, now valued at $1,150,000, highlights successful real estate investment.
+            provides detailed listings of residential or commercial properties available for sale or rent. Our team offers comprehensive property management, marketing and consulting services for buying, selling, or investing in real estate.
           </p>
-          <button className="mt-6 bg-orange-600 text-white rounded-full px-6 py-2 hover:bg-orange-700 transition">
-            Purchase Plot
-          </button>
+          <p className='text-gray-700 mt-4 max-w-md text-justify'>
+            <li>Consultancy for investment</li>
+            <li>Personalized communication</li>
+            <li>Flexible investment options</li>
+            <li>Advise for property</li>
+            <li>100% profit-based investment</li>
+            <li>Marketing and developing services</li>
+          </p>
+          <a href="https://wa.me/923338400106?text=Hi.%20Sir%20I%20want%20to%20in%20buy%20a%20plot%20?" target='_main'>
+            <button className="mt-6 bg-[#ff8e2b] text-white rounded-full px-6 py-2 hover:bg-[#f67300] transition">
+              Purchase Plot
+            </button>
+          </a>
         </div>
       </div>
 
