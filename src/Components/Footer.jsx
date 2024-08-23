@@ -4,6 +4,7 @@ import { FaFacebook, FaYoutube } from 'react-icons/fa';
 import { GrInstagram } from 'react-icons/gr';
 import { FaTiktok } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -22,17 +23,22 @@ const Footer = () => {
             <div className="space-y-3">
               <h3 className="tracking-wide uppercase dark:text-gray-900 hover:text-[#fa8b17]">Product</h3>
               <ul className="space-y-1">
-                <li><a href="#" className='hover:text-[#fa8b17]'>Features</a></li>
-                <li><a href="#" className='hover:text-[#fa8b17]'>Integrations</a></li>
-                <li><a href="#" className='hover:text-[#fa8b17]'>Pricing</a></li>
-                <li><a href="#" className='hover:text-[#fa8b17]'>FAQ</a></li>
+                <li><Link to="/" className='hover:text-[#fa8b17]'>Home</Link></li>
+                <li><Link to="/about-us" className='hover:text-[#fa8b17]'>About Us</Link></li>
+                <li><Link to="/blogs" className='hover:text-[#fa8b17]'>Blogs</Link></li>
+                <li><Link to="/gallery" className='hover:text-[#fa8b17]'>Gallery</Link></li>
+                <li><Link to="/career" className='hover:text-[#fa8b17]'>Career</Link></li>
               </ul>
             </div>
             <div className="space-y-3">
-              <h3 className="tracking-wide uppercase dark:text-gray-900">Company</h3>
+              <h3 className="tracking-wide uppercase dark:text-gray-900">Our Projects</h3>
               <ul className="space-y-1">
-                <li><a href="#" className='hover:text-[#fa8b17]'>Privacy</a></li>
-                <li><a href="#" className='hover:text-[#fa8b17]'>Terms of Service</a></li>
+              <li><Link to="/project/smart-housing" className='hover:text-[#fa8b17]'>Smart Housing</Link></li>
+              <li><Link to="/project/royal-swiss" className='hover:text-[#fa8b17]'>Royal Swiss</Link></li>
+              <li><Link to="/project/adams-housing" className='hover:text-[#fa8b17]'>Adams Housing</Link></li>
+              <li><Link to="/project/citi-housing" className='hover:text-[#fa8b17]'>CITI Housing</Link></li>
+              <li><Link to="/project/DHA-multan" className='hover:text-[#fa8b17]'>DHA Multan</Link></li>
+              <li><Link to="/project/royal-orchad" className='hover:text-[#fa8b17]'>Royal Orchad</Link></li>
               </ul>
             </div>
 
@@ -60,7 +66,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="py-6 text-sm text-center dark:text-gray-600">
-          © 1968 Company Co. All rights reserved.
+          <span className='text-[#ff8e2b]'> IES Marketing </span> is the best real estate company.
         </div>
       </footer>
     </div>
