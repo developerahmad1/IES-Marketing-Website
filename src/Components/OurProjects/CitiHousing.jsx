@@ -339,6 +339,33 @@ const CitiHousing = () => {
                 </div>
             </div>
 
+            {/* Images */}
+            <section className='mb-12 px-2 sm:px-5'>
+                <h3 className="text-3xl font-bold mb-4 text-center pb-4">Images Of Smart Housing</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {images.map((src, index) => (
+                        <div key={index} className="w-full h-48 md:h-64 lg:h-80 bg-gray-200 flex items-center justify-center overflow-hidden border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl">
+                            <img
+                                className="max-w-full max-h-full object-contain"
+                                src={src}
+                                alt={`Gallery image ${index + 1}`}
+                            />
+                        </div>
+                    ))}
+                </div>
+            </section>
+
+            {/* Disclaimer */}
+            <section className='my-10 px-3 sm:px-20 text-justify'>
+                <h2 className="text-3xl font-bold mb-4">Disclaimer</h2>
+                <p className="text-xl font-semibold mt-5">
+                    We collect information from credible and authentic online sources to provide up-to-date property details. We make no representations or claims about the accuracy of the data. We do not claim liability in case of any financial and investment-related losses experienced by users. Potential buyers or users are urged to exercise caution and take full responsibility for their investment.
+                </p>
+            </section>
+
+
+
+
             <OurProjects />
         </div>
     )
