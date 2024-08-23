@@ -4,6 +4,8 @@ import { AiFillTikTok } from "react-icons/ai";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaSquareWhatsapp } from "react-icons/fa6";
+import sirAliImage from "../assets/Sir Ali.jpg"
+import sirTaiyyabImage from "../assets/Sir Taiyyab.jpg"
 
 const About = () => {
   function scrollToTop() {
@@ -31,7 +33,7 @@ const About = () => {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-9">
             <div className="img-box">
-              <img src="https://pagedone.io/asset/uploads/1702034769.png" alt="About Us tailwind page" className="max-lg:mx-auto" />
+              <img src={sirAliImage} alt="About Us tailwind page" className="max-lg:mx-auto" />
               {/* icon here */}
             </div>
             <div className="lg:pl-[100px] flex items-center">
@@ -57,7 +59,7 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-9">
             <div className="lg:pr-24 flex items-center">
               <div className="data w-full">
-                <img src="https://pagedone.io/asset/uploads/1702034785.png" alt="About Us tailwind page" className="block lg:hidden mb-9 mx-auto" />
+                <img src={sirTaiyyabImage} alt="About Us tailwind page" className="block lg:hidden mb-9 mx-auto" />
                 {/* icon here */}
                 <h2 className="font-manrope font-bold text-4xl lg:text-4xl text-black mb-9 max-lg:text-center">
                 Chaudhary Tayyab Sultan
@@ -71,7 +73,7 @@ const About = () => {
               {/* icon here */}
             </div>
             <div className="img-box">
-              <img src="https://pagedone.io/asset/uploads/1702034785.png" alt="About Us tailwind page" className="hidden lg:block" />
+              <img src={sirTaiyyabImage} alt="About Us tailwind page" className="hidden lg:block" />
               {/* icon here */}
             </div>
           </div>
