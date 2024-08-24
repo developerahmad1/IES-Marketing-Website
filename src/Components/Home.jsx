@@ -67,7 +67,7 @@ const Home = () => {
             <input
               type="text"
               id="search"
-              className="block w-full p-4 text-sm text-gray-900 border border-gray-300 bg-gray-50 focus:ring-blue-500 focus:border-blue-500 rounded-[200px] pr-0"
+              className="block w-full p-4 text-sm text-gray-900 border border-gray-300 bg-gray-50 focus:ring-blue-500 focus:border-blue-500 rounded-[200px] pr-36"
               placeholder="Enter your message....."
               // required
               value={userMsg}
