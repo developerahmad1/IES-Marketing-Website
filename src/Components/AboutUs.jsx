@@ -62,10 +62,10 @@ const About = () => {
                 <img src={sirTaiyyabImage} alt="About Us tailwind page" className="block lg:hidden mb-9 mx-auto" />
                 {/* icon here */}
                 <h2 className="font-manrope font-bold text-4xl lg:text-4xl text-black mb-9 max-lg:text-center">
-                Chaudhary Tayyab Sultan
+                Chaudhary Tayyab Sultan (MD)
                 </h2>
                 <p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto text-justify">
-                  Chaudhary Tayyab Sultan:
+                  Chaudhary Tayyab Sultan 
                   <br />
                   “We have a devoted team determined to bring growth to our community, serving to maintain existing business and backing our clients in making their ideal choices for life
                 </p>
