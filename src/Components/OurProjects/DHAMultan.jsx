@@ -304,16 +304,16 @@ const DHAMultan = () => {
                             DHA projects are present in ten different cities of Pakistan, but developers are planning to introduce an innovative urban living lifestyle in almost every city of Pakistan.  Their completed projects include:
                         </p>
                         <p className=" text-lg leading-relaxed">
-                            <li>1.	DHA Islamabad</li>
-                            <li>2.	DHA Karachi</li>
-                            <li>2.	DHA Lahore</li>
-                            <li>2.	DHA Rawalpindi</li>
-                            <li>2.	DHA Bahawalpur</li>
-                            <li>2.	DHA Quetta</li>
-                            <li>2.	DHA Gujranwala</li>
-                            <li>2.	DHA Peshawar</li>
-                            <li>2.	DHA Hyderabad</li>
-                            <li>2.	DHA Valley</li>
+                            <li>DHA Islamabad</li>
+                            <li>DHA Karachi</li>
+                            <li>DHA Lahore</li>
+                            <li>DHA Rawalpindi</li>
+                            <li>DHA Bahawalpur</li>
+                            <li>DHA Quetta</li>
+                            <li>DHA Gujranwala</li>
+                            <li>DHA Peshawar</li>
+                            <li>DHA Hyderabad</li>
+                            <li>DHA Valley</li>
                         </p>
                         <h3 className="text-xl font-semibold mt-3 text-start">
                             How many balloting events are held in DHA Multan?

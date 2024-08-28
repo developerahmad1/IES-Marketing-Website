@@ -24,6 +24,7 @@ import CityHousing from './Components/OurProjects/CitiHousing';
 import DHAMultan from './Components/OurProjects/DHAMultan';
 import RoyalOrchad from './Components/OurProjects/RoyalOrchad';
 import Carreer from './Components/Carreer';
+import ABC from './Components/ABC';
 
 const App = () => {
 
@@ -34,6 +35,7 @@ const App = () => {
         <Navbar />
         <div className="mt-[86px]">
           <Routes>
+            <Route path="/abc" element={<ABC />} />
             <Route path="/*" element={<AnyRoute404 />} />
             <Route path="/" element={<Home />} />
             <Route path="/about-us" element={<AboutUs />} />

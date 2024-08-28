@@ -25,6 +25,7 @@ const SmartHousing = () => {
     return (
         <div className='mt-[100px]'>
             <header className="my-24">
+            
                 <div
                     className="w-full bg-center bg-cover"
                     style={{
