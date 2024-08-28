@@ -115,7 +115,7 @@ const Adamshousing = () => {
 
           {/* Main Features */}
           <section className="mb-12">
-            <h2 className="text-3xl text-start font-bold mb-4">Main features of Adams Housing Multan.</h2>
+            <h2 className="text-3xl text-start font-bold mb-4">Main features of Adams Housing Multan</h2>
             <p className="text-lg leading-relaxed">
               Adams Housing Multan offers a wide range of features to society's residents:
             </p>
