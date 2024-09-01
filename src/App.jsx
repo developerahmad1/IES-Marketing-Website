@@ -11,7 +11,7 @@ import ContactUS from './Components/ContactUS';
 // import Login from './Components/Login';
 import ScrollToTop from './Components/ScrollToTop';
 import Footer from './Components/Footer';
-import ChatBot from './Components/ChatBot';
+// import ChatBot from './Components/ChatBot';
 import OneBlog from './Components/OneBlog';
 import Gallery from './Components/Gallery';
 import OneProject from './Components/OurProjects/SmartHousing';
@@ -24,7 +24,6 @@ import CityHousing from './Components/OurProjects/CitiHousing';
 import DHAMultan from './Components/OurProjects/DHAMultan';
 import RoyalOrchad from './Components/OurProjects/RoyalOrchad';
 import Carreer from './Components/Carreer';
-import ABC from './Components/ABC';
 
 const App = () => {
 
@@ -35,7 +34,6 @@ const App = () => {
         <Navbar />
         <div className="mt-[86px]">
           <Routes>
-            <Route path="/abc" element={<ABC />} />
             <Route path="/*" element={<AnyRoute404 />} />
             <Route path="/" element={<Home />} />
             <Route path="/about-us" element={<AboutUs />} />
@@ -56,7 +54,7 @@ const App = () => {
           </Routes>
         </div>
         <ChatWithWhatsapp />
-        <ChatBot />
+        {/* <ChatBot /> */}
         <Footer />
         <Toaster />
       </Router>

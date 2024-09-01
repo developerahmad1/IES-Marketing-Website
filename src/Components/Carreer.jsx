@@ -10,7 +10,7 @@ const Carreer = () => {
       <div className='w-full flex justify-center items-center flex-wrap gap-6'>
         <img src={hiringPost} alt="" className='max:w-full w-[500px] mx-auto ' />
 
-        <video src={hiringVideo} className='max:w-full w-[300px] mx-auto' autoPlay muted loop autoFocus controls>
+        <video src={hiringVideo} className='max:w-full min:w-[300px] w-[300px] mx-auto' autoPlay muted loop autoFocus controls>
 
         </video>
       </div>
