@@ -113,13 +113,13 @@ const Navbar = () => {
                 </button>
               </NavLink>
             )} */}
-            <button onClick={openChatBot}>
+            <a href='https://wa.link/jvdqzf' target='_main'>
               <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-[#2f3130] group bg-gradient-to-br from-black to-black group-hover:from-black group-hover:to-black hover:text-white rounded-full">
                 <span className="relative py-2.5 transition-all ease-in duration-75 text-white group-hover:bg-opacity-0 rounded-full px-6 w-32">
                   Contact Us
                 </span>
               </button>
-            </button>
+            </a>
           </div>
         </div>
 
