@@ -6,14 +6,16 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaSquareWhatsapp } from "react-icons/fa6";
 import sirAliImage from "../assets/Sir Ali.jpg"
 import sirTaiyyabImage from "../assets/Sir Taiyyab.jpg"
+import { FaPhoneSquare } from "react-icons/fa";
+import developerAhmad from "../assets/developer ahmad.jpg"
 
 const About = () => {
   function scrollToTop() {
     window.scrollTo({
-        top: 0,
-        behavior: "smooth"
+      top: 0,
+      behavior: "smooth"
     });
-}
+  }
   return (
     <div>
       {/* IES */}
@@ -23,7 +25,7 @@ const About = () => {
             Buy You Property with <br /><span className="text-[#fa8b17]">IES Marketing</span>
           </h1>
           <p className="max-w-2xl text-justify mx-auto  text-base font-normal leading-7 text-gray-500 mb-9">
-          IES Marketing is a real estate agency offering extraordinary services to elevate the business of real estate. After many years of experience in the real estate and marketing industries and successful projects, we understand future opportunities and possible challenges of real estate marketing.           </p>
+            IES Marketing is a real estate agency offering extraordinary services to elevate the business of real estate. After many years of experience in the real estate and marketing industries and successful projects, we understand future opportunities and possible challenges of real estate marketing.           </p>
           {/* icon here */}
         </div>
       </section>
@@ -62,10 +64,10 @@ const About = () => {
                 <img src={sirTaiyyabImage} alt="About Us tailwind page" className="block lg:hidden mb-9 mx-auto" />
                 {/* icon here */}
                 <h2 className="font-manrope font-bold text-4xl lg:text-4xl text-black mb-9 max-lg:text-center">
-                Chaudhary Tayyab Sultan (MD)
+                  Chaudhary Tayyab Sultan (MD)
                 </h2>
                 <p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto text-justify">
-                  Chaudhary Tayyab Sultan 
+                  Chaudhary Tayyab Sultan
                   <br />
                   “We have a devoted team determined to bring growth to our community, serving to maintain existing business and backing our clients in making their ideal choices for life
                 </p>
@@ -168,35 +170,92 @@ const About = () => {
           </div>
         </div>
       </section>
-      
-      
+
+
+      {/* Our Team Section */}
+      <section className="bg-white dark:bg-gray-900">
+        <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+          <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Team</h2>
+            <p className="font-light text-gray-500 lg:mb-16 sm:text-xl text-justify dark:text-gray-400">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500</p>
+          </div>
+          <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
+            {/* Team Memeber */}
+            <div className="items-center bg-gray-50 shadow sm:flex dark:bg-gray-800 dark:border-gray-700 border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
+              <a href="#" className='flex justify-center items-center'>
+                <img className=" max:h-[100px] w-[400px] sm:rounded-none sm:rounded-l-lg my-0 rounded-t-2xl sm:rounded-none" src={developerAhmad} alt="Sofia Avatar" />
+              </a>
+              <div className="p-5">
+                <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <a href="#">Developer Ahmad</a>
+                </h3>
+                <span className="text-gray-500 dark:text-gray-400">Senior Programmer</span>
+                <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Developer Ahmad is a senior web Developer (MERN) and also a Software Developer. Ahmad is a Top developer in Multan.</p>
+                {/* Social media links */}
+                <ul className="flex space-x-4 sm:mt-0 justify-center items-center">
+                  <li>
+                    <a href="https://wa.link/inqb63" target='_main' className="text-gray-500 hover:text-gray-900 dark:hover:text-white duration-[0.2s]">
+                      <FaSquareWhatsapp className='w-8 h-8' />
+                    </a>
+                  </li>
+
+                  {/* <li>
+                    <a href="#" target='_main' className="text-gray-500 hover:text-gray-900 dark:hover:text-white duration-[0.2s]">
+                      <AiFillTikTok className='w-9 h-9' />
+                    </a>
+                  </li> */}
+                  {/* <li>
+                    <a href="#" target='_main' className="text-gray-500 hover:text-gray-900 dark:hover:text-white duration-[0.2s]">
+                      <FaSquareInstagram className='w-8 h-8' />
+                    </a>
+                  </li> */}
+                  <li>
+                    <a href="https://www.facebook.com/devolperahmad?mibextid=ZbWKwL" target='_main' className="text-gray-500 hover:text-gray-900 dark:hover:text-white  duration-[0.2s]">
+                      <FaFacebookSquare className='w-8 h-8' />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="tel:03054474602" className="text-gray-500 hover:text-gray-900 dark:hover:text-white  duration-[0.2s]">
+                      <FaPhoneSquare className='w-8 h-8' />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+
 
       {/* Our Happy Users Feedback section */}
-      <section id="testimonials" aria-label="What our customers are saying" class="bg-slate-50 py-20 sm:py-32">
-        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div class="mx-auto max-w-2xl md:text-center">
-            <h2 class="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">What Our Customers Are Saying</h2>
+      <section id="testimonials" aria-label="What our customers are saying" className="bg-slate-50 py-20 sm:py-32">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl md:text-center">
+            <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">What Our Customers Are Saying</h2>
           </div>
           <ul role="list"
-            class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none lg:grid-cols-3">
+            className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none lg:grid-cols-3">
             <li>
-              <ul role="list" class="flex flex-col gap-y-6 sm:gap-y-8">
+              <ul role="list" className="flex flex-col gap-y-6 sm:gap-y-8">
                 <li>
-                  <figure class="relative bg-white p-6 shadow-xl shadow-slate-900/10 border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl"><svg aria-hidden="true"
-                    width="105" height="78" class="absolute left-6 top-6 fill-slate-100">
+                  <figure className="relative bg-white p-6 shadow-xl shadow-slate-900/10 border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl"><svg aria-hidden="true"
+                    width="105" height="78" className="absolute left-6 top-6 fill-slate-100">
                     <path
                       d="M25.086 77.292c-4.821 0-9.115-1.205-12.882-3.616-3.767-2.561-6.78-6.102-9.04-10.622C1.054 58.534 0 53.411 0 47.686c0-5.273.904-10.396 2.712-15.368 1.959-4.972 4.746-9.567 8.362-13.786a59.042 59.042 0 0 1 12.43-11.3C28.325 3.917 33.599 1.507 39.324 0l11.074 13.786c-6.479 2.561-11.677 5.951-15.594 10.17-3.767 4.219-5.65 7.835-5.65 10.848 0 1.356.377 2.863 1.13 4.52.904 1.507 2.637 3.089 5.198 4.746 3.767 2.41 6.328 4.972 7.684 7.684 1.507 2.561 2.26 5.5 2.26 8.814 0 5.123-1.959 9.19-5.876 12.204-3.767 3.013-8.588 4.52-14.464 4.52Zm54.24 0c-4.821 0-9.115-1.205-12.882-3.616-3.767-2.561-6.78-6.102-9.04-10.622-2.11-4.52-3.164-9.643-3.164-15.368 0-5.273.904-10.396 2.712-15.368 1.959-4.972 4.746-9.567 8.362-13.786a59.042 59.042 0 0 1 12.43-11.3C82.565 3.917 87.839 1.507 93.564 0l11.074 13.786c-6.479 2.561-11.677 5.951-15.594 10.17-3.767 4.219-5.65 7.835-5.65 10.848 0 1.356.377 2.863 1.13 4.52.904 1.507 2.637 3.089 5.198 4.746 3.767 2.41 6.328 4.972 7.684 7.684 1.507 2.561 2.26 5.5 2.26 8.814 0 5.123-1.959 9.19-5.876 12.204-3.767 3.013-8.588 4.52-14.464 4.52Z">
                     </path>
                   </svg>
-                    <blockquote class="relative">
-                      <p class="text-lg tracking-tight text-slate-900">I had taken consultation from IES Marketing team regarding purchase of property in Multan. Thanks to their team for complete guidance and making the process simpler for me. Highly recommended!</p>
+                    <blockquote className="relative">
+                      <p className="text-lg tracking-tight text-slate-900">I had taken consultation from IES Marketing team regarding purchase of property in Multan. Thanks to their team for complete guidance and making the process simpler for me. Highly recommended!</p>
                     </blockquote>
-                    <figcaption class="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
+                    <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
                       <div>
-                        <div class="font-display text-base text-slate-900">Muhammad Waqas</div>
+                        <div className="font-display text-base text-slate-900">Muhammad Waqas</div>
                       </div>
-                      <div class="overflow-hidden rounded-full bg-slate-50">
-                        <img alt="" class="h-14 w-14 object-cover" src="https://randomuser.me/api/portraits/men/15.jpg" />
+                      <div className="overflow-hidden rounded-full bg-slate-50">
+                        <img alt="" className="h-14 w-14 object-cover" src="https://randomuser.me/api/portraits/men/15.jpg" />
                       </div>
                     </figcaption>
                   </figure>
@@ -204,23 +263,23 @@ const About = () => {
               </ul>
             </li>
             <li>
-              <ul role="list" class="flex flex-col gap-y-6 sm:gap-y-8">
+              <ul role="list" className="flex flex-col gap-y-6 sm:gap-y-8">
                 <li>
-                  <figure class="relative bg-white p-6 shadow-xl shadow-slate-900/10 border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl"><svg aria-hidden="true"
-                    width="105" height="78" class="absolute left-6 top-6 fill-slate-100">
+                  <figure className="relative bg-white p-6 shadow-xl shadow-slate-900/10 border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl"><svg aria-hidden="true"
+                    width="105" height="78" className="absolute left-6 top-6 fill-slate-100">
                     <path
                       d="M25.086 77.292c-4.821 0-9.115-1.205-12.882-3.616-3.767-2.561-6.78-6.102-9.04-10.622C1.054 58.534 0 53.411 0 47.686c0-5.273.904-10.396 2.712-15.368 1.959-4.972 4.746-9.567 8.362-13.786a59.042 59.042 0 0 1 12.43-11.3C28.325 3.917 33.599 1.507 39.324 0l11.074 13.786c-6.479 2.561-11.677 5.951-15.594 10.17-3.767 4.219-5.65 7.835-5.65 10.848 0 1.356.377 2.863 1.13 4.52.904 1.507 2.637 3.089 5.198 4.746 3.767 2.41 6.328 4.972 7.684 7.684 1.507 2.561 2.26 5.5 2.26 8.814 0 5.123-1.959 9.19-5.876 12.204-3.767 3.013-8.588 4.52-14.464 4.52Zm54.24 0c-4.821 0-9.115-1.205-12.882-3.616-3.767-2.561-6.78-6.102-9.04-10.622-2.11-4.52-3.164-9.643-3.164-15.368 0-5.273.904-10.396 2.712-15.368 1.959-4.972 4.746-9.567 8.362-13.786a59.042 59.042 0 0 1 12.43-11.3C82.565 3.917 87.839 1.507 93.564 0l11.074 13.786c-6.479 2.561-11.677 5.951-15.594 10.17-3.767 4.219-5.65 7.835-5.65 10.848 0 1.356.377 2.863 1.13 4.52.904 1.507 2.637 3.089 5.198 4.746 3.767 2.41 6.328 4.972 7.684 7.684 1.507 2.561 2.26 5.5 2.26 8.814 0 5.123-1.959 9.19-5.876 12.204-3.767 3.013-8.588 4.52-14.464 4.52Z">
                     </path>
                   </svg>
-                    <blockquote class="relative">
-                      <p class="text-lg tracking-tight text-slate-900">I needed a 5-Marla plot at a prime location of Multan and consulted IES team for finding the best society. The sales person guided me well and helped me to find and get the plot. IES is the Best.</p>
+                    <blockquote className="relative">
+                      <p className="text-lg tracking-tight text-slate-900">I needed a 5-Marla plot at a prime location of Multan and consulted IES team for finding the best society. The sales person guided me well and helped me to find and get the plot. IES is the Best.</p>
                     </blockquote>
-                    <figcaption class="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
+                    <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
                       <div>
-                        <div class="font-display text-base text-slate-900">Iqra</div>
+                        <div className="font-display text-base text-slate-900">Iqra</div>
                       </div>
-                      <div class="overflow-hidden rounded-full bg-slate-50">
-                        <img alt="" class="h-14 w-14 object-cover" src="https://randomuser.me/api/portraits/women/15.jpg" />
+                      <div className="overflow-hidden rounded-full bg-slate-50">
+                        <img alt="" className="h-14 w-14 object-cover" src="https://randomuser.me/api/portraits/women/15.jpg" />
                       </div>
                     </figcaption>
                   </figure>
@@ -228,23 +287,23 @@ const About = () => {
               </ul>
             </li>
             <li>
-              <ul role="list" class="flex flex-col gap-y-6 sm:gap-y-8">
+              <ul role="list" className="flex flex-col gap-y-6 sm:gap-y-8">
                 <li>
-                  <figure class="relative bg-white p-6 shadow-xl shadow-slate-900/10 border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl"><svg aria-hidden="true"
-                    width="105" height="78" class="absolute left-6 top-6 fill-slate-100">
+                  <figure className="relative bg-white p-6 shadow-xl shadow-slate-900/10 border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl"><svg aria-hidden="true"
+                    width="105" height="78" className="absolute left-6 top-6 fill-slate-100">
                     <path
                       d="M25.086 77.292c-4.821 0-9.115-1.205-12.882-3.616-3.767-2.561-6.78-6.102-9.04-10.622C1.054 58.534 0 53.411 0 47.686c0-5.273.904-10.396 2.712-15.368 1.959-4.972 4.746-9.567 8.362-13.786a59.042 59.042 0 0 1 12.43-11.3C28.325 3.917 33.599 1.507 39.324 0l11.074 13.786c-6.479 2.561-11.677 5.951-15.594 10.17-3.767 4.219-5.65 7.835-5.65 10.848 0 1.356.377 2.863 1.13 4.52.904 1.507 2.637 3.089 5.198 4.746 3.767 2.41 6.328 4.972 7.684 7.684 1.507 2.561 2.26 5.5 2.26 8.814 0 5.123-1.959 9.19-5.876 12.204-3.767 3.013-8.588 4.52-14.464 4.52Zm54.24 0c-4.821 0-9.115-1.205-12.882-3.616-3.767-2.561-6.78-6.102-9.04-10.622-2.11-4.52-3.164-9.643-3.164-15.368 0-5.273.904-10.396 2.712-15.368 1.959-4.972 4.746-9.567 8.362-13.786a59.042 59.042 0 0 1 12.43-11.3C82.565 3.917 87.839 1.507 93.564 0l11.074 13.786c-6.479 2.561-11.677 5.951-15.594 10.17-3.767 4.219-5.65 7.835-5.65 10.848 0 1.356.377 2.863 1.13 4.52.904 1.507 2.637 3.089 5.198 4.746 3.767 2.41 6.328 4.972 7.684 7.684 1.507 2.561 2.26 5.5 2.26 8.814 0 5.123-1.959 9.19-5.876 12.204-3.767 3.013-8.588 4.52-14.464 4.52Z">
                     </path>
                   </svg>
-                    <blockquote class="relative">
-                      <p class="text-lg tracking-tight text-slate-900">IES is a trustworthy name in the real estate market. Their team is so polite and professional and guided me well through the entire procedure from choosing an ideal plot to getting the file.</p>
+                    <blockquote className="relative">
+                      <p className="text-lg tracking-tight text-slate-900">IES is a trustworthy name in the real estate market. Their team is so polite and professional and guided me well through the entire procedure from choosing an ideal plot to getting the file.</p>
                     </blockquote>
-                    <figcaption class="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
+                    <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
                       <div>
-                        <div class="font-display text-base text-slate-900">Muhammad Talha</div>
+                        <div className="font-display text-base text-slate-900">Muhammad Talha</div>
                       </div>
-                      <div class="overflow-hidden rounded-full bg-slate-50">
-                        <img alt="" class="h-14 w-14 object-cover" src="https://randomuser.me/api/portraits/men/10.jpg" />
+                      <div className="overflow-hidden rounded-full bg-slate-50">
+                        <img alt="" className="h-14 w-14 object-cover" src="https://randomuser.me/api/portraits/men/10.jpg" />
                       </div>
                     </figcaption>
                   </figure>

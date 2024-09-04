@@ -42,10 +42,10 @@ const Home = () => {
         {/* Left Content */}
         <div className="md:w-1/2">
           <h6 className="text-2xl md:text-3xl font-bold leading-tight">
-            Manage your
-            <span className="text-[#ff8e2b]"> property</span>
+            Manage Your
+            <span className="text-[#ff8e2b]"> Property!</span>
           </h6>
-          <p className="text-gray-700 mt-4 md:mt-6 text-justify max-w-md text-xl italic">
+          <p className="text-gray-700 mt-4 md:mt-6 text-justify max-w-md text-xl italic font-bold">
             Never depend on a single income, make an investment to  create a secondary source.
           </p>
           <p className='text-gray-700 mt-4 md:mt-6 text-justify max-w-md'>

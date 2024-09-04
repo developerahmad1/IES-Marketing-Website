@@ -24,6 +24,7 @@ import CityHousing from './Components/OurProjects/CitiHousing';
 import DHAMultan from './Components/OurProjects/DHAMultan';
 import RoyalOrchad from './Components/OurProjects/RoyalOrchad';
 import Carreer from './Components/Carreer';
+import RealEstateChallanges_1 from './Components/Blogs/realEstateChallanges_1';
 
 const App = () => {
 
@@ -44,13 +45,13 @@ const App = () => {
             {/* <Route path="/login" element={<Login />} /> */}
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/career" element={<Carreer />} />
-            <Route path="/blog/:id" element={<OneBlog />} />
             <Route path="/project/smart-housing" element={<SmartHousing />} />
             <Route path="/project/royal-swiss" element={<RoyalSwiss />} />
             <Route path="/project/adams-housing" element={<Adamshousing />} />
             <Route path="/project/citi-housing" element={<CityHousing />} />
             <Route path="/project/DHA-multan" element={<DHAMultan />} />
             <Route path="/project/royal-orchad" element={<RoyalOrchad />} />
+            <Route path="/blog/real-estate-opportunities-1" element={<RealEstateChallanges_1 />} />
           </Routes>
         </div>
         <ChatWithWhatsapp />

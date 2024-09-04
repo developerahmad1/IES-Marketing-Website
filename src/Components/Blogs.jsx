@@ -2,6 +2,8 @@ import React, { useState, useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
 import { useAppContext } from '../Context/AppContext.jsx';
 import { Link } from 'react-router-dom';
+import img1 from "../assets/Blogs/Blog_1 Pak real estate market value.png"
+
 
 const Blogs = () => {
   const { blogsData } = useAppContext();
@@ -10,38 +12,76 @@ const Blogs = () => {
 
   function scrollToTop() {
     window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
+      top: 0,
+      behavior: 'smooth'
     });
-}
+  }
   const handleViewMore = () => {
     setVisibleCards((prev) => prev + 3);
   };
 
-  useEffect(() => {
-    // Select only newly added cards
-    const newCards = Array.from(blogContainerRef.current.children).slice(visibleCards - 3);
+  // useEffect(() => {
+  //   // Select only newly added cards
+  //   const newCards = Array.from(blogContainerRef.current.children).slice(visibleCards - 3);
 
-    if (newCards.length > 0) {
-      gsap.fromTo(
-        newCards,
-        { opacity: 0, y: 20 }, // Adjust starting position
-        {
-          opacity: 1,
-          y: 0,
-          duration: 0.3, // Faster animation
-          stagger: 0.1, // Reduced stagger
-        }
-      );
-    }
-  }, [visibleCards]);
+  //   if (newCards.length > 0) {
+  //     gsap.fromTo(
+  //       newCards,
+  //       { opacity: 0, y: 20 }, // Adjust starting position
+  //       {
+  //         opacity: 1,
+  //         y: 0,
+  //         duration: 0.3, // Faster animation
+  //         stagger: 0.1, // Reduced stagger
+  //       }
+  //     );
+  //   }
+  // }, [visibleCards]);
 
   return (
     <div>
       <section className="pb-24 pt-10 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="font-manrope text-4xl font-bold text-gray-900 text-center mb-8">Our popular blogs</h2>
-          <div
+
+          <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-5">
+
+            {/* DHA Multan */}
+            <Link to="/blog/real-estate-opportunities-1" onClick={scrollToTop}
+              className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
+            >
+              <div className="relative h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+                <img
+                  src={img1}
+                  alt="card-image"
+                  className="object-cover w-full h-full rounded-t-[20px]"
+                />
+              </div>
+              <div className="p-6">
+                <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                Real Estate in Pakistan: Opportunities & Challenges
+                </h5>
+                {/* <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+                  Defense Housing Authority (DHA) is a prestigious residential community featuring well-planned residential plots and commercial areas equipped with modern infrastructure and provide a secure living environment. DHA Multan stands as a symbol of contemporary living for providing high standards of living to residents.
+                </p> */}
+              </div>
+              <div className="p-6 pt-0">
+                <button
+                  className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                  type="button"
+                >
+                  View More
+                </button>
+              </div>
+            </Link>
+          </div>
+
+
+
+
+
+
+          {/* <div
             ref={blogContainerRef}
             className="grid gap-6 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1"
           >
@@ -63,7 +103,7 @@ const Blogs = () => {
                 </div>
               </Link>
             ))}
-          </div>
+          </div> */}
           {visibleCards < blogsData.length && (
             <button
               onClick={handleViewMore}
