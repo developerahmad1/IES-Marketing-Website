@@ -183,7 +183,7 @@ const About = () => {
             {/* Team Memeber */}
             <div className="items-center bg-gray-50 shadow sm:flex dark:bg-gray-800 dark:border-gray-700 border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
               <a href="#" className='flex justify-center items-center'>
-                <img className=" max:h-[100px] w-[400px] sm:rounded-none sm:rounded-l-lg my-0 rounded-t-2xl sm:rounded-none" src={developerAhmad} alt="Sofia Avatar" />
+                <img className=" max:h-[100px] w-[400px]  sm:rounded-t-none rounded-t-[15px] my-0" src={developerAhmad} alt="Sofia Avatar" />
               </a>
               <div className="p-5">
                 <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
