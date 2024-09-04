@@ -24,7 +24,7 @@ import CityHousing from './Components/OurProjects/CitiHousing';
 import DHAMultan from './Components/OurProjects/DHAMultan';
 import RoyalOrchad from './Components/OurProjects/RoyalOrchad';
 import Carreer from './Components/Carreer';
-import RealEstateChallanges_1 from './Components/Blogs/realEstateChallanges_1';
+import RealEstateChallanges_1 from './Components/Blogs/RealEstateChallanges_1.jsx';
 
 const App = () => {
 
