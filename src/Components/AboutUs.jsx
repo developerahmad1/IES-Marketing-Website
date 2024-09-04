@@ -190,7 +190,9 @@ const About = () => {
                   <a href="#">Developer Ahmad</a>
                 </h3>
                 <span className="text-gray-500 dark:text-gray-400">Senior Programmer</span>
-                <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Developer Ahmad is a senior web Developer (MERN) and also a Software Developer. Ahmad is a Top developer in Multan.</p>
+                <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
+                  Developer Ahmad is a senior software and web Developer (MERN). Ahmad is one of the top developer in Multan.
+                </p>
                 {/* Social media links */}
                 <ul className="flex space-x-4 sm:mt-0 justify-center items-center">
                   <li>

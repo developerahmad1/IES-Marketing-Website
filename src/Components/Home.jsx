@@ -239,14 +239,14 @@ const Home = () => {
           <div
             className="relative flex items-center gap-4 pt-0 pb-8 mx-0 mt-4 overflow-hidden text-gray-700 bg-transparent shadow-none rounded-xl bg-clip-border">
             <img
-              src="https://t4.ftcdn.net/jpg/02/45/56/35/360_F_245563558_XH9Pe5LJI2kr7VQuzQKAjAbz9PAyejG1.jpg"
+              src="https://randomuser.me/api/portraits/women/15.jpg"
               alt="Tania Andrew"
               className="relative inline-block h-[58px] w-[58px] !rounded-full  object-cover object-center" />
             <div className="flex w-full flex-col gap-0.5">
               <div className="flex items-center justify-between">
                 <h5
                   className="block font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                  Saeed
+                  Iqra
                 </h5>
                 <div className="flex items-center gap-0 5">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -296,7 +296,7 @@ const Home = () => {
           <div
             className="relative flex items-center gap-4 pt-0 pb-8 mx-0 mt-4 overflow-hidden text-gray-700 bg-transparent shadow-none rounded-xl bg-clip-borde">
             <img
-              src="https://t4.ftcdn.net/jpg/02/57/46/97/240_F_257469718_uNecDXyirPE8cbiDElfSjkSoyGJbBqav.jpg"
+              src="https://randomuser.me/api/portraits/men/15.jpg"
               alt="Tania Andrew"
               className="relative bg-gray-500 inline-block h-[58px] w-[58px] !rounded-full  object-cover object-center" />
             <div className="flex w-full flex-col gap-0.5">
