@@ -217,7 +217,7 @@ const About = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="tel:03054474602" className="text-gray-500 hover:text-gray-900 dark:hover:text-white  duration-[0.2s]">
+                    <a href="tel:03338400106" className="text-gray-500 hover:text-gray-900 dark:hover:text-white  duration-[0.2s]">
                       <FaPhoneSquare className='w-8 h-8' />
                     </a>
                   </li>

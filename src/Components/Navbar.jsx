@@ -113,7 +113,7 @@ const Navbar = () => {
                 </button>
               </NavLink>
             )} */}
-            <a href='https://wa.link/jvdqzf' target='_main'>
+            <a href='https://wa.link/js81dg' target='_main'>
               <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-[#2f3130] group bg-gradient-to-br from-black to-black group-hover:from-black group-hover:to-black hover:text-white rounded-full">
                 <span className="relative py-2.5 transition-all ease-in duration-75 text-white group-hover:bg-opacity-0 rounded-full px-6 w-32">
                   Contact Us
@@ -207,18 +207,18 @@ const Navbar = () => {
                   </NavLink>
                 )} */}
                 <a
-                  href="tel:03054474602"
+                  href="tel:03338400106"
                   className="block bg-black-800 hover:text-white px-4 py-2 border-black border-2 rounded-full text-black text-center hover:bg-black transition duration-300"
                   onClick={toggleNav}
                 >
                   Call Now
                 </a>
-                <button
+                <a href='https://wa.link/js81dg' target='_main'
                   className="block w-full bg-black-800 text-white px-4 py-2 border-black border-2 rounded-full text-center bg-black transition duration-300"
                   onClick={()=> {toggleNav(); openChatBot()}}
                 >
                   Contact Us
-                </button>
+                </a>
               </div>
             </nav>
           </>

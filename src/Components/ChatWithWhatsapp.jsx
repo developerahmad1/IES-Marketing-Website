@@ -6,7 +6,7 @@ const ChatWithWhatsapp = () => {
     const [isHoverOnButton, setIsHoverOnButton] = useState(false)
 
     return (
-        <a target="_main" href='https://api.whatsapp.com/send/?phone=923054474602&text=Hi+Sir%21+I+am+%3CYour+Name%3E+.+I+am+Interested+in+Real+Estate.+Can+I+get+more+information+about+your+projects.&type=phone_number&app_absent=0'>
+        <a target="_main" href='https://api.whatsapp.com/send/?phone=923338400106&text=Hi+Sir%21+I+am+%3CYour+Name%3E+.+I+am+Interested+in+Real+Estate.+Can+I+get+more+information+about+your+projects.&type=phone_number&app_absent=0'>
             <div className='fixed sm:bottom-[125px] bottom-[100px] right-[8px] sm:right-[25px]'>
                 <div className='flex justify-center items-center'>
                     {isHoverOnButton && (

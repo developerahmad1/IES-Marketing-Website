@@ -105,7 +105,7 @@ export const useAppContext = () => {
 
 
 // {
-//   msg: "Hi its Developer Ahmad. If you need any assistance, Chat with me Or WhatsApp 03054474602",
+//   msg: "Hi its Developer Ahmad. If you need any assistance, Chat with me Or WhatsApp 03338400106",
 //   type: "ies",
 //   time: new Date().toLocaleTimeString([], {
 //     hour: "2-digit",
