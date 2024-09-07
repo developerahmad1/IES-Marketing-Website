@@ -25,6 +25,10 @@ const Navbar = () => {
     return location.pathname === '/our-projects' || location.pathname.startsWith('/project/');
   };
 
+  const isCareerActive = () => {
+    return location.pathname === '/career' || location.pathname.startsWith('/job/');
+  };
+
   return (
     <>
       {navOpen && (
@@ -76,8 +80,8 @@ const Navbar = () => {
             </NavLink>
             <NavLink
               to="/career"
-              className={({ isActive }) =>
-                isActive ? 'font-[700]' : 'text-gray-700 hover:text-black'
+              className={
+                isCareerActive() ? 'font-[700]' : 'text-gray-700 hover:text-black'
               }
             >
               Career
@@ -166,8 +170,8 @@ const Navbar = () => {
                 </NavLink>
                 <NavLink
                   to="/career"
-                  className={({ isActive }) =>
-                    isActive
+                  className={
+                    isCareerActive()
                       ? 'font-[700] block text-gray-700'
                       : 'block text-gray-700 hover:text-black'
                   }

@@ -25,6 +25,10 @@ import DHAMultan from './Components/OurProjects/DHAMultan';
 import RoyalOrchad from './Components/OurProjects/RoyalOrchad';
 import Carreer from './Components/Carreer';
 import RealEstateChallanges_1 from './Components/Blogs/RealEstateChallanges_1.jsx';
+import RelationShipManager from './Components/Jobs/RelationShipManager.jsx';
+import BusinessDevelopmentExecutive from './Components/Jobs/BusinessDevelopmentExecutive.jsx';
+import VideoHost from './Components/Jobs/VideoHost.jsx';
+import SalesTeam from './Components/Jobs/SalesTeam.jsx';
 
 const App = () => {
 
@@ -44,7 +48,7 @@ const App = () => {
             {/* <Route path="/signup" element={<Signup />} /> */}
             {/* <Route path="/login" element={<Login />} /> */}
             <Route path="/gallery" element={<Gallery />} />
-            <Route path="/career" element={<Carreer />} />
+            {/* Projects */}
             <Route path="/project/smart-housing" element={<SmartHousing />} />
             <Route path="/project/royal-swiss" element={<RoyalSwiss />} />
             <Route path="/project/adams-housing" element={<Adamshousing />} />
@@ -52,6 +56,12 @@ const App = () => {
             <Route path="/project/DHA-multan" element={<DHAMultan />} />
             <Route path="/project/royal-orchad" element={<RoyalOrchad />} />
             <Route path="/blog/real-estate-opportunities-1" element={<RealEstateChallanges_1 />} />
+            {/* jobs */}
+            <Route path="/career" element={<Carreer />} />
+            <Route path="/job/relationship-manager" element={<RelationShipManager />} />
+            <Route path="/job/business-development-executive" element={<BusinessDevelopmentExecutive />} />
+            <Route path="/job/video-host" element={<VideoHost />} />
+            <Route path="/job/sales-team" element={<SalesTeam />} />
           </Routes>
         </div>
         <ChatWithWhatsapp />
