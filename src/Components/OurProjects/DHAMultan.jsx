@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import img1 from "../../assets/DHA 1.jpg";
 import img2 from "../../assets/DHA 2.jpg";
 import img3 from "../../assets/DHA 3.jpg";
@@ -7,11 +7,16 @@ import img5 from "../../assets/DHA 5.jpg";
 import img6 from "../../assets/DHA 6.jpg";
 import img7 from "../../assets/DHA 7.jpg";
 import OurProjects from '../OurProjects';
+import { useAppContext } from '../../Context/AppContext';
 
 const DHAMultan = () => {
+    const { openLeadpoup } = useAppContext()
+    useEffect(openLeadpoup, [])
+
+
     const images = [img1, img2, img3, img4, img5, img6, img7];
 
-    
+
     return (
         <div>
 
@@ -35,12 +40,14 @@ const DHAMultan = () => {
                                     <p className="max-w-3xl mx-auto mb-10 text-lg  text-gray-300 text-center">
                                         Defense Housing Authority (DHA) is a prestigious residential community featuring well-planned residential plots and commercial areas equipped with modern infrastructure and provide a secure living environment.
                                     </p>
-                                    <a
-                                        className="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-gray-200 rounded hover:bg-gray-100 text-gray-800 transition duration-200"
-                                        href="https://wa.me/923338400106?text=Hi.%20Sir%20I%20am%20interested%20in%20DHA%Multan.%20Can%20get%20More%20Information%20About%20it%20?" target='_main'
-                                    >
-                                        Book Now
-                                    </a>
+                                    <div onClick={openLeadpoup}>
+                                        <a
+                                            className="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-gray-200 rounded hover:bg-gray-100 text-gray-800 transition duration-200"
+                                            href="https://wa.me/923338400106?text=Hi.%20Sir%20I%20am%20interested%20in%20DHA%Multan.%20Can%20get%20More%20Information%20About%20it%20?" target='_main'
+                                        >
+                                            Book Now
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

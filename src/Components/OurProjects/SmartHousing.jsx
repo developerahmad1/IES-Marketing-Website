@@ -1,4 +1,4 @@
-import React from 'react';
+import React , {useEffect} from 'react';
 import "../CSS/SmartHousing.css";
 import { useParams } from 'react-router-dom';
 import img1 from "../../assets/SmartHousing.jpg";
@@ -14,9 +14,12 @@ import img10 from "../../assets/smarthousing10.jpg";
 import paymentPlan from "../../assets/smartHousing-payments.jpg";
 import paymentPlan2 from "../../assets/smartHousing-payments2.jpg";
 import OurProjects from '../OurProjects';
+import { useAppContext } from '../../Context/AppContext';
 
 const SmartHousing = () => {
     const { id } = useParams();
+    const { openLeadpoup } = useAppContext()
+    useEffect(openLeadpoup, [])
 
 
     const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10];
@@ -25,7 +28,7 @@ const SmartHousing = () => {
     return (
         <div className='mt-[100px]'>
             <header className="my-24">
-            
+
                 <div
                     className="w-full bg-center bg-cover"
                     style={{
@@ -41,12 +44,14 @@ const SmartHousing = () => {
                                         Smart Housing Multan  – Innovative Urban Living                                    </h2>
                                     <p className="max-w-3xl mx-auto mb-10 text-lg text-gray-300">
                                         Smart Housing Society Multan is a trustable and transparent society, offering contemporary living and urban convenience with a rapidly developing landscape.                                    </p>
-                                    <a
-                                        className="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-gray-200 rounded hover:bg-gray-100 text-gray-800 transition duration-200"
-                                        href="https://wa.me/923338400106?text=Hi.%20Sir%20I%20am%20interested%20in%20Smart%20Housing.%20Can%20get%20More%20Information%20About%20it%20?" target='_main'
-                                    >
-                                        Book Now
-                                    </a>
+                                    <div onClick={openLeadpoup}>
+                                        <a
+                                            className="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-gray-200 rounded hover:bg-gray-100 text-gray-800 transition duration-200"
+                                            href="https://wa.me/923338400106?text=Hi.%20Sir%20I%20am%20interested%20in%20Smart%20Housing.%20Can%20get%20More%20Information%20About%20it%20?" target='_main'
+                                        >
+                                            Book Now
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

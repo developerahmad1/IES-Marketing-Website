@@ -22,7 +22,7 @@ const About = () => {
       <section className="py-14 lg:py-24 relative z-0 bg-gray-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative text-center">
           <h1 className="max-w-2xl mx-auto text-center font-manrope font-bold text-4xl text-gray-900 mb-5 md:text-5xl md:leading-normal">
-            Buy You Property with <br /><span className="text-[#fa8b17]">IES Marketing</span>
+            Buy Your Property with <br /><span className="text-[#fa8b17]">IES Marketing</span>
           </h1>
           <p className="max-w-2xl text-justify mx-auto  text-base font-normal leading-7 text-gray-500 mb-9">
             IES Marketing is a real estate agency offering extraordinary services to elevate the business of real estate. After many years of experience in the real estate and marketing industries and successful projects, we understand future opportunities and possible challenges of real estate marketing.           </p>

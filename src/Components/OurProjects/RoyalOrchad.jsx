@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import img1 from "../../assets/royal orchad 1.jpg";
 import img2 from "../../assets/royal orchad 2.jpg";
 import img4 from "../../assets/royal orchad 4.jpg";
@@ -12,9 +12,13 @@ import img11 from "../../assets/royal orchad 11.jpg";
 import img12 from "../../assets/royal orchad 12.jpg";
 import img13 from "../../assets/royal orchad 13.jpg";
 import OurProjects from '../OurProjects';
+import { useAppContext } from '../../Context/AppContext';
 
 const RoyalOrchad = () => {
-    const images = [img1, img2,  img4, img5, img6, img7, img8, img9, img10, img11, img12, img13];
+    const { openLeadpoup } = useAppContext()
+    useEffect(openLeadpoup, [])
+
+    const images = [img1, img2, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13];
     return (
         <div>
             <header className="my-24">
@@ -36,12 +40,14 @@ const RoyalOrchad = () => {
                                     <p className="max-w-4xl mx-auto mb-10 text-lg text-center text-gray-300">
                                         Royal Orchard Multan provides a luxurious and comfortable lifestyle in the fast-growing city of South Punjab with modern infrastructure, including underground electricity, wide roads, and a sewerage system, and follows international community standards.
                                     </p>
-                                    <a
-                                        className="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-gray-200 rounded hover:bg-gray-100 text-gray-800 transition duration-200"
-                                        href="https://wa.me/923338400106?text=Hi.%20Sir%20I%20am%20interested%20in%20Royal%20Orchad.%20Can%20get%20More%20Information%20About%20it%20?" target='_main'
-                                    >
-                                        Book Now
-                                    </a>
+                                    <div onClick={openLeadpoup}>
+                                        <a
+                                            className="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-gray-200 rounded hover:bg-gray-100 text-gray-800 transition duration-200"
+                                            href="https://wa.me/923338400106?text=Hi.%20Sir%20I%20am%20interested%20in%20Royal%20Orchad.%20Can%20get%20More%20Information%20About%20it%20?" target='_main'
+                                        >
+                                            Book Now
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -294,7 +300,7 @@ const RoyalOrchad = () => {
                 </div>
             </div>
 
-                        {/* Images */}
+            {/* Images */}
             <section className='mb-12 px-2 sm:px-5'>
                 <h3 className="text-3xl font-bold mb-4 text-center pb-4">Images Of DHA Multan</h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -320,7 +326,7 @@ const RoyalOrchad = () => {
             </section>
 
 
-            
+
             <OurProjects />
 
         </div>

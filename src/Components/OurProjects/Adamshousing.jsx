@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import img1 from "../../assets/AdamsHousing1.jpg";
 import img2 from "../../assets/AdamsHousing2.jpg";
 import img3 from "../../assets/AdamsHousing3.jpg";
@@ -11,13 +11,15 @@ import img9 from "../../assets/AdamsHousing9.jpg";
 import img10 from "../../assets/AdamsHousing10.jpg";
 import payementPlan1 from "../../assets/Adams payment Plan 1.jpg";
 import payementPlan2 from "../../assets/Adams payment Plan 2.jpg";
-
 import OurProjects from '../OurProjects';
+import { useAppContext } from '../../Context/AppContext';
+import { FaOpenid } from 'react-icons/fa';
 
 
 const Adamshousing = () => {
   const images = [img1, img2, img3, img4, img5, img6, img7, img8];
-
+  const { openLeadpoup } = useAppContext()
+  useEffect(openLeadpoup, [])
 
   return (
     <div className='mt-[90px]'>
@@ -40,12 +42,14 @@ const Adamshousing = () => {
                   <p className="max-w-3xl mx-auto mb-10 text-lg text-justify text-gray-300">
                     Adams Housing Multan stands as a beacon of modern living that offers contemporary amenities and high-quality infrastructure and provides residents with convenient access to the city's landmarks and commercial hubs.
                   </p>
-                  <a
-                    className="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-gray-200 rounded hover:bg-gray-100 text-gray-800 transition duration-200"
-                    href="https://wa.me/923338400106?text=Hi.%20Sir%20I%20am%20interested%20in%20Adams%20Housing.%20Can%20get%20More%20Information%20About%20it%20?" target='_main'
-                  >
-                    Book Now
-                  </a>
+                  <div onClick={openLeadpoup}>
+                    <a
+                      className="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-gray-200 rounded hover:bg-gray-100 text-gray-800 transition duration-200"
+                      href="https://wa.me/923338400106?text=Hi.%20Sir%20I%20am%20interested%20in%20Adams%20Housing.%20Can%20get%20More%20Information%20About%20it%20?" target='_main'
+                    >
+                      Book Now
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

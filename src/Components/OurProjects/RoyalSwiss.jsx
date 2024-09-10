@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 // import "../CSS/SmartHousing.css";
 import { useParams } from 'react-router-dom';
 import img1 from "../../assets/royalswiss1.jpg";
@@ -12,9 +12,12 @@ import img8 from "../../assets/royalswiss8.jpg";
 import paymentPlan from "../../assets/royal swiss payment plan 2.jpg";
 import paymentPlan2 from "../../assets/royal swiss payment plan 2.jpg";
 import OurProjects from '../OurProjects';
+import { useAppContext } from '../../Context/AppContext';
 
 
 const RoyalSwiss = () => {
+    const { openLeadpoup } = useAppContext()
+    useEffect(openLeadpoup, [])
 
     const images = [img1, img2, img3, img4, img5, img6, img7, img8];
 
@@ -38,15 +41,16 @@ const RoyalSwiss = () => {
                                         Royal Swiss Housing Multan – A Luxurious Enclave
                                     </h2>
                                     <p className="max-w-3xl mx-auto mb-10 text-lg text-gray-300">
-                                    Royal Swiss Housing is the latest project in Multan aimed to revolutionize the standards of housing in the city.
+                                        Royal Swiss Housing is the latest project in Multan aimed to revolutionize the standards of housing in the city.
                                     </p>
-                                    <a
-                                        className="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-gray-200 rounded hover:bg-gray-100 text-gray-800 transition duration-200"
-                                        href="https://wa.me/923338400106?text=Hi.%20Sir%20I%20am%20interested%20in%20Royal%20Swiss.%20Can%20get%20More%20Information%20About%20it%20?" target='_main'
-                                    >
-                                        Book Now
-                                    </a>
-
+                                    <div onClick={openLeadpoup}>
+                                        <a
+                                            className="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-gray-200 rounded hover:bg-gray-100 text-gray-800 transition duration-200"
+                                            href="https://wa.me/923338400106?text=Hi.%20Sir%20I%20am%20interested%20in%20Royal%20Swiss.%20Can%20get%20More%20Information%20About%20it%20?" target='_main'
+                                        >
+                                            Book Now
+                                        </a>
+                                    </div>
 
 
                                 </div>

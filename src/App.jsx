@@ -29,6 +29,7 @@ import RelationShipManager from './Components/Jobs/RelationShipManager.jsx';
 import BusinessDevelopmentExecutive from './Components/Jobs/BusinessDevelopmentExecutive.jsx';
 import VideoHost from './Components/Jobs/VideoHost.jsx';
 import SalesTeam from './Components/Jobs/SalesTeam.jsx';
+import LeadsPoup from './Components/LeadsPoup.jsx';
 
 const App = () => {
 
@@ -37,6 +38,7 @@ const App = () => {
       <Router>
         <ScrollToTop />
         <Navbar />
+        <LeadsPoup />
         <div className="mt-[86px]">
           <Routes>
             <Route path="/*" element={<AnyRoute404 />} />

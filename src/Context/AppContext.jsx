@@ -10,54 +10,11 @@ export const AppContextProvider = ({ children }) => {
   const [uid, setUid] = useState();
   const [userMsg, setUserMsg] = useState("");
   const [allMessages, setAllMessages] = useState([]);
-
-  // get previous chat
-  // const getPreviousMessages = async () => {
-  //   if (uid) {
-  //     let response = await fetch(`${import.meta.env.VITE_API_URL}/getPreviousChat`, {
-  //       method: "POST",
-  //       headers: {
-  //         "Content-Type": "application/json",
-  //       },
-  //       body: JSON.stringify({uid}),
-  //     });
-  //     let data = await response.json();
-  //     if(data.messages){
-  //       setAllMessages(data.messages)
-  //     }
-  //   }
-  // };
-
-  // fetch uid
-  // const fetchUid = async () => {
-  //   let localUid = localStorage.getItem("iesChatUid");
-  //   if (localUid) {
-  //     setUid(localUid);
-  //   } else {
-  //     try {
-  //       let response = await fetch(`${import.meta.env.VITE_API_URL}/getUid`, {
-  //         method: "GET",
-  //       });
-  //       let data = await response.json();
-  //       console.log("uid : ", data.uid);
-  //       localStorage.setItem("iesChatUid", data.uid);
-  //       setUid(data.uid);
-  //     } catch (error) {
-  //       console.error("Error fetching UID:", error);
-  //     }
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   fetchUid();
-  // }, []);
-
-  // Fetch previous messages when uid changes
-  // useEffect(() => {
-  //   if (uid) {
-  //     getPreviousMessages();
-  //   }
-  // }, [uid]);
+  
+  // lead poup
+  const [isLeadPoupOpen, setIsLeadPoupOpen] = useState(true)
+  const openLeadpoup = ()=> setIsLeadPoupOpen(true)
+  const closeLeadpoup = ()=> setIsLeadPoupOpen(false)
 
   const openChatBot = () => setIsOpenChatBot(true);
   const closeChatBot = () => setIsOpenChatBot(false);
@@ -77,6 +34,10 @@ export const AppContextProvider = ({ children }) => {
         setAllMessages,
         uid,
         blogsData,
+        isLeadPoupOpen,
+        setIsLeadPoupOpen,
+        closeLeadpoup,
+        openLeadpoup,
       }}
     >
       {children}
