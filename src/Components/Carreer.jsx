@@ -15,9 +15,18 @@ const Career = () => {
             <h5 className="mb-2 text-slate-800 text-xl font-semibold">
               Relationship Manager
             </h5>
-            <p className="text-slate-600 leading-normal font-light">
-              The place is close to Barceloneta Beach and bus stop just 2 min by walk and near to Naviglio where you can enjoy the main night life in Barcelona.
-            </p>
+            <div className='my-5'>
+              <p className="text-[15px] sm:text-[17px] leading-relaxed">
+                <span className='font-bold  text-[#ff8e2b] text-[17px]'>Job Category : </span> Relationship Manager
+              </p>
+              <p className="text-[15px] sm:text-[18px] leading-relaxed">
+                <span className='font-bold  text-[#ff8e2b] text-[17px]'> Job Type : </span> Full Time
+              </p>
+              <p className="text-[15px] sm:text-[18px] leading-relaxed">
+                <span className='font-bold  text-[#ff8e2b] text-[17px]'>Location : </span> Multan
+              </p>
+            </div>
+
           </div>
           <div className="p-4">
             <button className="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
@@ -32,12 +41,20 @@ const Career = () => {
             <h5 className="mb-2 text-slate-800 text-xl font-semibold">
               Business Development Executive (Female)
             </h5>
-            <p className="text-slate-600 leading-normal font-light">
-              The place is close to Barceloneta Beach and bus stop just 2 min by walk and near to Naviglio where you can enjoy the main night life in Barcelona.
-            </p>
+            <div className='my-5'>
+              <p className="text-[15px] sm:text-[16px] leading-relaxed">
+                <span className='font-bold  text-[#ff8e2b] text-[17px]'>Job Category : </span> Business Development
+              </p>
+              <p className="text-[15px] sm:text-[18px] leading-relaxed">
+                <span className='font-bold  text-[#ff8e2b] text-[17px]'> Job Type : </span> Full Time
+              </p>
+              <p className="text-[15px] sm:text-[18px] leading-relaxed">
+                <span className='font-bold  text-[#ff8e2b] text-[17px]'>Location : </span> Multan
+              </p>
+            </div>
           </div>
           <div className="p-4">
-            <button className="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
+            <button className="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none " type="button">
               Apply Now
             </button>
           </div>
@@ -49,9 +66,21 @@ const Career = () => {
             <h5 className="mb-2 text-slate-800 text-xl font-semibold">
               Video Host ( Females )
             </h5>
-            <p className="text-slate-600 leading-normal font-light">
-              The place is close to Barceloneta Beach and bus stop just 2 min by walk and near to Naviglio where you can enjoy the main night life in Barcelona.
-            </p>
+            <div className='my-5'>
+              <p className="text-[15px] sm:text-[18px] leading-relaxed">
+                <span className='font-bold  text-[#ff8e2b] text-[17px]'>Job Category : </span> Video Host
+              </p>
+              <p className="text-[15px] sm:text-[18px] leading-relaxed">
+                <span className='font-bold  text-[#ff8e2b] text-[17px]'>Gender : </span> Femele
+              </p>
+              <p className="text-[15px] sm:text-[18px] leading-relaxed">
+                <span className='font-bold  text-[#ff8e2b] text-[17px]'> Job Type : </span> Full Time
+              </p>
+              <p className="text-[15px] sm:text-[18px] leading-relaxed">
+                <span className='font-bold  text-[#ff8e2b] text-[17px]'>Location : </span> Multan
+              </p>
+            </div>
+
           </div>
           <div className="p-4">
             <button className="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
@@ -66,9 +95,17 @@ const Career = () => {
             <h5 className="mb-2 text-slate-800 text-xl font-semibold">
               Sales Operation Coordinator Team
             </h5>
-            <p className="text-slate-600 leading-normal font-light">
-              The place is close to Barceloneta Beach and bus stop just 2 min by walk and near to Naviglio where you can enjoy the main night life in Barcelona.
-            </p>
+            <div className='my-5'>
+              <p className="text-[15px] sm:text-[18px] leading-relaxed">
+                <span className='font-bold  text-[#ff8e2b] text-[17px]'>Job Category : </span> Sales Team
+              </p>
+              <p className="text-[15px] sm:text-[18px] leading-relaxed">
+                <span className='font-bold  text-[#ff8e2b] text-[17px]'> Job Type : </span> Full Time
+              </p>
+              <p className="text-[15px] sm:text-[18px] leading-relaxed">
+                <span className='font-bold  text-[#ff8e2b] text-[17px]'>Location : </span> Multan
+              </p>
+            </div>
           </div>
           <div className="p-4">
             <button className="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">

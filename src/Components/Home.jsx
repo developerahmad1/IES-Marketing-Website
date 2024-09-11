@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import img1 from "../assets/img1 .png"
 import img2 from "../assets/img2.jpg"
 import img3 from "../assets/img3.jpg"
@@ -12,26 +12,18 @@ import OurProjects from './OurProjects.jsx';
 import Blogs from './Blogs.jsx';
 
 const Home = () => {
-  const { openChatBot, userMsg, setUserMsg, allMessages, setAllMessages } = useAppContext()
-
+  const { openChatBot, } = useAppContext()
+  const [userMsg, setUserMsg] = useState("")
   const handleSendMessage = (e) => {
+    console.log("messeage sended")
     e.preventDefault();
+    const phoneNumber = '923054474602';
+    const encodedMessage = encodeURIComponent(userMsg);
+    const url = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
 
-    if (userMsg.trim()) {
-      const newMessage = {
-        msg: userMsg,
-        type: "user",
-        time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
-        status: "Delivered"
-      };
-      setAllMessages((prevallMessages) => [
-        ...prevallMessages,
-        newMessage
-      ]);
-      setUserMsg("");
-
-
-    }
+    // Redirect to WhatsApp with the message
+    setUserMsg("")
+    window.open(url, '_blank');
   };
 
 
@@ -53,7 +45,7 @@ const Home = () => {
           </p>
 
           {/* <form className='mt-6'> */}
-          <form className="relative flex items-center mt-5" onSubmit={handleSendMessage}>
+          <form className="relative flex items-center mt-5 lg:w-[80%]" onSubmit={handleSendMessage}>
             <input
               type="text"
               id="search"
@@ -66,7 +58,7 @@ const Home = () => {
             <button
               type="submit"
               className="text-white absolute right-4 top-1/2 transform -translate-y-1/2 bg-[#2f3130] hover:bg-[#000000] rounded-[100px] py-[9px] px-5 dark:focus:ring-blue-800"
-              onClick={openChatBot}
+              onClick={handleSendMessage}
             >
               Contact Us
             </button>

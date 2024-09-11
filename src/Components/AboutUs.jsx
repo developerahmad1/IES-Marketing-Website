@@ -8,6 +8,10 @@ import sirAliImage from "../assets/Sir Ali.jpg"
 import sirTaiyyabImage from "../assets/Sir Taiyyab.jpg"
 import { FaPhoneSquare } from "react-icons/fa";
 import developerAhmad from "../assets/developer ahmad.jpg"
+import manFaceIcon from "../assets/man face icon.png"
+import girlFaceIcon from "../assets/girl face icon.png"
+import { FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 const About = () => {
   function scrollToTop() {
@@ -177,10 +181,12 @@ const About = () => {
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
           <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Team</h2>
-            <p className="font-light text-gray-500 lg:mb-16 sm:text-xl text-justify dark:text-gray-400">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500</p>
+            <p className="font-light text-gray-500 lg:mb-16 sm:text-xl text-center dark:text-gray-400">
+              Our strength lies in the diversity of talents, united by a shared vision to exceed expectations. Every team member contributes to shaping the future of our company.
+            </p>
           </div>
           <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
-            {/* Team Memeber */}
+            {/* Developer Ahamd */}
             <div className="items-center bg-gray-50 shadow sm:flex dark:bg-gray-800 dark:border-gray-700 border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
               <a href="#" className='flex justify-center items-center'>
                 <img className=" max:h-[100px] w-[400px]  sm:rounded-t-none rounded-t-[15px] my-0" src={developerAhmad} alt="Sofia Avatar" />
@@ -225,6 +231,61 @@ const About = () => {
               </div>
             </div>
 
+            {/* Ayyaz Mahmood */}
+            <div className="items-center bg-gray-50 shadow sm:flex dark:bg-gray-800 dark:border-gray-700 border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
+              <a href="#" className='flex justify-center items-center'>
+                <img className=" max:h-[100px] w-[400px]  sm:rounded-t-none rounded-t-[15px] my-0" src={manFaceIcon} alt="Sofia Avatar" />
+              </a>
+              <div className="p-5">
+                <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <a href="#">Ayyaz Mahmood</a>
+                </h3>
+                <span className="text-gray-500 dark:text-gray-400">Relationship Manager</span>
+                <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
+                  He is a trusted advisor to both clients and colleagues and his commitment to excellence and personalized service makes him an invaluable asset to IES Marketing team.
+                </p>
+                {/* Social media links */}
+                <ul className="flex space-x-4 sm:mt-0 justify-center items-center">
+                <li>
+                    <a href="https://wa.link/8hv359" target='_main' className="text-gray-500 hover:text-green-500 dark:hover:text-white duration-[0.2s]">
+                      <FaSquareWhatsapp className='w-8 h-8' />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/ayyaz-mahmood-5168b6308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_main' className="text-gray-500 hover:text-blue-500 dark:hover:text-white duration-[0.2s]">
+                      <FaLinkedin className='w-8 h-8' />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="ayyazmahmoods36@gmail.com" target='_main' className="text-gray-500 hover:text-blue-500 dark:hover:text-white duration-[0.2s]">
+                      <MdEmail className='w-8 h-8' />
+                    </a>
+                  </li>
+
+                  {/* <li>
+                    <a href="#" target='_main' className="text-gray-500 hover:text-gray-900 dark:hover:text-white duration-[0.2s]">
+                      <AiFillTikTok className='w-9 h-9' />
+                    </a>
+                  </li> */}
+                  {/* <li>
+                    <a href="#" target='_main' className="text-gray-500 hover:text-gray-900 dark:hover:text-white duration-[0.2s]">
+                      <FaSquareInstagram className='w-8 h-8' />
+                    </a>
+                  </li> */}
+                  {/* <li>
+                    <a href="https://www.facebook.com/devolperahmad?mibextid=ZbWKwL" target='_main' className="text-gray-500 hover:text-gray-900 dark:hover:text-white  duration-[0.2s]">
+                      <FaFacebookSquare className='w-8 h-8' />
+                    </a>
+                  </li> */}
+                  <li>
+                    <a href="tel:03338400106" className="text-gray-500 hover:text-gray-900 dark:hover:text-white  duration-[0.2s]">
+                      <FaPhoneSquare className='w-8 h-8' />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -236,7 +297,7 @@ const About = () => {
       <section id="testimonials" aria-label="What our customers are saying" className="bg-slate-50 py-20 sm:py-32">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl md:text-center">
-            <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">What Our Customers Are Saying</h2>
+            <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">What do our clients Say?</h2>
           </div>
           <ul role="list"
             className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none lg:grid-cols-3">
