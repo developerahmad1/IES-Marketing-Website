@@ -12,7 +12,7 @@ export const AppContextProvider = ({ children }) => {
   const [allMessages, setAllMessages] = useState([]);
   
   // lead poup
-  const [isLeadPoupOpen, setIsLeadPoupOpen] = useState(true)
+  const [isLeadPoupOpen, setIsLeadPoupOpen] = useState(false)
   const openLeadpoup = ()=> setIsLeadPoupOpen(true)
   const closeLeadpoup = ()=> setIsLeadPoupOpen(false)
 
