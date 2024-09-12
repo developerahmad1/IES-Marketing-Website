@@ -30,6 +30,7 @@ import BusinessDevelopmentExecutive from './Components/Jobs/BusinessDevelopmentE
 import VideoHost from './Components/Jobs/VideoHost.jsx';
 import SalesTeam from './Components/Jobs/SalesTeam.jsx';
 import LeadsPoup from './Components/LeadsPoup.jsx';
+import EmergingTrendsinPakistansRealEstate_2 from './Components/Blogs/EmergingTrendsinPakistansRealEstate_2.jsx';
 
 const App = () => {
 
@@ -57,13 +58,15 @@ const App = () => {
             <Route path="/project/citi-housing" element={<CityHousing />} />
             <Route path="/project/DHA-multan" element={<DHAMultan />} />
             <Route path="/project/royal-orchad" element={<RoyalOrchad />} />
-            <Route path="/blog/real-estate-opportunities-1" element={<RealEstateChallanges_1 />} />
             {/* jobs */}
             <Route path="/career" element={<Carreer />} />
             <Route path="/job/relationship-manager" element={<RelationShipManager />} />
             <Route path="/job/business-development-executive" element={<BusinessDevelopmentExecutive />} />
             <Route path="/job/video-host" element={<VideoHost />} />
             <Route path="/job/sales-team" element={<SalesTeam />} />
+            {/* Blogs */}
+            <Route path="/blog/real-estate-opportunities-1" element={<RealEstateChallanges_1 />} />
+            <Route path="/blog/emerging-trendsin-pakistans-real-estate-2" element={<EmergingTrendsinPakistansRealEstate_2 />} />
           </Routes>
         </div>
         <ChatWithWhatsapp />

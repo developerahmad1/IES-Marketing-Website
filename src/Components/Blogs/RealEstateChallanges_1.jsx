@@ -17,18 +17,13 @@ const RealEstateChallanges_1 = () => {
         <main className="mt-">
           <div className="mb-4 md:mb-0 w-full mx-auto relative">
             <div className="px-4 py-2 sm:py-2 lg:px-0">
-              <img src={img1} alt="" />
+              <img src={img1} alt="" className='mx-auto'/>
               <h2 className="text-3xl sm:text-4xl font-semibold text-gray-800 leading-tight mt-8">
                 Real Estate in Pakistan: Opportunities & Challenges
               </h2>
 
             </div>
-            {/* <img
-                            src={blog[0].imgSrc}
-                            className="w-full object-cover lg:rounded"
-                            style={{ height: '28em' }}
-                            alt="Blog"
-                        /> */}
+
           </div>
 
           <div className="flex flex-col lg:flex-row lg:space-x-12 text-justify">
@@ -144,9 +139,7 @@ const RealEstateChallanges_1 = () => {
               <p className="pb-6">
                 Real estate market of Pakistan is evolving rapidly and offers immense opportunities for investors. It is influenced by advancements in technology and global trends. Some challenges are not for the people but for the real estate agents dealing in commercial or residential properties. They have to struggle to make themselves stand out among several real estate companies and convince people by offering distinguishing and extraordinary services.
               </p>
-              <p className="pb-6">
-                People are willing to invest in the real estate business in Pakistan, but only if they find a secure project from trustworthy developers to ensure that they will get a good profit in the next years. Pakistan property prices are currently not much higher, so it is a good time to invest in affordable housing projects with excellent amenities to reap the benefits tomorrow. With the right knowledge and approach, investing in a growing sector can yield substantial returns. Buy a property in Pakistan by choosing projects wisely and leveraging the potential of the real estate market.
-              </p>
+
 
 
               <p className="pb-6">
