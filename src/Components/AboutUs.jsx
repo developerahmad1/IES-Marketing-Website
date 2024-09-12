@@ -269,7 +269,7 @@ const About = () => {
                 </h3>
                 <span className="text-gray-500">Business Development Manager</span>
                 <p className="mt-3 mb-4 font-light text-gray-500">
-                  Multi-tasking skills and dedication of Abrish Zahra allowed her to lead teams and become a successful sales person.
+                  Multi-tasking skills and dedication of Abrish Zahra allowed her to lead teams and become a successful manager at IES Marketing
                 </p>
                 <ul className="flex space-x-4 sm:mt-0 justify-center items-center">
                   <li>

@@ -48,7 +48,7 @@ const VideoHost = () => {
                                 <span className='font-bold  text-[#ff8e2b] text-[20px]'>Job Category : </span> Video Host
                             </p>
                             <p className="text-[15px] sm:text-[18px] leading-relaxed">
-                                <span className='font-bold  text-[#ff8e2b] text-[20px]'>Gender : </span> Femele
+                                <span className='font-bold  text-[#ff8e2b] text-[20px]'>Gender : </span> Female
                             </p>
                             <p className="text-[15px] sm:text-[18px] leading-relaxed">
                                 <span className='font-bold  text-[#ff8e2b] text-[20px]'> Job Type : </span> Full Time

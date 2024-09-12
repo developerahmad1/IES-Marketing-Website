@@ -64,14 +64,14 @@ const Career = () => {
         <Link to="/job/video-host" className="relative flex flex-col bg-white shadow-sm border-slate-200 w-96 h-72 border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl cursor-pointer">
           <div className="p-4 flex-grow">
             <h5 className="mb-2 text-slate-800 text-xl font-semibold">
-              Video Host ( Females )
+              Video Host ( Female )
             </h5>
             <div className='my-5'>
               <p className="text-[15px] sm:text-[18px] leading-relaxed">
                 <span className='font-bold  text-[#ff8e2b] text-[17px]'>Job Category : </span> Video Host
               </p>
               <p className="text-[15px] sm:text-[18px] leading-relaxed">
-                <span className='font-bold  text-[#ff8e2b] text-[17px]'>Gender : </span> Femele
+                <span className='font-bold  text-[#ff8e2b] text-[17px]'>Gender : </span> Female
               </p>
               <p className="text-[15px] sm:text-[18px] leading-relaxed">
                 <span className='font-bold  text-[#ff8e2b] text-[17px]'> Job Type : </span> Full Time
