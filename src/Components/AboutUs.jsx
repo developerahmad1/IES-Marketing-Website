@@ -106,19 +106,19 @@ const About = () => {
       <section className="py-20 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="font-manrope text-4xl text-center text-gray-900 font-bold mb-14">
-            Our results in numbers
+            Our Achievements
           </h2>
           <div className="flex flex-col gap-5 xl:gap-8 lg:flex-row lg:justify-between">
             <div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 shadow-md shadow-gray-100  border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl">
               <div className="flex gap-5">
                 <div className="font-manrope text-2xl font-bold text-indigo-600">
-                  240%
+                  100%
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-xl text-gray-900 font-semibold mb-2">Company growth</h4>
-                  <p className="text-xs text-gray-500 leading-5">
+                  <h4 className="text-xl text-gray-900 font-semibold mb-2">Consumer Satisfaction</h4>
+                  {/* <p className="text-xs text-gray-500 leading-5">
                     Company's remarkable growth journey as we continually innovate and drive towards new heights of success.
-                  </p>
+                  </p> */}
                 </div>
                 {/* icon here */}
               </div>
@@ -126,13 +126,13 @@ const About = () => {
             <div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 shadow-md shadow-gray-100  border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl">
               <div className="flex gap-5">
                 <div className="font-manrope text-2xl font-bold text-indigo-600">
-                  175+
+                  100%
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-xl text-gray-900 font-semibold mb-2">Company growth</h4>
-                  <p className="text-xs text-gray-500 leading-5">
+                  <h4 className="text-xl text-gray-900 font-semibold mb-2">Seamless transactions </h4>
+                  {/* <p className="text-xs text-gray-500 leading-5">
                     Our very talented team members are the powerhouse of pagedone and pillars of our success.
-                  </p>
+                  </p> */}
                 </div>
                 {/* icon here */}
               </div>
@@ -140,18 +140,51 @@ const About = () => {
             <div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 shadow-md shadow-gray-100  border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl">
               <div className="flex gap-5">
                 <div className="font-manrope text-2xl font-bold text-indigo-600">
-                  625+
+                  100+
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-xl text-gray-900 font-semibold mb-2">Projects Completed</h4>
-                  <p className="text-xs text-gray-500 leading-5">
+                  <h4 className="text-xl text-gray-900 font-semibold mb-2">Properties </h4>
+                  {/* <p className="text-xs text-gray-500 leading-5">
                     We have accomplished more than 625 projects worldwide and we are still counting many more.
-                  </p>
+                  </p> */}
                 </div>
                 {/* icon here */}
               </div>
             </div>
           </div>
+
+          <div className="flex flex-col gap-5 xl:gap-8 lg:flex-row lg:justify-center mt-3">
+            <div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 shadow-md shadow-gray-100  border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl">
+              <div className="flex gap-5">
+                <div className="font-manrope text-2xl font-bold text-indigo-600">
+                  100%
+                </div>
+                <div className="flex-1">
+                  <h4 className="text-xl text-gray-900 font-semibold mb-2">Deliverance</h4>
+                  {/* <p className="text-xs text-gray-500 leading-5">
+                    We have accomplished more than 625 projects worldwide and we are still counting many more.
+                  </p> */}
+                </div>
+                {/* icon here */}
+              </div>
+            </div>
+            <div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 shadow-md shadow-gray-100  border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl">
+              <div className="flex gap-5">
+                <div className="font-manrope text-2xl font-bold text-indigo-600">
+                  13+
+                </div>
+                <div className="flex-1">
+                  <h4 className="text-xl text-gray-900 font-semibold mb-2">Award winning </h4>
+                  {/* <p className="text-xs text-gray-500 leading-5">
+                    We have accomplished more than 625 projects worldwide and we are still counting many more.
+                  </p> */}
+                </div>
+                {/* icon here */}
+              </div>
+            </div>
+
+          </div>
+
         </div>
       </section>
 
@@ -164,8 +197,8 @@ const About = () => {
               <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">Our Vision & Mission</h2>
               <p className="mt-4 text-gray-600 text-lg">IES aims to become a leading real estate marketing agency by providing marketing solutions that empower our clients to reach their full potential. Our commitment to excellence and client's satisfaction makes us the go-to place for people looking for a reliable company to fulfill their real estate marketing needs. Also, we make sure to foster positive relationships and uphold higher standards of honesty with clients. Moreover, IES Marketing stands out as Pakistan's only real estate marketing company with a strong focus and effort on women's empowerment.</p>
               <div className="mt-8">
-                <a href="#" className="text-blue-500 hover:text-blue-600 font-medium" onClick={scrollToTop}>Learn more about us
-                  <span className="ml-2">&#8594;</span></a>
+                <p className="text-blue-500 cursor-pointer hover:text-blue-600 font-medium" onClick={scrollToTop}>Learn more about us
+                  <span className="ml-2">&#8594;</span></p>
               </div>
             </div>
             <div className="mt-12 md:mt-0">
@@ -177,109 +210,352 @@ const About = () => {
 
 
       {/* Our Team Section */}
-      <section className="bg-white dark:bg-gray-900">
-        <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+      <section className="bg-white">
+        <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Team</h2>
-            <p className="font-light text-gray-500 lg:mb-16 sm:text-xl text-center dark:text-gray-400">
+            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Our Team</h2>
+            <p className="font-light text-gray-500 lg:mb-16 sm:text-xl text-center">
               Our strength lies in the diversity of talents, united by a shared vision to exceed expectations. Every team member contributes to shaping the future of our company.
             </p>
           </div>
           <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
-            {/* Developer Ahamd */}
-            <div className="items-center bg-gray-50 shadow sm:flex dark:bg-gray-800 dark:border-gray-700 border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
-              <a href="#" className='flex justify-center items-center'>
-                <img className=" max:h-[100px] w-[400px]  sm:rounded-t-none rounded-t-[15px] my-0" src={developerAhmad} alt="Sofia Avatar" />
+
+            {/* Ayyaz Mahmood */}
+            <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
+              <a href="#" className="flex justify-center items-center">
+                <img className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0" src={manFaceIcon} alt="Sofia Avatar" />
               </a>
               <div className="p-5">
-                <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  <a href="#">Developer Ahmad</a>
+                <h3 className="text-xl font-bold tracking-tight text-gray-900">
+                  <a href="#">Ayyaz Mahmood</a>
                 </h3>
-                <span className="text-gray-500 dark:text-gray-400">Senior Programmer</span>
-                <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-                  Developer Ahmad is a senior software and web Developer (MERN). Ahmad is one of the top developer in Multan.
+                <span className="text-gray-500">Relationship Manager</span>
+                <p className="mt-3 mb-4 font-light text-gray-500">
+                  He is a trusted advisor to both clients and colleagues, and his commitment to excellence and personalized service makes him an invaluable asset to the IES Marketing team.
                 </p>
-                {/* Social media links */}
                 <ul className="flex space-x-4 sm:mt-0 justify-center items-center">
                   <li>
-                    <a href="https://wa.link/inqb63" target='_main' className="text-gray-500 hover:text-gray-900 dark:hover:text-white duration-[0.2s]">
-                      <FaSquareWhatsapp className='w-8 h-8' />
-                    </a>
-                  </li>
-
-                  {/* <li>
-                    <a href="#" target='_main' className="text-gray-500 hover:text-gray-900 dark:hover:text-white duration-[0.2s]">
-                      <AiFillTikTok className='w-9 h-9' />
-                    </a>
-                  </li> */}
-                  {/* <li>
-                    <a href="#" target='_main' className="text-gray-500 hover:text-gray-900 dark:hover:text-white duration-[0.2s]">
-                      <FaSquareInstagram className='w-8 h-8' />
-                    </a>
-                  </li> */}
-                  <li>
-                    <a href="https://www.facebook.com/devolperahmad?mibextid=ZbWKwL" target='_main' className="text-gray-500 hover:text-gray-900 dark:hover:text-white  duration-[0.2s]">
-                      <FaFacebookSquare className='w-8 h-8' />
+                    <a href="https://wa.link/8hv359" target='_main' className="text-gray-500 hover:text-green-500 duration-[0.2s]">
+                      <FaSquareWhatsapp className="w-8 h-8" />
                     </a>
                   </li>
                   <li>
-                    <a href="tel:03338400106" className="text-gray-500 hover:text-gray-900 dark:hover:text-white  duration-[0.2s]">
-                      <FaPhoneSquare className='w-8 h-8' />
+                    <a href="https://www.linkedin.com/in/ayyaz-mahmood-5168b6308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
+                      <FaLinkedin className="w-8 h-8" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mailto:ayyazmahmoods36@gmail.com" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
+                      <MdEmail className="w-8 h-8" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="tel:03338400106" className="text-gray-500 hover:text-gray-900 duration-[0.2s]">
+                      <FaPhoneSquare className="w-8 h-8" />
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
 
-            {/* Ayyaz Mahmood */}
-            <div className="items-center bg-gray-50 shadow sm:flex dark:bg-gray-800 dark:border-gray-700 border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
-              <a href="#" className='flex justify-center items-center'>
-                <img className=" max:h-[100px] w-[400px]  sm:rounded-t-none rounded-t-[15px] my-0" src={manFaceIcon} alt="Sofia Avatar" />
-              </a>
+            {/* Abrish Zahra */}
+            <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
+              <div className="flex justify-center items-center">
+                <img className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0" src={girlFaceIcon} alt="Sofia Avatar" />
+              </div>
               <div className="p-5">
-                <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  <a href="#">Ayyaz Mahmood</a>
+                <h3 className="text-xl font-bold tracking-tight text-gray-900">
+                  <p>Abrish Zahra</p>
                 </h3>
-                <span className="text-gray-500 dark:text-gray-400">Relationship Manager</span>
-                <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-                  He is a trusted advisor to both clients and colleagues and his commitment to excellence and personalized service makes him an invaluable asset to IES Marketing team.
+                <span className="text-gray-500">Business Development Manager</span>
+                <p className="mt-3 mb-4 font-light text-gray-500">
+                  Multi-tasking skills and dedication of Abrish Zahra allowed her to lead teams and become a successful sales person.
                 </p>
-                {/* Social media links */}
                 <ul className="flex space-x-4 sm:mt-0 justify-center items-center">
-                <li>
-                    <a href="https://wa.link/8hv359" target='_main' className="text-gray-500 hover:text-green-500 dark:hover:text-white duration-[0.2s]">
-                      <FaSquareWhatsapp className='w-8 h-8' />
+                  <li>
+                    <a href="https://wa.me/923338400116" target='_main' className="text-gray-500 hover:text-green-500 duration-[0.2s]">
+                      <FaSquareWhatsapp className="w-8 h-8" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/in/ayyaz-mahmood-5168b6308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_main' className="text-gray-500 hover:text-blue-500 dark:hover:text-white duration-[0.2s]">
-                      <FaLinkedin className='w-8 h-8' />
+                    <a href="https://www.linkedin.com/in/abrish-zahra-4ab830325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
+                      <FaLinkedin className="w-8 h-8" />
                     </a>
                   </li>
                   <li>
-                    <a href="ayyazmahmoods36@gmail.com" target='_main' className="text-gray-500 hover:text-blue-500 dark:hover:text-white duration-[0.2s]">
-                      <MdEmail className='w-8 h-8' />
+                    <a href="mailto:AbrishZahra.ies@gmail.com" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
+                      <MdEmail className="w-8 h-8" />
                     </a>
                   </li>
+                  <li>
+                    <a href="tel:03338400116" className="text-gray-500 hover:text-gray-900 duration-[0.2s]">
+                      <FaPhoneSquare className="w-8 h-8" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
 
+            {/* Shanzay Malik  gmail*/}
+            <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
+              <div className="flex justify-center items-center">
+                <img className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0" src={girlFaceIcon} alt="Sofia Avatar" />
+              </div>
+              <div className="p-5">
+                <h3 className="text-xl font-bold tracking-tight text-gray-900">
+                  <p>Shanzay Malik</p>
+                </h3>
+                <span className="text-gray-500">HR</span>
+                <p className="mt-3 mb-4 font-light text-gray-500">
+                  Continuous effort and dedication of Shanzay Malik, earned her this role in a short time period. She is focused on enhancing team capabilities and fostering a positive work environment.
+                </p>
+                <ul className="flex space-x-4 sm:mt-0 justify-center items-center">
+                  <li>
+                    <a href="https://wa.me/923338400109" target='_main' className="text-gray-500 hover:text-green-500 duration-[0.2s]">
+                      <FaSquareWhatsapp className="w-8 h-8" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/shanzay-malik-018833325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
+                      <FaLinkedin className="w-8 h-8" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mailto:AbrishZahra.ies@gmail.com" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
+                      <MdEmail className="w-8 h-8" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="tel:03338400109" className="text-gray-500 hover:text-gray-900 duration-[0.2s]">
+                      <FaPhoneSquare className="w-8 h-8" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Suman Khalid*/}
+            <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
+              <div className="flex justify-center items-center">
+                <img className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0" src={girlFaceIcon} alt="Sofia Avatar" />
+              </div>
+              <div className="p-5">
+                <h3 className="text-xl font-bold tracking-tight text-gray-900">
+                  <p>Suman Khalid </p>
+                </h3>
+                <span className="text-gray-500">Sales Executive</span>
+                <p className="mt-3 mb-4 font-light text-gray-500">
+                  With innovative approach and passion for real estate, Suman Khalid brings commitment to excellence in every client interaction and embarked on her journey with IES Marketing.
+                </p>
+                <ul className="flex space-x-4 sm:mt-0 justify-center items-center">
+                  <li>
+                    <a href="https://wa.me/923338400114" target='_main' className="text-gray-500 hover:text-green-500 duration-[0.2s]">
+                      <FaSquareWhatsapp className="w-8 h-8" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/suman-khalid-834b6624a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
+                      <FaLinkedin className="w-8 h-8" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mailto:Sumankhalid.ies@gmail.com" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
+                      <MdEmail className="w-8 h-8" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="tel:03338400114" className="text-gray-500 hover:text-gray-900 duration-[0.2s]">
+                      <FaPhoneSquare className="w-8 h-8" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Bukhtawar linked email*/}
+            <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
+              <div className="flex justify-center items-center">
+                <img className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0" src={girlFaceIcon} alt="Sofia Avatar" />
+              </div>
+              <div className="p-5">
+                <h3 className="text-xl font-bold tracking-tight text-gray-900">
+                  <p>Bakhtawar Saeed </p>
+                </h3>
+                <span className="text-gray-500">Accounts Officer</span>
+                <p className="mt-3 mb-4 font-light text-gray-500">
+                  Bakhtawar Saeed ensures smooth management of financial operations. Her commitment to maintaining financial integrity and supporting the company’s growth reflects her vital role in the success of IES Marketing.
+                </p>
+                <ul className="flex space-x-4 sm:mt-0 justify-center items-center">
+                  <li>
+                    <a href="https://wa.me/923338400107" target='_main' className="text-gray-500 hover:text-green-500 duration-[0.2s]">
+                      <FaSquareWhatsapp className="w-8 h-8" />
+                    </a>
+                  </li>
                   {/* <li>
-                    <a href="#" target='_main' className="text-gray-500 hover:text-gray-900 dark:hover:text-white duration-[0.2s]">
-                      <AiFillTikTok className='w-9 h-9' />
+                    <a href="https://www.linkedin.com/in/suman-khalid-834b6624a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
+                      <FaLinkedin className="w-8 h-8" />
                     </a>
                   </li> */}
                   {/* <li>
-                    <a href="#" target='_main' className="text-gray-500 hover:text-gray-900 dark:hover:text-white duration-[0.2s]">
-                      <FaSquareInstagram className='w-8 h-8' />
-                    </a>
-                  </li> */}
-                  {/* <li>
-                    <a href="https://www.facebook.com/devolperahmad?mibextid=ZbWKwL" target='_main' className="text-gray-500 hover:text-gray-900 dark:hover:text-white  duration-[0.2s]">
-                      <FaFacebookSquare className='w-8 h-8' />
+                    <a href="mailto:Sumankhalid.ies@gmail.com" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
+                      <MdEmail className="w-8 h-8" />
                     </a>
                   </li> */}
                   <li>
-                    <a href="tel:03338400106" className="text-gray-500 hover:text-gray-900 dark:hover:text-white  duration-[0.2s]">
-                      <FaPhoneSquare className='w-8 h-8' />
+                    <a href="tel:923338400107" className="text-gray-500 hover:text-gray-900 duration-[0.2s]">
+                      <FaPhoneSquare className="w-8 h-8" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Manahil Jaweed linkedin*/}
+            <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
+              <div className="flex justify-center items-center">
+                <img className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0" src={girlFaceIcon} alt="Sofia Avatar" />
+              </div>
+              <div className="p-5">
+                <h3 className="text-xl font-bold tracking-tight text-gray-900">
+                  <p>Manahil Javeed </p>
+                </h3>
+                <span className="text-gray-500">Traning Speciliest</span>
+                <p className="mt-3 mb-4 font-light text-gray-500">
+                  Manahil Javeed earned an esteemed position of Training Specialist to enhance the team’s professional development and training programs. Her passion to fulfill responsibility made her a valuable asset for the company.
+                </p>
+                <ul className="flex space-x-4 sm:mt-0 justify-center items-center">
+                  <li>
+                    <a href="https://wa.me/923338400112" target='_main' className="text-gray-500 hover:text-green-500 duration-[0.2s]">
+                      <FaSquareWhatsapp className="w-8 h-8" />
+                    </a>
+                  </li>
+                  {/* <li>
+                    <a href="https://www.linkedin.com/in/suman-khalid-834b6624a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
+                      <FaLinkedin className="w-8 h-8" />
+                    </a>
+                  </li> */}
+                  <li>
+                    <a href="mailto:Manhiljaveed.ies@gmail.com" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
+                      <MdEmail className="w-8 h-8" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="tel:03338400112" className="text-gray-500 hover:text-gray-900 duration-[0.2s]">
+                      <FaPhoneSquare className="w-8 h-8" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Sir saif linkedin gmail */}
+            <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
+              <div className="flex justify-center items-center">
+                <img className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0" src={manFaceIcon} alt="Sofia Avatar" />
+              </div>
+              <div className="p-5">
+                <h3 className="text-xl font-bold tracking-tight text-gray-900">
+                  <p>Saif Ali </p>
+                </h3>
+                <span className="text-gray-500">Graphic Designer</span>
+                <p className="mt-3 mb-4 font-light text-gray-500">
+                  With a keen eye for aesthetics and creativity, Saif Ali brings visual concepts to life, ensuring that the company’s marketing materials and branding resonate with the target audience.
+                </p>
+                <ul className="flex space-x-4 sm:mt-0 justify-center items-center">
+                  <li>
+                    <a href="https://wa.me/923166700948" target='_main' className="text-gray-500 hover:text-green-500 duration-[0.2s]">
+                      <FaSquareWhatsapp className="w-8 h-8" />
+                    </a>
+                  </li>
+                  {/* <li>
+                    <a href="https://www.linkedin.com/in/suman-khalid-834b6624a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
+                      <FaLinkedin className="w-8 h-8" />
+                    </a>
+                  </li> */}
+                  {/* <li>
+                    <a href="mailto:Manhiljaveed.ies@gmail.com" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
+                      <MdEmail className="w-8 h-8" />
+                    </a>
+                  </li> */}
+                  <li>
+                    <a href="tel:03166700948" className="text-gray-500 hover:text-gray-900 duration-[0.2s]">
+                      <FaPhoneSquare className="w-8 h-8" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Developer Ahmad */}
+            <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
+              <div className="flex justify-center items-center">
+                <img className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0" src={developerAhmad} alt="Sofia Avatar" />
+              </div>
+              <div className="p-5">
+                <h3 className="text-xl font-bold tracking-tight text-gray-900">
+                  <p>Developer Ahmad</p>
+                </h3>
+                <span className="text-gray-500">MERN Programmer</span>
+                <p className="mt-3 mb-4 font-light text-gray-500">
+                  Ahmad is a skilled Software and Web Developer, responsible for maintaining the company’s digital presence. He ensures that website and web applications are , responsive, and visually appealing.
+                </p>
+                <ul className="flex space-x-4 sm:mt-0 justify-center items-center">
+                  <li>
+                    <a href="https://wa.link/inqb63" target='_main' className="text-gray-500 hover:text-green-500 duration-[0.2s]">
+                      <FaSquareWhatsapp className="w-8 h-8" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.facebook.com/devolperahmad?mibextid=ZbWKwL" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
+                      <FaFacebookSquare className="w-8 h-8" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mailto:developerahmad3@gmail.com" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
+                      <MdEmail className="w-8 h-8" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="tel:03338400106" className="text-gray-500 hover:text-gray-900 duration-[0.2s]">
+                      <FaPhoneSquare className="w-8 h-8" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Anam */}
+            <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
+              <div className="flex justify-center items-center">
+                <img className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0" src={girlFaceIcon} alt="Sofia Avatar" />
+              </div>
+              <div className="p-5">
+                <h3 className="text-xl font-bold tracking-tight text-gray-900">
+                  <p>Anum Javaid</p>
+                </h3>
+                <span className="text-gray-500">Content Writer</span>
+                <p className="mt-3 mb-4 font-light text-gray-500">
+                  With a passion for storytelling and a strategic approach to content creation, Anum Javaid crafts compelling narratives that capture the essence of the company’s message and resonate with its target audience.
+                </p>
+                <ul className="flex space-x-4 sm:mt-0 justify-center items-center">
+                  <li>
+                    <a href="https://wa.me/923166700948" target='_main' className="text-gray-500 hover:text-green-500 duration-[0.2s]">
+                      <FaSquareWhatsapp className="w-8 h-8" />
+                    </a>
+                  </li>
+                  {/* <li>
+                    <a href="https://www.linkedin.com/in/suman-khalid-834b6624a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
+                      <FaLinkedin className="w-8 h-8" />
+                    </a>
+                  </li> */}
+                  {/* <li>
+                    <a href="mailto:Manhiljaveed.ies@gmail.com" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
+                      <MdEmail className="w-8 h-8" />
+                    </a>
+                  </li> */}
+                  <li>
+                    <a href="tel:03166700948" className="text-gray-500 hover:text-gray-900 duration-[0.2s]">
+                      <FaPhoneSquare className="w-8 h-8" />
                     </a>
                   </li>
                 </ul>

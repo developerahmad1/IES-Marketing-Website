@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
 import { useAppContext } from '../Context/AppContext.jsx';
 import { Link } from 'react-router-dom';
-import img1 from "../assets/Blogs/Blog_1 Pak real estate market value.png"
+import img1 from "../assets/Blogs/blog1card.jpg"
 
 
 const Blogs = () => {

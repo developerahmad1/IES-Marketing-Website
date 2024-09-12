@@ -5,7 +5,8 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import instagram from "../../assets/instagram_logo.png"
-import img1 from "../../assets/Blogs/Blog_1 Pak real estate market value.png"
+import img2 from "../../assets/Blogs/Blog_1 Pak real estate market value.png"
+import img1 from "../../assets/Blogs/blog1card.jpg"
 
 const RealEstateChallanges_1 = () => {
   return (
@@ -16,6 +17,7 @@ const RealEstateChallanges_1 = () => {
         <main className="mt-">
           <div className="mb-4 md:mb-0 w-full mx-auto relative">
             <div className="px-4 py-2 sm:py-2 lg:px-0">
+              <img src={img1} alt="" />
               <h2 className="text-3xl sm:text-4xl font-semibold text-gray-800 leading-tight mt-8">
                 Real Estate in Pakistan: Opportunities & Challenges
               </h2>
@@ -41,7 +43,7 @@ const RealEstateChallanges_1 = () => {
               </p>
 
               <img
-                src={img1}
+                src={img2}
                 className="w-full object-cover lg:rounded"
                 style={{ height: '28em' }}
                 alt="Blog"
@@ -271,7 +273,7 @@ const RealEstateChallanges_1 = () => {
         </main>
         {/* </div> */}
       </div>
-        <Blogs />
+      <Blogs />
 
     </div>
   )
