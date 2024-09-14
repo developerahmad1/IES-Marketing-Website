@@ -31,7 +31,7 @@ import VideoHost from './Components/Jobs/VideoHost.jsx';
 import SalesTeam from './Components/Jobs/SalesTeam.jsx';
 import LeadsPoup from './Components/LeadsPoup.jsx';
 import EmergingTrendsinPakistansRealEstate_2 from './Components/Blogs/EmergingTrendsinPakistansRealEstate_2.jsx';
-import BestTimeToInvestInRealEstate_3 from './Components/Blogs/bestTimeToInvestInRealEstate_3.jsx';
+import BestTimeToInvestInRealEstate_3 from './Components/Blogs/BestTimeToInvestInRealEstate_3.jsx';
 
 const App = () => {
 
