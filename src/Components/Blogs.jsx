@@ -3,7 +3,8 @@ import { gsap } from 'gsap';
 import { useAppContext } from '../Context/AppContext.jsx';
 import { Link } from 'react-router-dom';
 import img1 from "../assets/Blogs/blog1card.jpg"
-import img2 from "../assets/Blogs/blog2_1.png"
+import img2 from "../assets/Blogs/2nd blog.jpg"
+import blog3 from "../assets/Blogs/3rd Blog.jpg"
 
 
 const Blogs = () => {
@@ -89,6 +90,35 @@ const Blogs = () => {
               <div className="p-6">
                 <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                   Emerging Trends in Pakistan's Real Estate - 2024
+                </h5>
+                {/* <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+                </p> */}
+              </div>
+              <div className="p-6 pt-0">
+                <button
+                  className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                  type="button"
+                >
+                  View More
+                </button>
+              </div>
+            </Link>
+
+
+            {/* 3rd blog Real Estate in Pakistan: Opportunities & Challenges */}
+            <Link to="/blog/best-time-kto-invest-in-pakistan-real-estate" onClick={scrollToTop}
+              className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
+            >
+              <div className="relative h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
+                <img
+                  src={blog3}
+                  alt="card-image"
+                  className="object-cover w-full h-full rounded-t-2xl"
+                />
+              </div>
+              <div className="p-6">
+                <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                  Best Time to Invest in Pakistan Real Estate
                 </h5>
                 {/* <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
                 </p> */}

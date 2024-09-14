@@ -31,6 +31,7 @@ import VideoHost from './Components/Jobs/VideoHost.jsx';
 import SalesTeam from './Components/Jobs/SalesTeam.jsx';
 import LeadsPoup from './Components/LeadsPoup.jsx';
 import EmergingTrendsinPakistansRealEstate_2 from './Components/Blogs/EmergingTrendsinPakistansRealEstate_2.jsx';
+import BestTimeToInvestInRealEstate_3 from './Components/Blogs/bestTimeToInvestInRealEstate_3.jsx';
 
 const App = () => {
 
@@ -67,6 +68,7 @@ const App = () => {
             {/* Blogs */}
             <Route path="/blog/real-estate-opportunities-1" element={<RealEstateChallanges_1 />} />
             <Route path="/blog/emerging-trendsin-pakistans-real-estate-2" element={<EmergingTrendsinPakistansRealEstate_2 />} />
+            <Route path="/blog/best-time-kto-invest-in-pakistan-real-estate" element={<BestTimeToInvestInRealEstate_3 />} />
           </Routes>
         </div>
         <ChatWithWhatsapp />
