@@ -107,7 +107,7 @@ const BestTimeToInvestInRealEstate_3 = () => {
                             <p className="pb-6">
                                 Our team of experts at <Link to="/" className='text-blue-500 hover:underline'>IES Marketing</Link> have done deep research and found the best time to invest in Pakistan real estate that will be helpful for you to make the right investment at the right time and at the right place. To get answers of your real estate queries, contact our professional team or visit the head office of IES Marketing:
                             </p>
-                            <p className='text-xl pb-1'> <span className='font-bold'>Email Address: </span>  <a href="mail:iesmarketingpakistan@gail.com" className='text-blue-500 hover:underline'>iesmarketingpakistan@gail.com</a></p>
+                            <p className='text-xl pb-1'> <span className='font-bold'>Email Address: </span>  <a href="mailto:iesmarketingpakistan@gail.com" className='text-blue-500 hover:underline'>iesmarketingpakistan@gail.com</a></p>
                             <p className='text-xl pb-1'> <span className='font-bold'>Phone: </span>  <a href="tel:0333-8400116" className='text-blue-500 hover:underline'>0333-8400116 </a>, <a href="tel:0333-8400106" className='text-blue-500 hover:underline'>0333-8400106</a></p>
                             <p className='text-[17px] pb-3'> <span className='font-bold text-xl'>Head Office: </span> 185B Model Town, Commercial Area, Near Northern Bypass, Multan.</p>
 
