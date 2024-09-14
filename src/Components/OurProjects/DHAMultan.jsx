@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import img1 from "../../assets/DHA 1.jpg";
 import img2 from "../../assets/DHA 2.jpg";
 import img3 from "../../assets/DHA 3.jpg";
@@ -8,6 +8,7 @@ import img6 from "../../assets/DHA 6.jpg";
 import img7 from "../../assets/DHA 7.jpg";
 import OurProjects from '../OurProjects';
 import { useAppContext } from '../../Context/AppContext';
+import { Link } from 'react-router-dom';
 
 const DHAMultan = () => {
     const { openLeadpoup } = useAppContext()
@@ -254,10 +255,10 @@ const DHAMultan = () => {
                         <h2 className="text-3xl font-bold mb-4 text-start">
                             DHA Multan Payment Plan
                         </h2>
-                        {/* <p className="text-lg leading-relaxed">
-                    Adams Housing Multan offers a flexible and convenient payment plan that is designed to accommodate the financial needs of buyers. It has offered a 4-year payment plan with easy monthly and quarterly installments so that buyers can purchase plots with ease. The residential plots of 5, 7, or 10 Marla and 1 Kanal are available for purchase on cash payment and in affordable installments. The buyers have to pay a down payment to get a file, followed by 48 monthly and 16 quarterly installments.
-                </p>
-                <div className='flex justify-start items-start mt-10 gap-3 flex-wrap'>
+                        <p className="text-lg leading-relaxed">
+                            There are no plots available on installments in  DHA Multan. You can get a plot on cash payment. For further details, contact <Link to="/" className='text-blue-500 hover:underline'>IES Marketing</Link> team.
+                        </p>
+                        {/* <div className='flex justify-start items-start mt-10 gap-3 flex-wrap'>
                     <img src={payementPlan1} alt="" className='mx-auto max-w-[400px] border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl' />
                     <img src={payementPlan2} alt="" className='mx-auto max-w-[400px] border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl' />
                 </div> */}

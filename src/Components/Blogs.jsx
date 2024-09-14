@@ -56,7 +56,7 @@ const Blogs = () => {
                 <img
                   src={img1}
                   alt="card-image"
-                  className="object-cover w-full h-full rounded-t-2xl"
+                  className="w-full h-full rounded-t-2xl"
                 />
               </div>
               <div className="p-6">
@@ -84,7 +84,7 @@ const Blogs = () => {
                 <img
                   src={img2}
                   alt="card-image"
-                  className="object-cover w-full h-full rounded-t-2xl"
+                  className="w-full h-full rounded-t-2xl"
                 />
               </div>
               <div className="p-6">
@@ -113,7 +113,7 @@ const Blogs = () => {
                 <img
                   src={blog3}
                   alt="card-image"
-                  className="object-cover w-full h-full rounded-t-2xl"
+                  className="w-full h-full rounded-t-2xl"
                 />
               </div>
               <div className="p-6">
