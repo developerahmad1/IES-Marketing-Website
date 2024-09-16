@@ -5,6 +5,9 @@ import img3 from "../assets/img3.jpg"
 import img4 from "../assets/img4.jpg"
 import img5 from "../assets/img5.jpg"
 import img6 from "../assets/img6.png"
+import client1 from "../assets/client1.jpg"
+import client2 from "../assets/client2.jpg"
+import client3 from "../assets/client3.jpg"
 import { useAppContext } from '../Context/AppContext.jsx';
 
 import "./CSS/Home.css"
@@ -173,14 +176,14 @@ const Home = () => {
           <div
             className="relative flex items-center gap-4 pt-0 pb-8 mx-0 mt-4 overflow-hidden text-gray-700 bg-transparent shadow-none rounded-xl bg-clip-border">
             <img
-              src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1480&amp;q=80"
+              src={client1}
               alt="Tania Andrew"
               className="relative inline-block h-[58px] w-[58px] !rounded-full  object-cover object-center" />
             <div className="flex w-full flex-col gap-0.5">
               <div className="flex items-center justify-between">
                 <h5
                   className="block font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                  Muhammad Waqas
+                  Haider
                 </h5>
                 <div className="flex items-center gap-0 5">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -215,9 +218,9 @@ const Home = () => {
                   </svg>
                 </div>
               </div>
-              <p className="block font-sans text-base antialiased font-light leading-relaxed text-blue-gray-900">
+              {/* <p className="block font-sans text-base antialiased font-light leading-relaxed text-blue-gray-900">
                 Lecturer
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="p-0 mb-6">
@@ -231,14 +234,14 @@ const Home = () => {
           <div
             className="relative flex items-center gap-4 pt-0 pb-8 mx-0 mt-4 overflow-hidden text-gray-700 bg-transparent shadow-none rounded-xl bg-clip-border">
             <img
-              src="https://randomuser.me/api/portraits/women/15.jpg"
+              src={client2}
               alt="Tania Andrew"
               className="relative inline-block h-[58px] w-[58px] !rounded-full  object-cover object-center" />
             <div className="flex w-full flex-col gap-0.5">
               <div className="flex items-center justify-between">
                 <h5
                   className="block font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                  Iqra
+                  Muzammal
                 </h5>
                 <div className="flex items-center gap-0 5">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -288,14 +291,14 @@ const Home = () => {
           <div
             className="relative flex items-center gap-4 pt-0 pb-8 mx-0 mt-4 overflow-hidden text-gray-700 bg-transparent shadow-none rounded-xl bg-clip-borde">
             <img
-              src="https://randomuser.me/api/portraits/men/15.jpg"
+              src={client3}
               alt="Tania Andrew"
               className="relative bg-gray-500 inline-block h-[58px] w-[58px] !rounded-full  object-cover object-center" />
             <div className="flex w-full flex-col gap-0.5">
               <div className="flex items-center justify-between">
                 <h5
                   className="block font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                  Muhammad Talha
+                  Ali Shan
                 </h5>
                 <div className="flex items-center gap-0 5">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"

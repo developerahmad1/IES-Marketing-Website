@@ -8,10 +8,14 @@ import sirAliImage from "../assets/Sir Ali.jpg"
 import sirTaiyyabImage from "../assets/Sir Taiyyab.jpg"
 import { FaPhoneSquare } from "react-icons/fa";
 import developerAhmad from "../assets/developer ahmad.jpg"
+import shanzyMalik from "../assets/Mam Shanzy.jpg"
 import manFaceIcon from "../assets/man face icon.png"
 import girlFaceIcon from "../assets/girl face icon.png"
 import { FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import client1 from "../assets/client1.jpg"
+import client2 from "../assets/client2.jpg"
+import client3 from "../assets/client3.jpg"
 
 const About = () => {
   function scrollToTop() {
@@ -299,7 +303,7 @@ const About = () => {
             {/* Shanzay Malik  gmail*/}
             <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
               <div className="flex justify-center items-center">
-                <img className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0" src={girlFaceIcon} alt="Sofia Avatar" />
+                <img className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0" src={shanzyMalik} alt="Sofia Avatar" />
               </div>
               <div className="p-5">
                 <h3 className="text-xl font-bold tracking-tight text-gray-900">
@@ -562,6 +566,44 @@ const About = () => {
               </div>
             </div>
 
+            {/* Anam */}
+            <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
+              <div className="flex justify-center items-center">
+                <img className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0" src={manFaceIcon} alt="Sofia Avatar" />
+              </div>
+              <div className="p-5">
+                <h3 className="text-xl font-bold tracking-tight text-gray-900">
+                  <p>Sardar Hamza Dreashaq</p>
+                </h3>
+                <span className="text-gray-500">Legal Adviser</span>
+                <p className="mt-3 mb-4 font-light text-gray-500">
+                With a strong commitment to upholding legal integrity, Sardar Hamza Dreashaq provides strategic advice on contracts, property regulations, and corporate governance. His guidance plays a pivotal role in navigating complex legal matters, contributing to the company's success and stability in the market.
+                </p>
+                <ul className="flex space-x-4 sm:mt-0 justify-center items-center">
+                  {/* <li>
+                    <a href="https://wa.me/923166700948" target='_main' className="text-gray-500 hover:text-green-500 duration-[0.2s]">
+                      <FaSquareWhatsapp className="w-8 h-8" />
+                    </a>
+                  </li> */}
+                  {/* <li>
+                    <a href="https://www.linkedin.com/in/suman-khalid-834b6624a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
+                      <FaLinkedin className="w-8 h-8" />
+                    </a>
+                  </li> */}
+                  {/* <li>
+                    <a href="mailto:Manhiljaveed.ies@gmail.com" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
+                      <MdEmail className="w-8 h-8" />
+                    </a>
+                  </li> */}
+                  {/* <li>
+                    <a href="tel:03166700948" className="text-gray-500 hover:text-gray-900 duration-[0.2s]">
+                      <FaPhoneSquare className="w-8 h-8" />
+                    </a>
+                  </li> */}
+                </ul>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -591,10 +633,10 @@ const About = () => {
                     </blockquote>
                     <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
                       <div>
-                        <div className="font-display text-base text-slate-900">Muhammad Waqas</div>
+                        <div className="font-display text-base text-slate-900">Haider</div>
                       </div>
                       <div className="overflow-hidden rounded-full bg-slate-50">
-                        <img alt="" className="h-14 w-14 object-cover" src="https://randomuser.me/api/portraits/men/15.jpg" />
+                        <img alt="" className="h-14 w-14 object-cover" src={client1} />
                       </div>
                     </figcaption>
                   </figure>
@@ -615,10 +657,10 @@ const About = () => {
                     </blockquote>
                     <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
                       <div>
-                        <div className="font-display text-base text-slate-900">Iqra</div>
+                        <div className="font-display text-base text-slate-900">Muzammal</div>
                       </div>
                       <div className="overflow-hidden rounded-full bg-slate-50">
-                        <img alt="" className="h-14 w-14 object-cover" src="https://randomuser.me/api/portraits/women/15.jpg" />
+                        <img alt="" className="h-14 w-14 object-cover" src={client2} />
                       </div>
                     </figcaption>
                   </figure>
@@ -639,10 +681,10 @@ const About = () => {
                     </blockquote>
                     <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
                       <div>
-                        <div className="font-display text-base text-slate-900">Muhammad Talha</div>
+                        <div className="font-display text-base text-slate-900">Ali Shan</div>
                       </div>
                       <div className="overflow-hidden rounded-full bg-slate-50">
-                        <img alt="" className="h-14 w-14 object-cover" src="https://randomuser.me/api/portraits/men/10.jpg" />
+                        <img alt="" className="h-14 w-14 object-cover" src={client3} />
                       </div>
                     </figcaption>
                   </figure>

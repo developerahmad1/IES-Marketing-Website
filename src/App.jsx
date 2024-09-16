@@ -67,8 +67,8 @@ const App = () => {
             <Route path="/job/sales-team" element={<SalesTeam />} />
             {/* Blogs */}
             <Route path="/blog/real-estate-opportunities-1" element={<RealEstateChallanges_1 />} />
-            <Route path="/blog/emerging-trendsin-pakistans-real-estate-2" element={<EmergingTrendsinPakistansRealEstate_2 />} />
-            <Route path="/blog/best-time-kto-invest-in-pakistan-real-estate" element={<BestTimeToInvestInRealEstate_3 />} />
+            <Route path="/blog/emerging-trends-in-pakistans-real-estate-2" element={<EmergingTrendsinPakistansRealEstate_2 />} />
+            <Route path="/blog/best-time-to-invest-in-pakistan-real-estate" element={<BestTimeToInvestInRealEstate_3 />} />
           </Routes>
         </div>
         <ChatWithWhatsapp />
