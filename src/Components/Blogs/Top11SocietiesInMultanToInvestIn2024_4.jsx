@@ -133,7 +133,7 @@ const Top11SocietiesInMultanToInvestIn2024_4 = () => {
                   Both of its phases have gained significant interest from investors; local and overseas. Furthermore, rising property value, flexible payment plans, and fast-paced development make it one of the best housing societies in Multan from an investment point of view.
                 </p>
                 <p className="pb-3">
-                  For more details, read it: <Link to="/project/citi-housing" className='text-blue-500 hover:underline'>Citi Houding Multan</Link>
+                  For more details, read it: <Link to="/project/citi-housing" className='text-blue-500 hover:underline'>Citi Housing Multan</Link>
                 </p>
                 <img src={img8} alt="" className='w-full mx-auto pb-6' />
 
