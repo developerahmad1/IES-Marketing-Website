@@ -32,7 +32,7 @@ import SalesTeam from './Components/Jobs/SalesTeam.jsx';
 import LeadsPoup from './Components/LeadsPoup.jsx';
 import EmergingTrendsinPakistansRealEstate_2 from './Components/Blogs/EmergingTrendsinPakistansRealEstate_2.jsx';
 import BestTimeToInvestInRealEstate_3 from './Components/Blogs/BestTimeToInvestInRealEstate_3.jsx';
-import Top11SocietiesInMultanToInvestIn2024_4 from './Components/Blogs/top11SocietiesInMultanToInvestIn2024_4.jsx';
+import Top11SocietiesInMultanToInvestIn2024_4 from './Components/Blogs/Top11SocietiesInMultanToInvestIn2024_4.jsx';
 
 const App = () => {
 
