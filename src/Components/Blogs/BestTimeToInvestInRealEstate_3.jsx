@@ -4,6 +4,7 @@ import { AiFillTikTok } from "react-icons/ai";
 import { FaFacebookSquare, FaYoutube } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import instagram from "../../assets/instagram_logo.png";
+import img from "../../assets/Blogs/3rd Blog.jpg"
 import img1 from "../../assets/Blogs/Blog3_1.jpg"
 import Blogs from '../Blogs';
 
@@ -16,7 +17,7 @@ const BestTimeToInvestInRealEstate_3 = () => {
                         <div className="px-4 py-2 sm:py-2 lg:px-0">
 
                             {/* Top Image */}
-                            <img src="" alt="" className='mx-auto' />
+                            <img src={img} alt="" className='mx-auto' />
                             {/* Heading */}
                             <h2 className="text-3xl sm:text-4xl font-semibold text-gray-800 leading-tight mt-8">Best Time to Invest in Pakistan Real Estate</h2>
                         </div>
@@ -200,7 +201,7 @@ const BestTimeToInvestInRealEstate_3 = () => {
                     </div>
                 </main >
             </div >
-            <Blogs heading="Other Blogs"/>
+            <Blogs heading="Other Blogs" />
         </div >
     )
 }

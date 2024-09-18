@@ -4,6 +4,7 @@ import { AiFillTikTok } from "react-icons/ai";
 import { FaFacebookSquare, FaYoutube } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import instagram from "../../assets/instagram_logo.png";
+import img from "../../assets/Blogs/4th Blog.jpg"
 import img1 from "../../assets/Blogs/Blog4_1.jpg"
 import img2 from "../../assets/Blogs/Blog4_2.jpg"
 import img3 from "../../assets/Blogs/Blog4_3.jpg"
@@ -26,7 +27,7 @@ const Top11SocietiesInMultanToInvestIn2024_4 = () => {
             <div className="px-4 py-2 sm:py-2 lg:px-0">
 
               {/* Top Image */}
-              <img src="" alt="" className='mx-auto' />
+              <img src={img} alt={"img"} className='mx-auto w-full' />
               {/* Heading */}
               <h2 className="text-3xl sm:text-4xl font-semibold text-gray-800 leading-tight mt-8">Top 11 Societies in Multan to Invest in 2024</h2>
             </div>

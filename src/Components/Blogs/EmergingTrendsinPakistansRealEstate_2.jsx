@@ -4,6 +4,7 @@ import { FaFacebookSquare, FaYoutube } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 import instagram from "../../assets/instagram_logo.png";
+import img from "../../assets/Blogs/2nd blog.jpg"
 import img1 from "../../assets/Blogs/blog2_1.png"
 import img2 from "../../assets/Blogs/blog2_2.png"
 import img3 from "../../assets/Blogs/blog2_3.png"
@@ -18,9 +19,8 @@ const EmergingTrendsinPakistansRealEstate_2 = () => {
                     <div className="mb-4 md:mb-0 w-full mx-auto relative">
                         <div className="px-4 py-2 sm:py-2 lg:px-0">
 
-                            {/* Top Image */}
-                            {/* <img src="" alt="" className='mx-auto' /> */}
-                            {/* Heading */}
+                            {/* Top Image */} 
+                            <img src={img} alt="" className='mx-auto' />
                             <h2 className="text-3xl sm:text-4xl font-semibold text-gray-800 leading-tight mt-8">Emerging Trends in Pakistan's Real Estate - 2024</h2>
                         </div>
                     </div>
@@ -242,7 +242,7 @@ const EmergingTrendsinPakistansRealEstate_2 = () => {
                     </div>
                 </main >
             </div >
-            <Blogs heading="Other Blogs"/>
+            <Blogs heading="Other Blogs" />
         </div >
     )
 }
