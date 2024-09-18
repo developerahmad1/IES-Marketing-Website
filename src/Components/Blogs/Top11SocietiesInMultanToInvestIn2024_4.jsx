@@ -4,17 +4,17 @@ import { AiFillTikTok } from "react-icons/ai";
 import { FaFacebookSquare, FaYoutube } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import instagram from "../../assets/instagram_logo.png";
-import img1 from "../../assets/Blogs/blog4_1.jpg"
-import img2 from "../../assets/Blogs/blog4_2.jpg"
-import img3 from "../../assets/Blogs/blog4_3.jpg"
-import img4 from "../../assets/Blogs/blog4_4.jpg"
-import img5 from "../../assets/Blogs/blog4_5.jpg"
-import img6 from "../../assets/Blogs/blog4_6.jpg"
-import img7 from "../../assets/Blogs/blog4_7.jpg"
-import img8 from "../../assets/Blogs/blog4_8.jpg"
-import img9 from "../../assets/Blogs/blog4_9.jpg"
-import img10 from "../../assets/Blogs/blog4_10.jpg"
-import img11 from "../../assets/Blogs/blog4_11.jpg"
+import img1 from "../../assets/Blogs/Blog4_1.jpg"
+import img2 from "../../assets/Blogs/Blog4_2.jpg"
+import img3 from "../../assets/Blogs/Blog4_3.jpg"
+import img4 from "../../assets/Blogs/Blog4_4.jpg"
+import img5 from "../../assets/Blogs/Blog4_5.jpg"
+import img6 from "../../assets/Blogs/Blog4_6.jpg"
+import img7 from "../../assets/Blogs/Blog4_7.jpg"
+import img8 from "../../assets/Blogs/Blog4_8.jpg"
+import img9 from "../../assets/Blogs/Blog4_9.jpg"
+import img10 from "../../assets/Blogs/Blog4_10.jpg"
+import img11 from "../../assets/Blogs/Blog4_11.jpg"
 import Blogs from '../Blogs';
 
 const Top11SocietiesInMultanToInvestIn2024_4 = () => {
