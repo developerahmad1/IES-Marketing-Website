@@ -5,6 +5,7 @@ import { FaFacebookSquare, FaYoutube } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import instagram from "../../assets/instagram_logo.png";
 import img1 from "../../assets/Blogs/Blog3_1.jpg"
+import Blogs from '../Blogs';
 
 const BestTimeToInvestInRealEstate_3 = () => {
     return (
@@ -199,6 +200,7 @@ const BestTimeToInvestInRealEstate_3 = () => {
                     </div>
                 </main >
             </div >
+            <Blogs heading="Other Blogs"/>
         </div >
     )
 }

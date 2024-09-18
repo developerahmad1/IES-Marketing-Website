@@ -7,6 +7,7 @@ import instagram from "../../assets/instagram_logo.png";
 import img1 from "../../assets/Blogs/blog2_1.png"
 import img2 from "../../assets/Blogs/blog2_2.png"
 import img3 from "../../assets/Blogs/blog2_3.png"
+import Blogs from '../Blogs';
 // import { Link } from 'react-router-dom';
 
 const EmergingTrendsinPakistansRealEstate_2 = () => {
@@ -241,6 +242,7 @@ const EmergingTrendsinPakistansRealEstate_2 = () => {
                     </div>
                 </main >
             </div >
+            <Blogs heading="Other Blogs"/>
         </div >
     )
 }

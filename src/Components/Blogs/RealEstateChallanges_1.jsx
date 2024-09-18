@@ -266,7 +266,7 @@ const RealEstateChallanges_1 = () => {
         </main>
         {/* </div> */}
       </div>
-      <Blogs />
+      <Blogs heading="Other Blogs"/>
 
     </div>
   )

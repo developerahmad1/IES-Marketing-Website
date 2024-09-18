@@ -32,6 +32,7 @@ import SalesTeam from './Components/Jobs/SalesTeam.jsx';
 import LeadsPoup from './Components/LeadsPoup.jsx';
 import EmergingTrendsinPakistansRealEstate_2 from './Components/Blogs/EmergingTrendsinPakistansRealEstate_2.jsx';
 import BestTimeToInvestInRealEstate_3 from './Components/Blogs/BestTimeToInvestInRealEstate_3.jsx';
+import Top11SocietiesInMultanToInvestIn2024_4 from './Components/Blogs/top11SocietiesInMultanToInvestIn2024_4.jsx';
 
 const App = () => {
 
@@ -47,7 +48,7 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/our-projects" element={<OurProjects />} />
-            <Route path="/blogs" element={<Blogs />} />
+            <Route path="/blogs" element={<Blogs heading="Our Popular Blogs"/>} />
             <Route path="/contact-us" element={<ContactUS />} />
             {/* <Route path="/signup" element={<Signup />} /> */}
             {/* <Route path="/login" element={<Login />} /> */}
@@ -69,6 +70,7 @@ const App = () => {
             <Route path="/blog/real-estate-opportunities-1" element={<RealEstateChallanges_1 />} />
             <Route path="/blog/emerging-trends-in-pakistans-real-estate-2" element={<EmergingTrendsinPakistansRealEstate_2 />} />
             <Route path="/blog/best-time-to-invest-in-pakistan-real-estate" element={<BestTimeToInvestInRealEstate_3 />} />
+            <Route path="/blog/top-11-societies-in-multan-to-invest-in-2024" element={<Top11SocietiesInMultanToInvestIn2024_4 />} />
           </Routes>
         </div>
         <ChatWithWhatsapp />
