@@ -88,7 +88,7 @@ const Top11SocietiesInMultanToInvestIn2024_4 = () => {
                   This project started in 2015 and developed at a fast rate, which led to a massive increase in property prices. Still, it is best to invest in Phase I and Phase II of the Royal Orchard Society because its prices will increase when the development process is completed.
                 </p>
                 <p className="pb-3">
-                  For more details, read it: <Link to="/project/royal-orchad" className='text-blue-500 hover:underline'>Royal Orchad Multan</Link>
+                  For more details, read it: <Link to="/project/royal-orchard" className='text-blue-500 hover:underline'>Royal Orchad Multan</Link>
                 </p>
                 <img src={img4} alt="" className='w-full mx-auto pb-6' />
 

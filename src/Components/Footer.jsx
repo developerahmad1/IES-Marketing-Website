@@ -38,7 +38,7 @@ const Footer = () => {
               <li><Link to="/project/adams-housing" className='hover:text-[#fa8b17]'>Adams Housing</Link></li>
               <li><Link to="/project/citi-housing" className='hover:text-[#fa8b17]'>CITI Housing</Link></li>
               <li><Link to="/project/DHA-multan" className='hover:text-[#fa8b17]'>DHA Multan</Link></li>
-              <li><Link to="/project/royal-orchad" className='hover:text-[#fa8b17]'>Royal Orchad</Link></li>
+              <li><Link to="/project/royal-orchard" className='hover:text-[#fa8b17]'>Royal Orchad</Link></li>
               </ul>
             </div>
 
