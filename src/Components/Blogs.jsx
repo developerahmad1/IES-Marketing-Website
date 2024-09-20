@@ -41,6 +41,7 @@ const Blogs = ({ heading }) => {
   //     );
   //   }
   // }, [visibleCards]);
+  
 
   return (
     <div>
