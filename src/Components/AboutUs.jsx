@@ -301,7 +301,7 @@ const About = () => {
             </div>
 
             {/* Shanzay Malik  gmail*/}
-            <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
+            {/* <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
               <div className="flex justify-center items-center">
                 <img className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0" src={shanzyMalik} alt="Sofia Avatar" />
               </div>
@@ -336,10 +336,10 @@ const About = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
 
             {/* Suman Khalid*/}
-            <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
+            {/* <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
               <div className="flex justify-center items-center">
                 <img className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0" src={girlFaceIcon} alt="Sofia Avatar" />
               </div>
@@ -374,10 +374,10 @@ const About = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
 
             {/* Bukhtawar linked email*/}
-            <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
+            {/* <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
               <div className="flex justify-center items-center">
                 <img className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0" src={girlFaceIcon} alt="Sofia Avatar" />
               </div>
@@ -395,16 +395,7 @@ const About = () => {
                       <FaSquareWhatsapp className="w-8 h-8" />
                     </a>
                   </li>
-                  {/* <li>
-                    <a href="https://www.linkedin.com/in/suman-khalid-834b6624a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
-                      <FaLinkedin className="w-8 h-8" />
-                    </a>
-                  </li> */}
-                  {/* <li>
-                    <a href="mailto:Sumankhalid.ies@gmail.com" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
-                      <MdEmail className="w-8 h-8" />
-                    </a>
-                  </li> */}
+
                   <li>
                     <a href="tel:923338400107" className="text-gray-500 hover:text-gray-900 duration-[0.2s]">
                       <FaPhoneSquare className="w-8 h-8" />
@@ -412,10 +403,10 @@ const About = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
 
             {/* Manahil Jaweed linkedin*/}
-            <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
+            {/* <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
               <div className="flex justify-center items-center">
                 <img className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0" src={girlFaceIcon} alt="Sofia Avatar" />
               </div>
@@ -433,11 +424,7 @@ const About = () => {
                       <FaSquareWhatsapp className="w-8 h-8" />
                     </a>
                   </li>
-                  {/* <li>
-                    <a href="https://www.linkedin.com/in/suman-khalid-834b6624a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
-                      <FaLinkedin className="w-8 h-8" />
-                    </a>
-                  </li> */}
+
                   <li>
                     <a href="mailto:Manhiljaveed.ies@gmail.com" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
                       <MdEmail className="w-8 h-8" />
@@ -450,10 +437,10 @@ const About = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
 
             {/* Sir saif linkedin gmail */}
-            <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
+            {/* <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
               <div className="flex justify-center items-center">
                 <img className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0" src={manFaceIcon} alt="Sofia Avatar" />
               </div>
@@ -471,16 +458,6 @@ const About = () => {
                       <FaSquareWhatsapp className="w-8 h-8" />
                     </a>
                   </li>
-                  {/* <li>
-                    <a href="https://www.linkedin.com/in/suman-khalid-834b6624a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
-                      <FaLinkedin className="w-8 h-8" />
-                    </a>
-                  </li> */}
-                  {/* <li>
-                    <a href="mailto:Manhiljaveed.ies@gmail.com" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
-                      <MdEmail className="w-8 h-8" />
-                    </a>
-                  </li> */}
                   <li>
                     <a href="tel:03166700948" className="text-gray-500 hover:text-gray-900 duration-[0.2s]">
                       <FaPhoneSquare className="w-8 h-8" />
@@ -488,10 +465,10 @@ const About = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
 
             {/* Developer Ahmad */}
-            <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
+            {/* <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
               <div className="flex justify-center items-center">
                 <img className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0" src={developerAhmad} alt="Sofia Avatar" />
               </div>
@@ -526,10 +503,10 @@ const About = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
 
             {/* Anam */}
-            <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
+            {/* <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
               <div className="flex justify-center items-center">
                 <img className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0" src={girlFaceIcon} alt="Sofia Avatar" />
               </div>
@@ -547,16 +524,6 @@ const About = () => {
                       <FaSquareWhatsapp className="w-8 h-8" />
                     </a>
                   </li>
-                  {/* <li>
-                    <a href="https://www.linkedin.com/in/suman-khalid-834b6624a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
-                      <FaLinkedin className="w-8 h-8" />
-                    </a>
-                  </li> */}
-                  {/* <li>
-                    <a href="mailto:Manhiljaveed.ies@gmail.com" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
-                      <MdEmail className="w-8 h-8" />
-                    </a>
-                  </li> */}
                   <li>
                     <a href="tel:03166700948" className="text-gray-500 hover:text-gray-900 duration-[0.2s]">
                       <FaPhoneSquare className="w-8 h-8" />
@@ -564,10 +531,10 @@ const About = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
 
             {/* Anam */}
-            <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
+            {/* <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
               <div className="flex justify-center items-center">
                 <img className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0" src={manFaceIcon} alt="Sofia Avatar" />
               </div>
@@ -580,29 +547,9 @@ const About = () => {
                 With a strong commitment to upholding legal integrity, Sardar Hamza Dreashaq provides strategic advice on contracts, property regulations, and corporate governance. His guidance plays a pivotal role in navigating complex legal matters, contributing to the company's success and stability in the market.
                 </p>
                 <ul className="flex space-x-4 sm:mt-0 justify-center items-center">
-                  {/* <li>
-                    <a href="https://wa.me/923166700948" target='_main' className="text-gray-500 hover:text-green-500 duration-[0.2s]">
-                      <FaSquareWhatsapp className="w-8 h-8" />
-                    </a>
-                  </li> */}
-                  {/* <li>
-                    <a href="https://www.linkedin.com/in/suman-khalid-834b6624a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
-                      <FaLinkedin className="w-8 h-8" />
-                    </a>
-                  </li> */}
-                  {/* <li>
-                    <a href="mailto:Manhiljaveed.ies@gmail.com" target='_main' className="text-gray-500 hover:text-blue-500 duration-[0.2s]">
-                      <MdEmail className="w-8 h-8" />
-                    </a>
-                  </li> */}
-                  {/* <li>
-                    <a href="tel:03166700948" className="text-gray-500 hover:text-gray-900 duration-[0.2s]">
-                      <FaPhoneSquare className="w-8 h-8" />
-                    </a>
-                  </li> */}
                 </ul>
               </div>
-            </div>
+            </div> */}
 
           </div>
         </div>
