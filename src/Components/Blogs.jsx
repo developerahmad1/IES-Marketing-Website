@@ -47,7 +47,7 @@ const Blogs = ({ heading }) => {
   return (
     <>
       <Helmet>
-        <title>Blogs - IES Marketing</title>
+        <title>IES Marketing</title>
         <meta name="description" content="Blogs – IES Marketing" />
       </Helmet>
 

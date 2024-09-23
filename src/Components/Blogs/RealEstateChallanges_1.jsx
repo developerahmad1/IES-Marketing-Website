@@ -12,10 +12,10 @@ import { Helmet } from 'react-helmet-async';
 const RealEstateChallanges_1 = () => {
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <title>Real Estate in Pakistan: Opportunities & Challenges</title>
         <meta name="description" content="Real Estate in Pakistan: Opportunities & Challenges" />
-      </Helmet>
+      </Helmet> */}
 
       <div className='bg-white'>
 

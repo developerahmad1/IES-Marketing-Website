@@ -9,7 +9,6 @@ import client1 from "../assets/client1.jpg"
 import client2 from "../assets/client2.jpg"
 import client3 from "../assets/client3.jpg"
 import { useAppContext } from '../Context/AppContext.jsx';
-
 import "./CSS/Home.css"
 import OurProjects from './OurProjects.jsx';
 import Blogs from './Blogs.jsx';
@@ -34,10 +33,10 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Home - IES Marketing</title>
-        <meta name="description" content="IES Marketing provides detailed listings of residential or commercial properties available for sale or rent. Our team offers comprehensive property management, marketing and consulting services for buying, selling, or investing in real estate." />
+        <title>IES Marketing</title>
+        {/* <meta name="description" content="IES Marketing provides detailed listings of residential or commercial properties available for sale or rent." /> */}
       </Helmet>
-
+      
       <div className="bg-white min-h-screen flex flex-col md:px-8 py-8 space-y-16">
         {/* First Section: Manage your Property */}
         <div className="flex flex-col md:flex-row items-center md:justify-between px-4 md:px-8 py-8">

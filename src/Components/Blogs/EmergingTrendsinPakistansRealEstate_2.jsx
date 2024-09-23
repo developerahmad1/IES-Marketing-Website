@@ -15,10 +15,10 @@ import { Helmet } from 'react-helmet-async';
 const EmergingTrendsinPakistansRealEstate_2 = () => {
     return (
         <>
-            <Helmet>
+            {/* <Helmet>
                 <title>Emerging Trends in Pakistan's Real Estate - 2024</title>
                 <meta name="description" content="Emerging Trends in Pakistan's Real Estate - 2024" />
-            </Helmet>
+            </Helmet> */}
 
             <div className='bg-white'>
                 <div className="max-w-screen-lg mx-auto">

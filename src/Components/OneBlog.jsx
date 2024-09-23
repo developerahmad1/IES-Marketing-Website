@@ -19,10 +19,10 @@ const OneBlog = () => {
 
     return (
         <>
-            <Helmet>
+            {/* <Helmet>
                 <title>Blog - IES Marketing</title>
                 <meta name="description" content="Blogs – IES Marketing" />
-            </Helmet>
+            </Helmet> */}
 
             <div className='bg-white'>
                 {/* component */}
