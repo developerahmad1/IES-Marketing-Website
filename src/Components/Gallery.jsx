@@ -18,6 +18,7 @@ import img17 from "../assets/DHA 6.jpg";
 import img18 from "../assets/AdamsHousing1.jpg";
 import img19 from "../assets/AdamsHousing2.jpg";
 import loader from "../assets/loader.gif";
+import { Helmet } from 'react-helmet-async';
 
 const Gallery = () => {
     // Array of image paths
@@ -39,35 +40,42 @@ const Gallery = () => {
     };
 
     return (
-        <div>
-            <section className='mb-12'>
-                <h3 className="text-3xl font-bold mb-4 text-center pb-4 mt-[120px]">Images Of societies</h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                    {images.map((src, index) => (
-                        <div
-                            key={index}
-                            className="w-full h-48 md:h-64 lg:h-80 bg-gray-200 flex items-center justify-center overflow-hidden border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl"
-                        >
-                            {/* Show loader if the image is still loading */}
-                            {loading[index] && (
+        <>
+            <Helmet>
+                <title>Gallery - IES Marketing</title>
+                <meta name="description" content="Blogs – IES Marketing" />
+            </Helmet>
+
+            <div>
+                <section className='mb-12'>
+                    <h3 className="text-3xl font-bold mb-4 text-center pb-4 mt-[120px]">Images Of societies</h3>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                        {images.map((src, index) => (
+                            <div
+                                key={index}
+                                className="w-full h-48 md:h-64 lg:h-80 bg-gray-200 flex items-center justify-center overflow-hidden border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl"
+                            >
+                                {/* Show loader if the image is still loading */}
+                                {loading[index] && (
+                                    <img
+                                        src={loader}
+                                        alt="Loading..."
+                                        className="w-28 h-28 object-contain"
+                                    />
+                                )}
                                 <img
-                                    src={loader}
-                                    alt="Loading..."
-                                    className="w-28 h-28 object-contain"
+                                    className={`max-w-full max-h-full object-contain ${loading[index] ? 'hidden' : 'block'}`}
+                                    src={src}
+                                    alt={`Gallery image ${index + 1}`}
+                                    onLoad={() => handleImageLoad(index)}
+                                    onError={() => handleImageLoad(index)}
                                 />
-                            )}
-                            <img
-                                className={`max-w-full max-h-full object-contain ${loading[index] ? 'hidden' : 'block'}`}
-                                src={src}
-                                alt={`Gallery image ${index + 1}`}
-                                onLoad={() => handleImageLoad(index)}
-                                onError={() => handleImageLoad(index)}
-                            />
-                        </div>
-                    ))}
-                </div>
-            </section>
-        </div>
+                            </div>
+                        ))}
+                    </div>
+                </section>
+            </div>
+        </>
     );
 };
 
