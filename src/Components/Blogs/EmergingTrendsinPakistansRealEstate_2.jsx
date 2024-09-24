@@ -160,6 +160,14 @@ const EmergingTrendsinPakistansRealEstate_2 = () => {
                                     IES Marketing provides the best real estate marketing services and understands clients' needs. Many of our clients have gained a significant profit from their investments. Contact <Link to="/" className='text-blue-500 hover:underline'>IES Marketing</Link> to make informed decisions and get further information about the best projects for better investment.
                                 </p>
 
+                                <h4 className="text-[18px] mt-6 sm:text-2xl font-semibold text-gray-800 leading-tight">
+                                    Disclaimer
+                                </h4>
+                                <p className="pb-6">
+                                    We do not deal in any unapproved society of Multan. The information provided in this blog is collected from different online sources to provide details about real estate.
+                                </p>
+
+
                                 {/* Content End */}
                             </div>
 

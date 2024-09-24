@@ -200,6 +200,15 @@ const Top11SocietiesInMultanToInvestIn2024_4 = () => {
                 Multan real estate market in 2024 offers a range of opportunities for investors. You can find high-end projects and budget-friendly projects like DHA Multan and Royal Swiss or Smart Housing Multan. Each society presents a unique blend of modern infrastructure, essential amenities, and secure living environments. Whether you are a first-time homebuyer or a seasoned investor, these societies stand out as reliable options for long-term growth.
               </p>
 
+              <h4 className="text-[18px] mt-6 sm:text-2xl font-semibold text-gray-800 leading-tight">
+                Disclaimer
+              </h4>
+              <p className="pb-6">
+                We do not deal in any unapproved society of Multan. The information provided in this blog is collected from different online sources to provide details about real estate.
+              </p>
+
+
+
               {/* Blog Content End */}
             </div>
 

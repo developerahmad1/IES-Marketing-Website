@@ -163,6 +163,15 @@ const RealEstateChallanges_1 = () => {
 
 
 
+                <h4 className="text-[18px] mt-6 sm:text-2xl font-semibold text-gray-800 leading-tight">
+                  Disclaimer
+                </h4>
+                <p className="pb-6">
+                  We do not deal in any unapproved society of Multan. The information provided in this blog is collected from different online sources to provide details about real estate.
+                </p>
+
+
+
 
 
                 {/* <div className="border-l-4 border-gray-500 pl-4 mb-6 italic rounded">{paragraph}</div> */}

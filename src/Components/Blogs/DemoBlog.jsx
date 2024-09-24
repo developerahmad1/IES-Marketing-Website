@@ -29,6 +29,20 @@ const DemoBlog = () => {
                             <p className="pb-6"></p>
                             <h3 className="text-xl sm:text-3xl font-semibold text-gray-800 leading-tight"></h3>
                             <h4 className="text-[18px] sm:text-2xl font-semibold text-gray-800 leading-tight"></h4>
+
+
+
+
+
+                            <h4 className="text-[18px] mt-6 sm:text-2xl font-semibold text-gray-800 leading-tight">
+                                Disclaimer
+                            </h4>
+                            <p className="pb-6">
+                                We do not deal in any unapproved society of Multan. The information provided in this blog is collected from different online sources to provide details about real estate.
+                            </p>
+
+
+
                             {/* Blog Content End */}
                         </div>
 
@@ -115,7 +129,7 @@ const DemoBlog = () => {
                     </div>
                 </main >
             </div >
-            <Blogs heading="Other Blogs"/>
+            <Blogs heading="Other Blogs" />
         </div >
     );
 }

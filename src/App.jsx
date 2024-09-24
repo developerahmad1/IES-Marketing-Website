@@ -34,6 +34,7 @@ import EmergingTrendsinPakistansRealEstate_2 from './Components/Blogs/EmergingTr
 import BestTimeToInvestInRealEstate_3 from './Components/Blogs/BestTimeToInvestInRealEstate_3.jsx';
 import Top11SocietiesInMultanToInvestIn2024_4 from './Components/Blogs/Top11SocietiesInMultanToInvestIn2024_4.jsx';
 import NewBlockPremiumBlock from './Components/Blogs/NewBlockPremiumBlock_5.jsx';
+import AComprehensiveGuideToInvestInRealEstate_6 from './Components/Blogs/AComprehensiveGuideToInvestInRealEstate_6.jsx';
 
 const App = () => {
 
@@ -73,6 +74,7 @@ const App = () => {
             <Route path="/blog/best-time-to-invest-in-pakistan-real-estate" element={<BestTimeToInvestInRealEstate_3 />} />
             <Route path="/blog/top-11-societies-in-multan-to-invest-in-2024" element={<Top11SocietiesInMultanToInvestIn2024_4 />} />
             <Route path="/blog/new-block-launched-by-smart-housing-multan-premium-block" element={<NewBlockPremiumBlock />} />
+            <Route path="/blog/a-comprehensive-guide-to-invest-in-real-estate" element={<AComprehensiveGuideToInvestInRealEstate_6 />} />
           </Routes>
         </div>
         <ChatWithWhatsapp />
