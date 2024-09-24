@@ -101,8 +101,8 @@ const AComprehensiveGuideToInvestInRealEstate_6 = () => {
                             <p className="pb-6">
                                 For contact, send mail or call us at:
                             </p>
-                            <p className='text-xl pb-3'> <span className='font-bold'>Email Address: </span>  <a href="mailto:iesmarketingpakistan@gail.com" className='text-blue-500 hover:underline'>iesmarketingpakistan@gail.com</a></p>
-                            <p className='text-xl pb-3'> <span className='font-bold'>Phone: </span>  <a href="tel:923338400108" className='text-blue-500 hover:underline'>+92333-8400108 </a>, <a href="tel:0333-8400106" className='text-blue-500 hover:underline'>0333-8400106</a></p>
+                            <p className='text-xl pb-3'> <span className='font-bold'>Email Address: </span>  <a href="mailto:iesmarketingpakistan@gmail.com" className='text-blue-500 hover:underline'>iesmarketingpakistan@gmail.com</a></p>
+                            <p className='text-xl pb-3'> <span className='font-bold'>Phone: </span>  <a href="tel:923338400108" className='text-blue-500 hover:underline'>+92333-8400108 </a>, <a href="tel:92333-8400106" className='text-blue-500 hover:underline'>+92333-8400106</a></p>
 
 
                             <h4 className="text-[18px] mt-6 sm:text-2xl font-semibold text-gray-800 leading-tight">
