@@ -35,6 +35,7 @@ import BestTimeToInvestInRealEstate_3 from './Components/Blogs/BestTimeToInvestI
 import Top11SocietiesInMultanToInvestIn2024_4 from './Components/Blogs/Top11SocietiesInMultanToInvestIn2024_4.jsx';
 import NewBlockPremiumBlock from './Components/Blogs/NewBlockPremiumBlock_5.jsx';
 import AComprehensiveGuideToInvestInRealEstate_6 from './Components/Blogs/AComprehensiveGuideToInvestInRealEstate_6.jsx';
+import WapdaTown from './Components/OurProjects/WapdaTown.jsx';
 
 const App = () => {
 
@@ -62,6 +63,7 @@ const App = () => {
             <Route path="/project/citi-housing" element={<CityHousing />} />
             <Route path="/project/DHA-multan" element={<DHAMultan />} />
             <Route path="/project/royal-orchard" element={<RoyalOrchad />} />
+            <Route path="/project/wapda-town" element={<WapdaTown />} />
             {/* jobs */}
             <Route path="/career" element={<Carreer />} />
             <Route path="/job/relationship-manager" element={<RelationShipManager />} />

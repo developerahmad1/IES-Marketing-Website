@@ -6,6 +6,7 @@ import adamsHousingImg from "../assets/AdamsHousing1.jpg";
 import cityHousingImg from "../assets/City Housing 1.jpg";
 import DHAMultanImg from "../assets/DHA 1.jpg";
 import royalOrchadImg from "../assets/royal orchad 1.jpg";
+import wapdaTown from "../assets/wapdaTownImg.jpg";
 import { Helmet } from 'react-helmet-async';
 
 const OurProjects = () => {
@@ -190,6 +191,35 @@ const OurProjects = () => {
               </h5>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
                 Royal Swiss Housing is the latest project in Multan aimed to revolutionize the standards of housing in the city. It is developing at a faster pace, and developmental standards are exemplary, featuring efficient drainage systems, wide roads, and reliable utility services
+              </p>
+            </div>
+            <div className="p-6 pt-0">
+              <button
+                className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                type="button"
+              >
+                View More
+              </button>
+            </div>
+          </Link>
+
+          {/* Royal Swiss */}
+          <Link to={`/project/wapda-town`} onClick={scrollToTop}
+            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
+          >
+            <div className="relative h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+              <img
+                src={wapdaTown}
+                alt="card-image"
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="p-6">
+              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                Wapda Town Multan
+              </h5>
+              <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+              Wapda Town Multan is a gated residential community developed to cater to the housing needs of employees of the Water and Power Development Authority
               </p>
             </div>
             <div className="p-6 pt-0">

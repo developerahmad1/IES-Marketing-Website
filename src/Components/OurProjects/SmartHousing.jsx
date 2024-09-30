@@ -69,14 +69,15 @@ const SmartHousing = () => {
                 {/* More Details */}
                 <div className="bg-white text-black text-justify min-h-screen py-12 px-4 md:px-20">
                     <div className="max-w-4xl mx-auto">
+                        
                         {/* Introduction Section */}
-
                         <section className="mb-12">
                             <h2 className="text-3xl font-bold mb-4">Introduction</h2>
                             <p className="text-lg leading-relaxed">
-                                Smart Housing Multan (SHM) is a modern housing society in the City of Saints with cutting-edge automation systems and modern infrastructure. It is situated at a prime location as people can easily reach it by driving a few minutes from M5 Motorway Interchange, Nishter 2, and Muhammad Nawaz Sharif University of Agriculture. </p>
+                                Wapda Town Multan is a gated residential community developed to cater to the housing needs of employees of the Water and Power Development Authority (WAPDA). It became popular among people for its location near the Northern Bypass. Over time, it has expanded into an attractive or prime housing project for governmental and non-governmental employees. Its modern infrastructure, secure environment, and comprehensive amenities are the reasons for its popularity.
+                            </p>
                             <p className='text-lg leading-relaxed'>
-                                Moreover, it is located along the routes leading to Muzzafargarh, Shujabad, and Dera Ghazi Khan, making it an ideal spot for investment and residence. It has 220 feet wide main entrance and 110 feet main boulevard. The residents can enjoy exclusive perks, elite amenities, and upscale conveniences by choosing Smart Housing Society.
+                                Moreover, it covers a land area of 2906 Kanal and offers residential or commercial property, particularly for WAPDA employees. This society ranks 5th among the top 11 societies in Multan City and is managed by Wapda Employees Cooperative Housing Society Multan. In addition, this society has three phases at different locations in Multan City, offering residential and commercial plots.
                             </p>
                         </section>
 
@@ -132,6 +133,7 @@ const SmartHousing = () => {
                             <p className="text-lg leading-relaxed">
                                 Smart Housing is located in Mouza Alamgir near Nag Shah Chowk and M5 Motorway on Main Shujabad Road in Multan City. This housing project is 5 to 30 minutes away from popular spots in Multan, like Multan Cantt, Multan Bypass, Multan International Airport, etc., catering to the diverse needs of its residents.                        </p>
                         </section>
+
                         {/* Map Location */}
                         <section className="mb-12">
                             <h2 className="text-3xl font-bold mb-4 text-start">Location of Smart Housing</h2>
@@ -214,6 +216,7 @@ const SmartHousing = () => {
 
                         {/* FAQS */}
                         <section className='mb-12'>
+                        <h3 className="text-3xl font-bold mb-4 text-start">FAQS</h3>
                             <h3 className="text-xl font-semibold mt-3 text-start">Is it safe to invest in Smart Housing Multan?</h3>
                             <p className=" text-lg leading-relaxed">
                                 It is completely safe to invest in the Smart Housing Multan Project because it is verified by government authorities. The investors can potentially buy commercial or residential plots in this emerging residential community without any legal concerns. Smart Housing Multan presents a favorable prospect for those looking to secure a stable and potentially lucrative real estate investment in Multan City.
