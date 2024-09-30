@@ -36,6 +36,7 @@ import Top11SocietiesInMultanToInvestIn2024_4 from './Components/Blogs/Top11Soci
 import NewBlockPremiumBlock from './Components/Blogs/NewBlockPremiumBlock_5.jsx';
 import AComprehensiveGuideToInvestInRealEstate_6 from './Components/Blogs/AComprehensiveGuideToInvestInRealEstate_6.jsx';
 import WapdaTown from './Components/OurProjects/WapdaTown.jsx';
+import ProsAndConsOfBuyingAPropertyInSouth_7 from './Components/Blogs/ProsAndConsOfBuyingAPropertyInSouth_7.jsx';
 
 const App = () => {
 
@@ -77,6 +78,7 @@ const App = () => {
             <Route path="/blog/top-11-societies-in-multan-to-invest-in-2024" element={<Top11SocietiesInMultanToInvestIn2024_4 />} />
             <Route path="/blog/new-block-launched-by-smart-housing-multan-premium-block" element={<NewBlockPremiumBlock />} />
             <Route path="/blog/a-comprehensive-guide-to-invest-in-real-estate" element={<AComprehensiveGuideToInvestInRealEstate_6 />} />
+            <Route path="/blog/Pros-and-Cons-of-Buying-a-Property-In-South-Punjab" element={<ProsAndConsOfBuyingAPropertyInSouth_7 />} />
           </Routes>
         </div>
         <ChatWithWhatsapp />

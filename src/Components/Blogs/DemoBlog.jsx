@@ -16,7 +16,7 @@ const DemoBlog = () => {
                         <div className="px-4 py-2 sm:py-2 lg:px-0">
 
                             {/* Top Image */}
-                            <img src="" alt="" className='mx-auto' />
+                            <img src={img1} alt="" className='mx-auto' />
                             {/* Heading */}
                             <h2 className="text-3xl sm:text-4xl font-semibold text-gray-800 leading-tight mt-8">Heading</h2>
                         </div>
