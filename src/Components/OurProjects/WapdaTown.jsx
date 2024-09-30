@@ -1,13 +1,15 @@
-import React from 'react'
+import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { useAppContext } from '../../Context/AppContext';
 
 import img1 from "../../assets/wapdaTownImg.jpg";
 import img2 from "../../assets/wapdatown3.jpg";
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 const WapdaTown = () => {
     const { openLeadpoup } = useAppContext()
+    useEffect(openLeadpoup, [])
 
     return (
         <>

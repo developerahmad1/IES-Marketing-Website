@@ -46,8 +46,7 @@ const RealEstateChallanges_1 = () => {
 
                 <img
                   src={img2}
-                  className="w-full object-cover lg:rounded"
-                  style={{ height: '28em' }}
+                  className="w-full lg:rounded"
                   alt="Blog"
                 />
 
