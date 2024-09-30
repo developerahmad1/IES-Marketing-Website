@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { useAppContext } from '../../Context/AppContext';
 
 import img1 from "../../assets/wapdaTownImg.jpg";
+import img2 from "../../assets/wapdatown3.jpg";
 import { Link } from 'react-router-dom';
 
 const WapdaTown = () => {
@@ -55,7 +56,7 @@ const WapdaTown = () => {
                     <div className="max-w-4xl mx-auto">
 
                         {/* Introduction Section */}
-                        <section className="mb-12">
+                        <section className="mb-2">
                             <h2 className="text-3xl font-bold mb-4">Introduction</h2>
                             <p className="text-lg leading-relaxed">
                                 Smart Housing Multan (SHM) is a modern housing society in the City of Saints with cutting-edge automation systems and modern infrastructure. It is situated at a prime location as people can easily reach it by driving a few minutes from M5 Motorway Interchange, Nishter 2, and Muhammad Nawaz Sharif University of Agriculture. </p>
@@ -63,6 +64,7 @@ const WapdaTown = () => {
                                 Moreover, it is located along the routes leading to Muzzafargarh, Shujabad, and Dera Ghazi Khan, making it an ideal spot for investment and residence. It has 220 feet wide main entrance and 110 feet main boulevard. The residents can enjoy exclusive perks, elite amenities, and upscale conveniences by choosing Smart Housing Society.
                             </p>
                         </section>
+                        <img src={img2} alt=""  className='mb-12'/>
 
                         {/* Wapda Town Developer History and Owners Section */}
                         <section className="mb-12">
@@ -132,7 +134,7 @@ const WapdaTown = () => {
                         {/* Wapda Town Multan Accessibilities */}
                         <section className="mb-12">
                             <h2 className="text-3xl font-bold mb-4 text-start">Wapda Town Multan Accessibilities</h2>
-                            <p className="text-xl font-semibold mb-2">SThere are many routes to reach Wapda Town Multan, as it is located a few minutes away from popular landmarks.</p>
+                            <p className="text-xl font-semibold mb-2">There are many routes to reach Wapda Town Multan, as it is located a few minutes away from popular landmarks.</p>
                             <li>Around a 2-minute drive from MPS Road</li>
                             <li>Almost a 3-minute drive from M.A Jinnah Road</li>
                             <li>Around a 5-minute drive from BZU Multan</li>
