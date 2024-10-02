@@ -37,7 +37,7 @@ import NewBlockPremiumBlock from './Components/Blogs/NewBlockPremiumBlock_5.jsx'
 import AComprehensiveGuideToInvestInRealEstate_6 from './Components/Blogs/AComprehensiveGuideToInvestInRealEstate_6.jsx';
 import WapdaTown from './Components/OurProjects/WapdaTown.jsx';
 import ProsAndConsOfBuyingAPropertyInSouth_7 from './Components/Blogs/ProsAndConsOfBuyingAPropertyInSouth_7.jsx';
-import WhyIsSmartHousingMultanASmartChoiceForInvestors_8 from './Components/Blogs/whyIsSmartHousingMultanASmartChoiceForInvestors_8.jsx';
+import WhyIsSmartHousingMultanASmartChoiceForInvestors_8 from './Components/Blogs/WhyIsSmartHousingMultanASmartChoiceForInvestors_8.jsx';
 
 const App = () => {
 
@@ -93,28 +93,3 @@ const App = () => {
 };
 
 export default App;
-
-
-
-
-
-
-
-// #fa8b17    h #ff8200   Mustard
-// #2f3130    h 000000 Black
-// #f8f2e6    White
-
-//  #fff1e1    light mustard
-
-
-// https://chatgpt.com/c/c649bf31-0f5c-42fb-9c42-42e931dcb522
-
-
-
-// https://via.placeholder.com/350x200
-
-
-
-
-
-// https://chatgpt.com/c/51aae938-c226-493c-b217-115b575e0da
