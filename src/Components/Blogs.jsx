@@ -275,7 +275,7 @@ const Blogs = ({ heading }) => {
                 </div>
                 <div className="p-6">
                   <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                    Pros and Cons of Buying a Property in South Punjab
+                    Why is Smart Housing Multan a Smart Choice for Investors
                   </h5>
                   {/* <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
                 </p> */}
