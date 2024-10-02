@@ -62,7 +62,7 @@ const WhyIsSmartHousingMultanASmartChoiceForInvestors_8 = () => {
                 <p>
                   These features improve not only the living standards but also increase the property's overall value, making it a lucrative investment option.
                 </p>
-                <h3 className="text-xl sm:text-3xl font-semibold text-gray-800 leading-tight">Developers trust with a vision</h3>
+                <h3 className="text-xl sm:text-3xl font-semibold text-gray-800 leading-tight mt-5">Developers trust with a vision</h3>
                 <p className='pb-6'>
                   One of the most essential considerations when selecting a real estate property is the credibility of the developers. The developers at the heart of the Smart Housing Society Multan are well-known for their commitment to quality and prompt delivery. Over the years, they have established a good reputation in Pakistan through successful initiatives. Investors require calm, and Mr. Zafar & Company ensures transparency and honesty in their partnerships. This track record ensures investors that their money is in safe hands.
                 </p>
@@ -99,7 +99,7 @@ const WhyIsSmartHousingMultanASmartChoiceForInvestors_8 = () => {
                 <h3 className="text-xl sm:text-3xl font-semibold text-gray-800 leading-tight">Advanced Smart Features</h3>
                 <p className='pb-6'>
                   What really sets Smart Housing Society Multan apart from traditional housing projects is the smart features integrated into its design. These advanced technological solutions make everyday life more convenient, efficient and safe for residents. This project aims to provide a lifestyle that is familiar with the technology that provides the following functions:
-                  <ul>
+                  <ul className='list-disc'>
                     <li>Smart security system with CCTV monitoring and remote access</li>
                     <li>Automatic management system for controlling lighting</li>
                     <li>Security from smartphones.</li>
