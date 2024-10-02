@@ -37,6 +37,7 @@ import NewBlockPremiumBlock from './Components/Blogs/NewBlockPremiumBlock_5.jsx'
 import AComprehensiveGuideToInvestInRealEstate_6 from './Components/Blogs/AComprehensiveGuideToInvestInRealEstate_6.jsx';
 import WapdaTown from './Components/OurProjects/WapdaTown.jsx';
 import ProsAndConsOfBuyingAPropertyInSouth_7 from './Components/Blogs/ProsAndConsOfBuyingAPropertyInSouth_7.jsx';
+import WhyIsSmartHousingMultanASmartChoiceForInvestors_8 from './Components/Blogs/whyIsSmartHousingMultanASmartChoiceForInvestors_8.jsx';
 
 const App = () => {
 
@@ -79,6 +80,7 @@ const App = () => {
             <Route path="/blog/new-block-launched-by-smart-housing-multan-premium-block" element={<NewBlockPremiumBlock />} />
             <Route path="/blog/a-comprehensive-guide-to-invest-in-real-estate" element={<AComprehensiveGuideToInvestInRealEstate_6 />} />
             <Route path="/blog/Pros-and-Cons-of-Buying-a-Property-In-South-Punjab" element={<ProsAndConsOfBuyingAPropertyInSouth_7 />} />
+            <Route path="/blog/why-is-smart-housing-multan-a-smart-choice-for-investors" element={<WhyIsSmartHousingMultanASmartChoiceForInvestors_8 />} />
           </Routes>
         </div>
         <ChatWithWhatsapp />
