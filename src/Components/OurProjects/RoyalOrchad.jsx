@@ -331,7 +331,7 @@ const RoyalOrchad = () => {
 
 
 
-                <OurProjects />
+                <OurProjects showHelmet={false} />
 
             </div>
         </>

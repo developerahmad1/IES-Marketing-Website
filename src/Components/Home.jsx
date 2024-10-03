@@ -160,7 +160,7 @@ const Home = () => {
 
 
         {/* Third Section: Our Projects*/}
-        <OurProjects />
+        <OurProjects showHelmet={false}/>
         {/* Discover Pervfect Home  */}
         {/* <div className='flex justify-center items-center flex-wrap px-4 md:px-8 py-8 w-full'>
         <div className='bg-[#fff1e1] w-full px-[30px] py-[20px] rounded-[20px] flex justify-center items-center gap-5 flex-wrap'>
@@ -352,7 +352,7 @@ const Home = () => {
           </div>
         </div>
 
-        <Blogs />
+        <Blogs showHelmet={false}/>
       </div>
     </>
   );

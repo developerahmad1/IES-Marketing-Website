@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import smartHousingImg from "../assets/SmartHousing.jpg";
 import royalSwissImg from "../assets/royalswiss1.jpg";
@@ -9,20 +9,30 @@ import royalOrchadImg from "../assets/royal orchad 1.jpg";
 import wapdaTown from "../assets/wapdaTownImg.jpg";
 import { Helmet } from 'react-helmet-async';
 
-const OurProjects = () => {
+const OurProjects = ({ showHelmet = true }) => {
   function scrollToTop() {
     window.scrollTo({
       top: 0,
       behavior: 'smooth'
     });
   }
+  useEffect(() => {
+    console.log(document.title);
+  }, []);
+
 
   return (
-    <>
-      <Helmet>
-        <title>Our Projects - IES Marketing</title>
-        <meta name="description" content="IES Marketing deals DHA Multan, Royal orchad Multan, CITI Housing Multan, Adams Housing Multan, Smart Houisng Multan, Royal Swiss Multan etc. we deal all these projects." />
-      </Helmet>
+    <div>
+      {showHelmet && (
+        <Helmet>
+          <title>Our Projects - IES Marketing</title>
+          <meta
+            name="description"
+            content="IES Marketing deals DHA Multan, Royal orchad Multan, CITI Housing Multan, Adams Housing Multan, Smart Houisng Multan, Royal Swiss Multan etc. we deal all these projects."
+          />
+        </Helmet>
+      )}
+
 
       <div className="bg-white py-6">
         <h1 className='text-4xl font-bold text-center py-3'>IES Marketing Projects</h1>
@@ -145,8 +155,8 @@ const OurProjects = () => {
           </Link>
 
 
-          {/* Smart Housing */}
-          <Link to="/project/smart-housing" onClick={scrollToTop}
+          {/* Smart Housing card*/}
+          <Link to="/smart-housing" onClick={scrollToTop}
             className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
             <div className="relative h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
@@ -219,7 +229,7 @@ const OurProjects = () => {
                 Wapda Town Multan
               </h5>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-              Wapda Town Multan is a gated residential community developed to cater to the housing needs of employees of the Water and Power Development Authority
+                Wapda Town Multan is a gated residential community developed to cater to the housing needs of employees of the Water and Power Development Authority
               </p>
             </div>
             <div className="p-6 pt-0">
@@ -234,7 +244,7 @@ const OurProjects = () => {
 
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

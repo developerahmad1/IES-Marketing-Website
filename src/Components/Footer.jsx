@@ -33,7 +33,7 @@ const Footer = () => {
             <div className="space-y-3">
               <h3 className="tracking-wide uppercase ">Our Projects</h3>
               <ul className="space-y-1">
-              <li><Link to="/project/smart-housing" className='hover:text-[#fa8b17]'>Smart Housing</Link></li>
+              <li><Link to="/smart-housing" className='hover:text-[#fa8b17]'>Smart Housing</Link></li>
               <li><Link to="/project/royal-swiss" className='hover:text-[#fa8b17]'>Royal Swiss</Link></li>
               <li><Link to="/project/adams-housing" className='hover:text-[#fa8b17]'>Adams Housing</Link></li>
               <li><Link to="/project/citi-housing" className='hover:text-[#fa8b17]'>CITI Housing</Link></li>

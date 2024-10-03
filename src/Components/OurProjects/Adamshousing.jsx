@@ -346,7 +346,7 @@ const Adamshousing = () => {
 
 
 
-        <OurProjects />
+        <OurProjects showHelmet={false}/>
       </div>
     </>
   )

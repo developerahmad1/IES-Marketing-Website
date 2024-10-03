@@ -53,14 +53,14 @@ const App = () => {
             <Route path="/*" element={<AnyRoute404 />} />
             <Route path="/" element={<Home />} />
             <Route path="/about-us" element={<AboutUs />} />
-            <Route path="/our-projects" element={<OurProjects />} />
             <Route path="/blogs" element={<Blogs heading="Our Popular Blogs"/>} />
             <Route path="/contact-us" element={<ContactUS />} />
             {/* <Route path="/signup" element={<Signup />} /> */}
             {/* <Route path="/login" element={<Login />} /> */}
             <Route path="/gallery" element={<Gallery />} />
+            <Route path="/our-projects" element={<OurProjects />} />
             {/* Projects */}
-            <Route path="/project/smart-housing" element={<SmartHousing />} />
+            <Route path="/smart-housing" element={<SmartHousing />} />
             <Route path="/project/royal-swiss" element={<RoyalSwiss />} />
             <Route path="/project/adams-housing" element={<Adamshousing />} />
             <Route path="/project/citi-housing" element={<CityHousing />} />

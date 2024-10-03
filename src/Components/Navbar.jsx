@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import iesLogo from '../assets/IES balck logo .png';
@@ -22,7 +22,7 @@ const Navbar = () => {
   };
 
   const isOurProjectActive = () => {
-    return location.pathname === '/our-projects' || location.pathname.startsWith('/project/');
+    return location.pathname === '/our-projects' || location.pathname.startsWith('/project/') || location.pathname === '/smart-housing'
   };
 
   const isCareerActive = () => {

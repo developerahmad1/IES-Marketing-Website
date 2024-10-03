@@ -6,6 +6,7 @@ import img1 from "../../assets/wapdaTownImg.jpg";
 import img2 from "../../assets/wapdatown3.jpg";
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
+import OurProjects from '../OurProjects';
 
 const WapdaTown = () => {
     const { openLeadpoup } = useAppContext()
@@ -14,8 +15,8 @@ const WapdaTown = () => {
     return (
         <>
             <Helmet>
-                <title>Smart Housing Multan</title>
-                <meta name="description" content="Smart Housing Multan – . IES Marketing" />
+                <title>Wapda Town Multan</title>
+                <meta name="description" content="Wapda Town Multan – . IES Marketing" />
             </Helmet>
 
             <div>
@@ -194,7 +195,7 @@ const WapdaTown = () => {
                                 In conclusion, Wapda Town Multan is a well-established and legally approved housing society. Developed by the Wapda Employees Cooperative Housing Society, it has grown into a thriving community, providing a perfect living spot to government employees and the general public. Due to its strategic location, legal clearance, and reputation, Wapda Town Multan has emerged as a solid investment choice. It caters to end-users and investors, offering lucrative capital gains and rental income opportunities.
                             </p>
                             <p className="text-lg leading-relaxed">
-                                Contact IES Marketing or visit the office for more details and better guidance. We will find the best plot for you thatfulfills the requirements of a dream house. We deal in many other popular housing schemes, including <Link to="/project/smart-housing" className='text-blue-500 hover:underline'>Smart Housing Multan</Link> , <Link to="/project/adams-housing" className='text-blue-500 hover:underline'>Adams Housing Multan</Link>, Multan Central, <Link to="/project/royal-swiss" className='text-blue-500 hover:underline'>Royal Swiss</Link>, <Link to="/project/royal-orchard" className='text-blue-500 hover:underline'>Royal Orchard</Link>, <Link to="/project/DHA-multan" className='text-blue-500 hover:underline'>DHA Multan</Link>, Model Town, and <Link to="/project/citi-housing" className='text-blue-500 hover:underline'>Citi Housing Multan</Link>. You can reach out to our team for bookings and suggestions related to investment.
+                                Contact IES Marketing or visit the office for more details and better guidance. We will find the best plot for you thatfulfills the requirements of a dream house. We deal in many other popular housing schemes, including <Link to="/smart-housing" className='text-blue-500 hover:underline'>Smart Housing Multan</Link> , <Link to="/project/adams-housing" className='text-blue-500 hover:underline'>Adams Housing Multan</Link>, Multan Central, <Link to="/project/royal-swiss" className='text-blue-500 hover:underline'>Royal Swiss</Link>, <Link to="/project/royal-orchard" className='text-blue-500 hover:underline'>Royal Orchard</Link>, <Link to="/project/DHA-multan" className='text-blue-500 hover:underline'>DHA Multan</Link>, Model Town, and <Link to="/project/citi-housing" className='text-blue-500 hover:underline'>Citi Housing Multan</Link>. You can reach out to our team for bookings and suggestions related to investment.
                             </p>
                         </section>
 
@@ -218,10 +219,10 @@ const WapdaTown = () => {
 
 
                     </div>
+
+                    
+                    <OurProjects showHelmet={false} />
                 </div>
-
-
-
             </div>
         </>
     )

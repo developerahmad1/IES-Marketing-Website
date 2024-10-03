@@ -368,7 +368,7 @@ const DHAMultan = () => {
 
 
 
-                <OurProjects />
+                <OurProjects showHelmet={false}/>
 
             </div>
         </>

@@ -25,12 +25,17 @@ const SmartHousing = () => {
 
     const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10];
 
-
+    useEffect(() => {
+        console.log(document.title);
+      }, []);
     return (
-        <>
+        <div>
             <Helmet>
                 <title>Smart Housing Multan</title>
-                <meta name="description" content="Smart Housing Multan – . IES Marketing" />
+                <meta
+                    name="description"
+                    content="Smart Housing Multan – . IES Marketing"
+                />
             </Helmet>
 
             <div className='mt-[100px]'>
@@ -69,7 +74,7 @@ const SmartHousing = () => {
                 {/* More Details */}
                 <div className="bg-white text-black text-justify min-h-screen py-12 px-4 md:px-20">
                     <div className="max-w-4xl mx-auto">
-                        
+
                         {/* Introduction Section */}
                         <section className="mb-12">
                             <h2 className="text-3xl font-bold mb-4">Introduction</h2>
@@ -216,7 +221,7 @@ const SmartHousing = () => {
 
                         {/* FAQS */}
                         <section className='mb-12'>
-                        <h3 className="text-3xl font-bold mb-4 text-start">FAQS</h3>
+                            <h3 className="text-3xl font-bold mb-4 text-start">FAQS</h3>
                             <h3 className="text-xl font-semibold mt-3 text-start">Is it safe to invest in Smart Housing Multan?</h3>
                             <p className=" text-lg leading-relaxed">
                                 It is completely safe to invest in the Smart Housing Multan Project because it is verified by government authorities. The investors can potentially buy commercial or residential plots in this emerging residential community without any legal concerns. Smart Housing Multan presents a favorable prospect for those looking to secure a stable and potentially lucrative real estate investment in Multan City.
@@ -267,9 +272,9 @@ const SmartHousing = () => {
 
 
 
-                <OurProjects />
+                <OurProjects showHelmet={false} />
             </div >
-        </>
+        </div>
     );
 };
 

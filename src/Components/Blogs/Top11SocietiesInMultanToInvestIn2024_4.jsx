@@ -147,7 +147,7 @@ const Top11SocietiesInMultanToInvestIn2024_4 = () => {
                   It is a good option to consider for investment if you don't want to pay a heavy installment amount. It has budget-friendly installments, allowing most people to buy their dream house at a cost-effective rate. Its environment-friendly atmosphere, smart features, and use of advanced technology in the infrastructure make it a highly demanding society among people.
                 </p>
                 <p className="pb-3">
-                  For more details, read it: <Link to="/project/smart-housing" className='text-blue-500 hover:underline'>Smart Housing Multan</Link>
+                  For more details, read it: <Link to="/smart-housing" className='text-blue-500 hover:underline'>Smart Housing Multan</Link>
                 </p>
                 <img src={img9} alt="" className='w-full mx-auto pb-6' />
 

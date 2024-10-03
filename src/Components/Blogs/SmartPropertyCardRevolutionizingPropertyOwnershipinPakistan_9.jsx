@@ -117,7 +117,7 @@ const SmartPropertyCardRevolutionizingPropertyOwnershipinPakistan_9 = () => {
                                 If you have more questions about the Smart Property Card, be sure to check out the informative video linked below. In just a few minutes, you'll gain a comprehensive understanding of what the Smart Property Card is and how it can benefit you.
                             </p>
                             <p className="pb-6">
-                                To Read More About Smart Housing Society Multan, <Link to="/project/smart-housing" className='text-blue-500 hover:underline'>Click Here</Link>
+                                To Read More About Smart Housing Society Multan, <Link to="/smart-housing" className='text-blue-500 hover:underline'>Click Here</Link>
                             </p>
 
 

@@ -380,7 +380,7 @@ const CitiHousing = () => {
 
 
 
-                <OurProjects />
+                <OurProjects  showHelmet={false}/>
             </div>
         </>
     )

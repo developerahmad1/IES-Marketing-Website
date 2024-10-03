@@ -14,7 +14,7 @@ import blog8 from "../assets/Blogs/Blog8.jpg"
 import blog9 from "../assets/Blogs/Blog9.jpg"
 
 
-const Blogs = ({ heading }) => {
+const Blogs = ({ heading, showHelmet = true }) => {
   const { blogsData } = useAppContext();
   const [visibleCards, setVisibleCards] = useState(6);
   const blogContainerRef = useRef(null);
@@ -51,11 +51,12 @@ const Blogs = ({ heading }) => {
 
   return (
     <>
-      <Helmet>
-        <title>IES Marketing</title>
-        <meta name="description" content="Blogs – IES Marketing" />
-      </Helmet>
-
+      {showHelmet && (
+        <Helmet>
+          <title>Blogs - IES Marketing</title>
+          <meta name="description" content="Blogs – IES Marketing" />
+        </Helmet>
+      )}
       <div>
         <section className="pb-24 pt-10 bg-white">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
