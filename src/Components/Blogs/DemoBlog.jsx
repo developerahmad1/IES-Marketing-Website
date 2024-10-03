@@ -1,11 +1,3 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { AiFillTikTok } from "react-icons/ai";
-import { FaFacebookSquare, FaYoutube } from "react-icons/fa";
-import { FaSquareInstagram } from "react-icons/fa6";
-import instagram from "../../assets/instagram_logo.png";
-import img1 from "../../assets/Blogs/blog2_1.png"
-import Blogs from '../Blogs';
 
 const DemoBlog = () => {
     return (

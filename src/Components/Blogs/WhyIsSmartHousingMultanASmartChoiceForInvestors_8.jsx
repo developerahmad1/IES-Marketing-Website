@@ -123,6 +123,7 @@ const WhyIsSmartHousingMultanASmartChoiceForInvestors_8 = () => {
                   The Smart Housing Society is the best option to consider for investors who want crazy returns on investment, a stable legal position, and a community-focused growth. This project is accessible to heavy investors and people with mid-size income due to its reasonable pricing and flexible payment plans, guaranteeing that everyone can get profit from Multan's expanding real estate market.
                 </p>
                 <p className="pb-6">To Read More: <Link to="/project/smart-housing" className='text-blue-500 hover:underline cursor-pointer'>Smart Housing Society Multan</Link></p>
+                
                 <p className='text-xl pb-3'> <span className='font-bold'>Email Address: </span>  <a href="mailto:iesmarketingpakistan@gmail.com" className='text-blue-500 hover:underline'>iesmarketingpakistan@gmail.com</a></p>
                 <p className='text-xl pb-3'> <span className='font-bold'>Phone: </span>  <a href="tel:923338400108" className='text-blue-500 hover:underline'>+92333-8400108 </a>, <a href="tel:92333-8400106" className='text-blue-500 hover:underline'>+92333-8400106</a></p>
 
