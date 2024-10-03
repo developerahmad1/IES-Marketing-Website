@@ -6,6 +6,7 @@ import { FaSquareInstagram } from "react-icons/fa6";
 import instagram from "../../assets/instagram_logo.png";
 import img from "../../assets/Blogs/Blog5.jpg"
 import img1 from "../../assets/Blogs/Blog5_1.png"
+import img2 from "../../assets/Blogs/Blog5_2.jpg"
 import Blogs from '../Blogs';
 
 
@@ -33,9 +34,10 @@ const NewBlockPremiumBlock = () => {
                             <h3 className="text-xl sm:text-3xl font-semibold text-gray-800 leading-tight">
                                 About Premium Block
                             </h3>
-                            <p className="pb-6">
+                            <picture>
                                 The Premium Block is the newest addition to the Smart Housing Society, designed to provide residents comfort, convenience, and a luxurious lifestyle. Mr. Zafar & Company is developing this society and incorporating advanced technology or smart features into the 5th block of society. This block also features modern infrastructure like other blocks of this housing society. At the same time, state-of-the-art amenities, a serene environment, and its location make this block stand out among all other blocks. Moreover, Nishter Block is a part of the Premium Block, which is named after an iconic building of Nishter 2 Hospital, present on the opposite side of this block. It promises to offer the best modern living with easy access to nearby amenities and landmarks.
-                            </p>
+                            </picture>
+                        <img src={img2} alt="Location of Smart Housing premium Block"   className="pb-6 mx-auto w-full sm:w-auto"/>
                             <h3 className="text-xl sm:text-3xl font-semibold text-gray-800 leading-tight">
                                 Features of Premium Block
                             </h3>
