@@ -5,6 +5,8 @@ import { FaFacebookSquare, FaYoutube } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import instagram from "../../assets/instagram_logo.png";
 import img1 from "../../assets/Blogs/Blog9.jpg"
+import img2 from "../../assets/Blogs/Blog9_1.jpg"
+import img3 from "../../assets/Blogs/Blog9_2.jpg"
 import Blogs from '../Blogs';
 
 const SmartPropertyCardRevolutionizingPropertyOwnershipinPakistan_9 = () => {
@@ -29,9 +31,17 @@ const SmartPropertyCardRevolutionizingPropertyOwnershipinPakistan_9 = () => {
                                 In an era where technology enhances every aspect of our lives, property ownership is no exception. Smart Property Card is a groundbreaking innovation in Pakistan that simplifies property ownership and verification. Say goodbye to cumbersome paperwork! Welcome a more efficient, secure way to manage your property assets. In this blog, you will explore the Smart Property Card, who introduced it, and its numerous benefits to residents.
                             </p>
                             <h3 className="text-xl sm:text-3xl font-semibold text-gray-800 leading-tight">What is the Smart Property Card?</h3>
-                            <p className="pb-6">
+                            <p className="pb-4">
                                 The Smart Property Card is a digital solution designed to confirm property ownership in Pakistan. Unlike traditional methods, which rely heavily on paperwork and documentation, this innovative card securely holds essential ownership details in a compact form. The card features a QR code that allows users to access comprehensive information about their property, including ownership verification, plot price, and contact information for nominees.
                             </p>
+
+                            <div className="flex justify-center items-center flex-col gap-6 pb-9">
+                                <img src={img2} alt="" className='w-full sm:max-w-[500px]'/>
+                                <img src={img3} alt="" className='w-full sm:max-w-[500px]'/>
+
+                            </div>
+
+
                             <h3 className="text-xl sm:text-3xl font-semibold text-gray-800 leading-tight">
                                 Key Features of the Smart Property Card
                             </h3>
