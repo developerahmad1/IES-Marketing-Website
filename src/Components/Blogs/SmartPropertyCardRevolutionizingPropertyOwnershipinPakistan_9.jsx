@@ -4,7 +4,7 @@ import { AiFillTikTok } from "react-icons/ai";
 import { FaFacebookSquare, FaYoutube } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import instagram from "../../assets/instagram_logo.png";
-import img1 from "../../assets/Blogs/blog9.jpg"
+import img1 from "../../assets/Blogs/Blog9.jpg"
 import Blogs from '../Blogs';
 
 const SmartPropertyCardRevolutionizingPropertyOwnershipinPakistan_9 = () => {
