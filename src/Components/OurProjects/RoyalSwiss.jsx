@@ -27,7 +27,7 @@ const RoyalSwiss = () => {
         <>
             <Helmet>
                 <title>Royal Swiss Multan - IES Marketing</title>
-                <meta name="description" content="Adams Housing Multan – . IES Marketing" />
+                <meta name="description" content="Royal Swiss Multan, developed by HRL Group, is a latest project aimed to redefine urban living or revolutionize the standards of housing in the City of Saints." />
             </Helmet>
 
             <div>

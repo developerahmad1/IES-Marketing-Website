@@ -25,7 +25,7 @@ const RoyalOrchad = () => {
         <>
             <Helmet>
                 <title>Royal Orchad Multan - IES Marketing</title>
-                <meta name="description" content="Adams Housing Multan – . IES Marketing" />
+                <meta name="description" content="Royal Orchard Multan, developed by HRL Group, provides a luxurious and comfortable lifestyle.  It has 4000 Kanal land area that is approved by MDA." />
             </Helmet>
 
             <div>

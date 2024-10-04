@@ -62,12 +62,13 @@ const WapdaTown = () => {
                         <section className="mb-2">
                             <h2 className="text-3xl font-bold mb-4">Introduction</h2>
                             <p className="text-lg leading-relaxed">
-                                Smart Housing Multan (SHM) is a modern housing society in the City of Saints with cutting-edge automation systems and modern infrastructure. It is situated at a prime location as people can easily reach it by driving a few minutes from M5 Motorway Interchange, Nishter 2, and Muhammad Nawaz Sharif University of Agriculture. </p>
+                                Wapda Town Multan is a gated residential community developed to cater to the housing needs of employees of the Water and Power Development Authority (WAPDA). It became popular among people for its location near the Northern Bypass. Over time, it has expanded into an attractive or prime housing project for governmental and non-governmental employees. Its modern infrastructure, secure environment, and comprehensive amenities are the reasons for its popularity.
+                            </p>
                             <p className='text-lg leading-relaxed'>
-                                Moreover, it is located along the routes leading to Muzzafargarh, Shujabad, and Dera Ghazi Khan, making it an ideal spot for investment and residence. It has 220 feet wide main entrance and 110 feet main boulevard. The residents can enjoy exclusive perks, elite amenities, and upscale conveniences by choosing Smart Housing Society.
+                                Moreover, it covers a land area of 2906 Kanal and offers residential or commercial property, particularly for WAPDA employees. This society ranks 5th among the top 11 societies in Multan City and is managed by Wapda Employees Cooperative Housing Society Multan. In addition, this society has three phases at different locations in Multan City, offering residential and commercial plots.
                             </p>
                         </section>
-                        <img src={img2} alt=""  className='mb-12'/>
+                        <img src={img2} alt="" className='mb-12' />
 
                         {/* Wapda Town Developer History and Owners Section */}
                         <section className="mb-12">
@@ -220,7 +221,7 @@ const WapdaTown = () => {
 
                     </div>
 
-                    
+
                     <OurProjects showHelmet={false} />
                 </div>
             </div>

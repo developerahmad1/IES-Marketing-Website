@@ -26,7 +26,7 @@ const Adamshousing = () => {
     <>
       <Helmet>
         <title>Adams Housing Multan - IES Marketing</title>
-        <meta name="description" content="Adams Housing Multan – . IES Marketing" />
+        <meta name="description" content="Adams Housing Multan, developed by Adams Group, stands as a beacon of modern living. It provides contemporary amenities and convenience." />
       </Helmet>
       <div className='mt-[90px]'>
         <header className="my-24">
@@ -42,9 +42,9 @@ const Adamshousing = () => {
                 <div className="container px-4 mx-auto">
                   <div className="max-w-4xl mx-auto text-center">
                     {/* <span className="text-gray-200 font-semibold uppercase tracking-widest">IES Marketing</span> */}
-                    <h2 className="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">
+                    <h1 className="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">
                       Adams Housing Multan – Modern Living Heaven with a Vibrant Lifestyle
-                    </h2>
+                    </h1>
                     <p className="max-w-3xl mx-auto mb-10 text-lg text-justify text-gray-300">
                       Adams Housing Multan stands as a beacon of modern living that offers contemporary amenities and high-quality infrastructure and provides residents with convenient access to the city's landmarks and commercial hubs.
                     </p>

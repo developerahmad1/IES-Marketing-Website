@@ -28,7 +28,7 @@ const CitiHousing = () => {
         <>
             <Helmet>
                 <title>CITI Housing Multan - IES Marketing</title>
-                <meta name="description" content="CITI housing Mulatan is the best real estate society" />
+                <meta name="description" content="Citi Housing Multan is an exclusive housing project in the City of Saints. Its leading-edge infrastructure and high-quality amenities boost standards of living." />
             </Helmet>
 
             <div className='mt-[100px]'>

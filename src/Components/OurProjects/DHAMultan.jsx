@@ -23,7 +23,7 @@ const DHAMultan = () => {
         <>
             <Helmet>
                 <title>DHA Multan - IES Marketing</title>
-                <meta name="description" content="DHA Multan Multan – . IES Marketing" />
+                <meta name="description" content="DHA Multan stands out for high-quality amenities, development, and durability.  It offers a promising opportunity to invest and build a dream home." />
             </Helmet>
 
             <div>
@@ -79,7 +79,7 @@ const DHAMultan = () => {
                         <section className="mb-12">
                             <h2 className="text-3xl font-bold mb-4 text-start">DHA Multan Developer History and Owner</h2>
                             <p className="text-lg leading-relaxed">
-                                Adams Housing Multan is a project of the reputable Adams Group, known for its commitment to quality, innovation, and client satisfaction. Over ten years of experience building attractive homes and highly functional societies has made Adams Group one of the most reliable developers in Pakistan. Adams Developers have an excellent track record of delivering high-quality projects and are working hard to complete the development process of Adams Housing Multan.
+                                DHA Multan is a housing project of one of the popular real estate developers in Pakistan, Defense Housing Authority, primarily established for military personnel. Overtime, the projects have expanded to cater civilians as well. DHA developer is known for planned infrastructure, amenities, and high standard of living. The owner of Defense Housing Authority operates under the jurisdiction of Pakistan Army or governed by the board of officers. The Defense Secretory of Pakistan, Lt, Gen Akhter Nawaz Satti, is a Chairman of DHA. DHA projects are known for their stringent security measures, providing a safe and secure environment for residents.
                             </p>
                         </section>
 
@@ -368,7 +368,7 @@ const DHAMultan = () => {
 
 
 
-                <OurProjects showHelmet={false}/>
+                <OurProjects showHelmet={false} />
 
             </div>
         </>
