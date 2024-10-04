@@ -61,12 +61,12 @@ const App = () => {
             <Route path="/our-projects" element={<OurProjects />} />
             {/* Projects */}
             <Route path="/smart-housing" element={<SmartHousing />} />
-            <Route path="/project/royal-swiss" element={<RoyalSwiss />} />
-            <Route path="/project/adams-housing" element={<Adamshousing />} />
-            <Route path="/project/citi-housing" element={<CityHousing />} />
-            <Route path="/project/DHA-multan" element={<DHAMultan />} />
-            <Route path="/project/royal-orchard" element={<RoyalOrchad />} />
-            <Route path="/project/wapda-town" element={<WapdaTown />} />
+            <Route path="/royal-swiss" element={<RoyalSwiss />} />
+            <Route path="/adams-housing" element={<Adamshousing />} />
+            <Route path="/citi-housing-multan" element={<CityHousing />} />
+            <Route path="/dha-multan" element={<DHAMultan />} />
+            <Route path="/royal-orchard-multan" element={<RoyalOrchad />} />
+            <Route path="/wapda-town" element={<WapdaTown />} />
             {/* jobs */}
             <Route path="/career" element={<Carreer />} />
             <Route path="/job/relationship-manager" element={<RelationShipManager />} />

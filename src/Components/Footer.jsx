@@ -34,11 +34,11 @@ const Footer = () => {
               <h3 className="tracking-wide uppercase ">Our Projects</h3>
               <ul className="space-y-1">
               <li><Link to="/smart-housing" className='hover:text-[#fa8b17]'>Smart Housing</Link></li>
-              <li><Link to="/project/royal-swiss" className='hover:text-[#fa8b17]'>Royal Swiss</Link></li>
-              <li><Link to="/project/adams-housing" className='hover:text-[#fa8b17]'>Adams Housing</Link></li>
-              <li><Link to="/project/citi-housing" className='hover:text-[#fa8b17]'>CITI Housing</Link></li>
-              <li><Link to="/project/DHA-multan" className='hover:text-[#fa8b17]'>DHA Multan</Link></li>
-              <li><Link to="/project/royal-orchard" className='hover:text-[#fa8b17]'>Royal Orchad</Link></li>
+              <li><Link to="/royal-swiss" className='hover:text-[#fa8b17]'>Royal Swiss</Link></li>
+              <li><Link to="/adams-housing" className='hover:text-[#fa8b17]'>Adams Housing</Link></li>
+              <li><Link to="/citi-housing-multan" className='hover:text-[#fa8b17]'>CITI Housing</Link></li>
+              <li><Link to="/dha-multan" className='hover:text-[#fa8b17]'>DHA Multan</Link></li>
+              <li><Link to="/royal-orchard-multan" className='hover:text-[#fa8b17]'>Royal Orchad</Link></li>
               </ul>
             </div>
 

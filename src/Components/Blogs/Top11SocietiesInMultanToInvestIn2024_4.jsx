@@ -57,7 +57,7 @@ const Top11SocietiesInMultanToInvestIn2024_4 = () => {
                   Currently, property prices are low in DHA Multan, so it's the better opportunity for investors looking for affordable housing societies with luxurious amenities. Its prices are expected to rise significantly in the coming years, making it a top choice for investors.
                 </p>
                 <p className="pb-3">
-                  For more details, read it: <Link to="/project/DHA-multan" className='text-blue-500 hover:underline'>DHA Multan</Link>
+                  For more details, read it: <Link to="/dha-multan" className='text-blue-500 hover:underline'>DHA Multan</Link>
                 </p>
                 <img src={img1} alt="" className='w-full mx-auto pb-6' />
 
@@ -88,7 +88,7 @@ const Top11SocietiesInMultanToInvestIn2024_4 = () => {
                   This project started in 2015 and developed at a fast rate, which led to a massive increase in property prices. Still, it is best to invest in Phase I and Phase II of the Royal Orchard Society because its prices will increase when the development process is completed.
                 </p>
                 <p className="pb-3">
-                  For more details, read it: <Link to="/project/royal-orchard" className='text-blue-500 hover:underline'>Royal Orchad Multan</Link>
+                  For more details, read it: <Link to="/royal-orchard-multan" className='text-blue-500 hover:underline'>Royal Orchad Multan</Link>
                 </p>
                 <img src={img4} alt="" className='w-full mx-auto pb-6' />
 
@@ -134,7 +134,7 @@ const Top11SocietiesInMultanToInvestIn2024_4 = () => {
                   Both of its phases have gained significant interest from investors; local and overseas. Furthermore, rising property value, flexible payment plans, and fast-paced development make it one of the best housing societies in Multan from an investment point of view.
                 </p>
                 <p className="pb-3">
-                  For more details, read it: <Link to="/project/citi-housing" className='text-blue-500 hover:underline'>Citi Housing Multan</Link>
+                  For more details, read it: <Link to="/citi-housing-multan" className='text-blue-500 hover:underline'>Citi Housing Multan</Link>
                 </p>
                 <img src={img8} alt="" className='w-full mx-auto pb-6' />
 
@@ -160,7 +160,7 @@ const Top11SocietiesInMultanToInvestIn2024_4 = () => {
                   It is designed to deliver an International standard of living and a unique and upscale feel. Moreover, the unique selling point of Royal Swiss Housing Multan is its Swiss-inspired architectural design and modern layout. Its location and aesthetic appeal sets it apart from other regional real estate projects.
                 </p>
                 <p className="pb-3">
-                  For more details, read it: <Link to="/project/royal-swiss" className='text-blue-500 hover:underline'>Royal Swiss Housing Multan</Link>
+                  For more details, read it: <Link to="/royal-swiss" className='text-blue-500 hover:underline'>Royal Swiss Housing Multan</Link>
                 </p>
                 <img src={img10} alt="" className='w-full mx-auto pb-6' />
 
@@ -177,7 +177,7 @@ const Top11SocietiesInMultanToInvestIn2024_4 = () => {
                   Rainwater re-harvesting, LED street lights, solar power plants, nature trails, an eco-friendly environment, and many other features make this housing society worth the investment.
                 </p>
                 <p className="pb-3">
-                  For more details, read it: <Link to="/project/adams-housing" className='text-blue-500 hover:underline'>Adams Housing Multan</Link>
+                  For more details, read it: <Link to="/adams-housing" className='text-blue-500 hover:underline'>Adams Housing Multan</Link>
                 </p>
                 <img src={img11} alt="" className='w-full mx-auto pb-6' />
 
