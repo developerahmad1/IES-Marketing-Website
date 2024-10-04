@@ -84,6 +84,7 @@ const DHAMultan = () => {
                         </section>
 
 
+
                         {/* Other Popular Projects of Defence Housing Authority  */}
                         <section className="mb-12">
                             <h2 className="text-3xl font-bold mb-4 text-start">Other Popular Projects of Defense Housing Authority</h2>
