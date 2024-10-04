@@ -29,7 +29,7 @@ const SmartHousing = () => {
     return (
         <div>
             <Helmet>
-                <title>Smart Housing Multan</title>
+                <title>Smart Housing Multan - IES Marketing</title>
                 <meta
                     name="description"
                     content="Smart Housing Multan – . IES Marketing"

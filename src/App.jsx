@@ -65,7 +65,7 @@ const App = () => {
             <Route path="/adams-housing" element={<Adamshousing />} />
             <Route path="/citi-housing-multan" element={<CityHousing />} />
             <Route path="/dha-multan" element={<DHAMultan />} />
-            <Route path="/royal-orchard-multan" element={<RoyalOrchad />} />
+            <Route path="/project/royal-orchard" element={<RoyalOrchad />} />
             <Route path="/wapda-town" element={<WapdaTown />} />
             {/* jobs */}
             <Route path="/career" element={<Carreer />} />

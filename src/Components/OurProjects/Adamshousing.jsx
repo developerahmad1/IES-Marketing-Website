@@ -25,7 +25,7 @@ const Adamshousing = () => {
   return (
     <>
       <Helmet>
-        <title>Adams Housing Multan</title>
+        <title>Adams Housing Multan - IES Marketing</title>
         <meta name="description" content="Adams Housing Multan – . IES Marketing" />
       </Helmet>
       <div className='mt-[90px]'>

@@ -26,7 +26,7 @@ const RoyalSwiss = () => {
     return (
         <>
             <Helmet>
-                <title>Royal Swiss Multan</title>
+                <title>Royal Swiss Multan - IES Marketing</title>
                 <meta name="description" content="Adams Housing Multan – . IES Marketing" />
             </Helmet>
 

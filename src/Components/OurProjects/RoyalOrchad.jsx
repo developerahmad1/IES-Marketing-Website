@@ -24,7 +24,7 @@ const RoyalOrchad = () => {
     return (
         <>
             <Helmet>
-                <title>Royal Orchad Multan</title>
+                <title>Royal Orchad Multan - IES Marketing</title>
                 <meta name="description" content="Adams Housing Multan – . IES Marketing" />
             </Helmet>
 

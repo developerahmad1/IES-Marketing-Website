@@ -27,7 +27,7 @@ const CitiHousing = () => {
     return (
         <>
             <Helmet>
-                <title>CITI Housing Multan</title>
+                <title>CITI Housing Multan - IES Marketing</title>
                 <meta name="description" content="CITI housing Mulatan is the best real estate society" />
             </Helmet>
 

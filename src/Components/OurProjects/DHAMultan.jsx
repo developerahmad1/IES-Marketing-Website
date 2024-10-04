@@ -22,7 +22,7 @@ const DHAMultan = () => {
     return (
         <>
             <Helmet>
-                <title>DHA Multan</title>
+                <title>DHA Multan - IES Marketing</title>
                 <meta name="description" content="DHA Multan Multan – . IES Marketing" />
             </Helmet>
 
