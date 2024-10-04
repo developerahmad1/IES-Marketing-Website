@@ -25,7 +25,7 @@ const SmartHousing = () => {
 
     const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10];
 
-  
+
     return (
         <div>
             <Helmet>
@@ -81,7 +81,7 @@ const SmartHousing = () => {
                             <p className='text-lg leading-relaxed'>
                                 Moreover, it is located along the routes leading to Muzzafargarh, Shujabad, and Dera Ghazi Khan, making it an ideal spot for investment and residence. It has 220 feet wide main entrance and 110 feet main boulevard. The residents can enjoy exclusive perks, elite amenities, and upscale conveniences by choosing Smart Housing Society.
                             </p>
-                           
+
                         </section>
 
                         {/* Smart Housing Developer History and Owners Section */}
@@ -100,7 +100,10 @@ const SmartHousing = () => {
 
                         {/* Smart Housing Development Status Section */}
                         <section className="mb-12">
-                            <h2 className="text-3xl font-bold mb-4 text-start"></h2>Smart Housing Development Status<p className='text-lg leading-relaxed'>Smart housing development is ongoing, and advanced technologies are integrated to establish a luxurious and comfortable living environment. It has all the basic facilities, including water supply, education and sports complexes, hospitals, and mosques. In addition, it features a smart and captivating entrance design crafted with appealing lights and modern materials. Smart Officers Club provides many facilities to residents. This smart club also serves as an ideal venue for professional and social engagements, like seminars, corporate events, musical evenings, etc.
+                            <h2 className="text-3xl font-bold mb-4 text-start">Smart Housing Development Status</h2>
+                            <p className='text-lg leading-relaxed'>Smart housing development is ongoing, and advanced technologies are integrated to establish a luxurious and comfortable living environment. It has all the basic facilities, including water supply, education and sports complexes, hospitals, and mosques. In addition, it features a smart and captivating entrance design crafted with appealing lights and modern materials. Smart Officers Club provides many facilities to residents. This smart club also serves as an ideal venue for professional and social engagements, like seminars, corporate events, musical evenings, etc.
+                            </p>
+                            <p className='pb-6'>
                                 A smart Islamic centre and Jamia masjid are also present in the Smart Housing that is accessible by visitors or society residents and contributes to their spiritual growth. Their remarkable architecture and commitment to sustainable living make it an essential part of the landscape. Additionally, it also features smart street lights with motion sensors that alter the light intensity according to traffic flow on the road. Smart Surveillance System utilizes the latest CCTV technology for real-time monitoring. Homeowners can monitor their houses through their smartphones. These cameras provide quick alerts when unusual activities are detected
                             </p>
                         </section>
