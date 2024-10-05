@@ -38,7 +38,7 @@ const Home = () => {
         <title>IES Marketing</title>
         {/* <meta name="description" content="IES Marketing provides detailed listings of residential or commercial properties available for sale or rent." /> */}
       </Helmet>
-      
+
       <div className="bg-white min-h-screen flex flex-col md:px-8 py-8 space-y-16">
         {/* First Section: Manage your Property */}
         <div className="flex flex-col md:flex-row items-center md:justify-between px-4 md:px-8 py-8">
@@ -162,7 +162,7 @@ const Home = () => {
 
 
         {/* Third Section: Our Projects*/}
-        <OurProjects showHelmet={false}/>
+        <OurProjects showHelmet={false} />
         {/* Discover Pervfect Home  */}
         {/* <div className='flex justify-center items-center flex-wrap px-4 md:px-8 py-8 w-full'>
         <div className='bg-[#fff1e1] w-full px-[30px] py-[20px] rounded-[20px] flex justify-center items-center gap-5 flex-wrap'>
@@ -354,7 +354,43 @@ const Home = () => {
           </div>
         </div>
 
-        <Blogs showHelmet={false}/>
+        <Blogs showHelmet={false} />
+
+
+        {/* youtube videos  */}
+        <h3 className='text-5xl text-center font-bold'>Latest Videos</h3>
+        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-1 mt-0 pb-5">
+          <iframe
+            className="w-full aspect-[16/9]"
+            src="https://www.youtube.com/embed/-E-ee4jH5x8?si=ief8pbZ4PYNrmIld"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+
+          <iframe
+            className="w-full aspect-[16/9]"
+            src="https://www.youtube.com/embed/YpdInVeyNkg?si=pke0R8LYn_DoxQZr"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+
+          <iframe
+            className="w-full aspect-[16/9]"
+            src="https://www.youtube.com/embed/kV3EykNZ5pg?si=Kcmk463gqjdO3BlZ"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </section>
+
       </div>
     </>
   );

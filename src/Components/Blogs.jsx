@@ -68,7 +68,7 @@ const Blogs = ({ heading, showHelmet = true }) => {
               <Link to="/blog/real-estate-opportunities-1" onClick={scrollToTop}
                 className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
               >
-                <div className="relative h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+                <div className="overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <img
                     src={img1}
                     alt="card-image"
@@ -96,7 +96,7 @@ const Blogs = ({ heading, showHelmet = true }) => {
               <Link to="/blog/emerging-trends-in-pakistans-real-estate-2" onClick={scrollToTop}
                 className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
               >
-                <div className="relative h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
+                <div className="overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <img
                     src={img2}
                     alt="card-image"
@@ -125,7 +125,7 @@ const Blogs = ({ heading, showHelmet = true }) => {
               <Link to="/blog/best-time-to-invest-in-pakistan-real-estate" onClick={scrollToTop}
                 className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
               >
-                <div className="relative h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
+                <div className="overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <img
                     src={blog3}
                     alt="card-image"
@@ -154,7 +154,7 @@ const Blogs = ({ heading, showHelmet = true }) => {
               <Link to="/blog/top-11-societies-in-multan-to-invest-in-2024" onClick={scrollToTop}
                 className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
               >
-                <div className="relative h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
+                <div className="overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <img
                     src={blog4}
                     alt="card-image"
@@ -183,7 +183,7 @@ const Blogs = ({ heading, showHelmet = true }) => {
               <Link to="/blog/new-block-launched-by-smart-housing-multan-premium-block" onClick={scrollToTop}
                 className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
               >
-                <div className="relative h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
+                <div className="overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <img
                     src={blog5}
                     alt="card-image"
@@ -211,7 +211,7 @@ const Blogs = ({ heading, showHelmet = true }) => {
               <Link to="/blog/a-comprehensive-guide-to-invest-in-real-estate" onClick={scrollToTop}
                 className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
               >
-                <div className="relative h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
+                <div className="overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <img
                     src={blog6}
                     alt="card-image"
@@ -239,7 +239,7 @@ const Blogs = ({ heading, showHelmet = true }) => {
               <Link to="/blog/Pros-and-Cons-of-Buying-a-Property-In-South-Punjab" onClick={scrollToTop}
                 className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
               >
-                <div className="relative h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
+                <div className="overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <img
                     src={blog7}
                     alt="card-image"
@@ -268,7 +268,7 @@ const Blogs = ({ heading, showHelmet = true }) => {
               <Link to="/blog/why-is-smart-housing-multan-a-smart-choice-for-investors" onClick={scrollToTop}
                 className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
               >
-                <div className="relative h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
+                <div className="overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <img
                     src={blog8}
                     alt="card-image"
@@ -297,7 +297,7 @@ const Blogs = ({ heading, showHelmet = true }) => {
               <Link to="/blog/smart-property-card-revolutionizing-property-ownership-in-pakistan" onClick={scrollToTop}
                 className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
               >
-                <div className="relative h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
+                <div className="overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <img
                     src={blog9}
                     alt="card-image"
