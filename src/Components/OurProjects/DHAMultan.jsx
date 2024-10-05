@@ -26,10 +26,10 @@ const DHAMultan = () => {
                 <meta name="description" content="DHA Multan stands out for high-quality amenities, development, and durability.  It offers a promising opportunity to invest and build a dream home." />
             </Helmet>
 
-            <div>
+            <div className='mt-[87px]'>
 
                 {/* Header */}
-                <header className="my-24">
+                <header className="mb-14">
                     <div
                         className="w-full bg-center bg-cover"
                         style={{
@@ -42,9 +42,9 @@ const DHAMultan = () => {
                                 <div className="container px-4 mx-auto">
                                     <div className="max-w-4xl mx-auto text-center">
                                         {/* <span className="text-gray-200 font-semibold uppercase tracking-widest">IES Marketing</span> */}
-                                        <h2 className="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">
+                                        <h1 className="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">
                                             DHA Multan – Redefining Urban Elegance
-                                        </h2>
+                                        </h1>
                                         <p className="max-w-3xl mx-auto mb-10 text-lg  text-gray-300 text-center">
                                             Defense Housing Authority (DHA) is a prestigious residential community featuring well-planned residential plots and commercial areas equipped with modern infrastructure and provide a secure living environment.
                                         </p>
@@ -64,7 +64,7 @@ const DHAMultan = () => {
                 </header>
 
                 {/* more details */}
-                <div className="bg-white text-black text-justify min-h-screen py-12 px-4 md:px-20">
+                <div className="bg-white text-black text-justify min-h-screen px-4 md:px-20">
 
                     <div className="max-w-4xl mx-auto">
                         {/* Introduction Section */}
@@ -90,16 +90,18 @@ const DHAMultan = () => {
                             <h2 className="text-3xl font-bold mb-4 text-start">Other Popular Projects of Defense Housing Authority</h2>
                             <p className="text-lg leading-relaxed">Defense Housing Authority (DHA) has a well-earned reputation for delivering high-quality residential projects across various cities in Pakistan. It has successfully completed many projects and is consistently raising the bar for luxury living. Their projects foster a sense of community and provides comprehensive amenities to the people. Some of their popular projects are:</p>
                             <p className="text-lg leading-relaxed">
-                                <li>DHA Gujranwala</li>
-                                <li>DHA Islamabad</li>
-                                <li>DHA Peshawar</li>
-                                <li>DHA Quetta</li>
-                                <li>DHA Hyderabad</li>
-                                <li>DHA Rawalpindi</li>
-                                <li>DHA Lahore</li>
-                                <li>DHA Karachi</li>
-                                <li>DHA Bahawalpur</li>
-                                <li>DHA Valley</li>
+                                <ul className='list-disc ml-5'>
+                                    <li>DHA Gujranwala</li>
+                                    <li>DHA Islamabad</li>
+                                    <li>DHA Peshawar</li>
+                                    <li>DHA Quetta</li>
+                                    <li>DHA Hyderabad</li>
+                                    <li>DHA Rawalpindi</li>
+                                    <li>DHA Lahore</li>
+                                    <li>DHA Karachi</li>
+                                    <li>DHA Bahawalpur</li>
+                                    <li>DHA Valley</li>
+                                </ul>
                             </p>
                         </section>
 
@@ -130,31 +132,33 @@ const DHAMultan = () => {
                                 DHA Multan is one of the largest housing projects in Multan that covers several acres land area. It has more key features than any other society in the City of Saints and provides an excellent opportunity to locals and overseas clients to get a property in the well-planned community. Its key features are listed below:
                             </p>
                             <p className="text-lg leading-relaxed">
-                                <li>Main boulevard</li>
-                                <li>Miwaki forest</li>
-                                <li>DHA diagnostic lab</li>
-                                <li>Defense Orchard</li>
-                                <li>Arena Event Complex and Hotel</li>
-                                <li>Sewerage treatment plant</li>
-                                <li>Rumanza Golf Course</li>
-                                <li>DHA Food Court</li>
-                                <li>DHA 360 Zoo</li>
-                                <li>Water park</li>
-                                <li>DHAM Mega Mall</li>
-                                <li>Twin Towers</li>
-                                <li>Vet Hospital</li>
-                                <li>Monuments</li>
-                                <li>Sports Complex</li>
-                                <li>DHAM Nursery</li>
-                                <li>Mosque</li>
-                                <li>AM 99 Hospital</li>
-                                <li>Shopping Arcade</li>
-                                <li>School System</li>
-                                <li>DHA Villas Community</li>
-                                <li>Football and cricket stadium</li>
-                                <li>24 Hours CCTV Security</li>
-                                <li>Clean and green environment</li>
-                                <li>Bilal Masjid</li>
+                                <ul className='list-disc ml-5'>
+                                    <li>Main boulevard</li>
+                                    <li>Miwaki forest</li>
+                                    <li>DHA diagnostic lab</li>
+                                    <li>Defense Orchard</li>
+                                    <li>Arena Event Complex and Hotel</li>
+                                    <li>Sewerage treatment plant</li>
+                                    <li>Rumanza Golf Course</li>
+                                    <li>DHA Food Court</li>
+                                    <li>DHA 360 Zoo</li>
+                                    <li>Water park</li>
+                                    <li>DHAM Mega Mall</li>
+                                    <li>Twin Towers</li>
+                                    <li>Vet Hospital</li>
+                                    <li>Monuments</li>
+                                    <li>Sports Complex</li>
+                                    <li>DHAM Nursery</li>
+                                    <li>Mosque</li>
+                                    <li>AM 99 Hospital</li>
+                                    <li>Shopping Arcade</li>
+                                    <li>School System</li>
+                                    <li>DHA Villas Community</li>
+                                    <li>Football and cricket stadium</li>
+                                    <li>24 Hours CCTV Security</li>
+                                    <li>Clean and green environment</li>
+                                    <li>Bilal Masjid</li>
+                                </ul>
                             </p>
                         </section>
 
@@ -173,14 +177,16 @@ const DHAMultan = () => {
                                 DHA Multan is present at a prime location in the Multan City, providing an excellent connectivity to residents, ensuring that they have easy access to key areas within and around Multan. Here are some key accessibilities of DHA Multan:
                             </p>
                             <p className="text-lg leading-relaxed">
-                                <li>Almost 2 minute drive from Buch Villas</li>
-                                <li>Almost 3 minute drive from Bahaudin Zakariya University</li>
-                                <li>Almost 9 minute drive from Model Town</li>
-                                <li>Almost 10 minute drive from Multan Airport</li>
-                                <li>Almost 13 minutes from Nawabpur Road</li>
-                                <li>Almost 15 minutes from Canal Road</li>
-                                <li>Almost 22 minutes from Khanewal Road</li>
-                                <li>Almost 30 minutes from Piran Ghaib Road</li>
+                                <ul className='list-disc ml-5'>
+                                    <li>Almost 2 minute drive from Buch Villas</li>
+                                    <li>Almost 3 minute drive from Bahaudin Zakariya University</li>
+                                    <li>Almost 9 minute drive from Model Town</li>
+                                    <li>Almost 10 minute drive from Multan Airport</li>
+                                    <li>Almost 13 minutes from Nawabpur Road</li>
+                                    <li>Almost 15 minutes from Canal Road</li>
+                                    <li>Almost 22 minutes from Khanewal Road</li>
+                                    <li>Almost 30 minutes from Piran Ghaib Road</li>
+                                </ul>
                             </p>
                         </section>
 
@@ -191,14 +197,16 @@ const DHAMultan = () => {
                                 DHA Multan is strategically located to offer easy access to a variety of landmarks and luxurious amenities in the Multan City. The nearby landmarks of DHA Multan are listed below:
                             </p>
                             <p className="text-lg leading-relaxed">
-                                <li>PIA Employees Housing</li>
-                                <li>MDA Officers Colony</li>
-                                <li>Wapda Town</li>
-                                <li>Shalimar Colony</li>
-                                <li>Hamid Nagar</li>
-                                <li>Bosan Road</li>
-                                <li>Multan Cantonment Area</li>
-                                <li>Citi Housing Multan</li>
+                                <ul className='list-disc ml-5'>
+                                    <li>PIA Employees Housing</li>
+                                    <li>MDA Officers Colony</li>
+                                    <li>Wapda Town</li>
+                                    <li>Shalimar Colony</li>
+                                    <li>Hamid Nagar</li>
+                                    <li>Bosan Road</li>
+                                    <li>Multan Cantonment Area</li>
+                                    <li>Citi Housing Multan</li>
+                                </ul>
                             </p>
                         </section>
 
@@ -211,40 +219,42 @@ const DHAMultan = () => {
                                 DHA Multan is divided into multiple sectors, each sector is designed to provide a high standard of living with a range of residential and commercial options. Most sectors feature residential plots with a mix of plot sizes, catering to different needs. Moreover, every sector provides residents with a blend of modern living and a secure environment. Its sectors are enlisted below:
                             </p>
                             <p className="text-lg leading-relaxed">
-                                <li>DHA Sector A</li>
-                                <li>DHA Sector B1</li>
-                                <li>DHA B2</li>
-                                <li>DHA C</li>
-                                <li>DHA D</li>
-                                <li>DHA E</li>
-                                <li>DHA F</li>
-                                <li>DHA G</li>
-                                <li>DHA H</li>
-                                <li>DHA I</li>
-                                <li>DHA J</li>
-                                <li>DHA K</li>
-                                <li>DHA L</li>
-                                <li>DHA M</li>
-                                <li>DHA N</li>
-                                <li>DHA O</li>
-                                <li>DHA P</li>
-                                <li>DHA Q</li>
-                                <li>DHA R</li>
-                                <li>DHA S</li>
-                                <li>DHA T</li>
-                                <li>DHA U</li>
-                                <li>DHA V</li>
-                                <li>DHA W1</li>
-                                <li>DHA W2</li>
-                                <li>DHA X</li>
-                                <li>DHA Y</li>
-                                <li>DHA Central Square</li>
-                                <li>DHA Education City</li>
-                                <li>DHA Villas Multan</li>
-                                <li>Rumanza Golf & Country Club</li>
+                                <ul className='list-disc ml-5'>
+                                    <li>DHA Sector A</li>
+                                    <li>DHA Sector B1</li>
+                                    <li>DHA B2</li>
+                                    <li>DHA C</li>
+                                    <li>DHA D</li>
+                                    <li>DHA E</li>
+                                    <li>DHA F</li>
+                                    <li>DHA G</li>
+                                    <li>DHA H</li>
+                                    <li>DHA I</li>
+                                    <li>DHA J</li>
+                                    <li>DHA K</li>
+                                    <li>DHA L</li>
+                                    <li>DHA M</li>
+                                    <li>DHA N</li>
+                                    <li>DHA O</li>
+                                    <li>DHA P</li>
+                                    <li>DHA Q</li>
+                                    <li>DHA R</li>
+                                    <li>DHA S</li>
+                                    <li>DHA T</li>
+                                    <li>DHA U</li>
+                                    <li>DHA V</li>
+                                    <li>DHA W1</li>
+                                    <li>DHA W2</li>
+                                    <li>DHA X</li>
+                                    <li>DHA Y</li>
+                                    <li>DHA Central Square</li>
+                                    <li>DHA Education City</li>
+                                    <li>DHA Villas Multan</li>
+                                    <li>Rumanza Golf & Country Club</li>
+                                </ul>
                             </p>
 
-                            <p className="text-lg leading-relaxed">Most of these sectors have 1 kanal plots, while 8 Marla, 10 Marla, and 2 kanal plots are available in V, U, and N sector. In addition, 5 Marla plots are available in P, T, and V sectors. The DHA Villas are available in 6, 9, and 12 Marla. The residential plots, parks, playgrounds, mosques, and a few other features are present in almost every sector. In the B2 Sector, workshops and commercial hubs are present. DHA nursery, Jinnah gate, Shahra-e-Quaid-e-Azam, and a 35-floored serene tower are present in Sector C. This 35-floored tower has 640 apartments, gymnasium, penthouses, etc. Furthermore, Sector D of Defense Housing Authority offers residential plots of 1 Kanal cutting and features Mango Enclave, healthcare center, IMARAT Builders Mall, parks, playgrounds, and plots for residence and commercial purpose. In the center of sector I, K, M, N, DHA Central Square is present.
+                            <p className="text-lg leading-relaxed mt-3">Most of these sectors have 1 kanal plots, while 8 Marla, 10 Marla, and 2 kanal plots are available in V, U, and N sector. In addition, 5 Marla plots are available in P, T, and V sectors. The DHA Villas are available in 6, 9, and 12 Marla. The residential plots, parks, playgrounds, mosques, and a few other features are present in almost every sector. In the B2 Sector, workshops and commercial hubs are present. DHA nursery, Jinnah gate, Shahra-e-Quaid-e-Azam, and a 35-floored serene tower are present in Sector C. This 35-floored tower has 640 apartments, gymnasium, penthouses, etc. Furthermore, Sector D of Defense Housing Authority offers residential plots of 1 Kanal cutting and features Mango Enclave, healthcare center, IMARAT Builders Mall, parks, playgrounds, and plots for residence and commercial purpose. In the center of sector I, K, M, N, DHA Central Square is present.
                             </p>
                         </section>
 
@@ -286,55 +296,57 @@ const DHAMultan = () => {
 
                         {/* FAQS */}
                         <section className="mb-12">
-                            <h5 className="text-3xl font-bold mb-4">
+                            <h2 className="text-3xl font-bold mb-4">
                                 FAQS
-                            </h5>
-                            <h3 className="text-xl font-semibold mt-3 text-start">
+                            </h2>
+                            <h4 className="text-xl font-semibold mt-5 text-start">
                                 Where is DHA Multan located?
-                            </h3>
-                            <p className=" text-lg leading-relaxed">
+                            </h4>
+                            <p className="text-[15px] sm:text-lg leading-relaxed">
                                 DHA Multan is connected to major routes and landmarks in Multan city allowing people to access popular places within a few minutes. Muza Sangi, Mouza Garay Wala, and Mouza Kotla are adjacent to DHA Multan. In addition, it can be accessed from four different gates, including Shah Yousaf Gardez, Shah Shams Tabraiz, Shah rukn-e-alam, and Bahaudin Zakariya Gates. Also, it will take around 30 minutes to reach from Piran Ghaib Road.
                             </p>
-                            <h3 className="text-xl font-semibold mt-3 text-start">
+                            <h4 className="text-xl font-semibold mt-5 text-start">
                                 Why should I invest in DHA Multan?
-                            </h3>
-                            <p className=" text-lg leading-relaxed">
+                            </h4>
+                            <p className="text-[15px] sm:text-lg leading-relaxed">
                                 Investing in DHA Multan offers several compelling reasons for short and long-term investment, but the primary reason is the credibility of DHA developers. Moreover, its speedy development, smart facilities, high-quality infrastructure, prime location, and eco-friendly atmosphere make it a worth investment. Furthermore, it provides a luxurious and affordable lifestyle to people.
                             </p>
-                            <h3 className="text-xl font-semibold mt-3 text-start">
+                            <h4 className="text-xl font-semibold mt-5 text-start">
                                 What amenities are present in DHA Multan?
-                            </h3>
-                            <p className=" text-lg leading-relaxed">
+                            </h4>
+                            <p className="text-[15px] sm:text-lg leading-relaxed">
                                 DHA Multan offers a combination of security, luxury, growth potential, and provides a wide range of amenities, like gated community, CCTV surveillance, wide main-boulevard and well-planned roads, recreational opportunities, and local markets or shopping malls. In addition, mosques, swimming pools, fitness centers, cinemas, and other modern facilities are also present to facilitate the residents of the DHA Multan.
                             </p>
-                            <h3 className="text-xl font-semibold mt-3 text-start">
+                            <h4 className="text-xl font-semibold mt-5 text-start">
                                 Is DHA Multan the largest DHA in Pakistan?
-                            </h3>
-                            <p className=" text-lg leading-relaxed">
+                            </h4>
+                            <p className="text-[15px] sm:text-lg leading-relaxed">
                                 DHA Multan is not the largest Defense Housing Authority’s project, but it covers almost 10,000 acres land area. This project started in 2013 to meet the housing standards of South Punjab. DHA Lahore is largest among all DHA projects across Pakistan and renamed as Lahore Cantonment Cooperative Housing Society, but subsequently converted to DHA Lahore in 1999.
                             </p>
-                            <h3 className="text-xl font-semibold mt-3 text-start">
+                            <h4 className="text-xl font-semibold mt-5 text-start">
                                 In which cities projects of Defense Housing Authority are present?
-                            </h3>
-                            <p className=" text-lg leading-relaxed">
+                            </h4>
+                            <p className="text-[15px] sm:text-lg leading-relaxed">
                                 DHA projects are present in ten different cities of Pakistan, but developers are planning to introduce an innovative urban living lifestyle in almost every city of Pakistan.  Their completed projects include:
                             </p>
-                            <p className=" text-lg leading-relaxed">
-                                <li>DHA Islamabad</li>
-                                <li>DHA Karachi</li>
-                                <li>DHA Lahore</li>
-                                <li>DHA Rawalpindi</li>
-                                <li>DHA Bahawalpur</li>
-                                <li>DHA Quetta</li>
-                                <li>DHA Gujranwala</li>
-                                <li>DHA Peshawar</li>
-                                <li>DHA Hyderabad</li>
-                                <li>DHA Valley</li>
+                            <p className="text-[15px] sm:text-lg leading-relaxed">
+                                <ul className='list-disc ml-5'>
+                                    <li>DHA Islamabad</li>
+                                    <li>DHA Karachi</li>
+                                    <li>DHA Lahore</li>
+                                    <li>DHA Rawalpindi</li>
+                                    <li>DHA Bahawalpur</li>
+                                    <li>DHA Quetta</li>
+                                    <li>DHA Gujranwala</li>
+                                    <li>DHA Peshawar</li>
+                                    <li>DHA Hyderabad</li>
+                                    <li>DHA Valley</li>
+                                </ul>
                             </p>
-                            <h3 className="text-xl font-semibold mt-3 text-start">
+                            <h4 className="text-xl font-semibold mt-5 text-start">
                                 How many balloting events are held in DHA Multan?
-                            </h3>
-                            <p className=" text-lg leading-relaxed">
+                            </h4>
+                            <p className="text-[15px] sm:text-lg leading-relaxed">
                                 Until now, two balloting events are conducted in DHA Multan in which all of their plots were sold. First balloting event was held in 2019, while the second event was held 3 years before in 2021. Within 3 years, most of the development in DHA is completed while a few of the society’s projects are about to complete in a short time period.
                             </p>
                         </section>
@@ -344,7 +356,7 @@ const DHAMultan = () => {
 
                 {/* Images */}
                 <section className='mb-12 px-2 sm:px-5'>
-                    <h3 className="text-3xl font-bold mb-4 text-center pb-4">Images Of DHA Multan</h3>
+                    <h2 className="text-3xl font-bold mb-4 text-center pb-4">Images Of DHA Multan</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                         {images.map((src, index) => (
                             <div key={index} className="w-full h-48 md:h-64 lg:h-80 bg-gray-200 flex items-center justify-center overflow-hidden border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl">

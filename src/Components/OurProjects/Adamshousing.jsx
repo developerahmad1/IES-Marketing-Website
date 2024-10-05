@@ -29,7 +29,7 @@ const Adamshousing = () => {
         <meta name="description" content="Adams Housing Multan, developed by Adams Group, stands as a beacon of modern living. It provides contemporary amenities and convenience." />
       </Helmet>
       <div className='mt-[90px]'>
-        <header className="my-24">
+        <header className="mb-14">
           <div
             className="w-full bg-center bg-cover"
             style={{
@@ -37,7 +37,7 @@ const Adamshousing = () => {
             }}
 
           >
-            <div className="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-[0.7] py-12">
+            <div className="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-[0.7] py-6">
               <div className="text-center">
                 <div className="container px-4 mx-auto">
                   <div className="max-w-4xl mx-auto text-center">
@@ -64,17 +64,16 @@ const Adamshousing = () => {
         </header>
 
         {/* more details */}
-        <div className="bg-white text-black text-justify min-h-screen py-12 px-4 md:px-20">
+        <div className="bg-white text-black text-justify min-h-screen px-4 md:px-20">
 
           <div className="max-w-4xl mx-auto">
 
-            {/* Introduction Section */}
+            {/* Introduction of Smart Housing */}
             <section className="mb-12">
               <h2 className="text-3xl font-bold mb-4">Introduction</h2>
               <p className="text-lg leading-relaxed">
-                Adams Housing Multan stands as a beacon of modern living that offers contemporary amenities and high-quality infrastructure and provides residents with convenient access to the city's landmarks and commercial hubs. This society is located at a prime location on Matti Tal Road near New Katchery. It offers a serene and secure environment, reliable utility services, wider roads, and provides a peaceful lifestyle. Adams Housing prioritizes sustainability, incorporating green building practices, and ensuring ample green space for recreation.            </p>
-              {/* <p className='text-lg leading-relaxed'>
-                        </p> */}
+                Adams Housing Multan stands as a beacon of modern living that offers contemporary amenities and high-quality infrastructure and provides residents with convenient access to the city's landmarks and commercial hubs. This society is located at a prime location on Matti Tal Road near New Katchery. It offers a serene and secure environment, reliable utility services, wider roads, and provides a peaceful lifestyle. Adams Housing prioritizes sustainability, incorporating green building practices, and ensuring ample green space for recreation.
+              </p>
             </section>
 
 
@@ -94,14 +93,16 @@ const Adamshousing = () => {
               <h2 className="text-3xl font-bold mb-4 text-start">Successfully delivered projects of Adams Group.</h2>
               <p className="text-lg leading-relaxed">Some of the successful projects of Adams Group are:</p>
               <p className="text-lg leading-relaxed">
-                <li>	Adams housing Dera Ghazi Khan</li>
-                <li>	Adams housing Lahore</li>
-                <li>	Adams Housing Sahiwal</li>
-                <li>	Adams Villas</li>
-                <li>	Adams Trade Center</li>
-                <li>	Adams Green City</li>
-                <li>	Adams Commercial Complex</li>
-                <li>	Adams Farmhouses Multan</li>
+                <ul className='list-disc ml-5'>
+                  <li>	Adams housing Dera Ghazi Khan</li>
+                  <li>	Adams housing Lahore</li>
+                  <li>	Adams Housing Sahiwal</li>
+                  <li>	Adams Villas</li>
+                  <li>	Adams Trade Center</li>
+                  <li>	Adams Green City</li>
+                  <li>	Adams Commercial Complex</li>
+                  <li>	Adams Farmhouses Multan</li>
+                </ul>
               </p>
             </section>
 
@@ -130,27 +131,29 @@ const Adamshousing = () => {
                 Adams Housing Multan offers a wide range of features to society's residents:
               </p>
               <p className="text-lg leading-relaxed">
-                <li>Outdoor gym</li>
-                <li>Public parks</li>
-                <li>24/7 security</li>
-                <li>LED Street lights</li>
-                <li>Wide carpeted roads</li>
-                <li>Kid's play area</li>
-                <li>Overhead tanks</li>
-                <li>Filtration plants</li>
-                <li>Mosque</li>
-                <li>Swimming pool</li>
-                <li>Boundary wall</li>
-                <li>Luxurious community club</li>
-                <li>Underground electricity</li>
-                <li>Nature trails</li>
-                <li>Eco-friendly environment</li>
-                <li>Solar power plant</li>
-                <li>Re-harvesting of rainwater</li>
-                <li>Islamic research & education center</li>
-                <li>Health services</li>
-                <li>Spa & Fitness Center</li>
-                <li>Food court</li>
+                <ul className='list-disc ml-5'>
+                  <li>Outdoor gym</li>
+                  <li>Public parks</li>
+                  <li>24/7 security</li>
+                  <li>LED Street lights</li>
+                  <li>Wide carpeted roads</li>
+                  <li>Kid's play area</li>
+                  <li>Overhead tanks</li>
+                  <li>Filtration plants</li>
+                  <li>Mosque</li>
+                  <li>Swimming pool</li>
+                  <li>Boundary wall</li>
+                  <li>Luxurious community club</li>
+                  <li>Underground electricity</li>
+                  <li>Nature trails</li>
+                  <li>Eco-friendly environment</li>
+                  <li>Solar power plant</li>
+                  <li>Re-harvesting of rainwater</li>
+                  <li>Islamic research & education center</li>
+                  <li>Health services</li>
+                  <li>Spa & Fitness Center</li>
+                  <li>Food court</li>
+                </ul>
               </p>
             </section>
 
@@ -158,7 +161,8 @@ const Adamshousing = () => {
             <section className="mb-12">
               <h2 className="text-3xl font-bold mb-4 text-start">Adams Housing Multan Location</h2>
               <p className="text-lg leading-relaxed">
-                Adams Housing Multan Society is located near the Judicial Complex or New Katchery in Mouza Jahangirabad. It has two entrance gates on two main routes: Mattital Road and Northern Bypass Road opposite PIA Employees Housing. Additionally, this society became popular for its prime location, which allows easier access and ensures that residents are never far from essential services.            </p>
+                Adams Housing Multan Society is located near the Judicial Complex or New Katchery in Mouza Jahangirabad. It has two entrance gates on two main routes: Mattital Road and Northern Bypass Road opposite PIA Employees Housing. Additionally, this society became popular for its prime location, which allows easier access and ensures that residents are never far from essential services.
+              </p>
             </section>
 
 
@@ -169,12 +173,14 @@ const Adamshousing = () => {
                 Adams Housing Multan offers a lucrative investment opportunity due to its robust infrastructure, modern amenities, and strategic location. Some nearest accessibilities to Adams Housing are:
               </p>
               <p className="text-lg leading-relaxed">
-                <li>Opposite to PIA Employees Housing</li>
-                <li>Almost 1 minute distance from Judicial Complex</li>
-                <li>Almost 2 minutes from Bakhtawar Amin Medical and Dental Hospital</li>
-                <li>Almost 4 minutes from Multan Public School</li>
-                <li>Almost 15 minutes from GT Road</li>
-                <li>Almost 20 minutes from ChaseUp Mall</li>
+                <ul className='list-disc ml-5'>
+                  <li>Opposite to PIA Employees Housing</li>
+                  <li>Almost 1 minute distance from Judicial Complex</li>
+                  <li>Almost 2 minutes from Bakhtawar Amin Medical and Dental Hospital</li>
+                  <li>Almost 4 minutes from Multan Public School</li>
+                  <li>Almost 15 minutes from GT Road</li>
+                  <li>Almost 20 minutes from ChaseUp Mall</li>
+                </ul>
               </p>
             </section>
 
@@ -186,34 +192,38 @@ const Adamshousing = () => {
                 Adams housing is not just a place to live as it offers a perfect blend of modern comforts, healthcare facilities, educational facilities, and easier transportation routes. Some popular landmarks and places near Adams Housing are:
               </p>
               <p className="text-lg leading-relaxed">
-                <li>Bakhtawar Amin Medical & Dental Hospital</li>
-                <li>New katchery</li>
-                <li>Pak Arab Fertilizer Company</li>
-                <li>Women University Multan</li>
-                <li>Mukhtar-e-sheikh Hospital</li>
-                <li>Multan Public School</li>
-                <li>Memorial Hospital</li>
-                <li>Chase Up Mall</li>
+                <ul className="list-disc ml-5">
+                  <li>Bakhtawar Amin Medical & Dental Hospital</li>
+                  <li>New katchery</li>
+                  <li>Pak Arab Fertilizer Company</li>
+                  <li>Women University Multan</li>
+                  <li>Mukhtar-e-sheikh Hospital</li>
+                  <li>Multan Public School</li>
+                  <li>Memorial Hospital</li>
+                  <li>Chase Up Mall</li>
+                </ul>
               </p>
             </section>
 
 
             {/* Other Near By Projects */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mb-4 text-start">
+              <h3 className="text-3xl font-bold mb-4 text-start">
                 Other Nearby Housing Projects
-              </h2>
+              </h3>
               <p className="text-lg leading-relaxed">
                 Multan hosts several housing projects to meet residential and investment needs. Adams Housing Multan stands out among a few popular housing projects near it due to its modern infrastructure, comprehensive amenities, and investment potential. These nearby housing societies include:
               </p>
               <p className="text-lg leading-relaxed">
-                <li>Royal Orchard Multan</li>
-                <li>Wapda Town Phase II</li>
-                <li>Model Town Multan</li>
-                <li>PIA Employees Housing</li>
-                <li>DHA Multan</li>
-                <li>Pace City Multan</li>
-                <li>BZU Employers Colony I</li>
+                <ul className='list-disc ml-5'>
+                  <li>Royal Orchard Multan</li>
+                  <li>Wapda Town Phase II</li>
+                  <li>Model Town Multan</li>
+                  <li>PIA Employees Housing</li>
+                  <li>DHA Multan</li>
+                  <li>Pace City Multan</li>
+                  <li>BZU Employers Colony I</li>
+                </ul>
               </p>
             </section>
 
@@ -237,9 +247,9 @@ const Adamshousing = () => {
               <p className="text-lg leading-relaxed">
                 Adams Housing Multan offers a flexible and convenient payment plan that is designed to accommodate the financial needs of buyers. It has offered a 4-year payment plan with easy monthly and quarterly installments so that buyers can purchase plots with ease. The residential plots of 5, 7, or 10 Marla and 1 Kanal are available for purchase on cash payment and in affordable installments. The buyers have to pay a down payment to get a file, followed by 48 monthly and 16 quarterly installments.
               </p>
-              <div className='flex justify-start items-start mt-10 gap-3 flex-wrap'>
-                <img src={payementPlan1} alt="" className='mx-auto max-w-[400px] border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl' />
-                <img src={payementPlan2} alt="" className='mx-auto max-w-[400px] border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl' />
+              <div className='flex justify-start items-start mt-10 gap-5 flex-wrap'>
+                <img src={payementPlan1} alt="" className='mx-auto sm:max-w-[400px] border rounded-xl transition-all duration-[0.5s] hover:border-black hover:shadow-xl w-full' />
+                <img src={payementPlan2} alt="" className='mx-auto sm:max-w-[400px] border rounded-xl transition-all duration-[0.5s] hover:border-black hover:shadow-2xl w-full' />
               </div>
 
             </section>
@@ -247,22 +257,24 @@ const Adamshousing = () => {
 
             {/* Additional Notes */}
             <section className="mb-12">
-              <h5 className="text-2xl font-bold mb-4 text-start">
+              <h4 className="text-2xl font-bold mb-4 text-start">
                 Additional notes:
-              </h5>
+              </h4>
               <p className="text-lg leading-relaxed">
-                <li>•	10% extra for corner plots/park-facing plots</li>
-                <li>•	10% discount on full payment of plots</li>
-                <li>•	Confirmation amount needs to be paid within 30 days of booking</li>
+                <ul className='list-disc ml-5'>
+                  <li>10% extra for corner plots/park-facing plots</li>
+                  <li>10% discount on full payment of plots</li>
+                  <li>Confirmation amount needs to be paid within 30 days of booking</li>
+                </ul>
               </p>
             </section>
 
 
             {/* conclusion */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mb-4 text-start">
+              <h3 className="text-3xl font-bold mb-4 text-start">
                 Conclusion
-              </h2>
+              </h3>
               <p className="text-lg leading-relaxed">
                 Adams Housing Multan offers a meticulously planned community designed to fulfill the diverse requirements of the residents. It is a premier residential project with top-notch amenities and ensures a comfortable and convenient lifestyle for residents. Adams Housing Multan features a variety of residential plots, green spaces, and commercial zones to promote a healthy lifestyle. It focuses on quality infrastructure and sustainable development. Contact IES Marketing for more details on the Adams Housing Multan Project and own a property with the guidance of experts.
               </p>
@@ -271,43 +283,43 @@ const Adamshousing = () => {
 
             {/* FAQS */}
             <section className="mb-12">
-              <h5 className="text-3xl font-bold mb-4">
+              <h2 className="text-3xl font-bold mb-4">
                 FAQS
-              </h5>
+              </h2>
               <h3 className="text-xl font-semibold mt-3 text-start">
                 Who is the owner of the Adams Housing Multan?
               </h3>
-              <p className=" text-lg leading-relaxed">
+              <p className="text-[15px] sm:text-lg leading-relaxed">
                 Mr. Riyaz Beryar is the owner of the Adams Housing Multan and CEO of Adams Group. He is known for his visionary leadership and commitment to quality work and excellence. Moreover, Mr. Beryar has introduced this housing project to provide high-standard living spaces and offered a society with a blend of comprehensive amenities, modern infrastructure, and a community-centric environment.
               </p>
-              <h3 className="text-xl font-semibold mt-3 text-start">
+              <h3 className="text-xl font-semibold mt-5 text-start">
                 Where is Adams Housing located in Multan?
               </h3>
-              <p className=" text-lg leading-relaxed">
+              <p className="text-[15px] sm:text-lg leading-relaxed">
                 Adams Housing Multan is strategically located on the Mattital Road and Bypass Road in Mouza Jahangirabad. This prime location of Adams Housing provides residents with easy access to key areas of the city, including educational institutions, healthcare facilities, commercial centers, and major landmarks. Its location ensures that society benefits from excellent connectivity and convenience, making it an attractive choice.
               </p>
-              <h3 className="text-xl font-semibold mt-3 text-start">
+              <h3 className="text-xl font-semibold mt-5 text-start">
                 Are Adams Housing Multan plots available on installments?
               </h3>
-              <p className=" text-lg leading-relaxed">
+              <p className="text-[15px] sm:text-lg leading-relaxed">
                 Adams Housing Multan offers plots on installment plans to facilitate potential buyers and investors. This payment plan allows individuals to purchase property with a flexible payment schedule. These plans generally require an initial down payment followed by monthly or quarterly installments. Also, interested people can get residential or commercial property with cash payment.
               </p>
-              <h3 className="text-xl font-semibold mt-3 text-start">
+              <h3 className="text-xl font-semibold mt-5 text-start">
                 Is Adams Housing Multan legally approved society?
               </h3>
-              <p className=" text-lg leading-relaxed">
+              <p className="text-[15px] sm:text-lg leading-relaxed">
                 Adams Housing Multan is a legally approved society from Multan Developmental Authority. Its land area of 1000 Kanal is approved for development and sale. It received ‘No Objection Certificate’ from developmental authorities of Multan to gain trust of investors and known as an authentic or legal society.
               </p>
-              <h3 className="text-xl font-semibold mt-3 text-start">
+              <h3 className="text-xl font-semibold mt-5 text-start">
                 What is the payment plan of Adams Housing Multan?
               </h3>
-              <p className=" text-lg leading-relaxed">
+              <p className="text-[15px] sm:text-lg leading-relaxed">
                 Adams Housing Multan projects offers an affordable 4-year payment plan that involves 48 monthly installments and 16 quarterly installments. In addition, you have to pay the downpayment or booking amount to get the plot file, while you have to pay 10% extra amount if you are interested in buying corner plot.
               </p>
-              <h3 className="text-xl font-semibold mt-3 text-start">
+              <h3 className="text-xl font-semibold mt-5 text-start">
                 Is Adams Housing fully developed society?
               </h3>
-              <p className=" text-lg leading-relaxed">
+              <p className="text-[15px] sm:text-lg leading-relaxed">
                 Most of the development process is complete in Adams Housing Society. The road structure, basic utilities, lights, healthcare centers, community centers, and many other facilities are available for residents. In addition, there are recreational opportunities for children as parks and playgrounds are present in the society’s map.
               </p>
             </section>
@@ -343,10 +355,7 @@ const Adamshousing = () => {
           </p>
         </section>
 
-
-
-
-        <OurProjects showHelmet={false}/>
+        <OurProjects showHelmet={false} />
       </div>
     </>
   )

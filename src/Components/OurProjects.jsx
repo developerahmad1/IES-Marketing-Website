@@ -38,11 +38,11 @@ const OurProjects = ({ showHelmet = true }) => {
           <Link to="/dha-multan" onClick={scrollToTop}
             className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
-            <div className="relative h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+            <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <img
                 src={DHAMultanImg}
                 alt="card-image"
-                className="object-cover w-full h-full"
+                className="w-full"
               />
             </div>
             <div className="p-6">
@@ -64,14 +64,14 @@ const OurProjects = ({ showHelmet = true }) => {
           </Link>
 
           {/* Royal Orchad*/}
-          <Link to="/project/royal-orchard" onClick={scrollToTop}
+          <Link to="/royal-orchard-multan" onClick={scrollToTop}
             className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
-            <div className="relative h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+            <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <img
                 src={royalOrchadImg}
                 alt="card-image"
-                className="object-cover w-full h-full"
+                className="w-full"
               />
             </div>
             <div className="p-6">
@@ -96,11 +96,11 @@ const OurProjects = ({ showHelmet = true }) => {
           <Link to="/citi-housing-multan" onClick={scrollToTop}
             className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
-            <div className="relative h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+            <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <img
                 src={cityHousingImg}
                 alt="card-image"
-                className="object-cover w-full h-full"
+                className="w-full"
               />
             </div>
             <div className="p-6">
@@ -126,11 +126,11 @@ const OurProjects = ({ showHelmet = true }) => {
           <Link to="/adams-housing" onClick={scrollToTop}
             className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
-            <div className="relative h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+            <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <img
                 src={adamsHousingImg}
                 alt="card-image"
-                className="object-cover w-full h-full"
+                className="w-full"
               />
             </div>
             <div className="p-6">
@@ -155,11 +155,11 @@ const OurProjects = ({ showHelmet = true }) => {
           <Link to="/smart-housing" onClick={scrollToTop}
             className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
-            <div className="relative h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+            <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <img
                 src={smartHousingImg}
                 alt="card-image"
-                className="object-cover w-full h-full"
+                className="w-full"
               />
             </div>
             <div className="p-6">
@@ -184,11 +184,11 @@ const OurProjects = ({ showHelmet = true }) => {
           <Link to={`/royal-swiss`} onClick={scrollToTop}
             className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
-            <div className="relative h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+            <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <img
                 src={royalSwissImg}
                 alt="card-image"
-                className="object-cover w-full h-full"
+                className="w-full"
               />
             </div>
             <div className="p-6">
@@ -213,11 +213,11 @@ const OurProjects = ({ showHelmet = true }) => {
           <Link to={`/wapda-town`} onClick={scrollToTop}
             className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
-            <div className="relative h-56 overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+            <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <img
                 src={wapdaTown}
                 alt="card-image"
-                className="object-cover w-full h-full"
+                className="w-full"
               />
             </div>
             <div className="p-6">

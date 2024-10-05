@@ -30,9 +30,9 @@ const RoyalSwiss = () => {
                 <meta name="description" content="Royal Swiss Multan, developed by HRL Group, is a latest project aimed to redefine urban living or revolutionize the standards of housing in the City of Saints." />
             </Helmet>
 
-            <div>
+            <div className='mt-[87px]'>
                 {/* Header */}
-                <header className="my-24">
+                <header className="mb-14">
                     <div
                         className="w-full bg-center bg-cover"
                         style={{
@@ -44,9 +44,9 @@ const RoyalSwiss = () => {
                                 <div className="container px-4 mx-auto">
                                     <div className="max-w-4xl mx-auto text-center">
                                         {/* <span className="text-gray-200 font-semibold uppercase tracking-widest">IES Marketing</span> */}
-                                        <h2 className="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">
+                                        <h1 className="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">
                                             Royal Swiss Housing Multan – A Luxurious Enclave
-                                        </h2>
+                                        </h1>
                                         <p className="max-w-3xl mx-auto mb-10 text-lg text-gray-300">
                                             Royal Swiss Housing is the latest project in Multan aimed to revolutionize the standards of housing in the city.
                                         </p>
@@ -69,7 +69,7 @@ const RoyalSwiss = () => {
 
 
                 {/* More Details */}
-                <div className="bg-white text-black text-justify min-h-screen py-12 px-4 md:px-20">
+                <div className="bg-white text-black text-justify min-h-screen px-4 md:px-20">
                     <div className="max-w-4xl mx-auto">
 
                         {/* Introduction Section */}
@@ -95,7 +95,8 @@ const RoyalSwiss = () => {
                         <section className="mb-12">
                             <h2 className="text-3xl font-bold mb-4 text-start">Successfully delivered HRL (Pvt.) projects</h2>
                             <p className='text-lg leading-relaxed'>
-                                Since 1962, HRL Group has provided services in different areas, like power and energy, buildings, oil and gas, airports and aviation, roads, housing, infrastructure, etc. It has a track record of successfully delivering notable projects in different cities of Pakistan and internationally. Each project reflects HRL's emphasis on superior craftsmanship and innovation in architectural design. Some of their popular projects are:                        </p>
+                                Since 1962, HRL Group has provided services in different areas, like power and energy, buildings, oil and gas, airports and aviation, roads, housing, infrastructure, etc. It has a track record of successfully delivering notable projects in different cities of Pakistan and internationally. Each project reflects HRL's emphasis on superior craftsmanship and innovation in architectural design. Some of their popular projects are:
+                            </p>
                             <p className='text-lg leading-relaxed'>
                                 <li>Laal Peer Plant</li>
                                 <li>Laal Peer Plant</li>
@@ -142,16 +143,16 @@ const RoyalSwiss = () => {
                         <section className="mb-12">
                             <h2 className="text-3xl font-bold mb-4 text-start">Royal Swiss Housing NOC Status</h2>
                             <p className="text-lg leading-relaxed">
-                                Royal Swiss Housing recently received approval from the Multan Development Authority (MDA) for 700 Kanal land area in the month of June and started offering plots on easy installments. This approval reaffirms their commitment and dedication to providing high-quality living spaces and meeting sustainability, safety, and urban planning standards. The construction process has started, and the project promises a modern community with top-tier amenities. The owners aimed to elevate the quality of life and set new standards in urban living. Interested candidates can get residential and commercial plots by becoming a member of the Royal Swiss Housing.                            </p>
+                                Royal Swiss Housing recently received approval from the Multan Development Authority (MDA) for 700 Kanal land area in the month of June and started offering plots on easy installments. This approval reaffirms their commitment and dedication to providing high-quality living spaces and meeting sustainability, safety, and urban planning standards. The construction process has started, and the project promises a modern community with top-tier amenities. The owners aimed to elevate the quality of life and set new standards in urban living. Interested candidates can get residential and commercial plots by becoming a member of the Royal Swiss Housing.
+                            </p>
                         </section>
+
 
                         {/* Development status */}
                         <section className="mb-12">
                             <h2 className="text-3xl font-bold mb-4 text-start">Royal Swiss Housing Development Status</h2>
                             <p className="text-lg leading-relaxed">
                                 This housing project aimed to provide an underground electricity set up to improve the living experience in the near future. This setup will provide reliable or safe power distribution. Their plans to develop quality infrastructure and swift developmental process are clear indicators of their capability to deliver a prestigious community to people. Furthermore, the sports complex is currently in the process of development, and basic utilities, like water, gas, and electricity, will be provided in the coming years. The current stage of Royal Swiss Housing exemplifies a thoughtful approach to development, aiming to create a harmonious blend of infrastructure, green spaces, and amenities.
-                            </p>
-                            <p className="text-lg leading-relaxed">
                             </p>
                         </section>
 
@@ -161,22 +162,24 @@ const RoyalSwiss = () => {
                             <p className='text-lg leading-relaxed'>
                                 Royal Swiss Housing will offer a wide range of features designed to enhance the quality of life. The notable features include:                                       </p>
                             <p className='text-lg leading-relaxed'>
-                                <li>Mosque</li>
-                                <li>Parks and gym</li>
-                                <li>Sewerage line</li>
-                                <li>Education facilities</li>
-                                <li>Community Center</li>
-                                <li>Sports Complex</li>
-                                <li>Water filtration plant</li>
-                                <li>Eco-friendly society</li>
-                                <li>Street lights</li>
-                                <li>Golf course</li>
-                                <li>Carpeted roads</li>
-                                <li>40-feet roads</li>
-                                <li>Basic utilities</li>
-                                <li>220-feet main boulevard</li>
-                                <li>Full-proof Security system</li>
-                                <li>Healthcare facilities</li>
+                                <ul className="list-disc ml-5">
+                                    <li>Mosque</li>
+                                    <li>Parks and gym</li>
+                                    <li>Sewerage line</li>
+                                    <li>Education facilities</li>
+                                    <li>Community Center</li>
+                                    <li>Sports Complex</li>
+                                    <li>Water filtration plant</li>
+                                    <li>Eco-friendly society</li>
+                                    <li>Street lights</li>
+                                    <li>Golf course</li>
+                                    <li>Carpeted roads</li>
+                                    <li>40-feet roads</li>
+                                    <li>Basic utilities</li>
+                                    <li>220-feet main boulevard</li>
+                                    <li>Full-proof Security system</li>
+                                    <li>Healthcare facilities</li>
+                                </ul>
                             </p>
                         </section>
 
@@ -194,7 +197,7 @@ const RoyalSwiss = () => {
                         <section className="mb-12">
                             <h2 className="text-3xl font-bold mb-4 text-start">Location of Royal Swiss</h2>
                             <div>
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13812.318492705257!2d71.44402929246822!3d30.063252069052993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8b66bb588cb3c26b%3A0xf56b38f814d92751!2sSmart%20Housing%20Multan!5e0!3m2!1sen!2s!4v1724130783166!5m2!1sen!2s" width="900" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13812.318492705257!2d71.44402929246822!3d30.063252069052993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8b66bb588cb3c26b%3A0xf56b38f814d92751!2sSmart%20Housing%20Multan!5e0!3m2!1sen!2s!4v1724130783166!5m2!1sen!2s" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='w-full'></iframe>
                             </div>
                         </section>
 
@@ -208,13 +211,15 @@ const RoyalSwiss = () => {
                             {/* <p className="text-lg leading-relaxed"></p> */}
 
                             <p className='text-lg leading-relaxed'>
-                                <li>	Located on Bahawalpur Bypass</li>
-                                <li>Almost 6 minutes from Vehari Road</li>
-                                <li>About 10 minutes from Southern Bypass</li>
-                                <li>Almost 14 minutes from Piran Ghaib Road</li>
-                                <li>Almost 8km from Billiwala Interchange</li>
-                                <li>In close proximity to M4-Motorway (Multan-Faisalabad)</li>
-                                <li>Quick connectivity to Sui-gas Road</li>
+                                <ul className="list-disc">
+                                    <li>Located on Bahawalpur Bypass</li>
+                                    <li>Almost 6 minutes from Vehari Road</li>
+                                    <li>About 10 minutes from Southern Bypass</li>
+                                    <li>Almost 14 minutes from Piran Ghaib Road</li>
+                                    <li>Almost 8km from Billiwala Interchange</li>
+                                    <li>In close proximity to M4-Motorway (Multan-Faisalabad)</li>
+                                    <li>Quick connectivity to Sui-gas Road</li>
+                                </ul>
                             </p>
                         </section>
 
@@ -227,20 +232,22 @@ const RoyalSwiss = () => {
                             {/* <p className="text-lg leading-relaxed"></p> */}
 
                             <p className='text-lg leading-relaxed'>
-                                <li>Multan International cricket stadium</li>
-                                <li>Allied College of Health Sciences</li>
-                                <li>Shah Rukn-e-alam Tomb</li>
-                                <li>Shah Rukn-e-alam Tomb</li>
-                                <li>Shah Rukn-e-Alam Colony</li>
-                                <li>Multan Larri Adda</li>
-                                <li>Jinnah Park</li>
-                                <li>Daewoo Terminal</li>
-                                <li>Zaitoon Garden Restaurant</li>
-                                <li>Muslim school and college</li>
-                                <li>Wing's Fitness Gym</li>
-                                <li>Maharana Uday Singh's playground</li>
-                                <li>Haram gate</li>
-                                <li>M4 motorway (Multan-Faisalabad)</li>
+                                <ul className='list-disc ml-5'>
+                                    <li>Multan International cricket stadium</li>
+                                    <li>Allied College of Health Sciences</li>
+                                    <li>Shah Rukn-e-alam Tomb</li>
+                                    <li>Shah Rukn-e-alam Tomb</li>
+                                    <li>Shah Rukn-e-Alam Colony</li>
+                                    <li>Multan Larri Adda</li>
+                                    <li>Jinnah Park</li>
+                                    <li>Daewoo Terminal</li>
+                                    <li>Zaitoon Garden Restaurant</li>
+                                    <li>Muslim school and college</li>
+                                    <li>Wing's Fitness Gym</li>
+                                    <li>Maharana Uday Singh's playground</li>
+                                    <li>Haram gate</li>
+                                    <li>M4 motorway (Multan-Faisalabad)</li>
+                                </ul>
                             </p>
                         </section>
 
@@ -250,8 +257,8 @@ const RoyalSwiss = () => {
                             <p className="text-lg leading-relaxed">
                                 Royal Swiss Housing offers a 5-year payment plan, providing an affordable opportunity to potential investors and residents. With competitive pricing and favorable terms, the payment plan allows for manageable monthly or half-year installment options to complete the total cost of the plot. The plots of 3.5, 5, 7, or 10 Marla and 1 or 2 Kanal are available in the Royal Swiss Housing project. In addition, commercial plots of 4 and 8 Marla can be purchased. You have to pay 10% of the total amount for booking and 10% for plot confirmation. After confirmation of the file, 10% of the amount needs to be paid at the time of balloting and another 10% for possession. Furthermore, you have to pay 58 monthly installments and nine bi-annual installments in this time frame.                            </p>
                             <div className='flex justify-start items-start mt-10 gap-3 flex-wrap'>
-                                <img src={paymentPlan} alt="" className='mx-auto max-w-[400px] border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl' />
-                                <img src={paymentPlan2} alt="" className='mx-auto max-w-[400px] border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl' />
+                                <img src={paymentPlan} alt="" className='mx-auto w-full sm:max-w-[400px] border rounded-xl transition-all duration-[0.5s] hover:border-black hover:shadow-2xl' />
+                                <img src={paymentPlan2} alt="" className='mx-auto w-full sm:max-w-[400px] border rounded-xl transition-all duration-[0.5s] hover:border-black hover:shadow-2xl' />
                             </div>
                         </section>
 
@@ -268,24 +275,24 @@ const RoyalSwiss = () => {
                         <section className='mb-12'>
                             <h2 className="text-3xl font-bold mb-4 text-start">FAQS</h2>
                             <h3 className="text-xl font-semibold mt-3 text-start">Where is Royal Swiss Housing located in Multan?</h3>
-                            <p className=" text-lg leading-relaxed">
+                            <p className="text-[15px] sm:text-lg leading-relaxed">
                                 Royal Swiss Housing is located on Bahawalpur Bypass Road near Old Shujabad Road, offering a prime residential opportunity. It is easily accessible via an approximate 8km drive from either Billiwala interchange or lies in close proximity to M4-Motorway, Sui-gas Road, and Vehari Road.
                             </p>
                             <h3 className="text-xl font-semibold mt-5 text-start">What amenities are offered in Royal Swiss Housing?</h3>
-                            <p className="text-lg leading-relaxed">
+                            <p className="text-[15px] sm:text-lg leading-relaxed">
                                 Royal Swiss Housing Project offers a range of amenities to enhance the lifestyle of residents. It features parks, green spaces for recreation, a modern security system, and community centers. It also provides convenient access to essential services, like healthcare or education facilities. This housing project also features dedicated areas for sports or leisure activities, ensuring an enjoyable living experience.
                             </p>
                             <h3 className="text-xl font-semibold mt-5 text-start">Is the Royal Swiss Housing Multan legally approved?</h3>
-                            <p className="text-lg leading-relaxed">
+                            <p className="text-[15px] sm:text-lg leading-relaxed">
                                 Royal Swiss Housing is a legally approved project by legal authorities, which ensures that the project meets regulatory standards. NOC approval helped gain the confidence and trust of buyers in society because it made the investment process clear and legitimate. This housing society complies with the laws and regulations.
                             </p>
                             <h3 className="text-xl font-semibold mt-5 text-start">Who is the developer of Royal Swiss Housing Multan?</h3>
-                            <p className="text-lg leading-relaxed">
+                            <p className="text-[15px] sm:text-lg leading-relaxed">
                                 Habib Rafiq Pvt. Limited is the developer of Royal Swiss Housing, which is a well-recognized real estate company known for its extraordinary construction or housing projects across Pakistan. Mr. Shahid Rafiq, CEO of HRL Group, has also worked on international projects and put efforts to make HRL Group a reputed company in the real estate industry.                            </p>
                             <h3 className="text-xl font-semibold mt-5 text-start">What size plots are available in Royal Swiss Housing Multan?</h3>
-                            <p className="text-lg leading-relaxed">Royal Swiss Housing Multan has residential plots of 3.5, 5, 7, or 10 Marla and 1 or 2 Kanal that are ready for purchase at a payment plan of 5 years. Also, commercial plots of 4 and 8 Marla are also available for sale at an affordable plan of monthly, quarterly, and yearly installments. You can get plot files after paying booking amounts and confirmation amount needs +to be paid after 30 days.  </p>
+                            <p className="text-[15px] sm:text-lg leading-relaxed">Royal Swiss Housing Multan has residential plots of 3.5, 5, 7, or 10 Marla and 1 or 2 Kanal that are ready for purchase at a payment plan of 5 years. Also, commercial plots of 4 and 8 Marla are also available for sale at an affordable plan of monthly, quarterly, and yearly installments. You can get plot files after paying booking amounts and confirmation amount needs +to be paid after 30 days.  </p>
                             <h3 className="text-xl font-semibold mt-5  text-start">Can I buy a plot on cash payment in Royal Swiss Housing Multan?</h3>
-                            <p className="text-lg leading-relaxed">On cash payment, you can get a plot in Royal Swiss Housing society Multan. You can start construction of houses after completion of development in the society, which is in the process and gets complete in a few years. Secure your plot on installment or cash payment according to your budget and get benefit from the piece of property in the near future.</p>
+                            <p className="text-[15px] sm:text-lg leading-relaxed">On cash payment, you can get a plot in Royal Swiss Housing society Multan. You can start construction of houses after completion of development in the society, which is in the process and gets complete in a few years. Secure your plot on installment or cash payment according to your budget and get benefit from the piece of property in the near future.</p>
                         </section>
 
 
@@ -311,13 +318,13 @@ const RoyalSwiss = () => {
 
                 {/* Disclaimer */}
                 <section className='my-10 px-3 sm:px-20 text-justify'>
-                    <h2 className="text-3xl font-bold mb-4 text-start">Disclaimer</h2>
+                    <h3 className="text-3xl font-bold mb-4 text-start">Disclaimer</h3>
                     <p className="text-xl font-semibold mt-5">
                         We collect information from credible and authentic online sources to provide up-to-date property details. We make no representations or claims about the accuracy of the data. We do not claim liability in case of any financial and investment-related losses experienced by users. Potential buyers or users are urged to exercise caution and take full responsibility for their investment.
                     </p>
                 </section>
 
-                <OurProjects />
+                <OurProjects showHelmet={false} />
             </div>
         </>
     )

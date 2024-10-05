@@ -16,12 +16,11 @@ const WapdaTown = () => {
         <>
             <Helmet>
                 <title>Wapda Town Multan - IES Marketing</title>
-                <meta name="description" content="Wapda Town Multan – . IES Marketing" />
+                <meta name="description" content="Wapda Town Multan is a gated-community developed to cater to the housing needs of employees of Water and Power Development Authority." />
             </Helmet>
 
-            <div>
-                <header className="my-24">
-
+            <div className='mt[87px]'>
+                <header className="mb-14">
                     <div
                         className="w-full bg-center bg-cover"
                         style={{
@@ -33,9 +32,9 @@ const WapdaTown = () => {
                                 <div className="container px-4 mx-auto">
                                     <div className="max-w-4xl mx-auto text-center">
                                         {/* <span className="text-gray-200 font-semibold uppercase tracking-widest">IES Marketing</span> */}
-                                        <h2 className="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">
+                                        <h1 className="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">
                                             Wapda Town Multan – Classic Comforts with Lasting Value
-                                        </h2>
+                                        </h1>
                                         <p className="max-w-3xl mx-auto mb-10 text-lg text-gray-300">
                                             Wapda Town Multan is a gated residential community developed to cater to the housing needs of employees of the Water and Power Development Authority (WAPDA).
                                         </p>
@@ -55,7 +54,7 @@ const WapdaTown = () => {
                 </header>
 
                 {/* More Details */}
-                <div className="bg-white text-black text-justify min-h-screen py-12 px-4 md:px-20">
+                <div className="bg-white text-black text-justify min-h-screen px-4 md:px-20">
                     <div className="max-w-4xl mx-auto">
 
                         {/* Introduction Section */}
@@ -100,27 +99,29 @@ const WapdaTown = () => {
                             <h2 className="text-3xl font-bold mb-4 text-start">Main Features of Wapda Town Multan</h2>
                             <p className="text-lg leading-relaxed">
                                 <p>Some prominent features of Wapda Town Multan are:</p>
-                                <li>Grand Mosque</li>
-                                <li>Eco-friendly environment</li>
-                                <li>Graveyard</li>
-                                <li>Water resources</li>
-                                <li>Underground electrification</li>
-                                <li>Quality development</li>
-                                <li>Sewage disposal system</li>
-                                <li>Education Complex</li>
-                                <li>Affordability</li>
-                                <li>Community center</li>
-                                <li>Health facilities</li>
-                                <li>Education Complex</li>
-                                <li>Commercial hub</li>
-                                <li>Secure community</li>
-                                <li>High-quality infrastructure</li>
-                                <li>Club House</li>
-                                <li>Retail Area</li>
-                                <li>Medical facilities</li>
-                                <li>Sports Complex</li>
-                                <li>24/7 Security</li>
-                                <li>Gated-community</li>
+                                <ul className="list-disc ml-5">
+                                    <li>Grand Mosque</li>
+                                    <li>Eco-friendly environment</li>
+                                    <li>Graveyard</li>
+                                    <li>Water resources</li>
+                                    <li>Underground electrification</li>
+                                    <li>Quality development</li>
+                                    <li>Sewage disposal system</li>
+                                    <li>Education Complex</li>
+                                    <li>Affordability</li>
+                                    <li>Community center</li>
+                                    <li>Health facilities</li>
+                                    <li>Education Complex</li>
+                                    <li>Commercial hub</li>
+                                    <li>Secure community</li>
+                                    <li>High-quality infrastructure</li>
+                                    <li>Club House</li>
+                                    <li>Retail Area</li>
+                                    <li>Medical facilities</li>
+                                    <li>Sports Complex</li>
+                                    <li>24/7 Security</li>
+                                    <li>Gated-community</li>
+                                </ul>
                             </p>
                         </section>
 
@@ -139,11 +140,13 @@ const WapdaTown = () => {
                         <section className="mb-12">
                             <h2 className="text-3xl font-bold mb-4 text-start">Wapda Town Multan Accessibilities</h2>
                             <p className="text-xl font-semibold mb-2">There are many routes to reach Wapda Town Multan, as it is located a few minutes away from popular landmarks.</p>
-                            <li>Around a 2-minute drive from MPS Road</li>
-                            <li>Almost a 3-minute drive from M.A Jinnah Road</li>
-                            <li>Around a 5-minute drive from BZU Multan</li>
-                            <li>Nearly a 6-minute drive from Bosan Road and ISP</li>
-                            <li>Around an 8-minute drive from Southern Bypass Multan</li>
+                            <ul className="list-disc ml-5">
+                                <li>Around a 2-minute drive from MPS Road</li>
+                                <li>Almost a 3-minute drive from M.A Jinnah Road</li>
+                                <li>Around a 5-minute drive from BZU Multan</li>
+                                <li>Nearly a 6-minute drive from Bosan Road and ISP</li>
+                                <li>Around an 8-minute drive from Southern Bypass Multan</li>
+                            </ul>
                         </section>
 
 
@@ -152,7 +155,7 @@ const WapdaTown = () => {
                             <h2 className="text-3xl font-bold mb-4 text-start">Popular Landmarks near Wapda Town Multan</h2>
                             <p className="text-xl font-semibold mb-2">Some of the popular Landmarks present near Wapda Town are:</p>
                             {/* <p className="text-lg leading-relaxed"></p> */}
-                            <ul className='list-disc'>
+                            <ul className='list-disc ml-5'>
                                 <li>Zakariya Town</li>
                                 <li>PIA Employees Housing</li>
                                 <li>Bahaudin Zakariya University, Multan</li>
@@ -196,7 +199,7 @@ const WapdaTown = () => {
                                 In conclusion, Wapda Town Multan is a well-established and legally approved housing society. Developed by the Wapda Employees Cooperative Housing Society, it has grown into a thriving community, providing a perfect living spot to government employees and the general public. Due to its strategic location, legal clearance, and reputation, Wapda Town Multan has emerged as a solid investment choice. It caters to end-users and investors, offering lucrative capital gains and rental income opportunities.
                             </p>
                             <p className="text-lg leading-relaxed">
-                                Contact IES Marketing or visit the office for more details and better guidance. We will find the best plot for you thatfulfills the requirements of a dream house. We deal in many other popular housing schemes, including <Link to="/smart-housing" className='text-blue-500 hover:underline'>Smart Housing Multan</Link> , <Link to="/project/adams-housing" className='text-blue-500 hover:underline'>Adams Housing Multan</Link>, Multan Central, <Link to="/project/royal-swiss" className='text-blue-500 hover:underline'>Royal Swiss</Link>, <Link to="/project/royal-orchard" className='text-blue-500 hover:underline'>Royal Orchard</Link>, <Link to="/project/DHA-multan" className='text-blue-500 hover:underline'>DHA Multan</Link>, Model Town, and <Link to="/project/citi-housing" className='text-blue-500 hover:underline'>Citi Housing Multan</Link>. You can reach out to our team for bookings and suggestions related to investment.
+                                Contact IES Marketing or visit the office for more details and better guidance. We will find the best plot for you thatfulfills the requirements of a dream house. We deal in many other popular housing schemes, including <Link to="/smart-housing" className='text-blue-500 hover:underline'>Smart Housing Multan</Link> , <Link to="/adams-housing" className='text-blue-500 hover:underline'>Adams Housing Multan</Link>, Multan Central, <Link to="/royal-swiss" className='text-blue-500 hover:underline'>Royal Swiss</Link>, <Link to="/royal-orchard-multan" className='text-blue-500 hover:underline'>Royal Orchard</Link>, <Link to="/dha-multan" className='text-blue-500 hover:underline'>DHA Multan</Link>, Model Town, and <Link to="/citi-housing-multan" className='text-blue-500 hover:underline'>Citi Housing Multan</Link>. You can reach out to our team for bookings and suggestions related to investment.
                             </p>
                         </section>
 
@@ -230,3 +233,4 @@ const WapdaTown = () => {
 }
 
 export default WapdaTown
+

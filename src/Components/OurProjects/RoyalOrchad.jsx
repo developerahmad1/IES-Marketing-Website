@@ -28,8 +28,9 @@ const RoyalOrchad = () => {
                 <meta name="description" content="Royal Orchard Multan, developed by HRL Group, provides a luxurious and comfortable lifestyle.  It has 4000 Kanal land area that is approved by MDA." />
             </Helmet>
 
-            <div>
-                <header className="my-24">
+            <div className='mt-[87px]'>
+
+                <header className="mb-14">
                     <div
                         className="w-full bg-center bg-cover"
                         style={{
@@ -42,9 +43,9 @@ const RoyalOrchad = () => {
                                 <div className="container px-4 mx-auto">
                                     <div className="max-w-4xl mx-auto text-center">
                                         {/* <span className="text-gray-200 font-semibold uppercase tracking-widest">IES Marketing</span> */}
-                                        <h2 className="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">
+                                        <h1 className="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">
                                             Royal Orchard Multan – Premier Destination for Modern Living
-                                        </h2>
+                                        </h1>
                                         <p className="max-w-4xl mx-auto mb-10 text-lg text-center text-gray-300">
                                             Royal Orchard Multan provides a luxurious and comfortable lifestyle in the fast-growing city of South Punjab with modern infrastructure, including underground electricity, wide roads, and a sewerage system, and follows international community standards.
                                         </p>
@@ -64,7 +65,7 @@ const RoyalOrchad = () => {
                 </header>
 
                 {/* more details */}
-                <div className="bg-white text-black text-justify min-h-screen py-12 px-4 md:px-20">
+                <div className="bg-white text-black text-justify min-h-screen px-4 md:px-20">
 
                     <div className="max-w-4xl mx-auto">
 
@@ -88,30 +89,34 @@ const RoyalOrchad = () => {
 
                         {/* Habib Rafiq Private Limited */}
                         <section className="mb-12">
-                            <h5 className="text-2xl font-bold mb-4 text-start">Habib Rafiq Private Limited</h5>
+                            <h3 className="text-2xl font-bold mb-4 text-start">Habib Rafiq Private Limited</h3>
                             <p className="text-lg leading-relaxed">
                                 Habib Rafiq Pvt. Limited is a well-established developer that has delivered many successful projects in Pakistan. It is known for its significant contributions to the real estate, infrastructure, and development sectors. Its diverse portfolio includes large-scale infrastructure projects, housing developments, and commercial projects. Moreover, HRL Group is an ISO 9001-certified developer focusing on quality work and incorporating innovation in construction and development. Furthermore, it has completed various commercial projects, including shopping malls, office complexes, etc. Some of their remarkable housing projects are:
                             </p>
                             <p className="text-lg leading-relaxed">
-                                <li>Royal Swiss Housing Multan</li>
-                                <li>Creek Vista Tower</li>
-                                <li>Capital Smart City</li>
-                                <li>Lahore Smart City</li>
-                                <li>Royal Pearl Enclave DG Khan</li>
-                                <li>Multan International Airport</li>
+                                <ul className="list-disc ml-5">
+                                    <li>Royal Swiss Housing Multan</li>
+                                    <li>Creek Vista Tower</li>
+                                    <li>Capital Smart City</li>
+                                    <li>Lahore Smart City</li>
+                                    <li>Royal Pearl Enclave DG Khan</li>
+                                    <li>Multan International Airport</li>
+                                </ul>
                             </p>
                         </section>
 
                         {/* Royal Developers and Builders Pvt. Limited */}
                         <section className="mb-12">
-                            <h5 className="text-2xl font-bold mb-4 text-start">Royal Developers and Builders Pvt. Limited</h5>
+                            <h3 className="text-2xl font-bold mb-4 text-start">Royal Developers and Builders Pvt. Limited</h3>
                             <p className="text-lg leading-relaxed">
                                 Royal Developers is a reputable and trustworthy real estate developer known for innovative housing projects across Pakistan. It is a sub-group of Habib Rafiq Pvt. Limited and provide well-planned communities. It meets the standards of quality and design for a community. Its skilled and professional team of engineers and architects tries to provide excellent living standards to residents. Royal Developers strives to create value for investors, clients, and communities. They aimed to provide world-class amenities in their upcoming projects in Lahore, Islamabad, Karachi, Peshawar, Rahim Yar Khan after successful projects listed below:
                             </p>
                             <p className="text-lg leading-relaxed">
-                                <li>Royal Orchard Sahiwal</li>
-                                <li>Royal Orchard Sargodha</li>
-                                <li>Royal Orchard Multan</li>
+                                <ul className="list-disc ml-5">
+                                    <li>Royal Orchard Sahiwal</li>
+                                    <li>Royal Orchard Sargodha</li>
+                                    <li>Royal Orchard Multan</li>
+                                </ul>
                             </p>
                         </section>
 
@@ -144,20 +149,21 @@ const RoyalOrchad = () => {
                                 The Master Plan of the Royal Orchard Multan ensures that the residents get all facilities and make a community productive. Some key features or amenities of the Royal Orchard Multan are:
                             </p>
                             <p className="text-lg leading-relaxed">
-                                <li>Al-Mustafa Jamia Mosque</li>
-                                <li>Royal Homes & Villas</li>
-                                <li>Majestic Entrance</li>
-                                <li>Main Boulevard</li>
-                                <li>CCTV Monitoring</li>
-                                <li>Sports</li>
-                                <li>Smart Homes</li>
-                                <li>Mini-golf Club</li>
-                                <li>24x7 Security System</li>
-                                <li>Food Court</li>
-                                <li>Shopping Plazas</li>
-                                <li>Cineplex Cinemas</li>
-                                <li>Smart Waste Management System</li>
-
+                                <ul className="list-disc ml-5">
+                                    <li>Al-Mustafa Jamia Mosque</li>
+                                    <li>Royal Homes & Villas</li>
+                                    <li>Majestic Entrance</li>
+                                    <li>Main Boulevard</li>
+                                    <li>CCTV Monitoring</li>
+                                    <li>Sports</li>
+                                    <li>Smart Homes</li>
+                                    <li>Mini-golf Club</li>
+                                    <li>24x7 Security System</li>
+                                    <li>Food Court</li>
+                                    <li>Shopping Plazas</li>
+                                    <li>Cineplex Cinemas</li>
+                                    <li>Smart Waste Management System</li>
+                                </ul>
                             </p>
                         </section>
 
@@ -176,14 +182,16 @@ const RoyalOrchad = () => {
                                 Royal Orchard Multan society can be accessed via these routes:
                             </p>
                             <p className="text-lg leading-relaxed">
-                                <li>Around 2 minutes drive from Southern Bypass Chowk</li>
-                                <li>Around 3 minutes from Wapda Town Phase I</li>
-                                <li>Around 4 minutes drive from Pak Fertilizer</li>
-                                <li>Around 5 minutes drive from Bahaudin Zakariya University</li>
-                                <li>Around 6 minutes drive from Buch Executive Villas</li>
-                                <li>Around 9 minutes from Nishter Hospital</li>
-                                <li>Around 10 minutes drive from Multan International Airport   </li>
-                                <li>Around 12 minutes drive from Clock Tower</li>
+                                <ul className="list-disc ml-5">
+                                    <li>Around 2 minutes drive from Southern Bypass Chowk</li>
+                                    <li>Around 3 minutes from Wapda Town Phase I</li>
+                                    <li>Around 4 minutes drive from Pak Fertilizer</li>
+                                    <li>Around 5 minutes drive from Bahaudin Zakariya University</li>
+                                    <li>Around 6 minutes drive from Buch Executive Villas</li>
+                                    <li>Around 9 minutes from Nishter Hospital</li>
+                                    <li>Around 10 minutes drive from Multan International Airport   </li>
+                                    <li>Around 12 minutes drive from Clock Tower</li>
+                                </ul>
                             </p>
                         </section>
 
@@ -195,19 +203,21 @@ const RoyalOrchad = () => {
                                 Popular places and nearby landmarks of Royal Orchard Multan are:
                             </p>
                             <p className="text-lg leading-relaxed">
-                                <li>Women's University Multan Mattital Campus</li>
-                                <li>Gymkhana & Sports Complex</li>
-                                <li>Pak Arab Fertilizer</li>
-                                <li>Multan Public School</li>
-                                <li>Wapda Town Phase II</li>
-                                <li>Head Muhammad Wala  </li>
-                                <li>Dream Garden</li>
-                                <li>Pace City</li>
-                                <li>Cantt Avenue</li>
-                                <li>Judicial Complex</li>
-                                <li>Railway Station</li>
-                                <li>Buch Villas</li>
-                                <li>Bakhtawar Amin Medical & Dental College/Hospital</li>
+                                <ul className="list-disc ml-5">
+                                    <li>Women's University Multan Mattital Campus</li>
+                                    <li>Gymkhana & Sports Complex</li>
+                                    <li>Pak Arab Fertilizer</li>
+                                    <li>Multan Public School</li>
+                                    <li>Wapda Town Phase II</li>
+                                    <li>Head Muhammad Wala  </li>
+                                    <li>Dream Garden</li>
+                                    <li>Pace City</li>
+                                    <li>Cantt Avenue</li>
+                                    <li>Judicial Complex</li>
+                                    <li>Railway Station</li>
+                                    <li>Buch Villas</li>
+                                    <li>Bakhtawar Amin Medical & Dental College/Hospital</li>
+                                </ul>
                             </p>
                         </section>
 
@@ -223,13 +233,15 @@ const RoyalOrchad = () => {
                                 Royal Orchard Multan is divided into two main phases. The first phase has varying plot cuttings for residential or commercial purposes. The plots of 5, 10, and 12 Marla and 1 or 2 Kanal are available in Phase 1. It is a well-developed phase of the society that is 70% to 80% occupied by residents. Also, commercial plots cuttings of 2, 4, 6, 8, and 10 Marla plots are available on cash payment. This phase is further divided into seven blocks listed below:
                             </p>
                             <p className="text-lg leading-relaxed">
-                                <li>Block A</li>
-                                <li>Block B</li>
-                                <li>Block C</li>
-                                <li>Block D</li>
-                                <li>Block E</li>
-                                <li>Block F</li>
-                                <li>Block G</li>
+                                <ul className="list-disc ml-5">
+                                    <li>Block A</li>
+                                    <li>Block B</li>
+                                    <li>Block C</li>
+                                    <li>Block D</li>
+                                    <li>Block E</li>
+                                    <li>Block F</li>
+                                    <li>Block G</li>
+                                </ul>
                             </p>
                             <p className="text-lg leading-relaxed">
                                 However, the second phase is also a combination of modernism and serenity and is currently undergoing steady development. Its entrance gate is just opposite the Women's University Mattital campus. In phase II, plots of 5, 6, 7, and 10 Marla or 1 Kanal are available in easy installments and cash payment.
@@ -259,42 +271,42 @@ const RoyalOrchad = () => {
 
                         {/* FAQS */}
                         <section className="mb-12">
-                            <h5 className="text-3xl font-bold mb-4">
+                            <h3 className="text-3xl font-bold mb-4">
                                 FAQS
-                            </h5>
-                            <h3 className="text-xl font-semibold mt-3 text-start">
+                            </h3>
+                            <h3 className="text-xl font-semibold mt-5 text-start">
                                 Who is the developer of Royal Orchard Multan?
                             </h3>
-                            <p className=" text-lg leading-relaxed">
+                            <p className="text-[15px] sm:text-lg leading-relaxed">
                                 The developers of Royal Orchard Multan Society are Habib Rafiq Pvt. Limited and Royal Developers. They have a significant reputation for developing high-quality residential and commercial projects nationwide. Both are known for their residential, commercial, and infrastructural development expertise. HRL Group is a name of trust in the real estate industry, and its housing projects ensure success.
                             </p>
-                            <h3 className="text-xl font-semibold mt-3 text-start">
+                            <h3 className="text-xl font-semibold mt-5 text-start">
                                 What amenities are present in Royal Orchard Multan?
                             </h3>
-                            <p className=" text-lg leading-relaxed">
+                            <p className="text-[15px] sm:text-lg leading-relaxed">
                                 Royal Orchard Multan provides residents with all basic to advanced amenities and is considered a lavish society with a complete residential scheme. It provides an eco-friendly environment, water resources, health facilities, mosques, community centers, etc. Other features include an education complex, high-quality road infrastructure, a clubhouse, a boundary wall, and much more. It is a golden opportunity for Multan locals to invest and get residential plots in Royal Orchard Multan.
                             </p>
-                            <h3 className="text-xl font-semibold mt-3 text-start">
+                            <h3 className="text-xl font-semibold mt-5 text-start">
                                 Is Royal Orchard Multan an affordable society?
                             </h3>
-                            <p className=" text-lg leading-relaxed">
+                            <p className="text-[15px] sm:text-lg leading-relaxed">
                                 Royal Orchard Multan is thought to be an expensive society, which is somehow true for phase I because the development process is near completion. However, plots in phase II are still available in easy installments that can be considered by people with a low budget. It is worth the investment as this gated community provides a luxurious lifestyle at cost-effective rates.
                             </p>
-                            <h3 className="text-xl font-semibold mt-3 text-start">
+                            <h3 className="text-xl font-semibold mt-5 text-start">
                                 Is Royal Orchard Multan legal society?                        </h3>
-                            <p className=" text-lg leading-relaxed">
+                            <p className="text-[15px] sm:text-lg leading-relaxed">
                                 Royal Orchard Multan is a legally-approved society as it has received ‘No Objection Certificate’ from developmental authorities in a short time due to its reputable developers. There is no fraud in this housing project and your amount will be in safe hands. This project ensures the satisfaction of clients and you will get all details on visit to the office.
                             </p>
-                            <h3 className="text-xl font-semibold mt-3 text-start">
+                            <h3 className="text-xl font-semibold mt-5 text-start">
                                 Is Royal Orchard Multan worth investment?
                             </h3>
-                            <p className=" text-lg leading-relaxed">
+                            <p className="text-[15px] sm:text-lg leading-relaxed">
                                 Royal Orchard Multan is worth investment project because it is location at a prime location where you can get all basic to advanced facilities at a close distance. Multan public school, women university Multan, and other education, recreational, or healthcare facilities are available for residents. Moreover, it is also good to consider from investment or commercial purposes even if you do not want to get a residential plot there.
                             </p>
-                            <h3 className="text-xl font-semibold mt-3 text-start">
+                            <h3 className="text-xl font-semibold mt-5 text-start">
                                 What is the location of Royal Orchard Multan?
                             </h3>
-                            <p className=" text-lg leading-relaxed">
+                            <p className="text-[15px] sm:text-lg leading-relaxed">
                                 Royal Orchard Multan has two gates; one is present on the Mattital road while the other is on Shakh-e-Madina road. It takes around 4 to 5 minutes to reach the society from Pak Arab Fertilizer and Bahaudin Zakariya University. From Nishter hospital and Multan airport, it will take around 9 to 10 minutes to reach Royal Orchard society.
                             </p>
                         </section>

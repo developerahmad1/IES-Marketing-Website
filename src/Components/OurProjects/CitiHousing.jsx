@@ -31,10 +31,10 @@ const CitiHousing = () => {
                 <meta name="description" content="Citi Housing Multan is an exclusive housing project in the City of Saints. Its leading-edge infrastructure and high-quality amenities boost standards of living." />
             </Helmet>
 
-            <div className='mt-[100px]'>
+            <div className='mt-[87px]'>
 
                 {/* Header Section */}
-                <header className="my-24">
+                <header className="mb-14">
                     <div
                         className="w-full bg-center bg-cover"
                         style={{
@@ -47,9 +47,9 @@ const CitiHousing = () => {
                                 <div className="container px-4 mx-auto">
                                     <div className="max-w-4xl mx-auto text-center">
                                         {/* <span className="text-gray-200 font-semibold uppercase tracking-widest">IES Marketing</span> */}
-                                        <h2 className="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">
+                                        <h1 className="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">
                                             CITI Housing Multan – High-end Living in Elite Community
-                                        </h2>
+                                        </h1>
                                         <p className="max-w-3xl mx-auto mb-10 text-lg text-gray-300 text-center">
                                             Citi Housing Multan is an exclusive housing project in the City of Saints, aimed to bring modern living standards. Its leading-edge infrastructure ensures a comfortable lifestyle and high-quality amenities, boosting standard of living.</p>
                                         <div onClick={openLeadpoup}>
@@ -68,7 +68,7 @@ const CitiHousing = () => {
                 </header>
 
                 {/* more details */}
-                <div className="bg-white text-black text-justify min-h-screen py-12 px-4 md:px-20">
+                <div className="bg-white text-black text-justify min-h-screen px-4 md:px-20">
                     <div className="max-w-4xl mx-auto">
 
                         {/* Introduction Section */}
@@ -97,15 +97,17 @@ const CitiHousing = () => {
                             <p className="text-lg leading-relaxed">Since 2011, Citi Housing Pvt. Limited has been delivering a luxurious lifestyle and world-class amenities to residents that were not previously seen in other societies. The Citi Housing Group has set new norms in Pakistan's real estate industry. It has a team of visionary leaders and dedicated workers, working day and night to facilitate people. Some of its remarkable projects executed in different areas of Pakistan are:
                             </p>
                             <p className="text-lg leading-relaxed">
-                                <li>Citi Housing Gujranwala (2011)</li>
-                                <li>Citi Housing Sialkot (2013)</li>
-                                <li>Citi Housing Jhelum (2014)</li>
-                                <li>Citi Housing Faisalabad Phase I (2015)</li>
-                                <li>Citi Housing Faisalabad Phase II (2016)</li>
-                                <li>Citi Housing Multan Phase I (2018)</li>
-                                <li>Citi Housing Multan Phase II (2020)</li>
-                                <li>Citi Housing Kharian (2022)</li>
-                                <li>Citi Housing Peshawar (2023)</li>
+                                <ul className='list-disc ml-5'>
+                                    <li>Citi Housing Gujranwala (2011)</li>
+                                    <li>Citi Housing Sialkot (2013)</li>
+                                    <li>Citi Housing Jhelum (2014)</li>
+                                    <li>Citi Housing Faisalabad Phase I (2015)</li>
+                                    <li>Citi Housing Faisalabad Phase II (2016)</li>
+                                    <li>Citi Housing Multan Phase I (2018)</li>
+                                    <li>Citi Housing Multan Phase II (2020)</li>
+                                    <li>Citi Housing Kharian (2022)</li>
+                                    <li>Citi Housing Peshawar (2023)</li>
+                                </ul>
                             </p>
                         </section>
 
@@ -136,29 +138,31 @@ const CitiHousing = () => {
                                 Some of the key features of the Citi Housing Multan project are listed below:
                             </p>
                             <p className="text-lg leading-relaxed">
-                                <li>CITI Theme Park</li>
-                                <li>CITI Grammar School</li>
-                                <li>Artistic Jamia Mosque</li>
-                                <li>CITI Medicare</li>
-                                <li>Health & Fitness Center</li>
-                                <li>Opera Cinema</li>
-                                <li>Dancing Fountain</li>
-                                <li>Carpeted Roads</li>
-                                <li>Water Supply</li>
-                                <li>Electricity and gas facilities</li>
-                                <li>Lush Green Parks</li>
-                                <li>24/7 Security & CCTV</li>
-                                <li>Shopping Mart</li>
-                                <li>Zoo</li>
-                                <li>Eiffel Tower Replica</li>
-                                <li>Water treatment plant</li>
-                                <li>Hospital</li>
-                                <li>Boundary wall</li>
-                                <li>Graveyard</li>
-                                <li>Petrol pumps</li>
-                                <li>CITI Restaurant</li>
-                                <li>Jogging Tracks</li>
-                                <li>Solid Waste Management System</li>
+                                <ul className='list-disc ml-5'>
+                                    <li>CITI Theme Park</li>
+                                    <li>CITI Grammar School</li>
+                                    <li>Artistic Jamia Mosque</li>
+                                    <li>CITI Medicare</li>
+                                    <li>Health & Fitness Center</li>
+                                    <li>Opera Cinema</li>
+                                    <li>Dancing Fountain</li>
+                                    <li>Carpeted Roads</li>
+                                    <li>Water Supply</li>
+                                    <li>Electricity and gas facilities</li>
+                                    <li>Lush Green Parks</li>
+                                    <li>24/7 Security & CCTV</li>
+                                    <li>Shopping Mart</li>
+                                    <li>Zoo</li>
+                                    <li>Eiffel Tower Replica</li>
+                                    <li>Water treatment plant</li>
+                                    <li>Hospital</li>
+                                    <li>Boundary wall</li>
+                                    <li>Graveyard</li>
+                                    <li>Petrol pumps</li>
+                                    <li>CITI Restaurant</li>
+                                    <li>Jogging Tracks</li>
+                                    <li>Solid Waste Management System</li>
+                                </ul>
                             </p>
                         </section>
 
@@ -210,7 +214,7 @@ const CitiHousing = () => {
                                 <li>Almost 12 minutes from Shalimar Road</li>
                                 <li>Almost 18 minutes from Lar Shujabad Road</li>
                                 <li>Almost 20 minutes from Fish Farm Road</li>
-                                <p className="text-lg leading-relaxed">Popular landmarks near Citi Housing Multan Phase II are:</p>
+                                <h6 className="text-[20px] font-[600] mt-5 leading-relaxed">Popular landmarks near Citi Housing Multan Phase II are:</h6>
                                 <li>Nishter Hospital</li>
                                 <li>Mouza Aliwala</li>
                                 <li>Karimabad Housing Society</li>
@@ -241,43 +245,48 @@ const CitiHousing = () => {
 
                             {/* phase 1 */}
                             <div>
-                                <h6 className="text-2xl mt-5 font-bold mb-1 text-start">Phase I</h6>
+                                <h4 className="text-2xl mt-5 font-bold mb-1 text-start">Phase I</h4>
                                 <p className="text-lg leading-relaxed">
                                     Citi Housing Phase I was launched in 2018 and offered residential or commercial plots. Some other prominent features of the phase I include theme parks, banks, mosques, and restaurants. In addition, 5, 7, and 10 Marla residential plots and 2.5 Marla commercial plots are available for buyers. Citi Housing mart, gym, carpeted roads, and schools are a few other distinctive features of phase I. This phase is divided into 11 blocks that are listed below:
                                 </p>
 
                                 <p className="text-lg leading-relaxed">
-                                    <li>Block A</li>
-                                    <li>Block B</li>
-                                    <li>Block B extension</li>
-                                    <li>Block C</li>
-                                    <li>Block D</li>
-                                    <li>Block E</li>
-                                    <li>Block F</li>
-                                    <li>Block G</li>
-                                    <li>Block H</li>
-                                    <li>Block I</li>
-                                    <li>Jinnah Block</li>
+                                    <ul className='list-disc ml-5'>
+                                        <li>Block A</li>
+                                        <li>Block B</li>
+                                        <li>Block B extension</li>
+                                        <li>Block C</li>
+                                        <li>Block D</li>
+                                        <li>Block E</li>
+                                        <li>Block F</li>
+                                        <li>Block G</li>
+                                        <li>Block H</li>
+                                        <li>Block I</li>
+                                        <li>Jinnah Block</li>
+                                    </ul>
+
                                 </p>
 
                             </div>
 
                             {/* phase 2 */}
                             <div>
-                                <h6 className="text-2xl mt-5 font-bold mb-1 text-start">Phase II</h6>
+                                <h4 className="text-2xl mt-5 font-bold mb-1 text-start">Phase II</h4>
                                 <p className="text-lg leading-relaxed">
                                     Citi Housing Multan Phase II was launched in March 2020 and constitutes almost 1900 Kanal land area. It has public buildings, residential or commercial plots, petrol stations, schools, etc. The distinctive features of Phase II are the dancing fountain, Jamiya mosque, Allama Iqbal Park, Citi main office, and farmhouses. Block A, B, and E have 5 and 10 Marla residential plots for sale, while 7 Marla plots are available in Block C and D. Furthermore, 1 Kanal plots are only available in Block E, so choose the right block according to your requirements.
                                 </p>
                                 <p className='text-lg leading-relaxed'>Phase II is divided into 7 blocks that are listed below:</p>
 
                                 <p className="text-lg leading-relaxed">
-                                    <li>Block A (5 and 10 Marla)</li>
-                                    <li>Block B (5 and 10 Marla)</li>
-                                    <li>Block C (7 Marla)</li>
-                                    <li>Block D (7 and 10 Marla)</li>
-                                    <li>Block E (5 and 10 Marla, or 1 Kanal)</li>
-                                    <li>Block F (5 Marla)</li>
-                                    <li>Block G (5 Marla)</li>
+                                    <ul className='list-disc ml-5'>
+                                        <li>Block A (5 and 10 Marla)</li>
+                                        <li>Block B (5 and 10 Marla)</li>
+                                        <li>Block C (7 Marla)</li>
+                                        <li>Block D (7 and 10 Marla)</li>
+                                        <li>Block E (5 and 10 Marla, or 1 Kanal)</li>
+                                        <li>Block F (5 Marla)</li>
+                                        <li>Block G (5 Marla)</li>
+                                    </ul>
                                 </p>
 
                             </div>
@@ -293,7 +302,7 @@ const CitiHousing = () => {
                                 In Citi Housing Multan Phase I, plots are now offered on cash payment because major proportion of the society is in possession and houses are built for residence. In addition, Citi Housing Phase II is available on cash payment and monthly installments also.
                             </p>
                             <div className='flex justify-start items-start mt-10 gap-3 flex-wrap'>
-                                <img src={paymentPlan1} alt="" className='mx-auto max-w-[400px] border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl' />
+                                <img src={paymentPlan1} alt="" className='mx-auto sm:max-w-[450px] border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl w-full' />
                                 {/* <img src={payementPlan2} alt="" className='mx-auto max-w-[400px] border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl' /> */}
                             </div>
 
@@ -313,39 +322,39 @@ const CitiHousing = () => {
 
                         {/* FAQS */}
                         <section className="mb-12">
-                            <h5 className="text-3xl font-bold mb-4">
+                            <h2 className="text-3xl font-bold mb-4">
                                 FAQS
-                            </h5>
-                            <h3 className="text-xl font-semibold mt-3 text-start">
+                            </h2>
+                            <h3 className="text-xl font-semibold mt-5 text-start">
                                 Who is the developer of Citi Housing Multan?
                             </h3>
-                            <p className=" text-lg leading-relaxed">
+                            <p className="text-[15px] sm:text-lg leading-relaxed">
                                 Citi Housing Pvt. Limited is the developer of the Citi Housing Multan project and has executed multiple successful projects under Mr. Zoraiz Malik's leadership. Citi Housing Group completed the Multan project at a faster pace and provided a gated community to the locals of Multan. Potential buyers or investors can buy residential or commercial property by trusting the reputable Citi Housing Group, as they always do excellent work.
                             </p>
-                            <h3 className="text-xl font-semibold mt-3 text-start">
+                            <h3 className="text-xl font-semibold mt-5 text-start">
                                 What facilities are offered to Citi Housing Multan residents?
                             </h3>
-                            <p className=" text-lg leading-relaxed">
+                            <p className="text-[15px] sm:text-lg leading-relaxed">
                                 Citi Housing projects are quite popular in Pakistan because the developer always meet the expectation of the clients. This project provides amazing investment opportunities due to its prime location and speedy development. Moreover, this society has a gated community with a high-quality infrastructure, a power-backup system and 120 to 180 feet main boulevard. Also, 40-foot-wide carpeted roads and an eco-friendly environment are its main features. The residents can get electricity, gas, and sewer facilities
                             </p>
-                            <h3 className="text-xl font-semibold mt-3 text-start">
+                            <h3 className="text-xl font-semibold mt-5 text-start">
                                 Is Citi Housing Multan an MDA-approved society?
                             </h3>
-                            <p className=" text-lg leading-relaxed">
+                            <p className="text-[15px] sm:text-lg leading-relaxed">
                                 Citi Housing Phase I is approved from Multan Development Authority and the developmental process is near to completion. It has fulfilled all the legal requirements and met the standard of a society. However, the phase II is not approved from MDA, but the owners are trying to get the NOC for this phase soon.
                             </p>
-                            <h3 className="text-xl font-semibold mt-3 text-start">
+                            <h3 className="text-xl font-semibold mt-5 text-start">
                                 Where is Citi Housing Multan located?
                             </h3>
-                            <p className=" text-lg leading-relaxed">
+                            <p className="text-[15px] sm:text-lg leading-relaxed">
                                 Citi Housing Multan is located at a prime location within Multan City and can be accessed via popular routes. Its Phase 1 is present on the Bosan road near BZU, Multan while Phase 2 is located on the Old Shujabad Road near M-5 motorway. The location of Citi Housing Phase 1 & 2 indicates the significance of project and provide a quick access to central Multan.                        </p>
-                            <h3 className="text-xl font-semibold mt-3 text-start">
+                            <h3 className="text-xl font-semibold mt-5 text-start">
                                 How many blocks are present in Citi Housing Multan?                        </h3>
-                            <p className=" text-lg leading-relaxed">
+                            <p className="text-[15px] sm:text-lg leading-relaxed">
                                 It will take around 8 to 10 minutes to reach Citi Housing Multan Phase 1 from Ring road and Nawabpur road. From Multan airport and Khanewal road, it will take almost 22 to 24 minutes to reach phase I. However, Phase 2 is located near Khokhran road, but it will take around 12 to 18 minutes to reach there from Shalimar road and Lar Shujabad road.                        </p>
-                            <h3 className="text-xl font-semibold mt-3 text-start">
+                            <h3 className="text-xl font-semibold mt-5 text-start">
                                 How much time does it take to reach Citi Housing Multan?                        </h3>
-                            <p className=" text-lg leading-relaxed">
+                            <p className="text-[15px] sm:text-lg leading-relaxed">
                                 It will take around 8 to 10 minutes to reach Citi Housing Multan Phase 1 from Ring road and Nawabpur road. From Multan airport and Khanewal road, it will take almost 22 to 24 minutes to reach phase I. However, Phase 2 is located near Khokhran road, but it will take around 12 to 18 minutes to reach there from Shalimar road and Lar Shujabad road.
                             </p>
                         </section>
@@ -380,7 +389,7 @@ const CitiHousing = () => {
 
 
 
-                <OurProjects  showHelmet={false}/>
+                <OurProjects showHelmet={false} />
             </div>
         </>
     )
