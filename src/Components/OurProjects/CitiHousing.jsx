@@ -28,6 +28,7 @@ const CitiHousing = () => {
         <>
             <Helmet>
                 <title>CITI Housing Multan - IES Marketing</title>
+                <meta name="keywords" content="Citi Housing , Citi Housing Multan, Citi housing phase I, Citi housing phase II,  Best Societies in Multan, Pakistan Real Estate, Real Estate Investment" />
                 <meta name="description" content="Citi Housing Multan is an exclusive housing project in the City of Saints. Its leading-edge infrastructure and high-quality amenities boost standards of living." />
             </Helmet>
 

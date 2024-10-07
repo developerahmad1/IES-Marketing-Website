@@ -16,6 +16,7 @@ const WapdaTown = () => {
         <>
             <Helmet>
                 <title>Wapda Town Multan - IES Marketing</title>
+                <meta name="keywords" content="Wapda Town, Waqda Town Multan, wapda Town Phase I, wapda Town Phase II, Best Societies in Multan, Pakistan Real Estate, Real Estate Investment" />
                 <meta name="description" content="Wapda Town Multan is a gated-community developed to cater to the housing needs of employees of Water and Power Development Authority." />
             </Helmet>
 

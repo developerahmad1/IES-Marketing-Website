@@ -28,6 +28,7 @@ const RoyalSwiss = () => {
         <>
             <Helmet>
                 <title>Royal Swiss Multan - IES Marketing</title>
+                <meta name="keywords" content="Royal Swiss Multan, Royal Swiss Housing Society, HRL group, Best Societies in Multan, Pakistan Real Estate, Real Estate Investment" />
                 <meta name="description" content="Royal Swiss Multan, developed by HRL Group, is a latest project aimed to redefine urban living or revolutionize the standards of housing in the City of Saints." />
             </Helmet>
 

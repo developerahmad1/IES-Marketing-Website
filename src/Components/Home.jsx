@@ -36,7 +36,8 @@ const Home = () => {
     <>
       <Helmet>
         <title>IES Marketing</title>
-        {/* <meta name="description" content="IES Marketing provides detailed listings of residential or commercial properties available for sale or rent." /> */}
+        <meta name="keywords" content="IES Marketing Multan, IES, Multan Property, Best Societies in Multan, Pakistan Real Estate, Real Estate Investment" />
+        <meta name="description" content="IES Marketing provides detailed listings of residential or commercial properties available for sale or purchase." />
       </Helmet>
 
       <div className="bg-white min-h-screen flex flex-col md:px-8 py-8 space-y-16">

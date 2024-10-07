@@ -28,6 +28,7 @@ const RoyalOrchad = () => {
         <>
             <Helmet>
                 <title>Royal Orchard Multan - IES Marketing</title>
+                <meta name="keywords" content="Royal Orchard, Royal Orchard Multan, Habib Rafiq PVT, Best Societies in Multan, Pakistan Real Estate, Real Estate Investment" />
                 <meta name="description" content="Royal Orchard Multan, developed by HRL Group, provides a luxurious and comfortable lifestyle.  It has 4000 Kanal land area that is approved by MDA." />
             </Helmet>
 

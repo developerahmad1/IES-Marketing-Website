@@ -30,6 +30,7 @@ const SmartHousing = () => {
         <div>
             <Helmet>
                 <title>Smart Housing Multan - IES Marketing</title>
+                <meta name="keywords" content="Smart Housing, Smart Housing Multan, Smart Housing Nishter Block, Smart Housing premium Block, Best Societies in Multan, Pakistan Real Estate, Real Estate Investment" />
                 <meta
                     name="description"
                     content="Smart Housing Multan is a trustable and transparent society, offering contemporary living and urban convenience with a rapidly developing landscape."

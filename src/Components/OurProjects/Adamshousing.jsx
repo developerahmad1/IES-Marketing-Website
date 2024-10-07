@@ -27,6 +27,7 @@ const Adamshousing = () => {
     <>
       <Helmet>
         <title>Adams Housing Multan - IES Marketing</title>
+        <meta name="keywords" content="Adams Housing, Adams Housing Multan, Adams Housing Society, Best Societies in Multan, Pakistan Real Estate, Real Estate Investment" />
         <meta name="description" content="Adams Housing Multan, developed by Adams Group, stands as a beacon of modern living. It provides contemporary amenities and convenience" />
       </Helmet>
       <div className='mt-[90px]'>

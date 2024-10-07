@@ -23,6 +23,7 @@ const DHAMultan = () => {
         <>
             <Helmet>
                 <title>DHA Multan - IES Marketing</title>
+                <meta name="keywords" content="DHA Multan, DHA housing society, Defence housing authority, Best Societies in Multan, Pakistan Real Estate, Real Estate Investment" />
                 <meta name="description" content="DHA Multan stands out for high-quality amenities, development, and durability.  It offers a promising opportunity to invest and build a dream home." />
             </Helmet>
 
