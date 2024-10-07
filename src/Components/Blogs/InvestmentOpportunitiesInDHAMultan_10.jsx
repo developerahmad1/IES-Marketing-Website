@@ -108,7 +108,8 @@ const InvestmentOpportunitiesInDHAMultan_10 = () => {
                                     Whether you are interested in residential areas, commercial land or ready-made villas, DHA Multan is addressing different investment needs. DHA Multan focuses on the offer of a contemporary and luxurious lifestyle and is ready to resist one of the best real estate objectives in Southern Punjab. By investing in DHA Multan, you have access to properties that are a part of a lively community having potential for considerable growth in the future.
                                 </p>
 
-                                <p className="pb-4 mt-3">For more details and information, contact us at:</p>
+                                <p className="pb-4 mt-3"
+                                >For more details and information, contact us at:</p>
                                 <p className='text-xl pb-3'> <span className='font-bold'>Email Address: </span>  <a href="mailto:iesmarketingpakistan@gmail.com" className='text-blue-500 hover:underline'>iesmarketingpakistan@gmail.com</a></p>
                                 <p className='text-xl pb-3'> <span className='font-bold'>Phone: </span>  <a href="tel:923338400108" className='text-blue-500 hover:underline'>+92333-8400108 </a>, <a href="tel:92333-8400106" className='text-blue-500 hover:underline'>+92333-8400106</a></p>
 
