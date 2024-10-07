@@ -39,6 +39,7 @@ import WapdaTown from './Components/OurProjects/WapdaTown.jsx';
 import ProsAndConsOfBuyingAPropertyInSouth_7 from './Components/Blogs/ProsAndConsOfBuyingAPropertyInSouth_7.jsx';
 import WhyIsSmartHousingMultanASmartChoiceForInvestors_8 from './Components/Blogs/WhyIsSmartHousingMultanASmartChoiceForInvestors_8.jsx';
 import SmartPropertyCardRevolutionizingPropertyOwnershipinPakistan_9 from './Components/Blogs/SmartPropertyCardRevolutionizingPropertyOwnershipinPakistan_9.jsx';
+import InvestmentOpportunitiesInDHAMultan_10 from './Components/Blogs/InvestmentOpportunitiesInDHAMultan_10.jsx';
 
 const App = () => {
 
@@ -83,6 +84,7 @@ const App = () => {
             <Route path="/blog/Pros-and-Cons-of-Buying-a-Property-In-South-Punjab" element={<ProsAndConsOfBuyingAPropertyInSouth_7 />} />
             <Route path="/blog/why-is-smart-housing-multan-a-smart-choice-for-investors" element={<WhyIsSmartHousingMultanASmartChoiceForInvestors_8 />} />
             <Route path="/blog/smart-property-card-revolutionizing-property-ownership-in-pakistan" element={<SmartPropertyCardRevolutionizingPropertyOwnershipinPakistan_9 />} />
+            <Route path="/blog/investment-opportunities-in-dha-multan" element={<InvestmentOpportunitiesInDHAMultan_10 />} />
           </Routes>
         </div>
         <ChatWithWhatsapp />
@@ -98,4 +100,3 @@ export default App;
 
 
 
-// boulevard
