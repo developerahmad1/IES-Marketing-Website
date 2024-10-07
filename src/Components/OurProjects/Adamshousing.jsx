@@ -19,6 +19,7 @@ import { FaOpenid } from 'react-icons/fa';
 
 const Adamshousing = () => {
   const images = [img1, img2, img3, img4, img5, img6, img7, img8];
+  const altNames = ["Adams main Enterance", "Adams main Enterance", "Adams Housing main Boulevard", "Adams Housing Multan City", "Adams Housing Multan", "Adams Housing Entrance Gate", "Adams Housng High quality infrastructure",  "Adams Houisng Development",]
   const { openLeadpoup } = useAppContext()
   useEffect(openLeadpoup, [])
 
@@ -26,7 +27,7 @@ const Adamshousing = () => {
     <>
       <Helmet>
         <title>Adams Housing Multan - IES Marketing</title>
-        <meta name="description" content="Adams Housing Multan, developed by Adams Group, stands as a beacon of modern living. It provides contemporary amenities and convenience." />
+        <meta name="description" content="Adams Housing Multan, developed by Adams Group, stands as a beacon of modern living. It provides contemporary amenities and convenience" />
       </Helmet>
       <div className='mt-[90px]'>
         <header className="mb-14">
@@ -248,8 +249,8 @@ const Adamshousing = () => {
                 Adams Housing Multan offers a flexible and convenient payment plan that is designed to accommodate the financial needs of buyers. It has offered a 4-year payment plan with easy monthly and quarterly installments so that buyers can purchase plots with ease. The residential plots of 5, 7, or 10 Marla and 1 Kanal are available for purchase on cash payment and in affordable installments. The buyers have to pay a down payment to get a file, followed by 48 monthly and 16 quarterly installments.
               </p>
               <div className='flex justify-start items-start mt-10 gap-5 flex-wrap'>
-                <img src={payementPlan1} alt="" className='mx-auto sm:max-w-[400px] border rounded-xl transition-all duration-[0.5s] hover:border-black hover:shadow-xl w-full' />
-                <img src={payementPlan2} alt="" className='mx-auto sm:max-w-[400px] border rounded-xl transition-all duration-[0.5s] hover:border-black hover:shadow-2xl w-full' />
+                <img src={payementPlan1} alt="Adams Housing Payment Plan" className='mx-auto sm:max-w-[400px] border rounded-xl transition-all duration-[0.5s] hover:border-black hover:shadow-xl w-full' />
+                <img src={payementPlan2} alt="Adams Housing Payment Plan" className='mx-auto sm:max-w-[400px] border rounded-xl transition-all duration-[0.5s] hover:border-black hover:shadow-2xl w-full' />
               </div>
 
             </section>
@@ -338,7 +339,7 @@ const Adamshousing = () => {
                 <img
                   className="max-w-full max-h-full object-contain"
                   src={src}
-                  alt={`Gallery image ${index + 1}`}
+                  alt={altNames[index]}
                 />
               </div>
             ))}

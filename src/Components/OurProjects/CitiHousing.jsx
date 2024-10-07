@@ -22,7 +22,7 @@ const CitiHousing = () => {
 
 
     const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12];
-
+    const altNames = ["Luxurious Society of Multan", "main boulevard", "Adams Housing Multan", "Wide Carpeted roads", "Adams Housing Multan City", "Green Belt", "Adams Housing eco friendly environment", "Green Spaces", "Adams Housing Street Lights", "Street Lights", "Adams Housing Garden", "Sustainable Environment"]
 
     return (
         <>
@@ -302,7 +302,7 @@ const CitiHousing = () => {
                                 In Citi Housing Multan Phase I, plots are now offered on cash payment because major proportion of the society is in possession and houses are built for residence. In addition, Citi Housing Phase II is available on cash payment and monthly installments also.
                             </p>
                             <div className='flex justify-start items-start mt-10 gap-3 flex-wrap'>
-                                <img src={paymentPlan1} alt="" className='mx-auto sm:max-w-[450px] border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl w-full' />
+                                <img src={paymentPlan1} alt="Citi Housing Payment Plan" className='mx-auto sm:max-w-[450px] border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl w-full' />
                                 {/* <img src={payementPlan2} alt="" className='mx-auto max-w-[400px] border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl' /> */}
                             </div>
 
@@ -371,7 +371,7 @@ const CitiHousing = () => {
                                 <img
                                     className="max-w-full max-h-full object-contain"
                                     src={src}
-                                    alt={`Gallery image ${index + 1}`}
+                                    alt={altNames[index]}
                                 />
                             </div>
                         ))}

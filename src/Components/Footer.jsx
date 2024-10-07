@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="lg:w-1/3">
             <a href="#" className="flex justify-center space-x-3 lg:justify-start hover:text-[#fa8b17]">
               <div className="flex items-center justify-center w-[150px] h-[150px] rounded-full">
-                <img src={iesWhiteLogo} alt="IES Marketing" className="w-[150px]" />
+                <img src={iesWhiteLogo} alt="IES Marketing Logo" className="w-[150px]" />
               </div>
               {/* <span className="self-center text-2xl font-semibold">IES Marketing</span> */}
             </a>
@@ -38,7 +38,7 @@ const Footer = () => {
               <li><Link to="/adams-housing" className='hover:text-[#fa8b17]'>Adams Housing</Link></li>
               <li><Link to="/citi-housing-multan" className='hover:text-[#fa8b17]'>CITI Housing</Link></li>
               <li><Link to="/dha-multan" className='hover:text-[#fa8b17]'>DHA Multan</Link></li>
-              <li><Link to="/royal-orchard-multan" className='hover:text-[#fa8b17]'>Royal Orchad</Link></li>
+              <li><Link to="/royal-orchard-multan" className='hover:text-[#fa8b17]'>Royal Orchard</Link></li>
               </ul>
             </div>
 

@@ -13,11 +13,11 @@ import { Helmet } from 'react-helmet-async';
 
 const DHAMultan = () => {
     const { openLeadpoup } = useAppContext()
-    useEffect(openLeadpoup, [])
+    // useEffect(openLeadpoup, [])
 
 
     const images = [img1, img2, img3, img4, img5, img6, img7];
-
+    const altNames = ["DHA Multan", "DHA Multan main entrance", "DHA Multan Drone view", "DHA Multan arena", "DHA Multan monuments", "DHA Multan Housing Society", "DHA residential community"]
 
     return (
         <>
@@ -363,7 +363,7 @@ const DHAMultan = () => {
                                 <img
                                     className="max-w-full max-h-full object-contain"
                                     src={src}
-                                    alt={`Gallery image ${index + 1}`}
+                                    alt={altNames[index]}
                                 />
                             </div>
                         ))}

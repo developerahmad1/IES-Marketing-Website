@@ -18,13 +18,16 @@ import { Helmet } from 'react-helmet-async';
 
 const RoyalOrchad = () => {
     const { openLeadpoup } = useAppContext()
-    useEffect(openLeadpoup, [])
+    // useEffect(openLeadpoup, [])
 
     const images = [img1, img2, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13];
+    const altNames = ["Royal Orchard Fountain", "Royal Orchard commercial Area", "royal Orchad Masjid", "Royal Orchad mnodern Architecture", "Royal Orchard garden", "Royal Orchard Play Ground", "Main entrance", "Royal Orchard main boulevard", "Royal Orchard Greener Environment", "Royal Orchard Garden", "Royal Orchard Park", "Royal Orchard Wide Carpeted roads"]
+
+    
     return (
         <>
             <Helmet>
-                <title>Royal Orchad Multan - IES Marketing</title>
+                <title>Royal Orchard Multan - IES Marketing</title>
                 <meta name="description" content="Royal Orchard Multan, developed by HRL Group, provides a luxurious and comfortable lifestyle.  It has 4000 Kanal land area that is approved by MDA." />
             </Helmet>
 
@@ -325,7 +328,7 @@ const RoyalOrchad = () => {
                                 <img
                                     className="max-w-full max-h-full object-contain"
                                     src={src}
-                                    alt={`Gallery image ${index + 1}`}
+                                    alt={altNames[index]}
                                 />
                             </div>
                         ))}

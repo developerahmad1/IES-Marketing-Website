@@ -23,8 +23,8 @@ const SmartHousing = () => {
     useEffect(openLeadpoup, [])
 
 
-    const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10];
-
+    const images = [img1, img2, img3, img4, img6, img7, img8, img9, img10];
+    const altImagesNames = ["Smart Housing main boulevard", "Smart Housing Multan 3D view", "Smart Housing nishter block main entrance", "Smart Housing Islamic Center", "Smart Housing green spaces", "Smart Housing wide roads", "Smart Housing recreational spaces", "Smart Housing islamic center", "Smart Housing residential community"]
 
     return (
         <div>
@@ -218,8 +218,8 @@ const SmartHousing = () => {
                             <h2 className="text-3xl font-bold mb-4 text-start">Smart Housing Society Payment Plan </h2>
                             <p className="text-lg leading-relaxed">Smart Housing Society Multan offered budget-friendly payment plans for locals and interested people from different cities. It has a 4-year plan with 40 monthly and 8 quarterly installments. Almost 18% of the plot's total price needs to be paid as a down payment. The total price of 3.5 and 5 Marla plots is PKR 2,450,000 and PKR 3,500,000, respectively. Moreover, the total price of 7 and 10 Marla plots also seem affordable. Interested buyers also have to pay the balloting amount and quarterly installments to take possession of the plot.</p>
                             <div className='flex justify-start items-start mt-10 gap-3 flex-wrap'>
-                                <img src={paymentPlan} alt="" className='mx-auto border w-full sm:max-w-[400px] transition-all duration-[0.5s] hover:shadow-2xl' />
-                                <img src={paymentPlan2} alt="" className='mx-auto w-full sm:max-w-[400px] border transition-all duration-[0.5s]  hover:shadow-2xl' />
+                                <img src={paymentPlan} alt="Smart Housing Nishter Payment Plan" className='mx-auto border w-full sm:max-w-[400px] transition-all duration-[0.5s] hover:shadow-2xl' />
+                                <img src={paymentPlan2} alt="Smart Housing Premium payment Plan" className='mx-auto w-full sm:max-w-[400px] border transition-all duration-[0.5s]  hover:shadow-2xl' />
                             </div>
                         </section>
 
@@ -262,7 +262,7 @@ const SmartHousing = () => {
                                 <img
                                     className="max-w-full max-h-full object-contain"
                                     src={src}
-                                    alt={`Gallery image ${index + 1}`}
+                                    alt={altImagesNames[index]}
                                 />
                             </div>
                         ))}

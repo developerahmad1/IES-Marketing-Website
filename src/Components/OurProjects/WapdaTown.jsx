@@ -67,7 +67,7 @@ const WapdaTown = () => {
                                 Moreover, it covers a land area of 2906 Kanal and offers residential or commercial property, particularly for WAPDA employees. This society ranks 5th among the top 11 societies in Multan City and is managed by Wapda Employees Cooperative Housing Society Multan. In addition, this society has three phases at different locations in Multan City, offering residential and commercial plots.
                             </p>
                         </section>
-                        <img src={img2} alt="" className='mb-12' />
+                        <img src={img2} alt="Wapda town main gate" className='mb-12' />
 
                         {/* Wapda Town Developer History and Owners Section */}
                         <section className="mb-12">

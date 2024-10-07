@@ -38,7 +38,7 @@ const Navbar = () => {
         <div className="container mx-auto px-4 flex flex-n justify-between items-center py-4 flex-row relative z-20">
           {/* Logo on the left */}
           <div className="flex items-center">
-            <img src={iesLogo} alt="Logo" className="w-24" />
+            <img src={iesLogo} alt="IES Marketing Logo" className="w-24" />
           </div>
 
           {/* Hamburger Menu for mobile on the right */}

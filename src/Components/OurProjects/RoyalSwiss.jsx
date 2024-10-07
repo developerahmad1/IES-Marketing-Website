@@ -21,6 +21,7 @@ const RoyalSwiss = () => {
     useEffect(openLeadpoup, [])
 
     const images = [img1, img2, img3, img4, img5, img6, img7, img8];
+    const altNames = ["Royal Swiss main Enterance", "Royal Swiss Drone view", "Royal Swiss pool area", "Royal Swiss pool area", "Royal Swiss pool area", "Royal Swiss 3D view", "Royal Swiss Play area", "Royal Swiss eco friendly environment"]
 
 
     return (
@@ -257,8 +258,8 @@ const RoyalSwiss = () => {
                             <p className="text-lg leading-relaxed">
                                 Royal Swiss Housing offers a 5-year payment plan, providing an affordable opportunity to potential investors and residents. With competitive pricing and favorable terms, the payment plan allows for manageable monthly or half-year installment options to complete the total cost of the plot. The plots of 3.5, 5, 7, or 10 Marla and 1 or 2 Kanal are available in the Royal Swiss Housing project. In addition, commercial plots of 4 and 8 Marla can be purchased. You have to pay 10% of the total amount for booking and 10% for plot confirmation. After confirmation of the file, 10% of the amount needs to be paid at the time of balloting and another 10% for possession. Furthermore, you have to pay 58 monthly installments and nine bi-annual installments in this time frame.                            </p>
                             <div className='flex justify-start items-start mt-10 gap-3 flex-wrap'>
-                                <img src={paymentPlan} alt="" className='mx-auto w-full sm:max-w-[400px] border rounded-xl transition-all duration-[0.5s] hover:border-black hover:shadow-2xl' />
-                                <img src={paymentPlan2} alt="" className='mx-auto w-full sm:max-w-[400px] border rounded-xl transition-all duration-[0.5s] hover:border-black hover:shadow-2xl' />
+                                <img src={paymentPlan} alt="Royal Swiss Payment Plan" className='mx-auto w-full sm:max-w-[400px] border rounded-xl transition-all duration-[0.5s] hover:border-black hover:shadow-2xl' />
+                                <img src={paymentPlan2} alt="Royal Swiss Payment Plan" className='mx-auto w-full sm:max-w-[400px] border rounded-xl transition-all duration-[0.5s] hover:border-black hover:shadow-2xl' />
                             </div>
                         </section>
 
@@ -308,7 +309,7 @@ const RoyalSwiss = () => {
                                 <img
                                     className="max-w-full max-h-full object-contain"
                                     src={src}
-                                    alt={`Gallery image ${index + 1}`}
+                                    alt={altNames[index]}
                                 />
                             </div>
                         ))}

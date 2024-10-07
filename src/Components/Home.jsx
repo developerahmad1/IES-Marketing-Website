@@ -94,6 +94,7 @@ const Home = () => {
                 src={img1}
                 alt="Main property"
                 className="rounded-lg"
+                alt="IES Marketing real estate"
               />
               {/* <div className="absolute top-0 right-0 mt-6 mr-6">
               <img
@@ -120,6 +121,7 @@ const Home = () => {
                 src={img6}
                 alt="Main feedback image"
                 className="rounded-lg  w-[450px] col-span-2"
+                alt="Multan Property"
               />
             </div>
           </div>
@@ -354,8 +356,7 @@ const Home = () => {
           </div>
         </div>
 
-        <Blogs showHelmet={false} />
-
+        <Blogs showHelmet={false} heading="Our Latest Blogs" />
 
         {/* youtube videos  */}
         <h3 className='text-5xl text-center font-bold'>Latest Videos</h3>
@@ -397,3 +398,4 @@ const Home = () => {
 };
 
 export default Home;
+
