@@ -41,6 +41,7 @@ import WhyIsSmartHousingMultanASmartChoiceForInvestors_8 from './Components/Blog
 import SmartPropertyCardRevolutionizingPropertyOwnershipinPakistan_9 from './Components/Blogs/SmartPropertyCardRevolutionizingPropertyOwnershipinPakistan_9.jsx';
 import InvestmentOpportunitiesInDHAMultan_10 from './Components/Blogs/InvestmentOpportunitiesInDHAMultan_10.jsx';
 import SectorMOfDHAMultana_11 from './Components/Blogs/SectorMOfDHAMultana_11.jsx';
+import RumanzaGolfCommunityLuxuryLivingInDHAMultan_12 from './Components/Blogs/RumanzaGolfCommunityLuxuryLivingInDHAMultan_12.jsx';
 
 const App = () => {
 
@@ -87,6 +88,7 @@ const App = () => {
             <Route path="/blog/smart-property-card-revolutionizing-property-ownership-in-pakistan" element={<SmartPropertyCardRevolutionizingPropertyOwnershipinPakistan_9 />} />
             <Route path="/blog/investment-opportunities-in-dha-multan" element={<InvestmentOpportunitiesInDHAMultan_10 />} />
             <Route path="/blog/sector-m-of-dha-multan" element={<SectorMOfDHAMultana_11 />} />
+            <Route path="/blog/rumanza-golf-community" element={<RumanzaGolfCommunityLuxuryLivingInDHAMultan_12 />} />
           </Routes>
         </div>
         <ChatWithWhatsapp />
