@@ -17,8 +17,7 @@ const RumanzaGolfCommunityLuxuryLivingInDHAMultan_12 = () => {
         <>
             <Helmet>
                 <title>Rumanza Golf Community - IES Marketing</title>
-                <meta name="keywords" content="" />
-                <meta name="description" content="" />
+                <meta name="description" content="Rumanza Golf Community is Pakistan's first Championship Signature 18-hole Golf Course, created by the esteemed Sir Nick Faldo. It combines a world-class golf community with luxurious residential living." />
             </Helmet>
             <div className='bg-white'>
                 <div className="max-w-screen-lg mx-auto">
