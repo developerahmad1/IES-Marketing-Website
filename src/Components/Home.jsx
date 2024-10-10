@@ -93,7 +93,6 @@ const Home = () => {
             <div className="relative">
               <img
                 src={img1}
-                alt="Main property"
                 className="rounded-lg"
                 alt="IES Marketing real estate"
               />
@@ -120,7 +119,6 @@ const Home = () => {
             <div className="relative grid grid-cols-2 gap-4">
               <img
                 src={img6}
-                alt="Main feedback image"
                 className="rounded-lg  w-[450px] col-span-2"
                 alt="Multan Property"
               />
