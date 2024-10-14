@@ -541,13 +541,13 @@ const About = () => {
             </div> */}
 
               {/* Anam */}
-              {/* <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
+              <div className="items-center bg-gray-50 shadow sm:flex border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl py-0">
               <div className="flex justify-center items-center">
                 <img className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0" src={manFaceIcon} alt="Sofia Avatar" />
               </div>
               <div className="p-5">
                 <h3 className="text-xl font-bold tracking-tight text-gray-900">
-                  <p>Sardar Hamza Dreashaq</p>
+                  <p>Sardar Hamza Dreeshaq</p>
                 </h3>
                 <span className="text-gray-500">Legal Adviser</span>
                 <p className="mt-3 mb-4 font-light text-gray-500">
@@ -556,7 +556,7 @@ const About = () => {
                 <ul className="flex space-x-4 sm:mt-0 justify-center items-center">
                 </ul>
               </div>
-            </div> */}
+            </div>
 
             </div>
           </div>

@@ -7,11 +7,7 @@ import { HelmetProvider } from 'react-helmet-async'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <HelmetProvider>
-      <AppContextProvider>
-        <App />
-      </AppContextProvider>
-    </HelmetProvider>
+    <App />
   </StrictMode>,
 )
 

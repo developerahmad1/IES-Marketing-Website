@@ -43,61 +43,66 @@ import InvestmentOpportunitiesInDHAMultan_10 from './Components/Blogs/Investment
 import SectorMOfDHAMultana_11 from './Components/Blogs/SectorMOfDHAMultana_11.jsx';
 import RumanzaGolfCommunityLuxuryLivingInDHAMultan_12 from './Components/Blogs/RumanzaGolfCommunityLuxuryLivingInDHAMultan_12.jsx';
 import SectorHOfDHAMultan_13 from './Components/Blogs/SectorHOfDHAMultan_13.jsx';
+import { HelmetProvider } from 'react-helmet-async';
 
 const App = () => {
 
   return (
     <div className='overflow-x-hidden'>
-      <Router>
-        <ScrollToTop />
-        <Navbar />
-        <LeadsPoup />
-        <div className="mt-[86px]">
-          <Routes>
-            <Route path="/*" element={<AnyRoute404 />} />
-            <Route path="/" element={<Home />} />
-            <Route path="/about-us" element={<AboutUs />} />
-            <Route path="/blogs" element={<Blogs heading="Our Popular Blogs"/>} />
-            <Route path="/contact-us" element={<ContactUS />} />
-            {/* <Route path="/signup" element={<Signup />} /> */}
-            {/* <Route path="/login" element={<Login />} /> */}
-            <Route path="/gallery" element={<Gallery />} />
-            <Route path="/our-projects" element={<OurProjects />} />
-            {/* Projects */}
-            <Route path="/smart-housing" element={<SmartHousing />} />
-            <Route path="/royal-swiss" element={<RoyalSwiss />} />
-            <Route path="/adams-housing" element={<Adamshousing />} />
-            <Route path="/citi-housing-multan" element={<CityHousing />} />
-            <Route path="/dha-multan" element={<DHAMultan />} />
-            <Route path="/royal-orchard-multan" element={<RoyalOrchad />} />
-            <Route path="/wapda-town" element={<WapdaTown />} />
-            {/* jobs */}
-            <Route path="/career" element={<Carreer />} />
-            <Route path="/job/relationship-manager" element={<RelationShipManager />} />
-            <Route path="/job/business-development-executive" element={<BusinessDevelopmentExecutive />} />
-            <Route path="/job/video-host" element={<VideoHost />} />
-            <Route path="/job/sales-team" element={<SalesTeam />} />
-            {/* Blogs */}
-            <Route path="/blog/real-estate-opportunities-1" element={<RealEstateChallanges_1 />} />
-            <Route path="/blog/emerging-trends-in-pakistans-real-estate-2" element={<EmergingTrendsinPakistansRealEstate_2 />} />
-            <Route path="/blog/best-time-to-invest-in-pakistan-real-estate" element={<BestTimeToInvestInRealEstate_3 />} />
-            <Route path="/blog/top-11-societies-in-multan-to-invest-in-2024" element={<Top11SocietiesInMultanToInvestIn2024_4 />} />
-            <Route path="/blog/new-block-launched-by-smart-housing-multan-premium-block" element={<NewBlockPremiumBlock />} />
-            <Route path="/blog/a-comprehensive-guide-to-invest-in-real-estate" element={<AComprehensiveGuideToInvestInRealEstate_6 />} />
-            <Route path="/blog/Pros-and-Cons-of-Buying-a-Property-In-South-Punjab" element={<ProsAndConsOfBuyingAPropertyInSouth_7 />} />
-            <Route path="/blog/why-is-smart-housing-multan-a-smart-choice-for-investors" element={<WhyIsSmartHousingMultanASmartChoiceForInvestors_8 />} />
-            <Route path="/blog/smart-property-card-revolutionizing-property-ownership-in-pakistan" element={<SmartPropertyCardRevolutionizingPropertyOwnershipinPakistan_9 />} />
-            <Route path="/blog/investment-opportunities-in-dha-multan" element={<InvestmentOpportunitiesInDHAMultan_10 />} />
-            <Route path="/blog/sector-m-of-dha-multan" element={<SectorMOfDHAMultana_11 />} />
-            <Route path="/blog/rumanza-golf-community" element={<RumanzaGolfCommunityLuxuryLivingInDHAMultan_12 />} />
-            <Route path="/blog/sector-h-of-dha-multan" element={<SectorHOfDHAMultan_13 />} />
-          </Routes>
-        </div>
-        <ChatWithWhatsapp />
-        {/* <ChatBot /> */}
-        <Footer />
-        <Toaster />
-      </Router>
+      <AppContextProvider>
+        <HelmetProvider>
+          <Router>
+            <ScrollToTop />
+            <Navbar />
+            <LeadsPoup />
+            <div className="mt-[86px]">
+              <Routes>
+                <Route path="/*" element={<AnyRoute404 />} />
+                <Route path="/" element={<Home />} />
+                <Route path="/about-us" element={<AboutUs />} />
+                <Route path="/blogs" element={<Blogs heading="Our Popular Blogs" />} />
+                <Route path="/contact-us" element={<ContactUS />} />
+                {/* <Route path="/signup" element={<Signup />} /> */}
+                {/* <Route path="/login" element={<Login />} /> */}
+                <Route path="/gallery" element={<Gallery />} />
+                <Route path="/our-projects" element={<OurProjects />} />
+                {/* Projects */}
+                <Route path="/smart-housing" element={<SmartHousing />} />
+                <Route path="/royal-swiss" element={<RoyalSwiss />} />
+                <Route path="/adams-housing" element={<Adamshousing />} />
+                <Route path="/citi-housing-multan" element={<CityHousing />} />
+                <Route path="/dha-multan" element={<DHAMultan />} />
+                <Route path="/royal-orchard-multan" element={<RoyalOrchad />} />
+                <Route path="/wapda-town" element={<WapdaTown />} />
+                {/* jobs */}
+                <Route path="/career" element={<Carreer />} />
+                <Route path="/job/relationship-manager" element={<RelationShipManager />} />
+                <Route path="/job/business-development-executive" element={<BusinessDevelopmentExecutive />} />
+                <Route path="/job/video-host" element={<VideoHost />} />
+                <Route path="/job/sales-team" element={<SalesTeam />} />
+                {/* Blogs */}
+                <Route path="/blog/real-estate-opportunities-1" element={<RealEstateChallanges_1 />} />
+                <Route path="/blog/emerging-trends-in-pakistans-real-estate-2" element={<EmergingTrendsinPakistansRealEstate_2 />} />
+                <Route path="/blog/best-time-to-invest-in-pakistan-real-estate" element={<BestTimeToInvestInRealEstate_3 />} />
+                <Route path="/blog/top-11-societies-in-multan-to-invest-in-2024" element={<Top11SocietiesInMultanToInvestIn2024_4 />} />
+                <Route path="/blog/new-block-launched-by-smart-housing-multan-premium-block" element={<NewBlockPremiumBlock />} />
+                <Route path="/blog/a-comprehensive-guide-to-invest-in-real-estate" element={<AComprehensiveGuideToInvestInRealEstate_6 />} />
+                <Route path="/blog/Pros-and-Cons-of-Buying-a-Property-In-South-Punjab" element={<ProsAndConsOfBuyingAPropertyInSouth_7 />} />
+                <Route path="/blog/why-is-smart-housing-multan-a-smart-choice-for-investors" element={<WhyIsSmartHousingMultanASmartChoiceForInvestors_8 />} />
+                <Route path="/blog/smart-property-card-revolutionizing-property-ownership-in-pakistan" element={<SmartPropertyCardRevolutionizingPropertyOwnershipinPakistan_9 />} />
+                <Route path="/blog/investment-opportunities-in-dha-multan" element={<InvestmentOpportunitiesInDHAMultan_10 />} />
+                <Route path="/blog/sector-m-of-dha-multan" element={<SectorMOfDHAMultana_11 />} />
+                <Route path="/blog/rumanza-golf-community" element={<RumanzaGolfCommunityLuxuryLivingInDHAMultan_12 />} />
+                <Route path="/blog/sector-h-of-dha-multan" element={<SectorHOfDHAMultan_13 />} />
+              </Routes>
+            </div>
+            <ChatWithWhatsapp />
+            {/* <ChatBot /> */}
+            <Footer />
+            <Toaster />
+          </Router>
+        </HelmetProvider>
+      </AppContextProvider>
     </div>
   );
 };
