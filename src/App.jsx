@@ -44,6 +44,7 @@ import SectorMOfDHAMultana_11 from './Components/Blogs/SectorMOfDHAMultana_11.js
 import RumanzaGolfCommunityLuxuryLivingInDHAMultan_12 from './Components/Blogs/RumanzaGolfCommunityLuxuryLivingInDHAMultan_12.jsx';
 import SectorHOfDHAMultan_13 from './Components/Blogs/SectorHOfDHAMultan_13.jsx';
 import { HelmetProvider } from 'react-helmet-async';
+import { AppContextProvider } from './Context/AppContext.jsx';
 
 const App = () => {
 
