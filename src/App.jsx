@@ -45,6 +45,7 @@ import RumanzaGolfCommunityLuxuryLivingInDHAMultan_12 from './Components/Blogs/R
 import SectorHOfDHAMultan_13 from './Components/Blogs/SectorHOfDHAMultan_13.jsx';
 import { HelmetProvider } from 'react-helmet-async';
 import { AppContextProvider } from './Context/AppContext.jsx';
+import MiyawakiBotanicalForestInitiativeByDHAMultan_14 from './Components/Blogs/MiyawakiBotanicalForestInitiativeByDHAMultan_14.jsx';
 
 const App = () => {
 
@@ -95,6 +96,7 @@ const App = () => {
                 <Route path="/blog/sector-m-of-dha-multan" element={<SectorMOfDHAMultana_11 />} />
                 <Route path="/blog/rumanza-golf-community" element={<RumanzaGolfCommunityLuxuryLivingInDHAMultan_12 />} />
                 <Route path="/blog/sector-h-of-dha-multan" element={<SectorHOfDHAMultan_13 />} />
+                <Route path="/blog/miyawaki-botanical-forest-initiative-by-dha-multan" element={<MiyawakiBotanicalForestInitiativeByDHAMultan_14 />} />
               </Routes>
             </div>
             <ChatWithWhatsapp />
