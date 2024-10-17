@@ -110,7 +110,7 @@ const MiyawakiBotanicalForestInitiativeByDHAMultan_14 = () => {
                                     Disclaimer
                                 </h4>
                                 <p className="pb-6">
-                                    We do not deal in any unapproved society of Multan. The information provided in this blog is collected from different online sources to provide details about real estate estate. 
+                                    We do not deal in any unapproved society of Multan. The information provided in this blog is collected from different online sources to provide details about real estate. 
                                 </p>
 
 
