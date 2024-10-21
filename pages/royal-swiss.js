@@ -43,6 +43,7 @@ const RoyalSwiss = () => {
           name="description"
           content="Royal Swiss Multan, developed by HRL Group, is a latest project aimed to redefine urban living or revolutionize the standards of housing in the City of Saints."
         />
+        <link rel="canonical" href="https://www.iesmkt.com/royal-swiss/" />
       </Head>
 
       <div>
@@ -380,11 +381,11 @@ const RoyalSwiss = () => {
                 City that has established new benchmarks of residential
                 excellence. It promotes a vibrant community lifestyle, fostering
                 a sense of belonging among society&apos;s residents. It also
-                emphasizes green living; that&apos;s why parks or landscape gardens
-                are included in the society&apos;s design to provide a refreshing
-                escape from the urban hustle and bustle. Contact IES Marketing
-                and visit the office for further details and guidance on the
-                project. Get Your Dream Home!
+                emphasizes green living; that&apos;s why parks or landscape
+                gardens are included in the society&apos;s design to provide a
+                refreshing escape from the urban hustle and bustle. Contact IES
+                Marketing and visit the office for further details and guidance
+                on the project. Get Your Dream Home!
               </p>
             </section>
 

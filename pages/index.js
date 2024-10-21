@@ -42,7 +42,7 @@ const Home = () => {
           name="keywords"
           content="IES Marketing Multan, IES, Multan Property, Best Societies in Multan, Pakistan Real Estate, Real Estate Investment"
         />
-        <link rel="stylesheet" href="" />
+         <link rel="canonical" href="https://www.iesmkt.com/" />
       </Head>
 
       <div className="bg-white min-h-screen flex flex-col md:px-8 py-8 space-y-16">

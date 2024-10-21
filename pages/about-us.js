@@ -146,6 +146,8 @@ const About = () => {
       <Head>
         <title>About Us - IES Marketing</title>
         <meta name="description" content="IES Marketing is a real estate agency offering extraordinary services to elevate the business of real estate." />
+        <link rel="canonical" href="https://www.iesmkt.com/about-us/" />
+
       </Head>
 
       <div>

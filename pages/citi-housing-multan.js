@@ -62,6 +62,10 @@ const CitiHousing = () => {
           name="description"
           content="Citi Housing Multan is an exclusive housing project in the City of Saints. Its leading-edge infrastructure and high-quality amenities boost standards of living."
         />
+        <link
+          rel="canonical"
+          href="https://www.iesmkt.com/citi-housing-multan/"
+        />
       </Head>
 
       <div>
@@ -156,10 +160,10 @@ const CitiHousing = () => {
                 Since 2011, Citi Housing Pvt. Limited has been delivering a
                 luxurious lifestyle and world-class amenities to residents that
                 were not previously seen in other societies. The Citi Housing
-                Group has set new norms in Pakistan&apos;s real estate industry. It
-                has a team of visionary leaders and dedicated workers, working
-                day and night to facilitate people. Some of its remarkable
-                projects executed in different areas of Pakistan are:
+                Group has set new norms in Pakistan&apos;s real estate industry.
+                It has a team of visionary leaders and dedicated workers,
+                working day and night to facilitate people. Some of its
+                remarkable projects executed in different areas of Pakistan are:
               </p>
               <ul className="list-disc ml-5 text-lg leading-relaxed">
                 <li>Citi Housing Gujranwala (2011)</li>
@@ -183,9 +187,9 @@ const CitiHousing = () => {
                 Citi Housing Multan has fulfilled all the legal requirements by
                 developmental authorities and got approval for the sale of plots
                 or development, electricity supply, and sui-gas. It received a
-                &apos;No Objection Certificate&apos; from Multan Developmental Authority,
-                and the approval number is 84/DUP/MDA. The total land area
-                reported in the NOC document is 2896 Kanal (362 Acre).
+                &apos;No Objection Certificate&apos; from Multan Developmental
+                Authority, and the approval number is 84/DUP/MDA. The total land
+                area reported in the NOC document is 2896 Kanal (362 Acre).
                 Prospective buyers and investors can confirm their approval by
                 visiting the official website of Multan Development Authority if
                 they have any questions.
@@ -210,18 +214,18 @@ const CitiHousing = () => {
                 serve residents.
               </p>
               <p className="text-lg leading-relaxed">
-                Nearly all plots have been sold, highlighting the developer&apos;s
-                commitment to delivering a luxurious lifestyle quickly. The
-                residents can currently enjoy the entertainment facilities,
-                air-conditioned mosques, a fully-equipped hospital, lush green
-                belts, and colorful flower beds. The extensive network of open
-                and wide roads ensures that have a smooth and safe driving
-                experience to residents. It has become a brand over a period of
-                time due to rapid development and incorporation of advanced
-                systems within society. Furthermore, the construction of mosques
-                and the process of installation of overhead tanks is still in
-                the process. It is expected to be completed within a short time
-                period.
+                Nearly all plots have been sold, highlighting the
+                developer&apos;s commitment to delivering a luxurious lifestyle
+                quickly. The residents can currently enjoy the entertainment
+                facilities, air-conditioned mosques, a fully-equipped hospital,
+                lush green belts, and colorful flower beds. The extensive
+                network of open and wide roads ensures that have a smooth and
+                safe driving experience to residents. It has become a brand over
+                a period of time due to rapid development and incorporation of
+                advanced systems within society. Furthermore, the construction
+                of mosques and the process of installation of overhead tanks is
+                still in the process. It is expected to be completed within a
+                short time period.
               </p>
             </section>
 
