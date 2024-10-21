@@ -64,13 +64,13 @@ const CitiHousing = () => {
         />
       </Head>
 
-      <div className="mt-[87px]">
+      <div>
         {/* Header Section */}
         <header className="mb-14">
           <div
             className="w-full bg-center bg-cover"
             style={{
-              backgroundImage: `url(${img1})`, // Using the imported image
+              backgroundImage: `url('/City Housing 1.jpg')`, // Using the imported image
             }}
           >
             <div className="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-[0.7] py-12">

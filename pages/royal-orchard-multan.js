@@ -66,44 +66,43 @@ const RoyalOrchad = () => {
       </Head>
 
       <div>
-        <header className="mb-14">
-          <div
-            className="w-full bg-center bg-cover"
-            style={{
-              backgroundImage: img1 ? `url(${img1.src})` : "none", // Ensure img1 exists
-              height: "100vh",
-            }}
-          >
-            <div className="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-[0.7] py-12">
-              <div className="text-center">
-                <div className="container px-4 mx-auto">
-                  <div className="max-w-4xl mx-auto text-center">
-                    <h1 className="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">
-                      Royal Orchard Multan – Premier Destination for Modern
-                      Living
-                    </h1>
-                    <p className="max-w-4xl mx-auto mb-10 text-lg text-center text-gray-300">
-                      Royal Orchard Multan provides a luxurious and comfortable
-                      lifestyle in the fast-growing city of South Punjab with
-                      modern infrastructure, including underground electricity,
-                      wide roads, and a sewerage system, and follows
-                      international community standards.
-                    </p>
-                    <div onClick={openLeadpoup}>
-                      <a
-                        className="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-gray-200 rounded hover:bg-gray-100 text-gray-800 transition duration-200"
-                        href="https://wa.me/923338400106?text=Hi.%20Sir%20I%20am%20interested%20in%20Royal%20Orchard.%20Can%20get%20More%20Information%20About%20it%20?"
-                        target="_main"
-                      >
-                        Book Now
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+      <header className="mb-14">
+  <div
+    className="w-full bg-center bg-cover"
+    style={{
+      backgroundImage: "url('/royal orchad 1.jpg')", 
+      height: "100vh",
+    }}
+  >
+    <div className="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-[0.7] py-12">
+      <div className="text-center">
+        <div className="container px-4 mx-auto">
+          <div className="max-w-4xl mx-auto text-center">
+            <h1 className="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">
+              Royal Orchard Multan – Premier Destination for Modern Living
+            </h1>
+            <p className="max-w-4xl mx-auto mb-10 text-lg text-center text-gray-300">
+              Royal Orchard Multan provides a luxurious and comfortable lifestyle
+              in the fast-growing city of South Punjab with modern infrastructure,
+              including underground electricity, wide roads, and a sewerage system,
+              and follows international community standards.
+            </p>
+            <div onClick={openLeadpoup}>
+              <a
+                className="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-gray-200 rounded hover:bg-gray-100 text-gray-800 transition duration-200"
+                href="https://wa.me/923338400106?text=Hi.%20Sir%20I%20am%20interested%20in%20Royal%20Orchard.%20Can%20get%20More%20Information%20About%20it%20?"
+                target="_main"
+              >
+                Book Now
+              </a>
             </div>
           </div>
-        </header>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
 
         {/* more details */}
         <div className="bg-white text-black text-justify min-h-screen px-4 md:px-20">

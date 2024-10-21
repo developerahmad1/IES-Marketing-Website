@@ -31,12 +31,12 @@ const Adamshousing = () => {
         <meta name="keywords" content="Adams Housing, Adams Housing Multan, Adams Housing Society, Best Societies in Multan, Pakistan Real Estate, Real Estate Investment" />
         <meta name="description" content="Adams Housing Multan, developed by Adams Group, stands as a beacon of modern living. It provides contemporary amenities and convenience" />
       </Head>
-      <div className='mt-[90px]'>
+      <div>
         <header className="mb-14">
           <div
             className="w-full bg-center bg-cover"
             style={{
-              backgroundImage: `url(${img1})`  // Using the imported image
+              backgroundImage: `url('/AdamsHousing1.jpg')`  // Using the imported image
             }}
 
           >

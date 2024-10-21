@@ -35,7 +35,8 @@ const DHAMultan = () => {
                     <div
                         className="w-full bg-center bg-cover"
                         style={{
-                            backgroundImage: `url(${img1})`  // Using the imported image
+                            backgroundImage: `url('/DHA 1.jpg')`,  // Using the imported image
+                            height : '100vh',
                         }}
 
                     >
@@ -91,8 +92,7 @@ const DHAMultan = () => {
                         <section className="mb-12">
                             <h2 className="text-3xl font-bold mb-4 text-start">Other Popular Projects of Defense Housing Authority</h2>
                             <p className="text-lg leading-relaxed">Defense Housing Authority (DHA) has a well-earned reputation for delivering high-quality residential projects across various cities in Pakistan. It has successfully completed many projects and is consistently raising the bar for luxury living. Their projects foster a sense of community and provides comprehensive amenities to the people. Some of their popular projects are:</p>
-                            <p className="text-lg leading-relaxed">
-                            </p>
+                            
                                 <ul className='list-disc ml-5'>
                                     <li>DHA Gujranwala</li>
                                     <li>DHA Islamabad</li>
@@ -176,8 +176,7 @@ const DHAMultan = () => {
                             <p className="text-lg leading-relaxed">
                                 DHA Multan is present at a prime location in the Multan City, providing an excellent connectivity to residents, ensuring that they have easy access to key areas within and around Multan. Here are some key accessibilities of DHA Multan:
                             </p>
-                            <p className="text-lg leading-relaxed">
-                                <ul className='list-disc ml-5'>
+                                <ul className='list-disc ml-5 text-lg leading-relaxed'>
                                     <li>Almost 2 minute drive from Buch Villas</li>
                                     <li>Almost 3 minute drive from Bahaudin Zakariya University</li>
                                     <li>Almost 9 minute drive from Model Town</li>
@@ -187,7 +186,6 @@ const DHAMultan = () => {
                                     <li>Almost 22 minutes from Khanewal Road</li>
                                     <li>Almost 30 minutes from Piran Ghaib Road</li>
                                 </ul>
-                            </p>
                         </section>
 
                         {/* DHA Multan Nearby Landmarks*/}
