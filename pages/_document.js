@@ -10,7 +10,8 @@ export default function Document() {
           name="google-site-verification"
           content="g8DOXzd9T3tzoB1xfH9MypXd64Gpwna4CgfjjQ1uY1c"
         />
-        <link rel="icon" type="image/svg+xml" href="/ies fav icon.jpg" />
+        <link rel="icon" type="image/png" href="/ies icon.png" />
+
       </Head>
       <body className="antialiased">
         <Main />
