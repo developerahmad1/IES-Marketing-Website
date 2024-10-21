@@ -51,6 +51,10 @@ const Blogs = ({ heading, showHead = true }) => {
         <Head>
           <title>Blogs - IES Marketing</title>
           <meta name="description" content="Blogs – IES Marketing" />
+          <meta
+          name="keywords"
+          content="IES Marketing Multan, IES, Multan Property, Best Societies in Multan, Pakistan Real Estate, Real Estate Investment"
+        />
         </Head>
       )}
       <div>

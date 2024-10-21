@@ -28,7 +28,7 @@ const DHAMultan = () => {
                 <meta name="description" content="DHA Multan stands out for high-quality amenities, development, and durability.  It offers a promising opportunity to invest and build a dream home." />
             </Head>
 
-            <div className='mt-[87px]'>
+            <div >
 
                 {/* Header */}
                 <header className="mb-14">

@@ -35,7 +35,7 @@ const SmartHousing = () => {
                 />
             </Head>
 
-            <div className='mt-[87px]'>
+            <div >
 
                 <header className="mb-14">
 

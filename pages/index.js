@@ -35,12 +35,12 @@ const Home = () => {
       <Head>
         <title>IES Marketing</title>
         <meta
-          name="keywords"
-          content="IES Marketing Multan, IES, Multan Property, Best Societies in Multan, Pakistan Real Estate, Real Estate Investment"
+          name="description"
+          content="IES Marketing provides detailed listings of residential or commercial properties available for sale or rent and marketing and consultancy services."
         />
         <meta
-          name="description"
-          content="IES Marketing provides detailed listings of residential or commercial properties available for sale or purchase."
+          name="keywords"
+          content="IES Marketing Multan, IES, Multan Property, Best Societies in Multan, Pakistan Real Estate, Real Estate Investment"
         />
         <link rel="stylesheet" href="" />
       </Head>
@@ -66,8 +66,8 @@ const Home = () => {
               with fewer basic living facilities. People are migrating towards
               new cities in search of better living standards. Rapid
               urbanization, growth, and modern living facilities are the need of
-              an hour; that&apos;s why new housing projects are in full swing in the
-              major cities of Pakistan.
+              an hour; that&apos;s why new housing projects are in full swing in
+              the major cities of Pakistan.
             </p>
 
             {/* <form className='mt-6'> */}

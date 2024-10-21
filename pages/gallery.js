@@ -43,8 +43,8 @@ const Gallery = () => {
     return (
         <>
             <Head>
-                <title>Gallery - IES Marketing</title>
-                <meta name="description" content="Blogs – IES Marketing" />
+                <title>Images - IES Marketing</title>
+                <meta name="description" content="Images of top societies in Multan." />
             </Head>
 
             <div>

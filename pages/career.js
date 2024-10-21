@@ -9,7 +9,7 @@ const Career = () => {
     <>
       <Head>
         <title>Career - IES Marketing</title>
-        <meta name="description" content="Blogs – IES Marketing" />
+        <meta name="description" content="IES Marketing offers excellent opportunities to frest and experienced candidates looking for an opportunity to explore their potential" />
       </Head>
 
       <div>

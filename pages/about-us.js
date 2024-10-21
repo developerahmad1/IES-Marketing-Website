@@ -145,7 +145,7 @@ const About = () => {
 
       <Head>
         <title>About Us - IES Marketing</title>
-        <meta name="description" content="About IES Marketing" />
+        <meta name="description" content="IES Marketing is a real estate agency offering extraordinary services to elevate the business of real estate." />
       </Head>
 
       <div>
@@ -159,9 +159,8 @@ const About = () => {
             <p className="max-w-2xl text-justify mx-auto  text-base font-normal leading-7 text-gray-500 mb-9">
               {`IES Marketing is a real estate agency offering extraordinary
               services to elevate the business of real estate. After many years
-              of experience in the real estate and marketing industries and
-              successful projects, we understand future opportunities and`}
-              possible challenges of real estate marketing.{" "}
+              of experience in the real estate and marketing industries and 
+              successful projects, we understand future opportunities and possible challenges of real estate marketing.`}
             </p>
             {/* icon here */}
           </div>
@@ -790,7 +789,7 @@ const About = () => {
                 </div>
                 <div className="p-5">
                   <h3 className="text-xl font-bold tracking-tight text-gray-900">
-                    <p>Sardar Hamza Dreeshaq</p>
+                    <p>Sardar Ameer Hamza Dreshak</p>
                   </h3>
                   <span className="text-gray-500">Legal Adviser</span>
                   <p className="mt-3 mb-4 font-light text-gray-500">
