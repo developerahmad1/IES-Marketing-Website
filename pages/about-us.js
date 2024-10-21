@@ -18,6 +18,7 @@ import client2 from "../public/client2.jpg";
 import client3 from "../public/client3.jpg";
 import Head from "next/head";
 import Image from "next/image";
+import img1 from "../public/about us img.jpeg";
 
 const About = () => {
   function scrollToTop() {
@@ -402,7 +403,7 @@ const About = () => {
               </div>
               <div className="mt-12 md:mt-0">
                 <Image
-                  src="https://images.unsplash.com/photo-1531973576160-7125cd663d86"
+                  src={img1}
                   alt="About Us Image"
                   className="object-cover rounded-lg shadow-md"
                 />
