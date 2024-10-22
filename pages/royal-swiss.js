@@ -1,13 +1,13 @@
 import React, { useEffect } from "react";
 // import "../CSS/SmartHousing.css";
-import img1 from "../public/royalswiss1.jpg";
-import img2 from "../public/royalswiss2.jpg";
-import img3 from "../public/royalswiss3.jpg";
-import img4 from "../public/royalswiss4.jpg";
-import img5 from "../public/royalswiss5.jpg";
-import img6 from "../public/royalswiss6.jpg";
-import img7 from "../public/royalswiss7.jpg";
-import img8 from "../public/royalswiss8.jpg";
+import img1 from "../public/royalswiss1.webp";
+import img2 from "../public/royalswiss2.webp";
+import img3 from "../public/royalswiss3.webp";
+import img4 from "../public/royalswiss4.webp";
+import img5 from "../public/royalswiss5.webp";
+import img6 from "../public/royalswiss6.webp";
+import img7 from "../public/royalswiss7.webp";
+import img8 from "../public/royalswiss8.webp";
 import paymentPlan from "../public/royal swiss payment plan 2.jpg";
 import paymentPlan2 from "../public/royal swiss payment plan 2.jpg";
 import OurProjects from "../Components/OurProjects";
@@ -52,7 +52,7 @@ const RoyalSwiss = () => {
           <div
             className="w-full bg-center bg-cover"
             style={{
-              backgroundImage: `url('/royalswiss1.jpg')`, // Using the imported image
+              backgroundImage: `url('/royalswiss1.webp')`, // Using the imported image
             }}
           >
             <div className="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-[0.7] py-12">

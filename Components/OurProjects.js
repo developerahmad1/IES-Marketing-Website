@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Link from "next/link";
 import smartHousingImg from "../public/SmartHousing.webp";
-import royalSwissImg from "../public/royalswiss1.jpg";
+import royalSwissImg from "../public/royalswiss1.webp";
 import adamsHousingImg from "../public/AdamsHousing1.jpg";
 import cityHousingImg from "../public/City Housing 1.jpg";
 import DHAMultanImg from "../public/DHA 1.webp";
