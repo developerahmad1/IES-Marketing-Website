@@ -19,6 +19,8 @@ import client3 from "../public/client3.webp";
 import Head from "next/head";
 import Image from "next/image";
 import img1 from "../public/about us img.jpeg";
+import sirAyyaz from "../public/sir ayyaz.webp";
+import mamAbrish from "../public/mam abrish.webp";
 
 const About = () => {
   function scrollToTop() {
@@ -491,7 +493,7 @@ const About = () => {
                 <div className="flex justify-center items-center">
                   <Image
                     className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0"
-                    src={girlFaceIcon}
+                    src={mamAbrish}
                     alt="Sofia Avatar"
                   />
                 </div>

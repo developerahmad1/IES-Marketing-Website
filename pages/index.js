@@ -59,7 +59,7 @@ const Home = () => {
               secondary source.
             </p>
             <p className="text-gray-700 mt-4 md:mt-6 text-justify max-w-md">
-              Pakistan is the 5th world most populous country with a growth rate
+              Pakistan is the 5th world most popular country with a growth rate
               of 1.9% annually. According to World Bank analysis, Pakistan real
               estate market is worth 300-400 billion USD. In future, it will
               reach to 3 trillion USD. Currently, cities are becoming congested
