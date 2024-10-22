@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import img1 from "../public/DHA 1.webp";
 import img2 from "../public/DHA 2.webp";
 import img3 from "../public/DHA 3.webp";
@@ -26,6 +26,17 @@ const DHAMultan = () => {
     "DHA Multan Housing Society",
     "DHA residential community",
   ];
+
+  const [loading, setLoading] = useState(Array(images.length).fill(true));
+
+  // Function to handle when image is loaded
+  const handleImageLoad = (index) => {
+    setLoading((prevLoading) => {
+      const newLoading = [...prevLoading];
+      newLoading[index] = false;
+      return newLoading;
+    });
+  };
 
   return (
     <>
@@ -538,12 +549,27 @@ const DHAMultan = () => {
             {images.map((src, index) => (
               <div
                 key={index}
-                className="w-full h-48 md:h-64 lg:h-80 bg-gray-200 flex items-center justify-center overflow-hidden border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl"
+                className="w-full h-48 md:h-64 lg:h-80 bg-gray-200 flex items-center justify-center overflow-hidden border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl relative"
               >
+                {/* Loading Spinner */}
+                {loading[index] && (
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-gray-900"></div>
+                  </div>
+                )}
+
+                {/* Image */}
                 <Image
-                  className="max-w-full max-h-full object-contain"
+                  className={`max-w-full max-h-full object-contain transition-opacity duration-500 ${
+                    loading[index] ? "opacity-0" : "opacity-100"
+                  }`}
                   src={src}
                   alt={altNames[index]}
+                  loading="lazy"
+                  onLoad={() => handleImageLoad(index)}
+                  onError={() => handleImageLoad(index)} // In case image fails to load
+                  layout="fill"
+                  objectFit="contain"
                 />
               </div>
             ))}
