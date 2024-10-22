@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
-import img1 from "../public/DHA 1.jpg";
-import img2 from "../public/DHA 2.jpg";
-import img3 from "../public/DHA 3.jpg";
-import img4 from "../public/DHA 4.jpg";
-import img5 from "../public/DHA 5.jpg";
-import img6 from "../public/DHA 6.jpg";
-import img7 from "../public/DHA 7.jpg";
+import img1 from "../public/DHA 1.webp";
+import img2 from "../public/DHA 2.webp";
+import img3 from "../public/DHA 3.webp";
+import img4 from "../public/DHA 4.webp";
+import img5 from "../public/DHA 5.webp";
+import img6 from "../public/DHA 6.webp";
+import img7 from "../public/DHA 7.webp";
 import { useAppContext } from "../Context/AppContext.js";
 import Link from "next/link";
 import Image from "next/image";
@@ -48,7 +48,7 @@ const DHAMultan = () => {
           <div
             className="w-full bg-center bg-cover"
             style={{
-              backgroundImage: `url('/DHA 1.jpg')`, // Using the imported image
+              backgroundImage: `url('/DHA 1.webp')`, // Using the imported image
               height: "100vh",
             }}
           >
