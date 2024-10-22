@@ -1,5 +1,5 @@
 import React from 'react';
-import iesWhiteLogo from '../public/IES white logo.png';
+import iesWhiteLogo from '../public/IES-white-logo.webp';
 import { FaFacebook, FaYoutube } from 'react-icons/fa';
 import { GrInstagram } from 'react-icons/gr';
 import { FaTiktok } from "react-icons/fa6";

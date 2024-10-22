@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Image from "next/image";
-import iesLogo from "../public/IES balck logo .png";
+import iesLogo from "../public/IES-balck-logo-.webp";
 import Head from "next/head";
 
 const Navbar = () => {
