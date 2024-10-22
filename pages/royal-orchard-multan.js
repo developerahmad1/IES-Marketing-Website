@@ -61,7 +61,7 @@ const RoyalOrchad = () => {
     });
   };
 
-  console.log(img1)
+  console.log(img1);
   return (
     <>
       <Head>
@@ -77,43 +77,44 @@ const RoyalOrchad = () => {
       </Head>
 
       <div>
-      <header className="mb-14">
-  <div
-    className="w-full bg-center bg-cover"
-    style={{
-      backgroundImage: "url('/royal orchad 1.jpg')", 
-      height: "100vh",
-    }}
-  >
-    <div className="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-[0.7] py-12">
-      <div className="text-center">
-        <div className="container px-4 mx-auto">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">
-              Royal Orchard Multan – Premier Destination for Modern Living
-            </h1>
-            <p className="max-w-4xl mx-auto mb-10 text-lg text-center text-gray-300">
-              Royal Orchard Multan provides a luxurious and comfortable lifestyle
-              in the fast-growing city of South Punjab with modern infrastructure,
-              including underground electricity, wide roads, and a sewerage system,
-              and follows international community standards.
-            </p>
-            <div onClick={openLeadpoup}>
-              <a
-                className="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-gray-200 rounded hover:bg-gray-100 text-gray-800 transition duration-200"
-                href="https://wa.me/923338400106?text=Hi.%20Sir%20I%20am%20interested%20in%20Royal%20Orchard.%20Can%20get%20More%20Information%20About%20it%20?"
-                target="_main"
-              >
-                Book Now
-              </a>
+        <header className="mb-14">
+          <div
+            className="w-full bg-center bg-cover"
+            style={{
+              backgroundImage: "url('/royal orchad 1.jpg')",
+              height: "100vh",
+            }}
+          >
+            <div className="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-[0.7] py-12">
+              <div className="text-center">
+                <div className="container px-4 mx-auto">
+                  <div className="max-w-4xl mx-auto text-center">
+                    <h1 className="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">
+                      Royal Orchard Multan – Premier Destination for Modern
+                      Living
+                    </h1>
+                    <p className="max-w-4xl mx-auto mb-10 text-lg text-center text-gray-300">
+                      Royal Orchard Multan provides a luxurious and comfortable
+                      lifestyle in the fast-growing city of South Punjab with
+                      modern infrastructure, including underground electricity,
+                      wide roads, and a sewerage system, and follows
+                      international community standards.
+                    </p>
+                    <div onClick={openLeadpoup}>
+                      <a
+                        className="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-gray-200 rounded hover:bg-gray-100 text-gray-800 transition duration-200"
+                        href="https://wa.me/923338400106?text=Hi.%20Sir%20I%20am%20interested%20in%20Royal%20Orchard.%20Can%20get%20More%20Information%20About%20it%20?"
+                        target="_main"
+                      >
+                        Book Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
-
+        </header>
 
         {/* more details */}
         <div className="bg-white text-black text-justify min-h-screen px-4 md:px-20">
@@ -493,37 +494,39 @@ const RoyalOrchad = () => {
 
         {/* Images */}
         <section className="mb-12 px-2 sm:px-5">
-      <h3 className="text-3xl font-bold mb-4 text-center pb-4">
-        Images Of Royal Orchad Multan
-      </h3>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {images.map((src, index) => (
-          <div
-            key={index}
-            className="w-full h-48 md:h-64 lg:h-80 bg-gray-200 flex items-center justify-center overflow-hidden border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl relative"
-          >
-            {/* Loading Spinner */}
-            {loading[index] && (
-               <div className="absolute inset-0 flex items-center justify-center">
-               <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-gray-900"></div>
-             </div>
-            )}
+          <h3 className="text-3xl font-bold mb-4 text-center pb-4">
+            Images Of Royal Orchad Multan
+          </h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {images.map((src, index) => (
+              <div
+                key={index}
+                className="w-full h-48 md:h-64 lg:h-80 bg-gray-200 flex items-center justify-center overflow-hidden border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl relative"
+              >
+                {/* Loading Spinner */}
+                {loading[index] && (
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-gray-900"></div>
+                  </div>
+                )}
 
-            {/* Image */}
-            <Image
-              className={`max-w-full max-h-full object-contain transition-opacity duration-500 ${loading[index] ? 'opacity-0' : 'opacity-100'}`}
-              src={src}
-              alt={altNames[index]}
-              loading="lazy"
-              onLoad={() => handleImageLoad(index)}
-              onError={() => handleImageLoad(index)} // In case image fails to load
-              layout="fill"
-              objectFit="contain"
-            />
+                {/* Image */}
+                <Image
+                  className={`max-w-full max-h-full object-contain transition-opacity duration-500 ${
+                    loading[index] ? "opacity-0" : "opacity-100"
+                  }`}
+                  src={src}
+                  alt={altNames[index]}
+                  loading="lazy"
+                  onLoad={() => handleImageLoad(index)}
+                  onError={() => handleImageLoad(index)} // In case image fails to load
+                  layout="fill"
+                  objectFit="contain"
+                />
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
-    </section>
+        </section>
 
         {/* Disclaimer */}
         <section className="my-10 px-3 sm:px-20 text-justify">
@@ -538,7 +541,7 @@ const RoyalOrchad = () => {
           </p>
         </section>
 
-        <OurProjects showHelmet={false} />
+        <OurProjects showHead={false} />
       </div>
     </>
   );
