@@ -1,14 +1,14 @@
 import React, { useEffect } from "react";
-import img1 from "../public/SmartHousing.jpg";
-import img2 from "../public/smarthousing2.jpg";
-import img3 from "../public/smarthousing3.jpg";
-import img4 from "../public/smarthousing4.jpg";
-import img5 from "../public/smarthousing5.jpg";
-import img6 from "../public/smarthousing6.jpg";
-import img7 from "../public/smarthousing7.jpg";
-import img8 from "../public/smarthousing8.jpg";
-import img9 from "../public/smarthousing9.jpg";
-import img10 from "../public/smarthousing10.jpg";
+import img1 from "../public/SmartHousing.webp";
+import img2 from "../public/smarthousing2.webp";
+import img3 from "../public/smarthousing3.webp";
+import img4 from "../public/smarthousing4.webp";
+import img5 from "../public/smarthousing5.webp";
+import img6 from "../public/smarthousing6.webp";
+import img7 from "../public/smarthousing7.webp";
+import img8 from "../public/smarthousing8.webp";
+import img9 from "../public/smarthousing9.webp";
+import img10 from "../public/smarthousing10.webp";
 import paymentPlan from "../public/smartHousing-payments.jpg";
 import paymentPlan2 from "../public/smartHousing-payments2.jpg";
 import OurProjects from "@/Components/OurProjects";
@@ -53,7 +53,7 @@ const SmartHousing = () => {
           <div
             className="w-full bg-center bg-cover"
             style={{
-              backgroundImage: `url('/SmartHousing.jpg')`, // Using the imported image
+              backgroundImage: `url('/SmartHousing.webp')`, // Using the imported image
             }}
           >
             <div className="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-[0.7] py-12">
