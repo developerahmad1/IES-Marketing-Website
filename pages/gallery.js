@@ -12,7 +12,7 @@ import img11 from "../public/royal orchad 1.jpg";
 import img12 from "../public/royal orchad 2.jpg";
 import img13 from "../public/royal orchad 4.jpg";
 import img14 from "../public/DHA 2.webp";
-import img15 from "../public/smarthousin10.webp";
+import img15 from "../public/smarthousing10.webp";
 import img16 from "../public/DHA 3.webp";
 import img17 from "../public/DHA 6.webp";
 import img18 from "../public/AdamsHousing1.jpg";
