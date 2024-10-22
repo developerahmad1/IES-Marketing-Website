@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import img1 from "../public/SmartHousing.webp";
 import img2 from "../public/smarthousing2.webp";
 import img3 from "../public/smarthousing3.webp";
@@ -32,6 +32,18 @@ const SmartHousing = () => {
     "Smart Housing islamic center",
     "Smart Housing residential community",
   ];
+
+  const [loading, setLoading] = useState(Array(images.length).fill(true));
+
+  // Function to handle when image is loaded
+  const handleImageLoad = (index) => {
+    setLoading((prevLoading) => {
+      const newLoading = [...prevLoading];
+      newLoading[index] = false;
+      return newLoading;
+    });
+  };
+
 
   return (
     <div>
@@ -470,25 +482,37 @@ const SmartHousing = () => {
 
         {/* Images */}
         <section className="mb-12 px-2 sm:px-5">
-          <h3 className="text-3xl font-bold mb-4 text-center pb-4">
-            Images Of Smart Housing
-          </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {images.map((src, index) => (
-              <div
-                key={index}
-                className="w-full h-48 md:h-64 lg:h-80 bg-gray-200 flex items-center justify-center overflow-hidden border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl"
-              >
-                <Image
-                  className="max-w-full max-h-full object-contain"
-                  src={src}
-                  alt={altImagesNames[index]}
-                  loading="lazy"
-                />
+      <h3 className="text-3xl font-bold mb-4 text-center pb-4">
+        Images Of Smart Housing
+      </h3>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {images.map((src, index) => (
+          <div
+            key={index}
+            className="w-full h-48 md:h-64 lg:h-80 bg-gray-200 flex items-center justify-center overflow-hidden border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl relative"
+          >
+            {/* Loading Spinner */}
+            {loading[index] && (
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-gray-900"></div>
               </div>
-            ))}
+            )}
+            
+            {/* Image */}
+            <Image
+              className={`max-w-full max-h-full object-contain transition-opacity duration-500 ${loading[index] ? 'opacity-0' : 'opacity-100'}`}
+              src={src}
+              alt={altImagesNames[index]}
+              loading="lazy"
+              onLoad={() => handleImageLoad(index)}
+              onError={() => handleImageLoad(index)} // In case image fails to load
+              layout="fill"
+              objectFit="contain"
+            />
           </div>
-        </section>
+        ))}
+      </div>
+    </section>
 
         {/* Disclaimer */}
         <section className="my-10 px-3 sm:px-20 text-justify">
