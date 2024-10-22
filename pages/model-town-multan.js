@@ -210,6 +210,7 @@ const ModelTownMultan = () => {
               height={500}
               className="mx-auto"
             />
+            <p className="text-center">Source : Multan Development Authority</p>
 
             {/* Accessibiulities */}
             <section className="mb-12 mt-6">
