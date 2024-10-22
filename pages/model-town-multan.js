@@ -69,7 +69,7 @@ const ModelTownMultan = () => {
                 Model Town Multan is a meticulously designed housing complex
                 that seeks to provide the ideal living environment for families
                 and people looking for high-quality accommodation at a
-                reasonable price. It is one of Multan's most popular residential
+                reasonable price. It is one of Multan&apos;s most popular residential
                 areas, thanks to its strategic position and modern amenities.
                 Model Town, which focuses on serene yet cheap living, combines
                 urban convenience with suburban calm. It is located near the
@@ -131,7 +131,7 @@ const ModelTownMultan = () => {
                 No Objection Certificate (NOC) for Model Town Multan along with
                 all necessary planning permissions in 1999. This approval gives
                 investors peace of mind by proving that the project is genuine
-                and meets the city's zoning, safety, and planning standards. For
+                and meets the city&apos;s zoning, safety, and planning standards. For
                 complete information, check the official MDA website regarding
                 the NOC.
               </p>
@@ -197,7 +197,7 @@ const ModelTownMultan = () => {
               <p className="text-lg leading-relaxed">
                 Model Town Multan boasts a prime location, making it easily
                 accessible from different parts of the city. Situated near the
-                city's major commercial and residential hubs, it provides
+                city&apos;s major commercial and residential hubs, it provides
                 excellent connectivity through well-maintained roads. The
                 project is located close to Multan Public School Road, making it
                 convenient for residents to commute to nearby areas.
@@ -329,7 +329,7 @@ const ModelTownMultan = () => {
             <section className="mb-12">
               <h2 className="text-3xl font-bold mb-4 text-start">Conclusion</h2>
               <p className="text-lg leading-relaxed pb-5">
-                One of the city's most organized and easily accessible
+                One of the city&apos;s most organized and easily accessible
                 residential developments is Model Town Multan. It provides the
                 perfect atmosphere for both residents and investors because of
                 its advantageous location, authorized NOC, dependable
