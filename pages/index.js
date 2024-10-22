@@ -42,7 +42,7 @@ const Home = () => {
           name="keywords"
           content="IES Marketing Multan, IES, Multan Property, Best Societies in Multan, Pakistan Real Estate, Real Estate Investment"
         />
-         <link rel="canonical" href="https://www.iesmkt.com/" />
+        <link rel="canonical" href="https://www.iesmkt.com/" />
       </Head>
 
       <div className="bg-white min-h-screen flex flex-col md:px-8 py-8 space-y-16">
@@ -110,6 +110,9 @@ const Home = () => {
                 src={img1}
                 className="rounded-lg"
                 alt="IES Marketing real estate"
+                width={550}
+                height={400}
+                loading="lazy"
               />
               {/* <div className="absolute top-0 right-0 mt-6 mr-6">
               <Image
@@ -133,9 +136,12 @@ const Home = () => {
           <div className="md:w-1/2 flex justify-center mt-8 md:mt-0">
             <div className="relative grid grid-cols-2 gap-4">
               <Image
-                src={img6}
-                className="rounded-lg  w-[450px] col-span-2"
+                src="/img6.webp" // Direct path from the public folder
+                className="rounded-lg w-[450px] col-span-2"
                 alt="Multan Property"
+                width={450} 
+                height={300}
+                loading="lazy"
               />
             </div>
           </div>

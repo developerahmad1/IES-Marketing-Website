@@ -483,6 +483,7 @@ const SmartHousing = () => {
                   className="max-w-full max-h-full object-contain"
                   src={src}
                   alt={altImagesNames[index]}
+                  loading="lazy"
                 />
               </div>
             ))}
