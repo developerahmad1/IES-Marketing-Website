@@ -31,125 +31,136 @@ const About = () => {
   }
   return (
     <>
+      <style jsx>
+        {`
+          .swiper-wrapper {
+            height: max-content !important;
 
-<style jsx>
-  {`
-  .swiper-wrapper {
-    height: max-content !important;
+            width: max-content;
+          }
 
-    width: max-content;
-}
+          .swiper-button-next,
+          .swiper-button-prev {
+            top: 25%;
+            z-index: 1000;
+          }
 
-.swiper-button-next,
-.swiper-button-prev {
-    top: 25%;
-    z-index: 1000;
-}
+          .swiper-button-next {
+            right: -0px !important;
+          }
 
-.swiper-button-next {
-    right: -0px !important;
-}
+          .swiper-button-prev {
+            left: 0px !important;
+          }
 
-.swiper-button-prev {
-    left: 0px !important;
-}
+          .swiper-button-prev:after,
+          .swiper-rtl .swiper-button-next:after {
+            content: "" !important;
+          }
 
-.swiper-button-prev:after,
-.swiper-rtl .swiper-button-next:after {
-    content: "" !important;
-}
+          .mySwiper {
+            max-width: 320px !important;
+            margin: 0 auto !important;
+          }
 
-.mySwiper {
-    max-width: 320px !important;
-    margin: 0 auto !important;
-}
+          .swiper-button-next:after,
+          .swiper-rtl .swiper-button-prev:after {
+            content: "" !important;
+          }
 
-.swiper-button-next:after,
-.swiper-rtl .swiper-button-prev:after {
-    content: "" !important;
-}
+          .mySwiper
+            .swiper-slide.swiper-slide-thumb-active
+            > .swiper-slide\:w-16 {
+            --tw-scale-x: 1;
+            --tw-scale-y: 1;
+            transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+              rotate(var(--tw-rotate)) skewX(var(--tw-skew-x))
+              skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x))
+              scaleY(var(--tw-scale-y));
+          }
 
-.mySwiper .swiper-slide.swiper-slide-thumb-active>.swiper-slide\:w-16 {
-    --tw-scale-x: 1;
-    --tw-scale-y: 1;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
+          .mySwiper
+            .swiper-slide.swiper-slide-thumb-active
+            > .swiper-slide\:border-indigo-600 {
+            --tw-border-opacity: 1;
+            border-color: rgb(79 70 229 / var(--tw-border-opacity));
+          }
 
-.mySwiper .swiper-slide.swiper-slide-thumb-active>.swiper-slide\:border-indigo-600 {
-    --tw-border-opacity: 1;
-    border-color: rgb(79 70 229 / var(--tw-border-opacity));
-}
+          .teamswiper .swiper-wrapper {
+            height: max-content !important;
+            padding-bottom: 64px !important;
+          }
 
-.teamswiper .swiper-wrapper {
-    height: max-content !important;
-    padding-bottom: 64px !important;
-}
+          .teamswiper .swiper-horizontal > .swiper-scrollbar,
+          .teamswiper .swiper-scrollbar.swiper-scrollbar-horizontal {
+            max-width: 140px !important;
+            height: 3px !important;
+            bottom: 25px !important;
+            left: 50% !important;
+            transform: translateX(-50%) !important;
+          }
 
-.teamswiper .swiper-horizontal>.swiper-scrollbar,
-.teamswiper .swiper-scrollbar.swiper-scrollbar-horizontal {
-    max-width: 140px !important;
-    height: 3px !important;
-    bottom: 25px !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-}
+          .teamswiper .swiper-pagination-fraction {
+            bottom: 0 !important;
+            padding-top: 16px !important;
+          }
 
-.teamswiper .swiper-pagination-fraction {
-    bottom: 0 !important;
-    padding-top: 16px !important;
-}
+          .teamswiper
+            .swiper-slide.swiper-slide-active
+            > .slide\:border-indigo-600 {
+            --tw-border-opacity: 1;
+            border-color: rgb(79 70 229 / var(--tw-border-opacity));
+          }
 
-.teamswiper .swiper-slide.swiper-slide-active>.slide\:border-indigo-600 {
-    --tw-border-opacity: 1;
-    border-color: rgb(79 70 229 / var(--tw-border-opacity));
-}
+          .teamswiper .swiper-pagination-total {
+            color: rgb(156 163 175) !important;
+          }
 
-.teamswiper .swiper-pagination-total {
-    color: rgb(156 163 175) !important;
-}
+          .teamswiper .swiper-scrollbar-drag {
+            background: rgb(79 70 229);
+          }
 
-.teamswiper .swiper-scrollbar-drag {
-    background: rgb(79 70 229);
-}
+          .teamswiper .swiper-pagination-fraction {
+            bottom: 0 !important;
+          }
 
-.teamswiper .swiper-pagination-fraction {
-    bottom: 0 !important;
-}
+          .teamswiper .swiper-button-prev:after,
+          .teamswiper .swiper-rtl .swiper-button-next:after {
+            content: "" !important;
+          }
 
-.teamswiper .swiper-button-prev:after,
-.teamswiper .swiper-rtl .swiper-button-next:after {
-    content: '' !important;
-}
+          .teamswiper .swiper-button-prev {
+            top: 93% !important;
+            left: 35% !important;
+            z-index: 100 !important;
+          }
 
-.teamswiper .swiper-button-prev {
-    top: 93% !important;
-    left: 35% !important;
-    z-index: 100 !important;
-}
+          .teamswiper .swiper-button-next {
+            top: 93% !important;
+            right: 35% !important;
+            z-index: 100 !important;
+          }
 
-.teamswiper .swiper-button-next {
-    top: 93% !important;
-    right: 35% !important;
-    z-index: 100 !important;
-}
+          .teamswiper .swiper-button-next:after,
+          .teamswiper .swiper-rtl .swiper-button-prev:after {
+            content: "" !important;
+          }
 
-.teamswiper .swiper-button-next:after,
-.teamswiper .swiper-rtl .swiper-button-prev:after {
-    content: '' !important;
-}
-
-.teamswiper .swiper-button-next svg,
-.teamswiper .swiper-button-prev svg {
-    width: 24px !important;
-    height: 24px !important;
-}`}
-</style>
+          .teamswiper .swiper-button-next svg,
+          .teamswiper .swiper-button-prev svg {
+            width: 24px !important;
+            height: 24px !important;
+          }
+        `}
+      </style>
 
       <Head>
         <title>About Us - IES Marketing</title>
-        <meta name="description" content="IES Marketing is a real estate agency offering extraordinary services to elevate the business of real estate." />
-        <link rel="canonical" href="https://www.iesmkt.com/about-us/" />
-
+        <meta
+          name="description"
+          content="IES Marketing is a real estate agency offering extraordinary services to elevate the business of real estate."
+        />
+        <link rel=" " href="https://www.iesmkt.com/about-us/" />
       </Head>
 
       <div>
@@ -173,24 +184,33 @@ const About = () => {
         {/* About Us Section */}
         <section className="py-14 lg:py-24 relative bg-[#fff1e1]">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-9">
-              <div className="img-box">
+            <div className="flex justify-start gap-x-12 flex-wrap">
+              <div className="img-box md:max-w-[400px] w-full">
                 <Image
                   src={sirAliImage}
                   alt="About Us tailwind page"
-                  className="max-lg:mx-auto"
+                  className="max-lg:mx-auto w-[400px] mx-auto"
                 />
                 {/* icon here */}
               </div>
-              <div className="lg:pl-[100px] flex items-center">
+              <div className=" flex items-start">
                 <div className="data w-full">
-                  <h2 className="font-manrope font-bold text-4xl lg:text-3xl text-black mb-9 max-lg:text-center relative">
+                  <h2 className="text-start font-manrope font-bold text-4xl lg:text-3xl text-black mb-3 max-lg:text-center relative mt-8 md:mt-0">
                     Syed Ali Akbar Kirmani{" "}
-                    <span className="text-2xl">(CEO)</span>
+                    <span className="text-2xl mb-2">(CEO)</span>
                   </h2>
-                  <p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                    Syed Ali Akbar Kirmani:
-                    <br />
+                  <p className="font-normal text-xl leading-8 text-gray-500 text-start max-w-2xl mx-auto">
+                    Syed Ali Akbar Kirmani:{" "}
+                  </p>
+                  <p className="font-normal text-xl leading-8 text-gray-500  max-w-2xl mx-auto text-jus mt-2 text-justify">
+                    As a CEO of IES Marketing, Ali Akber has been a prominent
+                    figure in the real estate industry. His dedication to
+                    innovation and client satisfaction sets a high standard in
+                    the market. He is dedicated to providing exceptional
+                    investment opportunities that open doors to a brighter
+                    future.
+                  </p>
+                  <p className="font-normal text-xl leading-8 text-gray-500  max-w-2xl mx-auto text-jus mt-2 text-justify  ">
                     &quot;IES Marketing is a full-service real estate marketing
                     agency that helps clients in the real-estate industry
                     increases their brand awareness, generate leads, and close
@@ -207,23 +227,32 @@ const About = () => {
         <section className="py-14 lg:py-24 relative bg-[#fff1e1]">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
             <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-9">
-              <div className="lg:pr-24 flex items-center">
+              <div className="lg:pr-24 flex items-start">
                 <div className="data w-full">
                   <Image
                     src={sirTaiyyabImage}
                     alt="About Us tailwind page"
-                    className="block lg:hidden mb-9 mx-auto"
+                    className="block lg:hidden mb-9 mx-auto mr-0 pr-0"
                   />
                   {/* icon here */}
-                  <h2 className="font-manrope font-bold text-4xl lg:text-4xl text-black mb-9 max-lg:text-center">
+                  <h2 className="font-manrope font-bold text-4xl lg:text-4xl text-black mb-4">
                     Chaudhary Tayyab Sultan (MD)
                   </h2>
-                  <p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto text-justify">
-                    Chaudhary Tayyab Sultan
-                    <br />
-                    &quot;We have a devoted team determined to bring growth to our
-                    community, serving to maintain existing business and backing
-                    our clients in making their ideal choices for life&quot;
+                  <p className="font-normal text-xl leading-8 text-gray-500 max-w-2xl mx-auto text-justify">
+                    Chaudhary Tayyab Sultan</p>
+                    <p className="font-normal text-xl leading-8 text-gray-500 max-w-2xl mx-auto text-justify mt-1">
+                    He is the esteemed Managing Director of IES Marketing, known
+                    for his remarkable achievements driven by dedication and a
+                    focused work ethic. With years of experience, he champions a
+                    forward-thinking approach that emphasizes innovation and
+                    growth. His strategic vision is instrumental in shaping a
+                    brighter future for IES Marketing and its clients.
+                  </p>
+                  <p className="font-normal text-xl leading-8 text-gray-500 max-w-2xl mx-auto text-justify mt-3">
+                    &quot;We have a devoted team determined to bring growth to
+                    our community, serving to maintain existing business and
+                    backing our clients in making their ideal choices for
+                    life&quot;
                   </p>
                 </div>
                 {/* icon here */}
@@ -232,7 +261,7 @@ const About = () => {
                 <Image
                   src={sirTaiyyabImage}
                   alt="About Us tailwind page"
-                  className="hidden lg:block"
+                  className="hidden lg:block  w-[450px]"
                 />
                 {/* icon here */}
               </div>
@@ -253,13 +282,13 @@ const About = () => {
             business objectives. Our team of experts primarily focuses on
             delivering outstanding results, contributing to business growth and
             long-term success of projects. IES Marketing is one of the
-            Pakistan&apos;s top real estate marketing company dealing in exclusive
-            housing projects or societies. Also, we have achieved excellence in
-            many well-known projects across Pakistan. We are highly dedicated to
-            deliver innovative marketing solutions to create lasting value for
-            our clients. Briefly, IES Marketing is elevating real estate
-            industry to help potential buyers and sellers attain excellent
-            results by making top-tier real estate choices.
+            Pakistan&apos;s top real estate marketing company dealing in
+            exclusive housing projects or societies. Also, we have achieved
+            excellence in many well-known projects across Pakistan. We are
+            highly dedicated to deliver innovative marketing solutions to create
+            lasting value for our clients. Briefly, IES Marketing is elevating
+            real estate industry to help potential buyers and sellers attain
+            excellent results by making top-tier real estate choices.
           </p>
         </section>
 
@@ -390,9 +419,9 @@ const About = () => {
                   looking for a reliable company to fulfill their real estate
                   marketing needs. Also, we make sure to foster positive
                   relationships and uphold higher standards of honesty with
-                  clients. Moreover, IES Marketing stands out as Pakistan&apos;s only
-                  real estate marketing company with a strong focus and effort
-                  on women&apos;s empowerment.
+                  clients. Moreover, IES Marketing stands out as Pakistan&apos;s
+                  only real estate marketing company with a strong focus and
+                  effort on women&apos;s empowerment.
                 </p>
                 <div className="mt-8">
                   <p
@@ -801,8 +830,8 @@ const About = () => {
                     Sardar Hamza Dreashaq provides strategic advice on
                     contracts, property regulations, and corporate governance.
                     His guidance plays a pivotal role in navigating complex
-                    legal matters, contributing to the company&apos;s success and
-                    stability in the market.
+                    legal matters, contributing to the company&apos;s success
+                    and stability in the market.
                   </p>
                   <ul className="flex space-x-4 sm:mt-0 justify-center items-center"></ul>
                 </div>
