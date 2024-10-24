@@ -50,11 +50,12 @@ const Blogs = ({ heading, showHead = true }) => {
       {showHead && (
         <Head>
           <title>Blogs - IES Marketing</title>
-          <meta name="description" content="Blogs – IES Marketing" />
+          <meta name="description" content="Here, you can read our updated blogs about the real estate market trends and possible opportunities in the real estate busines of Pakistan" />
           <meta
           name="keywords"
-          content="IES Marketing Multan, IES, Multan Property, Best Societies in Multan, Pakistan Real Estate, Real Estate Investment"
+          content="Real Esate Blogs, Real Estate Marketing, Real Estate IES, Multan real estate Blogs, Best Societies in Multan"
         />
+          <link rel="canonical" href="https://www.iesmkt.com/blogs/" />
         </Head>
       )}
       <div>

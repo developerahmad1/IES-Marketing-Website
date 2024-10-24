@@ -22,6 +22,7 @@ import img1 from "../public/about us img.jpeg";
 import sirAyyaz from "../public/sir ayyaz.webp";
 import mamAbrish from "../public/mam abrish.webp";
 
+
 const About = () => {
   function scrollToTop() {
     window.scrollTo({
@@ -160,7 +161,7 @@ const About = () => {
           name="description"
           content="IES Marketing is a real estate agency offering extraordinary services to elevate the business of real estate."
         />
-        <link rel=" " href="https://www.iesmkt.com/about-us/" />
+        <link rel="canonical" href="https://www.iesmkt.com/about-us/" />
       </Head>
 
       <div>

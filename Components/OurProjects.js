@@ -33,6 +33,7 @@ const OurProjects = ({ showHead = true }) => {
             name="keywords"
             content="dha multan, smart housing, royal swiss, adams housing, city housing, royal orchard, wapda town, model town, multan central,  property for sale, plots for sale in multan, multan properties, ies projects"
           />
+          <link rel="canonical" href="https://www.iesmkt.com/our-projects/" />
         </Head>
       )}
 
@@ -80,7 +81,11 @@ const OurProjects = ({ showHead = true }) => {
             className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
             <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
-              <Image src={royalorchardImg} alt="card-image" className="w-full" />
+              <Image
+                src={royalorchardImg}
+                alt="card-image"
+                className="w-full"
+              />
             </div>
             <div className="p-6">
               <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
@@ -273,15 +278,17 @@ const OurProjects = ({ showHead = true }) => {
             className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
             <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
-            <Image src={modeltown} alt="card-image" className="w-full" />
-
+              <Image src={modeltown} alt="card-image" className="w-full" />
             </div>
             <div className="p-6">
               <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-              Model Town Multan – An Ideal Family Heaven
+                Model Town Multan – An Ideal Family Heaven
               </h5>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-              Model Town Multan is a meticulously designed housing complex that seeks to provide the ideal living environment for families and people looking for high-quality accommodation at a reasonable price.
+                Model Town Multan is a meticulously designed housing complex
+                that seeks to provide the ideal living environment for families
+                and people looking for high-quality accommodation at a
+                reasonable price.
               </p>
             </div>
             <div className="p-6 pt-0">
@@ -293,7 +300,6 @@ const OurProjects = ({ showHead = true }) => {
               </button>
             </div>
           </Link>
-          
         </div>
       </div>
     </div>
