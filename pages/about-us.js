@@ -464,7 +464,7 @@ const About = () => {
                 <a href="#" className="flex justify-center items-center">
                   <Image
                     className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0"
-                    src={sirAyyaz}
+                    src={manFaceIcon}
                     alt="Sofia Avatar"
                   />
                 </a>
