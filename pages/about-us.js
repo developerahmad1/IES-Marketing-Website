@@ -21,7 +21,7 @@ import Image from "next/image";
 import img1 from "../public/about us img.jpeg";
 import sirAyyaz from "../public/sir ayyaz.webp";
 import mamAbrish from "../public/mam abrish.webp";
-
+import sardarHamzaDreshak from "../public/sir Ameer Hamza Dreshak.webp";
 
 const About = () => {
   function scrollToTop() {
@@ -464,8 +464,8 @@ const About = () => {
                 <a href="#" className="flex justify-center items-center">
                   <Image
                     className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0"
-                    src={manFaceIcon}
-                    alt="Sofia Avatar"
+                    src={sirAyyaz}
+                    alt="Ayyaz Mahmood"
                   />
                 </a>
                 <div className="p-5">
@@ -524,7 +524,7 @@ const About = () => {
                   <Image
                     className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0"
                     src={mamAbrish}
-                    alt="Sofia Avatar"
+                    alt="Abrish Zahra"
                   />
                 </div>
                 <div className="p-5">
@@ -817,8 +817,8 @@ const About = () => {
                 <div className="flex justify-center items-center">
                   <Image
                     className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0"
-                    src={manFaceIcon}
-                    alt="Sofia Avatar"
+                    src={sardarHamzaDreshak}
+                    alt="Sardar Ameer Hamza Dreashaq"
                   />
                 </div>
                 <div className="p-5">
