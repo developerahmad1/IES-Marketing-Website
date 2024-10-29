@@ -23,13 +23,13 @@ const RealEstateChallanges_1 = () => {
 
         <div className="max-w-screen-lg mx-auto">
 
-          <main className="mt-">
+          <main className="">
             <div className="mb-4 md:mb-0 w-full mx-auto relative">
               <div className="px-4 py-2 sm:py-2 lg:px-0">
                 <Image src={img1} alt="" className='mx-auto' />
-                <h2 className="text-3xl sm:text-4xl font-semibold text-gray-800 leading-tight mt-8">
+                <h1 className="text-3xl sm:text-4xl font-semibold text-gray-800 leading-tight mt-8">
                   Real Estate in Pakistan: Opportunities & Challenges
-                </h2>
+                </h1>
 
               </div>
 

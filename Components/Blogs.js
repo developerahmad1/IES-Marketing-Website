@@ -1,6 +1,8 @@
 import React, { useState, useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import Link from "next/link.js";
+import Head from "next/head.js";
+import Image from "next/image";
 import img1 from "../public/Blogs/blog1card.jpg";
 import img2 from "../public/Blogs/2nd blog.jpg";
 import blog3 from "../public/Blogs/3rd Blog.jpg";
@@ -15,8 +17,7 @@ import blog11 from "../public/Blogs/Blog11.jpg";
 import img12 from "../public/Blogs/Blog12.jpg";
 import img13 from "../public/Blogs/Blog13.jpg";
 import img14 from "../public/Blogs/Blog14.jpg";
-import Head from "next/head.js";
-import Image from "next/image";
+import img15 from "../public/Blogs/Blog15.webp";
 
 const Blogs = ({ heading, showHead = true }) => {
   function scrollToTop() {
@@ -25,7 +26,6 @@ const Blogs = ({ heading, showHead = true }) => {
       behavior: "smooth",
     });
   }
-  
 
   // useEffect(() => {
   //   // Select only newly added cards
@@ -50,11 +50,14 @@ const Blogs = ({ heading, showHead = true }) => {
       {showHead && (
         <Head>
           <title>Blogs - IES Marketing</title>
-          <meta name="description" content="Here, you can read our updated blogs about the real estate market trends and possible opportunities in the real estate busines of Pakistan" />
           <meta
-          name="keywords"
-          content="Real Esate Blogs, Real Estate Marketing, Real Estate IES, Multan real estate Blogs, Best Societies in Multan"
-        />
+            name="description"
+            content="Here, you can read our updated blogs about the real estate market trends and possible opportunities in the real estate busines of Pakistan"
+          />
+          <meta
+            name="keywords"
+            content="Real Esate Blogs, Real Estate Marketing, Real Estate IES, Multan real estate Blogs, Best Societies in Multan"
+          />
           <link rel="canonical" href="https://www.iesmkt.com/blogs/" />
         </Head>
       )}
@@ -66,6 +69,38 @@ const Blogs = ({ heading, showHead = true }) => {
             </h2>
 
             <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-5">
+
+              
+              {/* 15th De Orion Mall: Introducing a Perfect Hub for Business */}
+              <Link
+                href="/blog/de-orion-mall-multan"
+                onClick={scrollToTop}
+                className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
+              >
+                <div className="overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+                  <Image
+                    src={img15}
+                    alt="card-image"
+                    className="w-full h-full rounded-t-2xl"
+                  />
+                </div>
+                <div className="p-6">
+                  <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                  De Orion Mall: Introducing a Perfect Hub for Business
+                  </h5>
+                  {/* <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+                </p> */}
+                </div>
+                <div className="p-6 pt-0">
+                  <button
+                    className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                    type="button"
+                  >
+                    View More
+                  </button>
+                </div>
+              </Link>
+
               {/* 14th Sector H of DHA Multan; A Way to Modern Living */}
               <Link
                 href="/blog/miyawaki-botanical-forest-initiative-by-dha-multan"
@@ -486,8 +521,6 @@ const Blogs = ({ heading, showHead = true }) => {
                 </div>
               </Link>
             </div>
-
-           
           </div>
         </section>
       </div>
