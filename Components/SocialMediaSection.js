@@ -107,6 +107,7 @@ const SocialMediaSection = () => {
               src={instagram}
               className="h-10 w-10 mr-2 object-cover cursor-pointer hover:scale-[1.05] duration-200"
               alt="Instagram Logo"
+              title="Instagram Logo"
             />
           </a>
           <div>
