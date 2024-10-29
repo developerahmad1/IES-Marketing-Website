@@ -191,6 +191,7 @@ const About = () => {
                   src={sirAliImage}
                   alt="About Us tailwind page"
                   className="max-lg:mx-auto w-[400px] mx-auto"
+                  title="Sir Ali Kirmani"
                 />
                 {/* icon here */}
               </div>
@@ -234,6 +235,7 @@ const About = () => {
                     src={sirTaiyyabImage}
                     alt="About Us tailwind page"
                     className="block lg:hidden mb-9 mx-auto mr-0 pr-0"
+                    title="Chaudhary Tayyab Sultan"
                   />
                   {/* icon here */}
                   <h2 className="font-manrope font-bold text-4xl lg:text-4xl text-black mb-4">
@@ -263,6 +265,7 @@ const About = () => {
                   src={sirTaiyyabImage}
                   alt="About Us tailwind page"
                   className="hidden lg:block  w-[450px]"
+                  title="Chaudhary Tayyab Sultan"
                 />
                 {/* icon here */}
               </div>
@@ -439,6 +442,7 @@ const About = () => {
                   src={img1}
                   alt="About Us Image"
                   className="object-cover rounded-lg shadow-md"
+                  title="IES Marketing About us"
                 />
               </div>
             </div>
@@ -466,6 +470,7 @@ const About = () => {
                     className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0"
                     src={sirAyyaz}
                     alt="Ayyaz Mahmood"
+                    title="Ayyaz Mahmood"
                   />
                 </a>
                 <div className="p-5">
@@ -525,6 +530,7 @@ const About = () => {
                     className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0"
                     src={mamAbrish}
                     alt="Abrish Zahra"
+                    title="Abrish Zahra - Business development manager at IES Marketing"
                   />
                 </div>
                 <div className="p-5">
@@ -819,6 +825,7 @@ const About = () => {
                     className="max:h-[100px] w-[400px] sm:rounded-t-none rounded-t-[15px] my-0"
                     src={sardarHamzaDreshak}
                     alt="Sardar Ameer Hamza Dreashaq"
+                    title="Sardar Hamza Dreashaq"
                   />
                 </div>
                 <div className="p-5">
@@ -885,9 +892,10 @@ const About = () => {
                         </div>
                         <div className="overflow-hidden rounded-full bg-slate-50">
                           <Image
-                            alt=""
+                            alt="Haider"
                             className="h-14 w-14 object-cover"
                             src={client1}
+                            title="Haider IES Marketing Client"
                           />
                         </div>
                       </figcaption>
@@ -923,9 +931,10 @@ const About = () => {
                         </div>
                         <div className="overflow-hidden rounded-full bg-slate-50">
                           <Image
-                            alt=""
+                            alt="Muzammal"
                             className="h-14 w-14 object-cover"
                             src={client2}
+                            title="Muzammal IES Marketing Client"
                           />
                         </div>
                       </figcaption>
@@ -961,9 +970,10 @@ const About = () => {
                         </div>
                         <div className="overflow-hidden rounded-full bg-slate-50">
                           <Image
-                            alt=""
+                            alt="Ali Shan"
                             className="h-14 w-14 object-cover"
                             src={client3}
+                            title="Ali Shan Client of IES Marketing"
                           />
                         </div>
                       </figcaption>
