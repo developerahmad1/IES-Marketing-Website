@@ -16,7 +16,7 @@ const Bike = () => {
       <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70 animate-fade-zoom">
         <div className="relative">
           <MdOutlineCancel
-            className="absolute top-[5px] right-[5px] text-white text-4xl cursor-pointer hover:text-red-500"
+            className="absolute top-[5px] right-[5px] text-white text-4xl cursor-pointer hover:text-red-500 duration-300"
             onClick={handleClose}
           />
           <Image
