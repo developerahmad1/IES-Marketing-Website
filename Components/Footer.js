@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="lg:w-1/3">
             <a href="#" className="flex justify-center space-x-3 lg:justify-start hover:text-[#fa8b17]">
               <div className="flex items-center justify-center w-[150px] h-[150px] rounded-full">
-                <Image src={iesWhiteLogo} alt="IES Marketing Logo" className="w-[150px]" />
+                <Image src={iesWhiteLogo} alt="IES Marketing Logo" title='IES Marketing png Logo' className="w-[150px]" />
               </div>
               {/* <span className="self-center text-2xl font-semibold">IES Marketing</span> */}
             </a>

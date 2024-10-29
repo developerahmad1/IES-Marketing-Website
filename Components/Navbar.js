@@ -25,7 +25,7 @@ const Navbar = () => {
       <header className="navbar-header bg-white shadow-md w-full fixed z-30 top-0 left-0">
         <div className="mx-auto flex flex-n justify-between items-center flex-row relative z-20 p-4">
           <div className="flex items-center">
-            <Image src={iesLogo} alt="IES Marketing Logo" className="w-24" />
+            <Image src={iesLogo} alt="IES Marketing Logo" title="IES Marketing Logo" className="w-24" />
           </div>
 
           <div className="md:hidden flex items-center">

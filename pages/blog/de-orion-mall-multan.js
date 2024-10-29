@@ -12,7 +12,7 @@ const De_Orion_Mall = () => {
         <title>De Orion Mall: Introducing a Perfect Hub for Business</title>
         <meta
           name="description"
-          content="Explore De Orion Mall in Gulgasht, Multan – a prime location for shops, apartments, and investment-friendly commercial plots. Discover affordable and luxury retail spaces, investment opportunities, and the latest Multan real estate options."
+          content="Explore De Orion Mall in Multan's Gulgasht area for luxury apartments, premium shops, and exclusive business opportunities. Invest in commercial plots today!"
         />
         <meta
           name="keywords"
@@ -35,10 +35,11 @@ const De_Orion_Mall = () => {
                   alt="De Orion Mall Image"
                   className="mx-auto"
                   name="De Orion Mall"
+                  title="De Orion Mall"
                 />
-                <h2 className="text-3xl sm:text-4xl font-semibold text-gray-800 leading-tight mt-8">
+                <h1 className="text-3xl sm:text-4xl font-semibold text-gray-800 leading-tight mt-8">
                   De Orion Mall: Introducing a Perfect Hub for Business
-                </h2>
+                </h1>
               </div>
             </div>
 
@@ -61,6 +62,7 @@ const De_Orion_Mall = () => {
                   src={img2}
                   alt="De Orion Mall Image"
                   name="De Orion Mall"
+                  title="De Orion Mall"
                 />
                 <h2 className="text-2xl text-gray-800 font-semibold mt-5">
                   Prime Location of De Orion Mall
