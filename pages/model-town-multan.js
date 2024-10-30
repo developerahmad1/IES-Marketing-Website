@@ -433,7 +433,7 @@ const ModelTownMultan = () => {
           </div>
         </div>
       </div>
-      <OurProjects showHead={false} />
+      <OurProjects showHead={false}  heading="Our Other Real Estate Projects"/>
     </div>
   );
 };

@@ -248,3 +248,42 @@ const De_Orion_Mall = () => {
 };
 
 export default De_Orion_Mall;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// now this is my another blog apge head tag : <Head>
+//         <title>De Orion Mall: Introducing a Perfect Hub for Business</title>
+//         <meta
+//           name="description"
+//           content="Explore De Orion Mall in Multan's Gulgasht area for luxury apartments, premium shops, and exclusive business opportunities. Invest in commercial plots today!"
+//         />
+//         <meta
+//           name="keywords"
+//           content="De Orion Mall, De Orion Mall Multan, Gulgasht Multan, Shops in Multan, Apartments in Multan, Business opportunities in Multan, Commercial investment, Shopping malls in multan, Plots for sale, Commercial plot, Multan properties"
+//         />
+//         <meta name="robots" content="index, follow" />
+//         <link
+//           rel="canonical"
+//           href="https://iesmkt.com/blog/de-orion-mall-multan/"
+//         />
+//       </Head> in this you add all other tags meta tags of og and twitter 

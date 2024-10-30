@@ -541,7 +541,7 @@ const RoyalOrchad = () => {
           </p>
         </section>
 
-        <OurProjects showHead={false} />
+        <OurProjects showHead={false}  heading="Our Other Real Estate Projects"/>
       </div>
     </>
   );

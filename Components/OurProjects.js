@@ -12,7 +12,7 @@ import Head from "next/head";
 import Image from "next/image";
 import ModelTownMultan from "@/pages/model-town-multan";
 
-const OurProjects = ({ showHead = true }) => {
+const OurProjects = ({ showHead = true, heading }) => {
   function scrollToTop() {
     window.scrollTo({
       top: 0,
@@ -24,23 +24,72 @@ const OurProjects = ({ showHead = true }) => {
     <div>
       {showHead && (
         <Head>
-          <title>Our Projects - IES Marketing</title>
+          {/* Primary SEO Tags */}
+          <title>
+            Top Real Estate Projects in Multan – Smart Housing & More
+          </title>
           <meta
             name="description"
-            content="IES Marketing deals in many top societies in Multan providing luxurious or comfortable environment and top notch amenities"
+            content="Discover premium real estate in Multan, including DHA, Royal Orchard, and CITI Housing. Find your ideal investment with IES Marketing."
           />
+          <meta name="robots" content="index, follow" />
           <meta
             name="keywords"
-            content="dha multan, smart housing, royal swiss, adams housing, city housing, royal orchard, wapda town, model town, multan central,  property for sale, plots for sale in multan, multan properties, ies projects"
+            content="Multan real estate projects, best housing societies Multan, DHA Multan investment, Royal Orchard Multan plots, CITI Housing Multan"
+          />
+
+          {/* Open Graph / Facebook */}
+          <meta property="og:type" content="website" />
+          <meta
+            property="og:url"
+            content="https://www.iesmkt.com/our-projects/"
+          />
+          <meta
+            property="og:title"
+            content="Top Real Estate Projects in Multan – DHA, Smart Housing, Royal Swiss & More"
+          />
+          <meta
+            property="og:description"
+            content="Discover top real estate in Multan, like DHA and Royal Orchard, with IES Marketing as your trusted guide."
+          />
+          <meta
+            property="og:image"
+            content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Froyal%20orchad%201.ec795224.jpg&w=3840&q=75"
+          />
+
+          {/* Twitter */}
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta
+            property="twitter:url"
+            content="https://www.iesmkt.com/our-projects/"
+          />
+          <meta
+            property="twitter:title"
+            content="Top Real Estate Projects in Multan – Smart Housing & More"
+          />
+          <meta
+            property="twitter:description"
+            content="Discover top real estate in Multan, like DHA and Royal Orchard, with IES Marketing as your trusted guide.."
+          />
+          <meta
+            property="twitter:image"
+            content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Froyal%20orchad%201.ec795224.jpg&w=3840&q=75"
           />
           <link rel="canonical" href="https://www.iesmkt.com/our-projects/" />
+          {/* Additional Meta Tags */}
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta charSet="UTF-8" />
         </Head>
       )}
 
       <div className="bg-white py-6">
-        <h1 className="text-4xl font-bold text-center py-3">
-          IES Marketing Projects
-        </h1>
+        {showHead ? (
+          <h1 className="text-4xl font-bold text-center py-6">
+            Top Real Estate Projects in Multan
+          </h1>
+        ) : (
+          <h3 className="text-3xl font-bold text-center py-6">{heading}</h3>
+        )}
         <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-3">
           {/* DHA Multan */}
           <Link
@@ -49,7 +98,7 @@ const OurProjects = ({ showHead = true }) => {
             className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
             <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
-              <Image src={DHAMultanImg} alt="card-image" className="w-full" />
+              <Image src={DHAMultanImg} alt="DHA Multan - IES Marketing" title="DHA Multan" className="w-full" />
             </div>
             <div className="p-6">
               <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
@@ -83,7 +132,8 @@ const OurProjects = ({ showHead = true }) => {
             <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <Image
                 src={royalorchardImg}
-                alt="card-image"
+                alt="Royal Orchad Multan"
+                title="Royal Orchad Mulatn"
                 className="w-full"
               />
             </div>
@@ -116,7 +166,7 @@ const OurProjects = ({ showHead = true }) => {
             className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
             <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
-              <Image src={cityHousingImg} alt="card-image" className="w-full" />
+              <Image src={cityHousingImg} alt="CITI Housing Multan" title="CITI Housing Multan" className="w-full" />
             </div>
             <div className="p-6">
               <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
@@ -150,7 +200,8 @@ const OurProjects = ({ showHead = true }) => {
             <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <Image
                 src={adamsHousingImg}
-                alt="card-image"
+                alt="Adans Hosuing Multan"
+                title="Adans Hosuing Multan"
                 className="w-full"
               />
             </div>
@@ -185,7 +236,8 @@ const OurProjects = ({ showHead = true }) => {
             <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <Image
                 src={smartHousingImg}
-                alt="card-image"
+                alt="Smart Housing Multan"
+                title="Smart Housing Multan"
                 className="w-full"
               />
             </div>
@@ -218,7 +270,7 @@ const OurProjects = ({ showHead = true }) => {
             className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
             <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
-              <Image src={royalSwissImg} alt="card-image" className="w-full" />
+              <Image src={royalSwissImg} alt="Royal Swiss Multan" title="Royal Swiss Multan" className="w-full" />
             </div>
             <div className="p-6">
               <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
@@ -249,7 +301,7 @@ const OurProjects = ({ showHead = true }) => {
             className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
             <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
-              <Image src={wapdaTown} alt="card-image" className="w-full" />
+              <Image src={wapdaTown} alt="Wapda Town Multan" title="Wapda Town Multan" className="w-full" />
             </div>
             <div className="p-6">
               <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
@@ -278,7 +330,7 @@ const OurProjects = ({ showHead = true }) => {
             className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
             <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
-              <Image src={modeltown} alt="card-image" className="w-full" />
+              <Image src={modeltown} alt="Model Town Mulatn" title="Model Town Mulatn" className="w-full" />
             </div>
             <div className="p-6">
               <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
