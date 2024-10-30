@@ -261,7 +261,7 @@ const EmergingTrendsinPakistansRealEstate_2 = () => {
                         </div>
                     </main >
                 </div >
-                <Blogs heading="Other Blogs" showHead={false}/>
+                <Blogs heading="Other Real Estate Blogs" showHead={false}/>
             </div >
         </>
     )

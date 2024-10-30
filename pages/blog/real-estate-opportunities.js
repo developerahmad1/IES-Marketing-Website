@@ -5,7 +5,7 @@ import { FaYoutube } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import instagram from "../../public/instagram_logo.png"
 import img2 from "../../public/Blogs/Blog_1 Pak real estate market value.png"
-import img1 from "../../public/Blogs/blog1card.jpg"
+import img1 from "../../public/Blogs/blog1card.webp"
 import Link from 'next/link';
 import Image from 'next/image';
 import Head from 'next/head';
@@ -283,7 +283,7 @@ const RealEstateChallanges_1 = () => {
           </main>
           {/* </div> */}
         </div>
-        <Blogs heading="Other Blogs" showHead={false}/>
+        <Blogs heading="Other Real Estate Blogs" showHead={false}/>
 
       </div>
     </>

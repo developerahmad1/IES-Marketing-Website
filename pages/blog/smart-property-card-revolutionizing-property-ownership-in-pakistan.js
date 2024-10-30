@@ -234,7 +234,7 @@ const SmartPropertyCardRevolutionizingPropertyOwnershipinPakistan_9 = () => {
                     </div>
                 </main >
             </div >
-            <Blogs heading="Other Blogs" />
+            <Blogs heading="Other Real Estate Blogs" />
         </div >
     )
 }

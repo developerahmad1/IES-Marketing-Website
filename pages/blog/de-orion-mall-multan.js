@@ -4,6 +4,7 @@ import Image from "next/image";
 import SocialMediaSection from "../../Components/SocialMediaSection.js";
 import img1 from "../../public/Blogs/Blog15.webp";
 import img2 from "../../public/Blogs/Blog15_2.webp";
+import Blogs from "@/Components/Blogs.js";
 
 const De_Orion_Mall = () => {
   return (
@@ -241,6 +242,7 @@ const De_Orion_Mall = () => {
           </main>
         </div>
       </div>
+      <Blogs heading="Other Real Estate Blogs" showHead={false}/>
     </div>
   );
 };

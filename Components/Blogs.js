@@ -3,12 +3,12 @@ import { gsap } from "gsap";
 import Link from "next/link.js";
 import Head from "next/head.js";
 import Image from "next/image";
-import img1 from "../public/Blogs/blog1card.jpg";
+import img1 from "../public/Blogs/blog1card.webp";
 import img2 from "../public/Blogs/2nd blog.jpg";
 import blog3 from "../public/Blogs/3rd Blog.jpg";
 import blog4 from "../public/Blogs/4th Blog.jpg";
 import blog5 from "../public/Blogs/Blog5.jpg";
-import blog6 from "../public/Blogs/Blog6.jpg";
+import blog6 from "../public/Blogs/Blog6.webp";
 import blog7 from "../public/Blogs/Blog7_1.jpg";
 import blog8 from "../public/Blogs/Blog8.jpg";
 import blog9 from "../public/Blogs/Blog9.jpg";
@@ -16,7 +16,7 @@ import blog10 from "../public/Blogs/Blog10.jpg";
 import blog11 from "../public/Blogs/Blog11.jpg";
 import img12 from "../public/Blogs/Blog12.jpg";
 import img13 from "../public/Blogs/Blog13.jpg";
-import img14 from "../public/Blogs/Blog14.jpg";
+import img14 from "../public/Blogs/Blog14.webp";
 import img15 from "../public/Blogs/Blog15.webp";
 
 const Blogs = ({ heading, showHead = true }) => {
@@ -48,29 +48,37 @@ const Blogs = ({ heading, showHead = true }) => {
   return (
     <>
       {showHead && (
-        <Head>
-          <title>Blogs - IES Marketing</title>
-          <meta
-            name="description"
-            content="Here, you can read our updated blogs about the real estate market trends and possible opportunities in the real estate busines of Pakistan"
-          />
-          <meta
-            name="keywords"
-            content="Real Esate Blogs, Real Estate Marketing, Real Estate IES, Multan real estate Blogs, Best Societies in Multan"
-          />
-          <link rel="canonical" href="https://www.iesmkt.com/blogs/" />
-        </Head>
+       <Head>
+       <title>IES Marketing: Real Estate Insights & Opportunities in Multan</title>
+       <meta name="description" content="Explore top real estate trends and investment options in Multan. Discover luxury living and expert guides with IES Marketing to make informed decisions." />
+       <meta name="keywords" content="Real Estate Multan, Investment Opportunities in DHA Multan, Best Societies to Invest in Multan 2024, Luxury Living in Multan, DHA Multan Developments, Property Market Trends in Pakistan, Buying Property in Multan, Smart Housing Solutions in Multan, Emerging Real Estate Trends Pakistan 2024, Real Estate Investment Tips in Pakistan, Affordable Housing Multan, DHA Lahore and Multan Comparison" />
+       <meta name="robots" content="index, follow" />
+       <link rel="canonical" href="https://www.iesmkt.com/blogs/" />
+       <meta property="og:title" content="IES Marketing: Your Guide to Real Estate Opportunities in Multan & Pakistan" />
+       <meta property="og:description" content="Stay updated with the latest trends in real estate in Multan, Lahore, and Islamabad. Expert insights and investment tips from IES Marketing." />
+       <meta property="og:url" content="https://www.iesmkt.com/blogs/" />
+       {/* <meta property="og:image" content="/path/to/your/image.jpg" /> */}
+       <meta name="twitter:card" content="summary_large_image" />
+       <meta name="twitter:title" content="IES Marketing: Your Guide to Real Estate Opportunities in Multan & Pakistan" />
+       <meta name="twitter:description" content="Explore real estate trends, investment opportunities, and luxury living options in Multan with IES Marketing." />
+       {/* <meta name="twitter:image" content="/path/to/your/image.jpg" /> */}
+       <link rel="icon" href="/favicon.ico" />
+     </Head>
       )}
       <div>
         <section className="pb-24 pt-10 bg-white">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <h2 className="font-manrope text-4xl font-bold text-gray-900 text-center mb-5">
-              {heading}
-            </h2>
+          <div className="mx-auto max-w-7xl px-3 sm:px-6 lg:px-8">
+            {showHead ? (
+              <h1 className="font-manrope text-4xl font-bold text-gray-900 text-center mb-7">
+                Real Estate Insights & Opportunities in Multan
+              </h1>
+            ) : (
+              <h3 className="font-manrope text-4xl font-bold text-gray-900 text-center mb-7">
+                {heading}
+              </h3>
+            )}
 
-            <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-5">
-
-              
+            <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-0">
               {/* 15th De Orion Mall: Introducing a Perfect Hub for Business */}
               <Link
                 href="/blog/de-orion-mall-multan"
@@ -80,13 +88,14 @@ const Blogs = ({ heading, showHead = true }) => {
                 <div className="overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <Image
                     src={img15}
-                    alt="card-image"
+                    alt="De Orion Multan Image"
+                    title="De Orion Mall: Introducing a Perfect Hub for Business"
                     className="w-full h-full rounded-t-2xl"
                   />
                 </div>
                 <div className="p-6">
                   <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                  De Orion Mall: Introducing a Perfect Hub for Business
+                    De Orion Mall: Introducing a Perfect Hub for Business
                   </h5>
                   {/* <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
                 </p> */}
@@ -110,7 +119,8 @@ const Blogs = ({ heading, showHead = true }) => {
                 <div className="overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <Image
                     src={img14}
-                    alt="card-image"
+                    alt="Miyawaki Botanical Forest Initiative by DHA Multan; Planting for Tomorrow"
+                    title="Miyawaki Botanical Forest Initiative by DHA Multan; Planting for Tomorrow"
                     className="w-full h-full rounded-t-2xl"
                   />
                 </div>
@@ -141,7 +151,8 @@ const Blogs = ({ heading, showHead = true }) => {
                 <div className="overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <Image
                     src={img13}
-                    alt="card-image"
+                    alt="Sector H of DHA Multan; A Way to Modern Living"
+                    title="Sector H of DHA Multan; A Way to Modern Living"
                     className="w-full h-full rounded-t-2xl"
                   />
                 </div>
@@ -171,7 +182,8 @@ const Blogs = ({ heading, showHead = true }) => {
                 <div className="overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <Image
                     src={img12}
-                    alt="card-image"
+                    alt="Rumanza Golf Community – Luxury Living in DHA Multan"
+                    title="Rumanza Golf Community – Luxury Living in DHA Multan"
                     className="w-full h-full rounded-t-2xl"
                   />
                 </div>
@@ -196,13 +208,17 @@ const Blogs = ({ heading, showHead = true }) => {
               <Link
                 href="/blog/sector-m-of-dha-multan"
                 onClick={scrollToTop}
+                height={600}
                 className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
               >
                 <div className="overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <Image
                     src={blog11}
-                    alt="card-image"
-                    className="w-full rounded-t-2xl"
+                    alt="Sector M of DHA Multan: A New Standard of Living"
+                    title="Sector M of DHA Multan: A New Standard of Living"
+                    // className="w-full rounded-t-2xl"
+                    width={800}
+                    height={600}
                   />
                 </div>
                 <div className="p-6">
@@ -229,7 +245,8 @@ const Blogs = ({ heading, showHead = true }) => {
                 <div className="overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <Image
                     src={blog10}
-                    alt="card-image"
+                    alt="Investment Opportunities in DHA Multan"
+                    title="Investment Opportunities in DHA Multan"
                     className="w-full rounded-t-2xl"
                   />
                 </div>
@@ -259,7 +276,10 @@ const Blogs = ({ heading, showHead = true }) => {
                 <div className="overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <Image
                     src={blog9}
-                    alt="card-image"
+                    alt="Smart Property Card: Revolutionizing Property Ownership in Pakistan"
+                    title="Smart Property Card: Revolutionizing Property Ownership in Pakistan"
+                    width={800}
+                    height={600}
                     className="w-full rounded-t-2xl"
                   />
                 </div>
@@ -290,8 +310,11 @@ const Blogs = ({ heading, showHead = true }) => {
                 <div className="overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <Image
                     src={blog8}
-                    alt="card-image"
+                    alt="Why is Smart Housing Multan a Smart Choice for Investors"
+                    title="Why is Smart Housing Multan a Smart Choice for Investors"
                     className="w-full rounded-t-2xl"
+                    width={800}
+                    height={600}
                   />
                 </div>
                 <div className="p-6">
@@ -320,7 +343,10 @@ const Blogs = ({ heading, showHead = true }) => {
                 <div className="overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <Image
                     src={blog7}
-                    alt="card-image"
+                    alt="Pors and Cons Of Buying a Property in South Punjab"
+                    title="Pors and Cons Of Buying a Property in South Punjab"
+                    width={800}
+                    height={600}
                     className="w-full rounded-t-2xl"
                   />
                 </div>
@@ -350,7 +376,10 @@ const Blogs = ({ heading, showHead = true }) => {
                 <div className="overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <Image
                     src={blog6}
-                    alt="card-image"
+                    alt="A Comprehensive Guide to Invest in Real Estate"
+                    title="A Comprehensive Guide to Invest in Real Estate"
+                    width={800}
+                    height={600}
                     className="w-full rounded-t-2xl"
                   />
                 </div>
@@ -380,7 +409,10 @@ const Blogs = ({ heading, showHead = true }) => {
                 <div className="overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <Image
                     src={blog5}
-                    alt="card-image"
+                    alt="New Block Launched by Smart Housing Multan: Premium Block"
+                    title="New Block Launched by Smart Housing Multan: Premium Block"
+                    width={800}
+                    height={600}
                     className="w-full rounded-t-2xl"
                   />
                 </div>
@@ -410,7 +442,10 @@ const Blogs = ({ heading, showHead = true }) => {
                 <div className="overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <Image
                     src={blog4}
-                    alt="card-image"
+                    alt="Top 11 Societies in Multan to Invest in 2024"
+                    title="Top 11 Societies in Multan to Invest in 2024"
+                    width={800}
+                    height={600}
                     className="w-full h-full rounded-t-2xl"
                   />
                 </div>
@@ -440,7 +475,10 @@ const Blogs = ({ heading, showHead = true }) => {
                 <div className="overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <Image
                     src={blog3}
-                    alt="card-image"
+                    alt="Best Time to Invest in Pakistan Real Estate"
+                    title="Best Time to Invest in Pakistan Real Estate"
+                    width={800}
+                    height={600}
                     className="w-full h-full rounded-t-2xl"
                   />
                 </div>
@@ -470,7 +508,10 @@ const Blogs = ({ heading, showHead = true }) => {
                 <div className="overflow-hidden text-white shadow-lg bg-clip-border rounded-t-2xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <Image
                     src={img2}
-                    alt="card-image"
+                    alt="Emerging Trends in Pakistan's Real Estate - 2024"
+                    title="Emerging Trends in Pakistan's Real Estate - 2024"
+                    width={800}
+                    height={600}
                     className="w-full h-full rounded-t-2xl"
                   />
                 </div>
@@ -500,7 +541,10 @@ const Blogs = ({ heading, showHead = true }) => {
                 <div className="overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <Image
                     src={img1}
-                    alt="card-image"
+                    alt="Real Estate in Pakistan: Opportunities & Challenges"
+                    title="Real Estate in Pakistan: Opportunities & Challenges"
+                    width={800}
+                    height={600}
                     className="w-full h-full rounded-t-2xl"
                   />
                 </div>

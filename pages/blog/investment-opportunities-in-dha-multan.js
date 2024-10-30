@@ -221,7 +221,7 @@ const InvestmentOpportunitiesInDHAMultan_10 = () => {
                         </div>
                     </main >
                 </div >
-                <Blogs heading="Other Latest Blogs" showHead={false} />
+                <Blogs heading="Other Latest Blogs about Real estate" showHead={false} />
             </div >
         </>
     )

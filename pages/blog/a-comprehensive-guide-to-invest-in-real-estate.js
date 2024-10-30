@@ -3,7 +3,7 @@ import { AiFillTikTok } from "react-icons/ai";
 import { FaFacebookSquare, FaYoutube } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import instagram from "../../public/instagram_logo.png";
-import img from "../../public/Blogs/Blog6.jpg"
+import img from "../../public/Blogs/Blog6.webp"
 import Blogs from '@/Components/Blogs';
 import Head from 'next/head';
 import Link from 'next/link';
@@ -208,7 +208,7 @@ const AComprehensiveGuideToInvestInRealEstate_6 = () => {
                     </div>
                 </main >
             </div >
-            <Blogs heading="Other Blogs" showHead={false}/>
+            <Blogs heading="Other Real Estate Blogs" showHead={false}/>
         </div >
     )
 }

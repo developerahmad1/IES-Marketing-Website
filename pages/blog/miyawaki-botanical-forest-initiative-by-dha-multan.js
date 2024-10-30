@@ -3,7 +3,7 @@ import { AiFillTikTok } from "react-icons/ai";
 import { FaFacebookSquare, FaYoutube } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import instagram from "../../public/instagram_logo.png";
-import img1 from "../../public/Blogs/Blog14.jpg"
+import img1 from "../../public/Blogs/Blog14.webp"
 import Link from 'next/link';
 import Image from 'next/image';
 import Head from 'next/head';
@@ -204,7 +204,7 @@ const MiyawakiBotanicalForestInitiativeByDHAMultan_14 = () => {
                         </div>
                     </main >
                 </div >
-                <Blogs heading="Other Latest Blogs" showHead={false} />
+                <Blogs heading="Other Latest Blogs about Real estate" showHead={false} />
             </div >
         </>
     )
