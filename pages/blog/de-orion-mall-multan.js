@@ -36,7 +36,7 @@ const De_Orion_Mall = () => {
       <meta property="twitter:url" content="https://www.iesmkt.com/blog/de-orion-mall-multan/" />
       <meta property="twitter:title" content="De Orion Mall: Your Business Hub in Multan" />
       <meta property="twitter:description" content="Explore De Orion Mall for luxury apartments and business opportunities in Multan." />
-      <meta property="twitter:image" content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FBlog15.d138b996.webp&w=3840&q=75" />
+      <meta property="twitter:image" content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FBlog15.d138b996.webp&w=3840&q=75  " />
 
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta charSet="UTF-8" />

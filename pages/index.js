@@ -43,6 +43,31 @@ const Home = () => {
           content="IES Marketing Multan, IES, Multan Property, Best Societies in Multan, Pakistan Real Estate, Real Estate Investment"
         />
         <link rel="canonical" href="https://www.iesmkt.com/" />
+        {/* Open Graph Meta Tags */}
+        <meta property="og:title" content="IES Marketing" />
+        <meta
+          property="og:description"
+          content="Explore residential and commercial properties for sale or rent in Multan with IES Marketing."
+        />
+        <meta property="og:url" content="https://www.iesmkt.com/" />
+        <meta
+          property="og:image"
+          content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fimg1.d5ec581b.webp&w=1200&q=75"
+        />{" "}
+        {/* Replace with a valid image URL */}
+        <meta property="og:type" content="website" />
+        {/* Twitter Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="IES Marketing" />
+        <meta
+          name="twitter:description"
+          content="Find detailed property listings and expert consultancy services in Multan."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fimg1.d5ec581b.webp&w=1200&q=75"
+        />{" "}
+        {/* Replace with a valid image URL */}
       </Head>
 
       <div className="bg-white min-h-screen flex flex-col md:px-8 py-8 space-y-16">
@@ -139,7 +164,7 @@ const Home = () => {
                 src="/img6.webp" // Direct path from the public folder
                 className="rounded-lg w-[450px] col-span-2"
                 alt="Multan Property"
-                width={450} 
+                width={450}
                 height={300}
                 loading="lazy"
               />

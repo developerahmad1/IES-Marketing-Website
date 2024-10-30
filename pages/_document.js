@@ -24,3 +24,12 @@ export default function Document() {
     </Html>
   );
 }
+
+
+
+
+
+
+
+// SEO Bot
+// https://chatgpt.com/c/6721c973-90ec-8001-91ee-864d33c83ee1
