@@ -9,22 +9,38 @@ import Blogs from "@/Components/Blogs.js";
 const De_Orion_Mall = () => {
   return (
     <div>
-      <Head>
-        <title>De Orion Mall: Introducing a Perfect Hub for Business</title>
-        <meta
-          name="description"
-          content="Explore De Orion Mall in Multan's Gulgasht area for luxury apartments, premium shops, and exclusive business opportunities. Invest in commercial plots today!"
-        />
-        <meta
-          name="keywords"
-          content="De Orion Mall, De Orion Mall Multan, Gulgasht Multan, Shops in Multan, Apartments in Multan, Business opportunities in Multan, Commercial investment, Shopping malls in multan, Plots for sale, Commercial plot, Multan properties"
-        />
-        <meta name="robots" content="index, follow" />
-        <link
-          rel="canonical"
-          href="https://iesmkt.com/blog/de-orion-mall-multan/"
-        />
-      </Head>
+     <Head>
+      <title>De Orion Mall: Your Business Hub in Multan</title>
+      <meta
+        name="description"
+        content="Explore De Orion Mall in Multan's Gulgasht area for luxury apartments and premium shops. Invest in exclusive business opportunities today!"
+      />
+      <meta
+        name="keywords"
+        content="De Orion Mall, De Orion Mall Multan, Gulgasht Multan, Shops in Multan, Apartments in Multan, Business opportunities in Multan, Commercial investment, Shopping malls in Multan, Plots for sale, Commercial plot, Multan properties"
+      />
+      <meta name="robots" content="index, follow" />
+      <link
+        rel="canonical"
+        href="https://www.iesmkt.com/blog/de-orion-mall-multan/"
+      />
+      {/* Open Graph / Facebook */}
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://www.iesmkt.com/blog/de-orion-mall-multan/" />
+      <meta property="og:title" content="De Orion Mall: Your Business Hub in Multan" />
+      <meta property="og:description" content="Discover luxury apartments and premium shops at De Orion Mall, Multan's new business hub." />
+      <meta property="og:image" content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FBlog15.d138b996.webp&w=3840&q=75" />
+
+      {/* Twitter */}
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://www.iesmkt.com/blog/de-orion-mall-multan/" />
+      <meta property="twitter:title" content="De Orion Mall: Your Business Hub in Multan" />
+      <meta property="twitter:description" content="Explore De Orion Mall for luxury apartments and business opportunities in Multan." />
+      <meta property="twitter:image" content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FBlog15.d138b996.webp&w=3840&q=75" />
+
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta charSet="UTF-8" />
+    </Head>
 
       <div className="bg-white">
         <div className="max-w-screen-lg mx-auto">
@@ -268,22 +284,3 @@ export default De_Orion_Mall;
 
 
 
-
-
-
-// now this is my another blog apge head tag : <Head>
-//         <title>De Orion Mall: Introducing a Perfect Hub for Business</title>
-//         <meta
-//           name="description"
-//           content="Explore De Orion Mall in Multan's Gulgasht area for luxury apartments, premium shops, and exclusive business opportunities. Invest in commercial plots today!"
-//         />
-//         <meta
-//           name="keywords"
-//           content="De Orion Mall, De Orion Mall Multan, Gulgasht Multan, Shops in Multan, Apartments in Multan, Business opportunities in Multan, Commercial investment, Shopping malls in multan, Plots for sale, Commercial plot, Multan properties"
-//         />
-//         <meta name="robots" content="index, follow" />
-//         <link
-//           rel="canonical"
-//           href="https://iesmkt.com/blog/de-orion-mall-multan/"
-//         />
-//       </Head> in this you add all other tags meta tags of og and twitter 
