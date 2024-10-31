@@ -4,7 +4,7 @@ import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
 import { AppProvider } from "@/Context/AppContext";
 import LeadsPoup from "@/Components/LeadPoup";
-import Bike from "@/Components/Bike";
+import Posts from "@/Components/Posts";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
@@ -24,7 +24,7 @@ export default function App({ Component, pageProps }) {
         <LeadsPoup />
         <div className="mt-[86px] flex-grow relative">
           <Component {...pageProps} />
-          <Bike key={bikeKey} />
+          <Posts key={bikeKey} />
         </div>
         <Footer />
       </div>
