@@ -83,7 +83,7 @@ const Blogs = ({ heading, showHead = true }) => {
 
               {/* 16 _ De-Orion Mall Gulgasht Multan - Premium Destination for Apartment Living */}
               <Link
-                href="/blog/de-orion-mall-appartments/"
+                href="/blog/de-orion-mall-apartments/"
                 onClick={scrollToTop}
                 className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
               >
