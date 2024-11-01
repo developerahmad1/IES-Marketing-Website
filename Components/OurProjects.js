@@ -8,6 +8,7 @@ import DHAMultanImg from "../public/DHA 1.webp";
 import royalorchardImg from "../public/royal orchad 1.jpg";
 import wapdaTown from "../public/wapdaTownImg.jpg";
 import modeltown from "../public/Model-town.webp";
+import deOrionMall from "../public/De Orion Mall.webp";
 import Head from "next/head";
 import Image from "next/image";
 import ModelTownMultan from "@/pages/model-town-multan";
@@ -98,7 +99,12 @@ const OurProjects = ({ showHead = true, heading }) => {
             className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
             <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
-              <Image src={DHAMultanImg} alt="DHA Multan - IES Marketing" title="DHA Multan" className="w-full" />
+              <Image
+                src={DHAMultanImg}
+                alt="DHA Multan - IES Marketing"
+                title="DHA Multan"
+                className="w-full"
+              />
             </div>
             <div className="p-6">
               <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
@@ -166,7 +172,12 @@ const OurProjects = ({ showHead = true, heading }) => {
             className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
             <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
-              <Image src={cityHousingImg} alt="CITI Housing Multan" title="CITI Housing Multan" className="w-full" />
+              <Image
+                src={cityHousingImg}
+                alt="CITI Housing Multan"
+                title="CITI Housing Multan"
+                className="w-full"
+              />
             </div>
             <div className="p-6">
               <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
@@ -270,7 +281,12 @@ const OurProjects = ({ showHead = true, heading }) => {
             className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
             <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
-              <Image src={royalSwissImg} alt="Royal Swiss Multan" title="Royal Swiss Multan" className="w-full" />
+              <Image
+                src={royalSwissImg}
+                alt="Royal Swiss Multan"
+                title="Royal Swiss Multan"
+                className="w-full"
+              />
             </div>
             <div className="p-6">
               <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
@@ -301,7 +317,12 @@ const OurProjects = ({ showHead = true, heading }) => {
             className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
             <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
-              <Image src={wapdaTown} alt="Wapda Town Multan" title="Wapda Town Multan" className="w-full" />
+              <Image
+                src={wapdaTown}
+                alt="Wapda Town Multan"
+                title="Wapda Town Multan"
+                className="w-full"
+              />
             </div>
             <div className="p-6">
               <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
@@ -330,7 +351,12 @@ const OurProjects = ({ showHead = true, heading }) => {
             className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
             <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
-              <Image src={modeltown} alt="Model Town Mulatn" title="Model Town Mulatn" className="w-full" />
+              <Image
+                src={modeltown}
+                alt="Model Town Mulatn"
+                title="Model Town Mulatn"
+                className="w-full"
+              />
             </div>
             <div className="p-6">
               <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
@@ -341,6 +367,42 @@ const OurProjects = ({ showHead = true, heading }) => {
                 that seeks to provide the ideal living environment for families
                 and people looking for high-quality accommodation at a
                 reasonable price.
+              </p>
+            </div>
+            <div className="p-6 pt-0">
+              <button
+                className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                type="button"
+              >
+                View More
+              </button>
+            </div>
+          </Link>
+
+          {/* De Orion */}
+          <Link
+            href={`/de-orion-mall-multan`}
+            onClick={scrollToTop}
+            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
+          >
+            <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40 h-[230px]">
+              <Image
+                src={deOrionMall}
+                alt="De Orion Mall Multan"
+                title="De Orion Mall Multan"
+                className="w-full h-full object-cover object-center"
+              />
+            </div>
+            <div className="p-6">
+              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                De-Orion Mall Gulgasht Multan – Luxury Apartments
+              </h5>
+              <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+                De Orion Mall Multan is a remarkable new development located in
+                the vibrant center of Multan. Designed as a multi-purpose
+                project, it offers a unique blend of luxurious residential
+                apartments and modern retail spaces, creating a dynamic
+                environment for residents and businesses alike.
               </p>
             </div>
             <div className="p-6 pt-0">

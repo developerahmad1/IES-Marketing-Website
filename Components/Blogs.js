@@ -70,7 +70,7 @@ const Blogs = ({ heading, showHead = true }) => {
           <div className="mx-auto max-w-7xl px-3 sm:px-6 lg:px-8">
             {showHead ? (
               <h1 className="font-manrope text-4xl font-bold text-gray-900 text-center mb-7">
-                Real Estate Insights & Opportunities in Multan
+                Latest blogs on real estate
               </h1>
             ) : (
               <h3 className="font-manrope text-4xl font-bold text-gray-900 text-center mb-7">

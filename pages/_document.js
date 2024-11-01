@@ -33,3 +33,7 @@ export default function Document() {
 
 // SEO Bot
 // https://chatgpt.com/c/6721c973-90ec-8001-91ee-864d33c83ee1
+
+
+// seo New Bot
+// https://chatgpt.com/c/67246a99-3284-8001-8931-29ee741233c8
