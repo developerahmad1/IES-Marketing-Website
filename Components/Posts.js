@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import bikeImg from "../public/Get Winning Electric bike_11zon.webp";
 import postImg from "../public/royal swiss offer.jpg";
 import postImg1 from "../public/Royal Swiss scoty.jpg";
 import { MdOutlineCancel } from "react-icons/md";
@@ -9,13 +8,11 @@ const Posts = () => {
   const [visiblePosts, setVisiblePosts] = useState({
     post1: true,
     post2: false,
-    post3: false,
   });
 
   const [animating, setAnimating] = useState({
     post1: false,
     post2: false,
-    post3: false,
   });
 
   const handleClose = (postKey) => {
@@ -36,10 +33,6 @@ const Posts = () => {
     setTimeout(() => {
       setVisiblePosts((prev) => ({ ...prev, post2: true }));
     }, 1500); // Show the second post after 1.5 seconds
-
-    setTimeout(() => {
-      setVisiblePosts((prev) => ({ ...prev, post3: true }));
-    }, 3000); // Show the third post after 3 seconds
   };
 
   // Start the animation when the component mounts
@@ -86,24 +79,6 @@ const Posts = () => {
               />
             </div>
           )}
-
-          {/* Post 3 */}
-          {visiblePosts.post3 && (
-            <div className={`relative ${animating.post3 ? 'animate-slide-out-left' : 'animate-slide-in-left'} w-[90vw] sm:w-[85vw] md:w-[70vw] lg:w-[60vw] xl:w-[50vw] h-[auto]`}>
-              <MdOutlineCancel
-                className="absolute top-2 right-2 text-white text-4xl cursor-pointer hover:text-red-500 transition duration-300"
-                onClick={() => handleClose("post3")}
-              />
-              <Image
-                src={bikeImg}
-                alt="Get a chance to win an electric bike"
-                width={3600}
-                height={1200}
-                title="Get a chance to win an electric bike"
-                className="w-full h-auto rounded-lg shadow-2xl"
-              />
-            </div>
-          )}
         </div>
       </div>
     )
@@ -111,3 +86,6 @@ const Posts = () => {
 };
 
 export default Posts;
+
+
+// https://chatgpt.com/c/672346b7-8158-8001-8050-41fdd2d9e02c
