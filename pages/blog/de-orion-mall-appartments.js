@@ -90,7 +90,7 @@ const De_Orion_Mall_Appartments = () => {
                   Multan has experienced tremendous urbanization and expansion
                   in recent years, turning into a center for both residential
                   and commercial construction. Among these advancements are
-                  Orion Builders Pvt. Ltd.'s De-Orion Mall Multan is a notable
+                  Orion Builders Pvt. Ltd.&apos;s De-Orion Mall Multan is a notable
                   location for modern living. This 12-story mixed-use building
                   is a great option for people who want convenience and luxury
                   in their lifestyle because it offers a distinctive combination
@@ -111,7 +111,7 @@ const De_Orion_Mall_Appartments = () => {
                   </h2>
                   <p className="pb-6">
                     The De-Orion Mall Multan is ideally situated for easy access
-                    to the city's main districts. Residents can readily access
+                    to the city&apos;s main districts. Residents can readily access
                     schools, hospitals, retail malls, and other vital services
                     because the region is adjacent to major roads and public
                     transportation. Because it raises home values and your
@@ -140,7 +140,7 @@ const De_Orion_Mall_Appartments = () => {
                     especially from 7 to 11, are designed to offer luxurious
                     apartments transforming city life. Each apartment has a
                     modern layout, spacious floors and high -class finishes.
-                    Modern architecture completes Multan's dynamic lifestyle and
+                    Modern architecture completes Multan&apos;s dynamic lifestyle and
                     provides elegant and comfortable houses to residents.
                   </p>
                   <p className="pb-6">
@@ -247,7 +247,7 @@ const De_Orion_Mall_Appartments = () => {
                     Are you prepared to move forward with your ideal apartment?
                     Visit our website or get in touch with us right now to learn
                     more about the available units and arrange your visit to De
-                    Orion Mall in Multan. Accept Multan's future as your home.
+                    Orion Mall in Multan. Accept Multan&apos;s future as your home.
                     Discover the convenience and luxury that De Orion Mall has
                     to offer.
                   </p>
