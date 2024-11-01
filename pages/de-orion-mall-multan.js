@@ -214,17 +214,17 @@ const De_Orion_Mall_Multan = () => {
                 De Orion Mall Development Status
               </h2>
               <p className="pb-6">
-                De Orion Mall&apos;s construction is advancing steadily, with the
-                basement phase completed and significant progress visible on the
-                ground floor. The development is now in its initial construction
-                stages, showcasing dedicated 24-hour activity as the project
-                rapidly takes shape. Pillars are beginning to tower from the
-                ground, marking the mall&apos;s structural rise. Around the clock,
-                teams are engaged in essential tasks such as steel cutting,
-                placement, hammering, and welding, all signaling active growth
-                and swift progress towards completion. The visible momentum
-                highlights Orion Builders&apos; commitment to timely delivery and
-                quality construction.
+                De Orion Mall&apos;s construction is advancing steadily, with
+                the basement phase completed and significant progress visible on
+                the ground floor. The development is now in its initial
+                construction stages, showcasing dedicated 24-hour activity as
+                the project rapidly takes shape. Pillars are beginning to tower
+                from the ground, marking the mall&apos;s structural rise. Around
+                the clock, teams are engaged in essential tasks such as steel
+                cutting, placement, hammering, and welding, all signaling active
+                growth and swift progress towards completion. The visible
+                momentum highlights Orion Builders&apos; commitment to timely
+                delivery and quality construction.
               </p>
             </section>
 
@@ -257,20 +257,34 @@ const De_Orion_Mall_Multan = () => {
             </section>
 
             {/* Location of De Orion Mall Gulgasht Multan */}
-            <section>
+            <section className="pb-6">
               <h2 className="text-3xl font-bold">
                 Location of De Orion Mall Gulgasht Multan
               </h2>
-              De Orion Mall is strategically located in Gulgasht Multan, a prime
-              location known for its accessibility and vibrant community.
-              Situated near key thoroughfares, the mall benefits from high foot
-              traffic and excellent connectivity to various parts of the city.
-              Its central position not only makes it easily reachable for
-              residents and visitors but also places it in close proximity to
-              important landmarks, educational institutions, and commercial
-              hubs. This advantageous location is set to enhance the appeal of
-              De Orion Mall as a premier destination for shopping, dining, and
-              luxurious living in Multan.
+              <p className="pb-6">
+                De Orion Mall is strategically located in Gulgasht Multan, a
+                prime location known for its accessibility and vibrant
+                community. Situated near key thoroughfares, the mall benefits
+                from high foot traffic and excellent connectivity to various
+                parts of the city. Its central position not only makes it easily
+                reachable for residents and visitors but also places it in close
+                proximity to important landmarks, educational institutions, and
+                commercial hubs. This advantageous location is set to enhance
+                the appeal of De Orion Mall as a premier destination for
+                shopping, dining, and luxurious living in Multan.
+              </p>
+
+              {/* Google Maps Embed */}
+              <iframe
+                title="De Orion Mall Gulgasht Multan Location Map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.0450455261744!2d71.47048757424136!3d30.218817110290242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b33e8455b90cd%3A0x8e45083a25ccfcdf!2sDe%20Orion%20Mall%20Gulgasht%20Multan!5e1!3m2!1sen!2s!4v1730441541909!5m2!1sen!2s"
+                width="100%"
+                height="450"
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="w-full rounded-lg shadow-lg"
+              ></iframe>
             </section>
 
             {/* De Orion Mall Gulgasht Multan Accessibilities */}
@@ -333,8 +347,8 @@ const De_Orion_Mall_Multan = () => {
                 facilities for people living there.
               </p>
               <p className="pb-6">
-                Let&apos;s have a look on the layout of all floors and see what this
-                building offers to people.
+                Let&apos;s have a look on the layout of all floors and see what
+                this building offers to people.
               </p>
             </section>
 
@@ -511,10 +525,10 @@ const De_Orion_Mall_Multan = () => {
               </h3>
               <p className="text-[15px] sm:text-lg leading-relaxed">
                 De Orion Mall is strategically located in Gulgasht Colony, one
-                of Multan&apos;s most vibrant and sought-after areas. Positioned near
-                popular landmarks like Bahauddin Zakariya University, Multan
-                Fort, and Nishtar Medical University, the mall offers a central
-                spot ideal for both residential and commercial pursuits.
+                of Multan&apos;s most vibrant and sought-after areas. Positioned
+                near popular landmarks like Bahauddin Zakariya University,
+                Multan Fort, and Nishtar Medical University, the mall offers a
+                central spot ideal for both residential and commercial pursuits.
               </p>
 
               <h3 className="text-xl font-semibold mt-3 text-start">
@@ -547,9 +561,9 @@ const De_Orion_Mall_Multan = () => {
               <p className="text-[15px] sm:text-lg leading-relaxed">
                 De Orion Mall in Gulgasht, Multan, offers diverse investment
                 opportunities, including high-end retail spaces, modern office
-                units, and luxurious residential apartments. The mall&apos;s prime
-                location in a busy commercial area enhances the potential for
-                profitable returns, making it an ideal spot for retailers,
+                units, and luxurious residential apartments. The mall&apos;s
+                prime location in a busy commercial area enhances the potential
+                for profitable returns, making it an ideal spot for retailers,
                 business owners, and investors alike.
               </p>
             </section>
