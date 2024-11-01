@@ -499,12 +499,12 @@ const Home = () => {
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-1 mt-0 pb-5">
           <iframe
             className="w-full aspect-[16/9]"
-            src="https://www.youtube.com/embed/-E-ee4jH5x8?si=ief8pbZ4PYNrmIld"
+            src="https://www.youtube.com/embed/VD7_leetSIA?si=4Kwl3rRHKmIBpfI-"
             title="YouTube video player"
-            frameBorder="0"
+            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
           ></iframe>
 
           <iframe

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link.js";
 import React from "react";
 import Image from "next/image";
 import SocialMediaSection from "../../Components/SocialMediaSection.js";
@@ -13,6 +14,7 @@ const Demo_Blog = () => {
           name="description"
           content="Real Estate in Pakistan: Opportunities & Challenges"
         />
+        <meta name="keywords" content="" />
         <link
           rel="canonical"
           href="https://www.iesmkt.com/blog/de-orion-mall/"
@@ -30,20 +32,20 @@ const Demo_Blog = () => {
                   className="mx-auto"
                   name="De Orion Mall"
                 />
-                <h2 className="text-3xl sm:text-4xl font-semibold text-gray-800 leading-tight mt-8">
+                <h1 className="text-3xl sm:text-4xl font-semibold text-gray-800 leading-tight mt-8">
                   De Orion Mall: Introducing a Perfect Hub for Business
-                </h2>
+                </h1>
               </div>
             </div>
 
             <div className="flex flex-col lg:flex-row lg:space-x-12 text-justify">
               <div className="px-4 lg:px-0 mt-12 text-gray-700 text-lg leading-relaxed w-full lg:w-3/4">
                 {/* Blog content Srart Here here */}
-                <h2 className="text-2xl text-gray-800 font-semibold mt-4">
+                <h2 className="text-3xl text-gray-800 font-semibold mt-4">
                   Introduction
                 </h2>
 
-                <h2 className="text-2xl text-gray-800 font-semibold mt-4">
+                <h2 className="text-3xl text-gray-800 font-semibold mt-4">
                   Disclaimer
                 </h2>
                 <p className="pb-6">
