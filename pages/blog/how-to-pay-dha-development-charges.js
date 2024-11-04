@@ -65,7 +65,7 @@ const Demo_Blog = () => {
                   society with well-planned infrastructure and an excellent
                   living environment. In addition to purchasing properties,
                   owners and investors are required to pay development fees that
-                  support community's infrastructure and ongoing services.
+                  support community&apos;s infrastructure and ongoing services.
                   Development fees cover the costs of facilities such as roads,
                   parks, security, public works, and other essential
                   infrastructure. These fees are usually calculated based on the
@@ -81,10 +81,10 @@ const Demo_Blog = () => {
                   Step 1: Check Your DHA Multan Development Charges
                 </h2>
                 <p className="pb-6">
-                  Before making a payment, it’s essential to confirm the
+                  Before making a payment, it&apos;s essential to confirm the
                   development charges specific to your plot. DHA Multan updated
                   these charges, so you should verify the current rate from an
-                  official source. Here’s how to find out:
+                  official source. Here&apos;s how to find out:
                 </p>
 
                 <p className="pb-6">
@@ -114,7 +114,7 @@ const Demo_Blog = () => {
                 <p className="pb-6">
                   DHA Multan offers several convenient options for paying
                   development charges. Familiarize yourself with these methods
-                  to choose the most convenient one for you. Let’s go over each
+                  to choose the most convenient one for you. Let&apos;s go over each
                   option in detail to help you make an informed decision.
                 </p>
                 {/* <Link>Read More: DHA Multan Development Charges Update (2024)</Link> */}
@@ -129,8 +129,8 @@ const Demo_Blog = () => {
                 </p>
 
                 <p className="pb-6">
-                  Visit your bank or use your bank’s online portal. Enter DHA
-                  Multan’s official account details, which you can get from
+                  Visit your bank or use your bank&apos;s online portal. Enter DHA
+                  Multan&apos;s official account details, which you can get from
                   their website or customer service. Ensure that you include
                   your plot number in the transaction remarks for identification
                   purposes. Confirm the transfer and retain the receipt as proof
@@ -139,7 +139,7 @@ const Demo_Blog = () => {
 
                 <p className="pb-6">
                   Bank transfers are secure, and DHA Multan will often confirm
-                  receipt quickly if you’ve provided all necessary details
+                  receipt quickly if you&apos;ve provided all necessary details
                   correctly.
                 </p>
 
@@ -195,12 +195,12 @@ const Demo_Blog = () => {
                 <p className="pb-6">You can also contact registered dealers for making payments. It is easy to find out the registered dealers through official website of DHA Multan. They can help you out in this process.</p>
 
                 <h2 className="text-3xl text-gray-800 font-semibold mt-4">Step 3: Verify Your Payment</h2>
-                <p className="pb-6">Once you’ve completed your payment, it’s essential to verify that DHA Multan has received it correctly.</p>
+                <p className="pb-6">Once you&apos;ve completed your payment, it&apos;s essential to verify that DHA Multan has received it correctly.</p>
                 <p className="pb-6">
                 Check your Online Account: Log in to your account on the DHA Multan portal to check for a payment confirmation message.
                 </p>
                 <p className="pb-6">
-                Contact DHA Multan Support: If your payment does not reflect after 2-3 business days, reach out to DHA Multan’s customer support with your receipt to inquire about your payment status.
+                Contact DHA Multan Support: If your payment does not reflect after 2-3 business days, reach out to DHA Multan&apos;s customer support with your receipt to inquire about your payment status.
                 </p>
                 
                 
@@ -210,7 +210,7 @@ const Demo_Blog = () => {
                 <h2 className="text-3xl text-gray-800 font-semibold mt-4">Conclusion</h2>
                 <p className="pb-6">Paying your DHA Multan development fees is straightforward provided you follow the proper processes and utilize the payment method that works best for you. DHA Multan has numerous choices to assure prompt payment, including online transfer, the DHA Multan portal, and mobile banking. Remember to keep all receipts and verify each transaction, so your record of payments remains complete and up to date.</p>
                 <p className="pb-6">
-                Following this guide will help you navigate the process smoothly and ensure you stay on track with your DHA Multan investment. For any further questions or assistance, it’s best to contact DHA Multan directly, ensuring you’re always informed and up to date with the latest payment guidelines.
+                Following this guide will help you navigate the process smoothly and ensure you stay on track with your DHA Multan investment. For any further questions or assistance, it&apos;s best to contact DHA Multan directly, ensuring you&apos;re always informed and up to date with the latest payment guidelines.
                 </p>
 
 
