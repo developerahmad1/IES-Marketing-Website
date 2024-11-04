@@ -335,7 +335,7 @@ const Blogs = ({ heading, showHead = true }) => {
 
               {/* 9th Smart Property Card: Revolutionizing Property Ownership in Pakistan */}
               <Link
-                href="/blog/smart-property-card-revolutionizing-property-ownership-in-pakistan"
+                href="/blog/smart-property-card-by-smart-housing-multan"
                 onClick={scrollToTop}
                 className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
               >

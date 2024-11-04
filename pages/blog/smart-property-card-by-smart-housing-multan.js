@@ -24,17 +24,17 @@ const SmartPropertyCardRevolutionizingPropertyOwnershipinPakistan_9 = () => {
     name="description"
     content="Smart Property Card, introduced by Smart Housing Society Multan, is a groundbreaking innovation in Pakistan, simplifying property ownership or verification."
   />
-  <link rel="canonical" href="https://www.iesmkt.com/blog/smart-property-card-revolutionizing-property-ownership-in-pakistan/" />
+  <link rel="canonical" href="https://www.iesmkt.com/blog/smart-property-card-by-smart-housing-multan/" />
   
   <meta property="og:title" content="Smart Property Card by Smart Housing Multan - IES Marketing" />
   <meta property="og:description" content="Smart Property Card, introduced by Smart Housing Society Multan, is a groundbreaking innovation in Pakistan, simplifying property ownership or verification." />
-  <meta property="og:url" content="https://www.iesmkt.com/blog/smart-property-card-revolutionizing-property-ownership-in-pakistan/" />
+  <meta property="og:url" content="https://www.iesmkt.com/blog/smart-property-card-by-smart-housing-multan/" />
   <meta property="og:type" content="article" />
   <meta property="og:image" content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FBlog9.c7b436d9.jpg&w=3840&q=75t.com//_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FBlog17_1.697099f6.jpg&w=3840&q=75" /> 
 
   <meta name="twitter:title" content="Smart Property Card by Smart Housing Multan - IES Marketing" />
   <meta name="twitter:description" content="Smart Property Card, introduced by Smart Housing Society Multan, is a groundbreaking innovation in Pakistan, simplifying property ownership or verification." />
-  <meta name="twitter:url" content="https://www.iesmkt.com/blog/smart-property-card-revolutionizing-property-ownership-in-pakistan/" />
+  <meta name="twitter:url" content="https://www.iesmkt.com/blog/smart-property-card-by-smart-housing-multan/" />
   <meta name="twitter:image" content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FBlog9.c7b436d9.jpg&w=3840&q=75t.com//_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FBlog17_1.697099f6.jpg&w=3840&q=75" /> 
 
 </Head>
