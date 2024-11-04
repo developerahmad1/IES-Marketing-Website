@@ -41,16 +41,39 @@ const DHAMultan = () => {
   return (
     <>
       <Head>
-        <title>DHA Multan - IES Marketing</title>
+        <title>DHA Multan – Redefining Urban Elegance</title>
         <meta
           name="keywords"
           content="DHA Multan, DHA housing society, Defence housing authority, Best Societies in Multan, Pakistan Real Estate, Real Estate Investment"
         />
         <meta
           name="description"
-          content="DHA Multan stands out for high-quality amenities, development, and durability.  It offers a promising opportunity to invest and build a dream home."
+          content="DHA Multan stands out for high-quality amenities, development, and durability. It offers a promising opportunity to invest and build a dream home."
         />
         <link rel="canonical" href="https://www.iesmkt.com/dha-multan/" />
+
+        <meta
+          property="og:title"
+          content="DHA Multan – Redefining Urban Elegance"
+        />
+        <meta
+          property="og:description"
+          content="DHA Multan stands out for high-quality amenities, development, and durability. It offers a promising opportunity to invest and build a dream home."
+        />
+        <meta property="og:url" content="https://www.iesmkt.com/dha-multan/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://www.iesmkt.com/DHA%201.webp" />
+
+        <meta
+          name="twitter:title"
+          content="DHA Multan – Redefining Urban Elegance"
+        />
+        <meta
+          name="twitter:description"
+          content="DHA Multan stands out for high-quality amenities, development, and durability. It offers a promising opportunity to invest and build a dream home."
+        />
+        <meta name="twitter:url" content="https://www.iesmkt.com/dha-multan/" />
+        <meta name="twitter:image" content="https://www.iesmkt.com/DHA%201.webp" />
       </Head>
 
       <div>
@@ -589,7 +612,10 @@ const DHAMultan = () => {
           </p>
         </section>
 
-        <OurProjects showHead={false}  heading="Our Other Real Estate Projects"/>
+        <OurProjects
+          showHead={false}
+          heading="Our Other Real Estate Projects"
+        />
       </div>
     </>
   );
