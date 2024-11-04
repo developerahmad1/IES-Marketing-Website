@@ -14,6 +14,11 @@ const Demo_Blog = () => {
           name="description"
           content="Real Estate in Pakistan: Opportunities & Challenges"
         />
+        <meta
+          name="keywords"
+          content="de orion mall apartments, de orion mall, de orion apartments, luxury apartments multan, apartments in gulgasht, de orion mall"
+        />
+
         <meta name="keywords" content="" />
         <link
           rel="canonical"
