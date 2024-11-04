@@ -1,3 +1,4 @@
+import { useState } from "react";
 import OurProjects from "@/Components/OurProjects";
 import { useAppContext } from "../Context/AppContext";
 import Head from "next/head";
@@ -5,7 +6,9 @@ import React from "react";
 import { useEffect } from "react";
 import Image from "next/image";
 import img2 from "../public/De Orion Mall.webp";
-import img3 from "../public/De orion construction.jpg";
+import img3 from "../public/De Orion Construction 01 .webp";
+import img4 from "../public/De Orion Construction 02 .webp";
+import img5 from "../public/De Orion Construction 03 .webp";
 import img6 from "../public/De Orion6.webp";
 import img7 from "../public/De Orion7.webp";
 import img8 from "../public/De Orion8.webp";
@@ -22,6 +25,10 @@ import Link from "next/link";
 const De_Orion_Mall_Multan = () => {
   const { openLeadpoup } = useAppContext();
   useEffect(openLeadpoup, []);
+
+  const [loadingImg3, setLoadingImg3] = useState(true);
+  const [loadingImg4, setLoadingImg4] = useState(true);
+  const [loadingImg5, setLoadingImg5] = useState(true);
 
   return (
     <div>
@@ -228,12 +235,73 @@ const De_Orion_Mall_Multan = () => {
               </p>
             </section>
 
-            <Image
-              src={img3}
-              alt="De Orion Mall Multan Construction"
-              title="De Orion Mall Multan Construction"
-              className="w-full mx-auto mb-8"
-            />
+            <div className="flex flex-col items-center">
+              {/* Image 1 with Loader */}
+              {loadingImg3 && (
+                <div className="flex justify-center items-center h-32">
+                  <div className="loader"></div>
+                </div>
+              )}
+              <Image
+                src={img3}
+                alt="De Orion Mall Multan Construction"
+                title="De Orion Mall Multan Construction"
+                className="w-full mx-auto mb-8"
+                loading="lazy"
+                onLoadingComplete={() => setLoadingImg3(false)}
+              />
+
+              {/* Image 2 with Loader */}
+              {loadingImg4 && (
+                <div className="flex justify-center items-center h-32">
+                  <div className="loader"></div>
+                </div>
+              )}
+              <Image
+                src={img4}
+                alt="De Orion Mall Multan Construction"
+                title="De Orion Mall Multan Construction"
+                className="mx-auto mb-8"
+                loading="lazy"
+                onLoadingComplete={() => setLoadingImg4(false)}
+              />
+
+              {/* Image 3 with Loader */}
+              {loadingImg5 && (
+                <div className="flex justify-center items-center h-32">
+                  <div className="loader"></div>
+                </div>
+              )}
+              <Image
+                src={img5}
+                alt="De Orion Mall Multan Construction"
+                title="De Orion Mall Multan Construction"
+                className="mx-auto mb-8"
+                loading="lazy"
+                onLoadingComplete={() => setLoadingImg5(false)}
+              />
+
+              {/* CSS for the Loader */}
+              <style jsx>{`
+                .loader {
+                  border: 4px solid rgba(255, 255, 255, 0.3);
+                  border-radius: 50%;
+                  border-top: 4px solid #3498db;
+                  width: 50px;
+                  height: 50px;
+                  animation: spin 1s linear infinite;
+                }
+
+                @keyframes spin {
+                  0% {
+                    transform: rotate(0deg);
+                  }
+                  100% {
+                    transform: rotate(360deg);
+                  }
+                }
+              `}</style>
+            </div>
 
             {/* Key Features of De Orion Mall  */}
             <section className="mb-6">

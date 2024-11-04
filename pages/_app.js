@@ -24,7 +24,7 @@ export default function App({ Component, pageProps }) {
         <LeadsPoup />
         <div className="mt-[86px] flex-grow relative">
           <Component {...pageProps} />
-          <Posts />
+          {/* <Posts /> */}
         </div>
         <Footer />
       </div>
