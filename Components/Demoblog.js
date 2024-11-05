@@ -34,6 +34,7 @@ const Demo_Blog = () => {
                 <Image
                   src={img1}
                   alt="De Orion Mall Image"
+                  title="De Orion Mall Image"
                   className="mx-auto"
                   name="De Orion Mall"
                 />
