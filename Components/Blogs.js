@@ -99,7 +99,7 @@ const Blogs = ({ heading, showHead = true }) => {
                 </div>
                 <div className="p-6">
                   <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                  How to Pay DHA Multan Development Charges: A Step-by-Step Guide
+                  DHA MULTAN Development Charges Update (2024)
                   </h5>
                   {/* <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
                 </p> */}
