@@ -14,38 +14,70 @@ import Image from "next/image";
 const SmartPropertyCardRevolutionizingPropertyOwnershipinPakistan_9 = () => {
   return (
     <div className="bg-white">
-<Head>
-  <title>Smart Property Card by Smart Housing Multan - IES Marketing</title>
-  <meta
-    name="keywords"
-    content="smart property card, Smart housing multan, smart housing"
-  />
-  <meta
-    name="description"
-    content="Smart Property Card, introduced by Smart Housing Society Multan, is a groundbreaking innovation in Pakistan, simplifying property ownership or verification."
-  />
-  <link rel="canonical" href="https://www.iesmkt.com/blog/smart-property-card-by-smart-housing-multan/" />
-  
-  <meta property="og:title" content="Smart Property Card by Smart Housing Multan - IES Marketing" />
-  <meta property="og:description" content="Smart Property Card, introduced by Smart Housing Society Multan, is a groundbreaking innovation in Pakistan, simplifying property ownership or verification." />
-  <meta property="og:url" content="https://www.iesmkt.com/blog/smart-property-card-by-smart-housing-multan/" />
-  <meta property="og:type" content="article" />
-  <meta property="og:image" content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FBlog9.c7b436d9.jpg&w=3840&q=75" /> 
+      <Head>
+        <title>
+          Smart Property Card by Smart Housing Multan - IES Marketing
+        </title>
+        <meta
+          name="keywords"
+          content="smart property card, Smart housing multan, smart housing, smart houisng society"
+        />
+        <meta
+          name="description"
+          content="Smart Property Card, introduced by Smart Housing Society Multan, is a groundbreaking innovation in Pakistan, simplifying property ownership or verification."
+        />
+        <link
+          rel="canonical"
+          href="https://www.iesmkt.com/blog/smart-property-card-by-smart-housing-multan/"
+        />
 
-  <meta name="twitter:title" content="Smart Property Card by Smart Housing Multan - IES Marketing" />
-  <meta name="twitter:description" content="Smart Property Card, introduced by Smart Housing Society Multan, is a groundbreaking innovation in Pakistan, simplifying property ownership or verification." />
-  <meta name="twitter:url" content="https://www.iesmkt.com/blog/smart-property-card-by-smart-housing-multan/" />
-  <meta name="twitter:image" content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FBlog9.c7b436d9.jpg&w=3840&q=75" /> 
+        <meta
+          property="og:title"
+          content="Smart Property Card by Smart Housing Multan - IES Marketing"
+        />
+        <meta
+          property="og:description"
+          content="Smart Property Card, introduced by Smart Housing Society Multan, is a groundbreaking innovation in Pakistan, simplifying property ownership or verification."
+        />
+        <meta
+          property="og:url"
+          content="https://www.iesmkt.com/blog/smart-property-card-by-smart-housing-multan/"
+        />
+        <meta property="og:type" content="article" />
+        <meta
+          property="og:image"
+          content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FBlog9.c7b436d9.jpg&w=3840&q=75"
+        />
 
-</Head>
-
+        <meta
+          name="twitter:title"
+          content="Smart Property Card by Smart Housing Multan - IES Marketing"
+        />
+        <meta
+          name="twitter:description"
+          content="Smart Property Card, introduced by Smart Housing Society Multan, is a groundbreaking innovation in Pakistan, simplifying property ownership or verification."
+        />
+        <meta
+          name="twitter:url"
+          content="https://www.iesmkt.com/blog/smart-property-card-by-smart-housing-multan/"
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FBlog9.c7b436d9.jpg&w=3840&q=75"
+        />
+      </Head>
 
       <div className="max-w-screen-lg mx-auto">
         <main>
           <div className="mb-4 md:mb-0 w-full mx-auto relative">
             <div className="px-4 py-2 sm:py-2 lg:px-0">
               {/* Top Image */}
-              <Image src={img1} alt="Smart Property Card" title="Smart Property Card" className="mx-auto" />
+              <Image
+                src={img1}
+                alt="Smart Property Card"
+                title="Smart Property Card"
+                className="mx-auto"
+              />
               {/* Heading */}
               <h1 className="text-3xl sm:text-4xl font-semibold text-gray-800 leading-tight mt-8">
                 Smart Property Card: Revolutionizing Property Ownership in
@@ -81,8 +113,18 @@ const SmartPropertyCardRevolutionizingPropertyOwnershipinPakistan_9 = () => {
               </p>
 
               <div className="flex justify-center items-center flex-col gap-6 pb-9">
-                <Image src={img2} alt="Smart Property Card Front Side" title="Smart Property Card Front Side" className="w-full sm:max-w-[500px]" />
-                <Image src={img3} alt="Smart Property Card Back Side" title="Smart Property Card Back Side" className="w-full sm:max-w-[500px]" />
+                <Image
+                  src={img2}
+                  alt="Smart Property Card Front Side"
+                  title="Smart Property Card Front Side"
+                  className="w-full sm:max-w-[500px]"
+                />
+                <Image
+                  src={img3}
+                  alt="Smart Property Card Back Side"
+                  title="Smart Property Card Back Side"
+                  className="w-full sm:max-w-[500px]"
+                />
               </div>
 
               <h3 className="text-xl sm:text-3xl font-semibold text-gray-800 leading-tight">
@@ -450,7 +492,7 @@ const SmartPropertyCardRevolutionizingPropertyOwnershipinPakistan_9 = () => {
           </div>
         </main>
       </div>
-      <Blogs heading="Other Real Estate Blogs" />
+      <Blogs heading="Other Real Estate Blogs" showHead={false}/>
     </div>
   );
 };
