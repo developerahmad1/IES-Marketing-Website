@@ -12,6 +12,7 @@ import deOrionMall from "../public/De Orion Mall.webp";
 import Head from "next/head";
 import Image from "next/image";
 import ModelTownMultan from "@/pages/model-town-multan";
+import deGreenHomes from "../public/De_Green_Homes_1.jpg";
 
 const OurProjects = ({ showHead = true, heading }) => {
   function scrollToTop() {
@@ -93,6 +94,38 @@ const OurProjects = ({ showHead = true, heading }) => {
         )}
         <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-3">
           
+          {/* De Green Homes */}
+          <Link
+            href={`/de-green-homes-multan`}
+            onClick={scrollToTop}
+            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
+          >
+            <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40 h-[230px]">
+              <Image
+                src={deGreenHomes}
+                alt="De Green Homes Multan"
+                title="De Green Homes Multan"
+                className="w-full h-full object-cover object-center"
+              />
+            </div>
+            <div className="p-6">
+              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+              De&apos; Green Homes Multan – Where Green Living Meets Urban Convenience
+              </h5>
+              <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+              De&apos; Green Homes, which blends eco-friendly living with contemporary conveniences, is one of the most promising residential developments. Both investors and homebuyers have expressed interest in this well-planned development because of its excellent location, first-rate amenities, and lush surroundings.
+              </p>
+            </div>
+            <div className="p-6 pt-0">
+              <button
+                className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                type="button"
+              >
+                View More
+              </button>
+            </div>
+          </Link>
+
           {/* De Orion */}
           <Link
             href={`/de-orion-mall-multan`}
