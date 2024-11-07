@@ -13,6 +13,7 @@ import Head from "next/head";
 import Image from "next/image";
 import ModelTownMultan from "@/pages/model-town-multan";
 import deGreenHomes from "../public/De_Green_Homes_1.jpg";
+import buchExecutiveVillas from "../public/Buch Villas_1 .webp";
 
 const OurProjects = ({ showHead = true, heading }) => {
   function scrollToTop() {
@@ -462,7 +463,7 @@ const OurProjects = ({ showHead = true, heading }) => {
           >
             <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <Image
-                src={modeltown}
+                src={buchExecutiveVillas}
                 alt="Model Town Mulatn"
                 title="Model Town Mulatn"
                 className="w-full"

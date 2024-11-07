@@ -243,14 +243,14 @@ const Buch_Exective_Villas = () => {
               infrastructure currently in place and construction moving quickly,
               residents and investors may expect a fully functional community
               soon. With more than 1,000 families currently living there, the
-              community's expanding population is evidence of Buch Executive
-              Villas' quick growth and rising appeal.
+              community&apos;s expanding population is evidence of Buch Executive
+              Villas&apos; quick growth and rising appeal.
             </p>
             <p className="pb-6">
               Furthermore, roads, street lighting, sewage and water systems,
               parks, and community centers are examples of amenities that are
               either finished or almost finished. This development demonstrates
-              Captain Developers' dedication to keeping their word and building
+              Captain Developers&apos; dedication to keeping their word and building
               an exceptional residential neighborhood in Multan.
             </p>
             <h2 className="text-3xl font-bold mb-4 mt-3">
@@ -452,7 +452,7 @@ const Buch_Exective_Villas = () => {
               <p className="text-[15px] sm:text-lg leading-relaxed">
                 Buch Executive Villas is located on Bosan Road in Multan, near
                 major landmarks like Bahauddin Zakariya University, Institute of
-                Southern Punjab, and De' Green Homes.
+                Southern Punjab, and De&apos; Green Homes.
               </p>
 
               <h3 className="text-xl font-semibold mt-8 text-start">
