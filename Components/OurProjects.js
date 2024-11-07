@@ -93,7 +93,6 @@ const OurProjects = ({ showHead = true, heading }) => {
           <h3 className="text-3xl font-bold text-center py-6">{heading}</h3>
         )}
         <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-3">
-          
           {/* De Green Homes */}
           <Link
             href={`/de-green-homes-multan`}
@@ -110,10 +109,16 @@ const OurProjects = ({ showHead = true, heading }) => {
             </div>
             <div className="p-6">
               <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-              De&apos; Green Homes Multan – Where Green Living Meets Urban Convenience
+                De&apos; Green Homes Multan – Where Green Living Meets Urban
+                Convenience
               </h5>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-              De&apos; Green Homes, which blends eco-friendly living with contemporary conveniences, is one of the most promising residential developments. Both investors and homebuyers have expressed interest in this well-planned development because of its excellent location, first-rate amenities, and lush surroundings.
+                De&apos; Green Homes, which blends eco-friendly living with
+                contemporary conveniences, is one of the most promising
+                residential developments. Both investors and homebuyers have
+                expressed interest in this well-planned development because of
+                its excellent location, first-rate amenities, and lush
+                surroundings.
               </p>
             </div>
             <div className="p-6 pt-0">
@@ -437,6 +442,43 @@ const OurProjects = ({ showHead = true, heading }) => {
                 that seeks to provide the ideal living environment for families
                 and people looking for high-quality accommodation at a
                 reasonable price.
+              </p>
+            </div>
+            <div className="p-6 pt-0">
+              <button
+                className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                type="button"
+              >
+                View More
+              </button>
+            </div>
+          </Link>
+
+          {/* Buch Executive Villas - Pathway to Luxurious Living in Multan */}
+          <Link
+            href={`/buch-executive-villas-multan`}
+            onClick={scrollToTop}
+            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
+          >
+            <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+              <Image
+                src={modeltown}
+                alt="Model Town Mulatn"
+                title="Model Town Mulatn"
+                className="w-full"
+              />
+            </div>
+            <div className="p-6">
+              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                Buch Executive Villas - Pathway to Luxurious Living in Multan
+              </h5>
+              <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+                One of the most popular luxury residential complexes in Multan,
+                Buch Executive Villas offers its residents an unmatched
+                combination of convenience, luxury and comfort. Today, it
+                comprises more than 1,000 homes and has become a vibrant
+                neighborhood attracting those seeking an elegant lifestyle
+                surrounded by modern amenities and green spaces.
               </p>
             </div>
             <div className="p-6 pt-0">
