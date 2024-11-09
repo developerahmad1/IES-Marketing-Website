@@ -68,11 +68,11 @@ const Residential_Plots_For_Sale = () => {
                 {/* Blog content Srart Here here */}
                 <p className="pb-6">
                   Multan, a city rich in culture and history, has one of
-                  Pakistan's fastest-growing real estate markets. With many
+                  Pakistan&apos;s fastest-growing real estate markets. With many
                   housing societies offering luxury and affordable housing
                   options, the demand for residential plots is increasing. In
                   this blog, you will look at the location, features, and
-                  available plot sizes in some of Multan's most popular housing
+                  available plot sizes in some of Multan&apos;s most popular housing
                   societies.
                 </p>
                 <h2 className="text-3xl text-gray-800 font-semibold mt-4">
@@ -112,7 +112,7 @@ const Residential_Plots_For_Sale = () => {
                   Smart Housing focuses on affordability without compromising
                   quality. The society is designed to provide all essential
                   facilities, including modern housing, educational
-                  institutions, and recreational areas. It’s ideal for those
+                  institutions, and recreational areas. It&apos;s ideal for those
                   looking for a budget-friendly yet comfortable living
                   environment.
                 </p>
@@ -179,22 +179,22 @@ const Residential_Plots_For_Sale = () => {
                 </p>
 
                 <h2 className="text-3xl text-gray-800 font-semibold mt-4">
-                  De' Green Homes Multan
+                  De&apos; Green Homes Multan
                 </h2>
                 <p className="pb-6">
                   This society is designed with sustainability in mind,
-                  featuring green spaces and eco-friendly housing options. De'
+                  featuring green spaces and eco-friendly housing options. De&apos;
                   Green Homes promotes a healthy lifestyle and community living,
                   making it a great choice for families looking for a peaceful
                   and green environment.
                 </p>
-                <h3 className="font-bold">'Location:'</h3>
+                <h3 className="font-bold">Location:</h3>
                 <p className="pb-3">
                   Near Buch Executive Villas on Main Bosan Road
                 </p>
                 <p className="b-3">
-                  De' Green Homes is located on the outskirts of Multan,
-                  providing a serene environment away from the city’s hustle and
+                  De&apos; Green Homes is located on the outskirts of Multan,
+                  providing a serene environment away from the city&apos;s hustle and
                   bustle.
                 </p>
 
@@ -206,11 +206,11 @@ const Residential_Plots_For_Sale = () => {
                 <p className="pb-8">
                   Read More:{" "}
                   <Link href="/de-green-homes-multan/" className="link">
-                    De' Green Homes
+                    De&apos; Green Homes
                   </Link>
                 </p>
 
-                <h3 className="font-bold">Adams Housing Multan</h3>
+                <h2 className="text-3xl text-gray-800 font-semibold mt-4">Adams Housing Multan</h2>
                 <p className="pb-6">
                   Adams Housing is well-known for its dedication to offering
                   high-quality living. To ensure inhabitants have a balanced
@@ -236,13 +236,13 @@ const Residential_Plots_For_Sale = () => {
                   </Link>
                 </p>
 
-                <h3 className="font-bold">Multan Central</h3>
+                <h2 className="text-3xl text-gray-800 font-semibold mt-4">Multan Central</h2>
                 <p className="b-5">
                   Multan Central is designed for those who want to enjoy city
                   life without compromising on comfort. The community is
                   suitable for both professionals and families because it has
                   recreational opportunities and contemporary infrastructure. It
-                  is among Multan's most reasonably priced house developments.
+                  is among Multan&apos;s most reasonably priced house developments.
                 </p>
 
                 <h3 className="font-bold">Location:</h3>
@@ -264,7 +264,7 @@ const Residential_Plots_For_Sale = () => {
                   commercial areas, and residents have access to all the
                   necessary amenities that should be present in a good society.
                   With a family atmosphere, WAPDA town is a popular housing
-                  project for Multan's housing buyers.
+                  project for Multan&apos;s housing buyers.
                 </p>
 
                 <h3 className="font-bold">Location : </h3>
@@ -290,7 +290,7 @@ const Residential_Plots_For_Sale = () => {
                   Model City aims to provide a luxurious living experience. The
                   community is equipped with all modern conveniences and has
                   beautifully landscaped parks and recreational facilities. Its
-                  commitment to the public's stay and quality construction makes
+                  commitment to the public&apos;s stay and quality construction makes
                   Model Town a desirable choice for those looking for
                   outstanding homes.
                 </p>
@@ -342,7 +342,7 @@ const Residential_Plots_For_Sale = () => {
                   Conclusion
                 </h2>
                 <p className="pb-8">
-                  As Multan's real estate market continues to grow, now is a
+                  As Multan&apos;s real estate market continues to grow, now is a
                   good time to invest in these new social homes. Whether you
                   choose an exclusive residence in DHA Multan or smart homes at
                   affordable prices, Multan has residential plots for sale in
@@ -407,5 +407,3 @@ const Residential_Plots_For_Sale = () => {
 export default Residential_Plots_For_Sale;
 
 // &apos;
-//   <h3 className="font-bold"></h3>
-//    <h2 className="text-3xl text-gray-800 font-semibold mt-4">
