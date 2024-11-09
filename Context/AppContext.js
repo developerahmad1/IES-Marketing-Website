@@ -6,7 +6,7 @@ const AppContext = createContext();
 export const AppProvider = ({ children }) => {
     const [isLeadPoupOpen, setIsLeadPoupOpen] = useState(false);
 
-    const openLeadpoup = () => setIsLeadPoupOpen(true);
+    const openLeadpoup = () => setIsLeadPoupOpen(false);
     const closeLeadpoup = () => setIsLeadPoupOpen(false);
 
     return (

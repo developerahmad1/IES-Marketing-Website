@@ -3,6 +3,14 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 const BlogsCard = ({link, heading, img, alt, imgTitle,}) => {
+    function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      }
+    
+    
     return (
         <div>
             <Link

@@ -3,6 +3,7 @@ import { gsap } from "gsap";
 import Link from "next/link.js";
 import Head from "next/head.js";
 import Image from "next/image";
+import BlogsCard from "./BlogsCard";
 import img1 from "../public/Blogs/blog1card.webp";
 import img2 from "../public/Blogs/2nd blog.jpg";
 import blog3 from "../public/Blogs/3rd Blog.jpg";
@@ -21,6 +22,7 @@ import img15 from "../public/Blogs/Blog15.webp";
 import img16 from "../public/Blogs/Blog16_1.webp";
 import img17 from "../public/Blogs/Blog17_1.jpg";
 import img18 from "../public/Blogs/Blog18_1.webp";
+import img19 from "../public/Blogs/Blog19_1.webp";
 
 const Blogs = ({ heading, showHead = true }) => {
   function scrollToTop() {
@@ -51,22 +53,42 @@ const Blogs = ({ heading, showHead = true }) => {
   return (
     <>
       {showHead && (
-       <Head>
-       <title>IES Marketing: Real Estate Insights & Opportunities in Multan</title>
-       <meta name="description" content="Explore top real estate trends and investment options in Multan. Discover luxury living and expert guides with IES Marketing to make informed decisions." />
-       <meta name="keywords" content="Real Estate Multan, Investment Opportunities in DHA Multan, Best Societies to Invest in Multan 2024, Luxury Living in Multan, DHA Multan Developments, Property Market Trends in Pakistan, Buying Property in Multan, Smart Housing Solutions in Multan, Emerging Real Estate Trends Pakistan 2024, Real Estate Investment Tips in Pakistan, Affordable Housing Multan, DHA Lahore and Multan Comparison" />
-       <meta name="robots" content="index, follow" />
-       <link rel="canonical" href="https://www.iesmkt.com/blogs/" />
-       <meta property="og:title" content="IES Marketing: Your Guide to Real Estate Opportunities in Multan & Pakistan" />
-       <meta property="og:description" content="Stay updated with the latest trends in real estate in Multan, Lahore, and Islamabad. Expert insights and investment tips from IES Marketing." />
-       <meta property="og:url" content="https://www.iesmkt.com/blogs/" />
-       {/* <meta property="og:image" content="/path/to/your/image.jpg" /> */}
-       <meta name="twitter:card" content="summary_large_image" />
-       <meta name="twitter:title" content="IES Marketing: Your Guide to Real Estate Opportunities in Multan & Pakistan" />
-       <meta name="twitter:description" content="Explore real estate trends, investment opportunities, and luxury living options in Multan with IES Marketing." />
-       {/* <meta name="twitter:image" content="/path/to/your/image.jpg" /> */}
-       <link rel="icon" href="/favicon.ico" />
-     </Head>
+        <Head>
+          <title>
+            IES Marketing: Real Estate Insights & Opportunities in Multan
+          </title>
+          <meta
+            name="description"
+            content="Explore top real estate trends and investment options in Multan. Discover luxury living and expert guides with IES Marketing to make informed decisions."
+          />
+          <meta
+            name="keywords"
+            content="Real Estate Multan, Investment Opportunities in DHA Multan, Best Societies to Invest in Multan 2024, Luxury Living in Multan, DHA Multan Developments, Property Market Trends in Pakistan, Buying Property in Multan, Smart Housing Solutions in Multan, Emerging Real Estate Trends Pakistan 2024, Real Estate Investment Tips in Pakistan, Affordable Housing Multan, DHA Lahore and Multan Comparison"
+          />
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href="https://www.iesmkt.com/blogs/" />
+          <meta
+            property="og:title"
+            content="IES Marketing: Your Guide to Real Estate Opportunities in Multan & Pakistan"
+          />
+          <meta
+            property="og:description"
+            content="Stay updated with the latest trends in real estate in Multan, Lahore, and Islamabad. Expert insights and investment tips from IES Marketing."
+          />
+          <meta property="og:url" content="https://www.iesmkt.com/blogs/" />
+          {/* <meta property="og:image" content="/path/to/your/image.jpg" /> */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta
+            name="twitter:title"
+            content="IES Marketing: Your Guide to Real Estate Opportunities in Multan & Pakistan"
+          />
+          <meta
+            name="twitter:description"
+            content="Explore real estate trends, investment opportunities, and luxury living options in Multan with IES Marketing."
+          />
+          {/* <meta name="twitter:image" content="/path/to/your/image.jpg" /> */}
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
       )}
       <div>
         <section className="pb-24 pt-10 bg-white">
@@ -82,6 +104,14 @@ const Blogs = ({ heading, showHead = true }) => {
             )}
 
             <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-0">
+              {/* 19 Residential Plots for Sale in Multan */}
+              <BlogsCard
+                link="/blog/residential-plots-for-sale-in-multan/"
+                heading="Residential Plots for Sale in Multan"
+                img={img19}
+                alt="Residential Plots for Sale in Multan"
+                title="Residential Plots for Sale in Multan"
+              />
 
               {/* 18 _ DHA MULTAN Development Charges Update (2024) */}
               <Link
@@ -99,7 +129,7 @@ const Blogs = ({ heading, showHead = true }) => {
                 </div>
                 <div className="p-6">
                   <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                  DHA MULTAN Development Charges Update (2024)
+                    DHA MULTAN Development Charges Update (2024)
                   </h5>
                   {/* <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
                 </p> */}
@@ -130,7 +160,8 @@ const Blogs = ({ heading, showHead = true }) => {
                 </div>
                 <div className="p-6">
                   <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                  How to Pay DHA Multan Development Charges: A Step-by-Step Guide
+                    How to Pay DHA Multan Development Charges: A Step-by-Step
+                    Guide
                   </h5>
                   {/* <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
                 </p> */}
@@ -144,7 +175,6 @@ const Blogs = ({ heading, showHead = true }) => {
                   </button>
                 </div>
               </Link>
-
 
               {/* 16 _ De-Orion Mall Gulgasht Multan - Premium Destination for Apartment Living */}
               <Link
@@ -162,7 +192,8 @@ const Blogs = ({ heading, showHead = true }) => {
                 </div>
                 <div className="p-6">
                   <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                  De-Orion Mall Gulgasht Multan - Premium Destination for Apartment Living
+                    De-Orion Mall Gulgasht Multan - Premium Destination for
+                    Apartment Living
                   </h5>
                   {/* <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
                 </p> */}
