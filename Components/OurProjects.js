@@ -28,56 +28,14 @@ const OurProjects = ({ showHead = true, heading }) => {
       {showHead && (
         <Head>
           {/* Primary SEO Tags */}
-          <title>
-            Top Real Estate Projects in Multan – Smart Housing & More
-          </title>
+          <title>Best Housing Socities in Multan - IES Marketing</title>
           <meta
             name="description"
-            content="Discover premium real estate in Multan, including DHA, Royal Orchard, and CITI Housing. Find your ideal investment with IES Marketing."
+            content="Explore Multan's top housing societies with IES Marketing, offering insights into amenities, lifestyle, and investment potential in each community."
           />
           <meta name="robots" content="index, follow" />
-          <meta
-            name="keywords"
-            content="Multan real estate projects, best housing societies Multan, DHA Multan investment, Royal Orchard Multan plots, CITI Housing Multan"
-          />
-
-          {/* Open Graph / Facebook */}
-          <meta property="og:type" content="website" />
-          <meta
-            property="og:url"
-            content="https://www.iesmkt.com/our-projects/"
-          />
-          <meta
-            property="og:title"
-            content="Top Real Estate Projects in Multan – DHA, Smart Housing, Royal Swiss & More"
-          />
-          <meta
-            property="og:description"
-            content="Discover top real estate in Multan, like DHA and Royal Orchard, with IES Marketing as your trusted guide."
-          />
-          <meta
-            property="og:image"
-            content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Froyal%20orchad%201.ec795224.jpg&w=3840&q=75"
-          />
-
-          {/* Twitter */}
-          <meta property="twitter:card" content="summary_large_image" />
-          <meta
-            property="twitter:url"
-            content="https://www.iesmkt.com/our-projects/"
-          />
-          <meta
-            property="twitter:title"
-            content="Top Real Estate Projects in Multan – Smart Housing & More"
-          />
-          <meta
-            property="twitter:description"
-            content="Discover top real estate in Multan, like DHA and Royal Orchard, with IES Marketing as your trusted guide.."
-          />
-          <meta
-            property="twitter:image"
-            content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Froyal%20orchad%201.ec795224.jpg&w=3840&q=75"
-          />
+          <meta name="keywords" content="best housing societies in multan, top societies in multan, real estate in multan, investment in multan properties, luxury housing multan, gated communities in multan, affordable housing multan, residential plots in multan, multan property listings, ies marketing multan" />
+          
           <link rel="canonical" href="https://www.iesmkt.com/our-projects/" />
           {/* Additional Meta Tags */}
           <meta name="viewport" content="width=device-width, initial-scale=1" />

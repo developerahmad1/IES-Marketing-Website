@@ -52,10 +52,9 @@ const Residential_Plots_For_Sale = () => {
               <div className="px-4 py-2 sm:py-2 lg:px-0">
                 <Image
                   src={img1}
-                  alt="De Orion Mall Image"
-                  title="De Orion Mall Image"
+                  alt="Residential Plots for Sale in Multan"
+                  title="Residential Plots for Sale in Multan"
                   className="mx-auto"
-                  name="De Orion Mall"
                 />
                 <h1 className="text-3xl sm:text-4xl font-semibold text-gray-800 leading-tight mt-8">
                   Residential Plots for Sale in Multan
