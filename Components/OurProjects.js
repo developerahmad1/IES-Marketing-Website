@@ -28,18 +28,59 @@ const OurProjects = ({ showHead = true, heading }) => {
       {showHead && (
         <Head>
           {/* Primary SEO Tags */}
-          <title>Best Housing Socities in Multan - IES Marketing</title>
+          <title>Best Housing Societies in Multan | IES Marketing</title>
+
+          {/* Meta Description */}
           <meta
             name="description"
-            content="Explore Multan's top housing societies with IES Marketing, offering insights into amenities, lifestyle, and investment potential in each community."
+            content="Discover the best housing societies in Multan with IES Marketing. Explore top communities like DHA, Royal Orchard, and more with insights on amenities, investment potential, and lifestyle."
           />
-          <meta name="robots" content="index, follow" />
-          <meta name="keywords" content="best housing societies in multan, top societies in multan, real estate in multan, investment in multan properties, luxury housing multan, gated communities in multan, affordable housing multan, residential plots in multan, multan property listings, ies marketing multan" />
-          
-          <link rel="canonical" href="https://www.iesmkt.com/our-projects/" />
-          {/* Additional Meta Tags */}
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta charSet="UTF-8" />
+
+          {/* Meta Keywords */}
+          <meta
+            name="keywords"
+            content="housing societies in multan, best housing societies in multan, societies in multan, real estate in multan"
+          />
+
+          {/* Canonical Link */}
+          <link
+            rel="canonical"
+            href="https://www.iesmkt.com/housing-societies-in-multan/"
+          />
+
+          {/* Open Graph Meta Tags */}
+          <meta
+            property="og:title"
+            content="Best Housing Societies in Multan | IES Marketing"
+          />
+          <meta
+            property="og:description"
+            content="Explore top housing societies in Multan like DHA, Royal Orchard, and others with IES Marketing. Get insights on lifestyle, amenities, and investment opportunities."
+          />
+          <meta
+            property="og:image"
+            content="https://www.iesmkt.com/images/multan-housing-societies.jpg"
+          />
+          <meta
+            property="og:url"
+            content="https://www.iesmkt.com/housing-societies-in-multan/"
+          />
+          <meta property="og:type" content="website" />
+
+          {/* Twitter Meta Tags */}
+          <meta
+            name="twitter:title"
+            content="Best Housing Societies in Multan | IES Marketing"
+          />
+          <meta
+            name="twitter:description"
+            content="Find the best housing societies in Multan, including DHA, Royal Orchard, and more. IES Marketing provides expert insights on these communities and investment potential."
+          />
+          <meta
+            name="twitter:image"
+            content="https://www.iesmkt.com/images/multan-housing-societies.jpg"
+          />
+          <meta name="twitter:card" content="summary_large_image" />
         </Head>
       )}
 

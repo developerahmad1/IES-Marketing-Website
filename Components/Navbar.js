@@ -43,8 +43,8 @@ const Navbar = () => {
                 Home
               </span>
             </Link>
-            <Link href="/our-projects" passHref>
-              <span className={`text-gray-700 hover:text-black ${router.pathname === '/our-projects' ? 'font-bold' : ''}`}>
+            <Link href="/housing-societies-in-multan" passHref>
+              <span className={`text-gray-700 hover:text-black ${router.pathname === '/housing-societies-in-multan' ? 'font-bold' : ''}`}>
                 Our Projects
               </span>
             </Link>
@@ -92,9 +92,9 @@ const Navbar = () => {
                   Home
                 </span>
               </Link>
-              <Link href="/our-projects" passHref>
+              <Link href="/housing-societies-in-multan" passHref>
                 <span
-                  className={`block text-gray-700 hover:text-black mt-1 ${router.pathname === '/our-projects' ? 'font-bold' : ''}`}
+                  className={`block text-gray-700 hover:text-black mt-1 ${router.pathname === '/housing-societies-in-multan' ? 'font-bold' : ''}`}
                   onClick={toggleNav}
                 >
                   Our Projects

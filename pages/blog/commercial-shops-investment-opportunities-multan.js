@@ -5,11 +5,11 @@ import Image from "next/image";
 import SocialMediaSection from "../../Components/SocialMediaSection.js";
 import img1 from "../../public/Blogs/Blog20_1.webp";
 
-const Commercial_Plots_For_Sale_In_Multan = () => {
+const Commercial_Shops_For_Sale_In_Multan = () => {
   return (
     <div>
       <Head>
-        <title>Commercial Plots | Investment Opportunities In Multan</title>
+        <title>Commercial Shops | Investment Opportunities In Multan</title>
         <meta
           name="description"
           content="Explore top commercial plots for sale in Multan with IES Marketing. Investment opportunities in prime locations such as De Orion Mall, RITZ Arcade, and more."
@@ -22,13 +22,13 @@ const Commercial_Plots_For_Sale_In_Multan = () => {
         {/* Canonical URL */}
         <link
           rel="canonical"
-          href="https://www.iesmkt.com/blog/commercial-plots-investment-opportunities-multan/"
+          href="https://www.iesmkt.com/blog/commercial-shops-investment-opportunities-multan/"
         />
 
         {/* Open Graph / Facebook Meta Tags */}
         <meta
           property="og:title"
-          content="Commercial Plots in Multan | Investment Opportunities"
+          content="Commercial Shops in Multan | Investment Opportunities"
         />
         <meta
           property="og:description"
@@ -40,7 +40,7 @@ const Commercial_Plots_For_Sale_In_Multan = () => {
         />
         <meta
           property="og:url"
-          content="https://www.iesmkt.com/blog/commercial-plots-investment-opportunities-multan/"
+          content="https://www.iesmkt.com/blog/commercial-shops-investment-opportunities-multan/"
         />
         <meta property="og:type" content="website" />
 
@@ -48,7 +48,7 @@ const Commercial_Plots_For_Sale_In_Multan = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Commercial Plots in Multan | Investment Opportunities"
+          content="Commercial Shops in Multan | Investment Opportunities"
         />
         <meta
           name="twitter:description"
@@ -120,12 +120,12 @@ const Commercial_Plots_For_Sale_In_Multan = () => {
               <div className="px-4 py-2 sm:py-2 lg:px-0">
                 <Image
                   src={img1}
-                  alt="Commercial Plots for Sale in Multan | Investment Opportunities"
-                  title="Commercial Plots for Sale in Multan | Investment Opportunities"
+                  alt="Commercial Shops for Sale in Multan | Investment Opportunities"
+                  title="Commercial Shops for Sale in Multan | Investment Opportunities"
                   className="mx-auto"
                 />
                 <h1 className="text-3xl sm:text-4xl font-semibold text-gray-800 leading-tight mt-8">
-                  Commercial Plots for Sale in Multan | Investment Opportunities
+                  Commercial Shops for Sale in Multan | Investment Opportunities
                 </h1>
               </div>
             </div>
@@ -152,7 +152,7 @@ const Commercial_Plots_For_Sale_In_Multan = () => {
                   </h2>
                   <h3 className="font-bold">Location:</h3>
                   <p className="pb-3">Near Bosan Road, Multan</p>
-                  <h3 className="font-bold">Commercial Plot Sizes:</h3>
+                  <h3 className="font-bold">Commercial Shop Sizes:</h3>
                   <p className="pb-3">149 to 1076 square feet</p>
                   <h3 className="font-bold">Why Invest in De Orion Mall? </h3>
                   <p className="pb-3">
@@ -181,7 +181,7 @@ const Commercial_Plots_For_Sale_In_Multan = () => {
                   </h2>
                   <h3 className="font-bold">Location:</h3>
                   <p className="pb-3">DHA Multan</p>
-                  <h3 className="font-bold">Commercial Plot Sizes:</h3>
+                  <h3 className="font-bold">Commercial Shop Sizes:</h3>
                   <p className="pb-3">
                     {" "}
                     149 to 600 square foot units (0.55 to 3.95 Marla)
@@ -213,7 +213,7 @@ const Commercial_Plots_For_Sale_In_Multan = () => {
                   </h2>
                   <h3 className="font-bold">Location:</h3>
                   <p className="pb-3">Near M5 Motorway, Multan</p>
-                  <h3 className="font-bold">Commercial Plot Sizes:</h3>
+                  <h3 className="font-bold">Commercial Shop Sizes:</h3>
                   <p className="pb-3">2.65 Marla, 3 Marla</p>
                   <p className="pb-3">
                     Ranges from small shops to larger office spaces and business
@@ -248,6 +248,8 @@ const Commercial_Plots_For_Sale_In_Multan = () => {
                   </h2>
                   <h3 className="font-bold">Location:</h3>
                   <p className="pb-3">Near Northern Bypass, Multan</p>
+                  <p className="pb-3">
+                  <sapn className="font-bold">Commercial Shop Sizes:</sapn> <a className="link"  href="tel:923338400108">Call for details</a></p>
                   <h3 className="font-bold">
                     Why Invest in WAPDA Town Multan?
                   </h3>
@@ -276,6 +278,10 @@ const Commercial_Plots_For_Sale_In_Multan = () => {
                   <h2 className="text-3xl text-gray-800 font-semibold mt-4">
                     Model Town Multan
                   </h2>
+                  <h3 className="font-bold">Location:</h3>
+                  <p className="pb-3">Near Northern Bypass and Bosan Road</p>
+                  <p className="pb-3">
+                  <sapn className="font-bold">Commercial Shop Sizes:</sapn> <a className="link"  href="tel:923338400108">Call for details</a></p>
                   <h3 className="font-bold">
                     Why Invest in Model Town Multan?
                   </h3>
@@ -295,7 +301,7 @@ const Commercial_Plots_For_Sale_In_Multan = () => {
                   </p>
                 </section>
 
-                {/* Model Town Multan */}
+                {/*  Final Thoughts */}
                 <section className="pb-5">
                   <h2 className="text-3xl text-gray-800 font-semibold mt-4">
                     Final Thoughts
@@ -314,11 +320,11 @@ const Commercial_Plots_For_Sale_In_Multan = () => {
                   </p>
                   <p className="pb-8">
                     Also Read:
-                    <Link
+                     <Link
                       className="link"
                       href="/blog/residential-plots-for-sale-in-multan/"
                     >
-                      Residential Plots for Sale in Multan
+                       Residential Plots for Sale in Multan
                     </Link>
                   </p>
                 </section>
@@ -397,6 +403,6 @@ const Commercial_Plots_For_Sale_In_Multan = () => {
   );
 };
 
-export default Commercial_Plots_For_Sale_In_Multan;
+export default Commercial_Shops_For_Sale_In_Multan;
 
 // &apos;

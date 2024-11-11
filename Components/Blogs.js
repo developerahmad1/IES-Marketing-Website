@@ -107,7 +107,7 @@ const Blogs = ({ heading, showHead = true }) => {
             <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-0">
             {/* Commercial Plots for Sale in Multan | Investment Opportunities */}
               <BlogsCard
-                link="/blog//commercial-plots-investment-opportunities-multan//"
+                link="/blog//commercial-shops-investment-opportunities-multan//"
                 heading="Commercial Plots for Sale in Multan | Investment Opportunities"
                 img={img20}
                 alt="Commercial Plots for Sale in Multan | Investment Opportunities"
