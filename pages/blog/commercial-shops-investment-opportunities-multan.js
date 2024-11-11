@@ -36,7 +36,7 @@ const Commercial_Shops_For_Sale_In_Multan = () => {
         />
         <meta
           property="og:image"
-          content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FBlog20_1.3454ba41.webp&w=3840&q=75"
+          content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FBlog20_1.835bf1e1.webp&w=3840&q=75"
         />
         <meta
           property="og:url"
@@ -56,7 +56,7 @@ const Commercial_Shops_For_Sale_In_Multan = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FBlog20_1.3454ba41.webp&w=3840&q=75"
+          content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FBlog20_1.835bf1e1.webp&w=3840&q=75"
         />
 
         {/* FAQ Schema Markup */}
