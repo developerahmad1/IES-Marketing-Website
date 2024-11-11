@@ -140,7 +140,7 @@ const Commercial_Plots_For_Sale_In_Multan = () => {
                   prospects of the city and the growing population. In many high
                   -profile commercial projects, the requirements of investors
                   who seek to profit from the expanding multi–market have
-                  appeared. Let’s take a look at some of the most prominent
+                  appeared. Let&apos;s take a look at some of the most prominent
                   commercial projects in Multan to understand their location,
                   footprint, infrastructure, and potential ROI.
                 </p>
@@ -193,9 +193,9 @@ const Commercial_Plots_For_Sale_In_Multan = () => {
                     for a premium location in Multan. With its prominent
                     location, the arcade attracts significant foot traffic and
                     provides a modern atmosphere that appeals to both customers
-                    and business owners. The arcade's modern layout and
+                    and business owners. The arcade&apos;s modern layout and
                     customer-centric design give investors the opportunity to
-                    establish profitable ventures in one of Multan’s prime
+                    establish profitable ventures in one of Multan&apos;s prime
                     locations.
                   </p>
                   <p className="pb-8">
@@ -258,7 +258,7 @@ const Commercial_Plots_For_Sale_In_Multan = () => {
                     retail stores, services, and dining establishments. It
                     includes parks, schools, and healthcare facilities,
                     attracting families and professionals who bring regular
-                    traffic to the commercial areas. As one of Multan’s most
+                    traffic to the commercial areas. As one of Multan&apos;s most
                     established societies, properties in WAPDA Town hold strong
                     resale and rental value, making it an excellent long-term
                     investment.
@@ -327,7 +327,7 @@ const Commercial_Plots_For_Sale_In_Multan = () => {
                   Buy Commercial Property in Multan with IES Marketing
                 </h2>
                 <p className="pb-4">
-                  Secure your investment in one of Pakistan's fastest-growing
+                  Secure your investment in one of Pakistan&apos;s fastest-growing
                   cities by purchasing commercial real estate in Multan with IES
                   Marketing. Our knowledgeable staff provides excellent
                   commercial plots in high-end projects, guaranteeing your
@@ -339,7 +339,7 @@ const Commercial_Plots_For_Sale_In_Multan = () => {
                 </p>
                 <p className="pb-3">
                   Investigate business prospects (Commercial Property for Sale)
-                  and join Multan's modern urban lifestyle. With the correct
+                  and join Multan&apos;s modern urban lifestyle. With the correct
                   location, we can assist you in making a successful investment.
                 </p>
 
@@ -400,5 +400,3 @@ const Commercial_Plots_For_Sale_In_Multan = () => {
 export default Commercial_Plots_For_Sale_In_Multan;
 
 // &apos;
-//             <h3 className="font-bold">Available Plot Sizes:</h3>
-//                      <h2 className="text-3xl text-gray-800 font-semibold mt-4">
