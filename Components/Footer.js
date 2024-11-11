@@ -22,7 +22,7 @@ const Footer = () => {
           </div>
           <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
             <div className="space-y-3">
-              <h3 className="tracking-wide uppercase hover:text-[#fa8b17]">IES Marketing</h3>
+              <a href='/' className="tracking-wide uppercase hover:text-[#fa8b17]">IES Marketing</a>
               <ul className="space-y-1">
                 <li><Link href="/" className='hover:text-[#fa8b17]'>Home</Link></li>
                 <li><Link href="/about-us" className='hover:text-[#fa8b17]'>About Us</Link></li>
@@ -32,7 +32,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="space-y-3">
-              <h3 className="tracking-wide uppercase ">Our Projects</h3>
+              <p className="tracking-wide uppercase ">Our Projects</p>
               <ul className="space-y-1">
               <li><Link href="/smart-housing" className='hover:text-[#fa8b17]'>Smart Housing</Link></li>
               <li><Link href="/royal-swiss" className='hover:text-[#fa8b17]'>Royal Swiss</Link></li>
@@ -45,7 +45,7 @@ const Footer = () => {
 
             {/* Social media links */}
             <div className="space-y-3">
-              <h3 className="uppercase">Social media</h3>
+              <p className="uppercase">Social media</p>
               <div className="flex justify-start space-x-3">
                 <a href="https://www.facebook.com/IESmarketingPakistan?mibextid=ZbWKwL" target='_main' title="Facebook" className="flex items-center p-1">
                   <FaFacebook className="w-[35px] h-[35px] hover:text-[#fa8b17]" />

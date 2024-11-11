@@ -55,7 +55,7 @@ const OurProjects = ({ showHead = true, heading }) => {
           />
           <meta
             property="og:description"
-            content="Explore top housing societies in Multan like DHA, Royal Orchard, and others with IES Marketing. Get insights on lifestyle, amenities, and investment opportunities."
+            content="Discover top housing societies in Multan like DHA and Royal Orchard with IES Marketing. Learn about lifestyle, amenities, and investment opportunities."
           />
           <meta
             property="og:image"
