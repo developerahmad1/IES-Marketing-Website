@@ -23,6 +23,7 @@ import img16 from "../public/Blogs/Blog16_1.webp";
 import img17 from "../public/Blogs/Blog17_1.jpg";
 import img18 from "../public/Blogs/Blog18_1.webp";
 import img19 from "../public/Blogs/Blog19_1.webp";
+import img20 from "../public/Blogs/Blog20_1.webp";
 
 const Blogs = ({ heading, showHead = true }) => {
   function scrollToTop() {
@@ -104,6 +105,15 @@ const Blogs = ({ heading, showHead = true }) => {
             )}
 
             <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-0">
+            {/* Commercial Plots for Sale in Multan | Investment Opportunities */}
+              <BlogsCard
+                link="/blog//commercial-plots-investment-opportunities-multan//"
+                heading="Commercial Plots for Sale in Multan | Investment Opportunities"
+                img={img20}
+                alt="Commercial Plots for Sale in Multan | Investment Opportunities"
+                title="Commercial Plots for Sale in Multan | Investment Opportunities"
+              />
+              
               {/* 19 Residential Plots for Sale in Multan */}
               <BlogsCard
                 link="/blog/residential-plots-for-sale-in-multan/"

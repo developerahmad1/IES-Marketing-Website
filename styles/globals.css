@@ -96,3 +96,33 @@ body {
 .animate-slide-out-right {
   animation: slide-out-right 0.5s forwards; /* Animation for closing */
 }
+
+
+
+
+
+
+
+/* scroll bar style */
+
+/* Custom Scrollbar Style */
+*::-webkit-scrollbar {
+  width: 8px; /* Slimmer scrollbar width */
+  height: 8px; /* Slimmer scrollbar height */
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent; /* Track background color */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #888888; /* Thumb color */
+  border-radius: 8px; /* Rounded corners for the thumb */
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #555555; /* Darker color on hover */
+}
+
+
+
