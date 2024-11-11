@@ -59,7 +59,7 @@ const OurProjects = ({ showHead = true, heading }) => {
           />
           <meta
             property="og:image"
-            content="https://www.iesmkt.com/images/multan-housing-societies.jpg"
+            content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Froyal%20orchad%201.ec795224.jpg&w=3840&q=75"
           />
           <meta
             property="og:url"
@@ -78,7 +78,7 @@ const OurProjects = ({ showHead = true, heading }) => {
           />
           <meta
             name="twitter:image"
-            content="https://www.iesmkt.com/images/multan-housing-societies.jpg"
+            content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Froyal%20orchad%201.ec795224.jpg&w=3840&q=75"
           />
           <meta name="twitter:card" content="summary_large_image" />
         </Head>
@@ -86,92 +86,18 @@ const OurProjects = ({ showHead = true, heading }) => {
 
       <div className="bg-white py-6">
         {showHead ? (
-          <h1 className="text-4xl font-bold text-center py-6">
-            Top Real Estate Projects in Multan
+          <h1 className="text-3xl md:text-4xl font-bold text-center md:py-6 py-3">
+            Best Housing Societies in Multan
           </h1>
         ) : (
           <h3 className="text-3xl font-bold text-center py-6">{heading}</h3>
         )}
         <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-3">
-          {/* De Green Homes */}
-          <Link
-            href={`/de-green-homes-multan`}
-            onClick={scrollToTop}
-            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
-          >
-            <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40 h-[230px]">
-              <Image
-                src={deGreenHomes}
-                alt="De Green Homes Multan"
-                title="De Green Homes Multan"
-                className="w-full h-full object-cover object-center"
-              />
-            </div>
-            <div className="p-6">
-              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                De&apos; Green Homes Multan – Where Green Living Meets Urban
-                Convenience
-              </h5>
-              <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-                De&apos; Green Homes, which blends eco-friendly living with
-                contemporary conveniences, is one of the most promising
-                residential developments. Both investors and homebuyers have
-                expressed interest in this well-planned development because of
-                its excellent location, first-rate amenities, and lush
-                surroundings.
-              </p>
-            </div>
-            <div className="p-6 pt-0">
-              <button
-                className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
-                type="button"
-              >
-                View More
-              </button>
-            </div>
-          </Link>
-
-          {/* De Orion */}
-          <Link
-            href={`/de-orion-mall-multan`}
-            onClick={scrollToTop}
-            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
-          >
-            <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40 h-[230px]">
-              <Image
-                src={deOrionMall}
-                alt="De Orion Mall Multan"
-                title="De Orion Mall Multan"
-                className="w-full h-full object-cover object-center"
-              />
-            </div>
-            <div className="p-6">
-              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                De-Orion Mall Gulgasht Multan
-              </h5>
-              <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-                De Orion Mall Multan is a remarkable new development located in
-                the vibrant center of Multan. Designed as a multi-purpose
-                project, it offers a unique blend of luxurious residential
-                apartments and modern retail spaces, creating a dynamic
-                environment for residents and businesses alike.
-              </p>
-            </div>
-            <div className="p-6 pt-0">
-              <button
-                className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
-                type="button"
-              >
-                View More
-              </button>
-            </div>
-          </Link>
-
           {/* DHA Multan */}
           <Link
             href="/dha-multan"
             onClick={scrollToTop}
-            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
+            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-gray-900 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
             <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <Image
@@ -182,9 +108,9 @@ const OurProjects = ({ showHead = true, heading }) => {
               />
             </div>
             <div className="p-6">
-              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+              <h2 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                 DHA Multan
-              </h5>
+              </h2>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
                 Defense Housing Authority (DHA) is a prestigious residential
                 community featuring well-planned residential plots and
@@ -208,7 +134,7 @@ const OurProjects = ({ showHead = true, heading }) => {
           <Link
             href="/royal-orchard-multan"
             onClick={scrollToTop}
-            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
+            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-gray-900 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
             <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <Image
@@ -219,9 +145,9 @@ const OurProjects = ({ showHead = true, heading }) => {
               />
             </div>
             <div className="p-6">
-              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+              <h2 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                 Royal Orchard Multan
-              </h5>
+              </h2>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
                 Royal Orchard Multan provides a luxurious and comfortable
                 lifestyle in the fast-growing city of South Punjab. It offers
@@ -244,7 +170,7 @@ const OurProjects = ({ showHead = true, heading }) => {
           <Link
             href="/citi-housing-multan"
             onClick={scrollToTop}
-            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
+            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-gray-900 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
             <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <Image
@@ -255,9 +181,9 @@ const OurProjects = ({ showHead = true, heading }) => {
               />
             </div>
             <div className="p-6">
-              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+              <h2 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                 CITI Housing Multan
-              </h5>
+              </h2>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
                 Citi Housing Multan is an exclusive housing project in the City
                 of Saints, aimed to bring modern living standards. It offers
@@ -281,7 +207,7 @@ const OurProjects = ({ showHead = true, heading }) => {
           <Link
             href="/adams-housing"
             onClick={scrollToTop}
-            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
+            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-gray-900 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
             <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <Image
@@ -292,9 +218,9 @@ const OurProjects = ({ showHead = true, heading }) => {
               />
             </div>
             <div className="p-6">
-              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+              <h2 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                 Adams Housing Multan
-              </h5>
+              </h2>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
                 Adams Housing Multan stands as a beacon of modern living that
                 offers contemporary amenities and high-quality infrastructure,
@@ -317,7 +243,7 @@ const OurProjects = ({ showHead = true, heading }) => {
           <Link
             href="/smart-housing"
             onClick={scrollToTop}
-            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
+            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-gray-900 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
             <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <Image
@@ -328,9 +254,9 @@ const OurProjects = ({ showHead = true, heading }) => {
               />
             </div>
             <div className="p-6">
-              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+              <h2 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                 Smart Housing Multan
-              </h5>
+              </h2>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
                 Smart Housing Multan (SHM) is a modern housing society in the
                 City of Saints with cutting-edge automation systems and modern
@@ -353,7 +279,7 @@ const OurProjects = ({ showHead = true, heading }) => {
           <Link
             href={`/royal-swiss`}
             onClick={scrollToTop}
-            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
+            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-gray-900 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
             <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <Image
@@ -364,9 +290,9 @@ const OurProjects = ({ showHead = true, heading }) => {
               />
             </div>
             <div className="p-6">
-              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+              <h2 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                 Royal Swiss Multan
-              </h5>
+              </h2>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
                 Royal Swiss Housing is the latest project in Multan aimed to
                 revolutionize the standards of housing in the city. It is
@@ -389,7 +315,7 @@ const OurProjects = ({ showHead = true, heading }) => {
           <Link
             href={`/wapda-town`}
             onClick={scrollToTop}
-            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
+            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-gray-900 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
             <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <Image
@@ -400,9 +326,9 @@ const OurProjects = ({ showHead = true, heading }) => {
               />
             </div>
             <div className="p-6">
-              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+              <h2 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                 Wapda Town Multan
-              </h5>
+              </h2>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
                 Wapda Town Multan is a gated residential community developed to
                 cater to the housing needs of employees of the Water and Power
@@ -423,7 +349,7 @@ const OurProjects = ({ showHead = true, heading }) => {
           <Link
             href={`/model-town-multan`}
             onClick={scrollToTop}
-            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
+            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-gray-900 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
             <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <Image
@@ -434,9 +360,9 @@ const OurProjects = ({ showHead = true, heading }) => {
               />
             </div>
             <div className="p-6">
-              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+              <h2 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                 Model Town Multan – An Ideal Family Heaven
-              </h5>
+              </h2>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
                 Model Town Multan is a meticulously designed housing complex
                 that seeks to provide the ideal living environment for families
@@ -454,11 +380,85 @@ const OurProjects = ({ showHead = true, heading }) => {
             </div>
           </Link>
 
+          {/* De Green Homes */}
+          <Link
+            href={`/de-green-homes-multan`}
+            onClick={scrollToTop}
+            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-gray-900 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
+          >
+            <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40 h-[230px]">
+              <Image
+                src={deGreenHomes}
+                alt="De Green Homes Multan"
+                title="De Green Homes Multan"
+                className="w-full h-full object-cover object-center"
+              />
+            </div>
+            <div className="p-6">
+              <h2 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                De&apos; Green Homes Multan – Where Green Living Meets Urban
+                Convenience
+              </h2>
+              <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+                De&apos; Green Homes, which blends eco-friendly living with
+                contemporary conveniences, is one of the most promising
+                residential developments. Both investors and homebuyers have
+                expressed interest in this well-planned development because of
+                its excellent location, first-rate amenities, and lush
+                surroundings.
+              </p>
+            </div>
+            <div className="p-6 pt-0">
+              <button
+                className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                type="button"
+              >
+                View More
+              </button>
+            </div>
+          </Link>
+
+          {/* De Orion */}
+          <Link
+            href={`/de-orion-mall-multan`}
+            onClick={scrollToTop}
+            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-gray-900 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
+          >
+            <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40 h-[230px]">
+              <Image
+                src={deOrionMall}
+                alt="De Orion Mall Multan"
+                title="De Orion Mall Multan"
+                className="w-full h-full object-cover object-center"
+              />
+            </div>
+            <div className="p-6">
+              <h2 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                De-Orion Mall Gulgasht Multan
+              </h2>
+              <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+                De Orion Mall Multan is a remarkable new development located in
+                the vibrant center of Multan. Designed as a multi-purpose
+                project, it offers a unique blend of luxurious residential
+                apartments and modern retail spaces, creating a dynamic
+                environment for residents and businesses alike.
+              </p>
+            </div>
+            <div className="p-6 pt-0">
+              <button
+                className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                type="button"
+              >
+                View More
+              </button>
+            </div>
+          </Link>
+
           {/* Buch Executive Villas - Pathway to Luxurious Living in Multan */}
           <Link
             href={`/buch-executive-villas-multan`}
             onClick={scrollToTop}
-            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
+            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-gray-900 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
           >
             <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <Image
@@ -469,9 +469,9 @@ const OurProjects = ({ showHead = true, heading }) => {
               />
             </div>
             <div className="p-6">
-              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+              <h2 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                 Buch Executive Villas - Pathway to Luxurious Living in Multan
-              </h5>
+              </h2>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
                 One of the most popular luxury residential complexes in Multan,
                 Buch Executive Villas offers its residents an unmatched

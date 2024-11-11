@@ -108,7 +108,7 @@ const Blogs = ({ heading, showHead = true }) => {
             {/* Commercial Plots for Sale in Multan | Investment Opportunities */}
               <BlogsCard
                 link="/blog//commercial-shops-investment-opportunities-multan//"
-                heading="Commercial Plots for Sale in Multan | Investment Opportunities"
+                heading="Commercial Shops for Sale in Multan | Investment Opportunities"
                 img={img20}
                 alt="Commercial Plots for Sale in Multan | Investment Opportunities"
                 title="Commercial Plots for Sale in Multan | Investment Opportunities"
