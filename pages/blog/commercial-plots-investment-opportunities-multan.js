@@ -22,7 +22,7 @@ const Commercial_Plots_For_Sale_In_Multan = () => {
         {/* Canonical URL */}
         <link
           rel="canonical"
-          href="https://www.iesmkt.com/commercial-plots-investment-opportunities-multan/"
+          href="https://www.iesmkt.com/blog/commercial-plots-investment-opportunities-multan/"
         />
 
         {/* Open Graph / Facebook Meta Tags */}
@@ -40,7 +40,7 @@ const Commercial_Plots_For_Sale_In_Multan = () => {
         />
         <meta
           property="og:url"
-          content="https://www.iesmkt.com/commercial-plots-investment-opportunities-multan/"
+          content="https://www.iesmkt.com/blog/commercial-plots-investment-opportunities-multan/"
         />
         <meta property="og:type" content="website" />
 
