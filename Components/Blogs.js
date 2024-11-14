@@ -24,6 +24,7 @@ import img17 from "../public/Blogs/Blog17_1.jpg";
 import img18 from "../public/Blogs/Blog18_1.webp";
 import img19 from "../public/Blogs/Blog19_1.webp";
 import img20 from "../public/Blogs/Blog20_1.webp";
+import img22 from "../public/Blogs/Blog22_1.webp";
 
 const Blogs = ({ heading, showHead = true }) => {
   function scrollToTop() {
@@ -105,9 +106,20 @@ const Blogs = ({ heading, showHead = true }) => {
             )}
 
             <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-0">
+
+              
             {/* Commercial Plots for Sale in Multan | Investment Opportunities */}
               <BlogsCard
-                link="/blog//commercial-shops-investment-opportunities-multan//"
+                link="/blog/investment-in-multan/"
+                heading="Investment in Multan: Top Real Estate Opportunities"
+                img={img22}
+                alt="Opportunities to invest in multan real estate"
+                title="Opportunities to invest in multan real estate"
+              />
+              
+            {/* Commercial Plots for Sale in Multan | Investment Opportunities */}
+            <BlogsCard
+                link="/blog/commercial-shops-investment-opportunities-multan/"
                 heading="Commercial Shops for Sale in Multan | Investment Opportunities"
                 img={img20}
                 alt="Commercial Plots for Sale in Multan | Investment Opportunities"

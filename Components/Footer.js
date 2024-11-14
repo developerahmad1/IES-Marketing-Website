@@ -22,7 +22,7 @@ const Footer = () => {
           </div>
           <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
             <div className="space-y-3">
-              <a href='/' className="tracking-wide uppercase hover:text-[#fa8b17]">IES Marketing</a>
+              <Link href='/' className="tracking-wide uppercase hover:text-[#fa8b17]">IES Marketing</Link>
               <ul className="space-y-1">
                 <li><Link href="/" className='hover:text-[#fa8b17]'>Home</Link></li>
                 <li><Link href="/about-us" className='hover:text-[#fa8b17]'>About Us</Link></li>
