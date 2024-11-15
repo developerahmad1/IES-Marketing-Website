@@ -321,7 +321,7 @@ const Investment_In_Multan = () => {
                   As development progresses, real estate values are expected to
                   increase. The development of the city infrastructure continued
                   to grow after modern homes and financial activities that show
-                  the future. With DHA Multan, Multan Smart Homes, and Royal
+                  the future. With DHA Multan, samrt housing Multan, and Royal
                   Orchard, the city will attract more investors in the coming
                   years.
                 </p>
