@@ -161,7 +161,7 @@ const Investment_In_Multan = () => {
                 </p>
 
                 <p className="pb-6">
-                  5 marla to 2 channels. The company includes parks, educational
+                  5 marla to 2 kanals. The company includes parks, educational
                   institutions, business districts and security, which all
                   contributes to the needs and value of the property.
                 </p>
