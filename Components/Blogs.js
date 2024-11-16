@@ -25,6 +25,7 @@ import img18 from "../public/Blogs/Blog18_1.webp";
 import img19 from "../public/Blogs/Blog19_1.webp";
 import img20 from "../public/Blogs/Blog20_1.webp";
 import img22 from "../public/Blogs/Blog22_1.webp";
+import img23 from "../public/Blogs/Blog23_1.webp";
 
 const Blogs = ({ heading, showHead = true }) => {
   function scrollToTop() {
@@ -109,7 +110,16 @@ const Blogs = ({ heading, showHead = true }) => {
 
               
             {/* Commercial Plots for Sale in Multan | Investment Opportunities */}
-              <BlogsCard
+            <BlogsCard
+                link="/blog/solutions-to-reduce-smog/"
+                heading="Solutions to Reduce Smog: How Real Estate Can Play a Key Role in Cleaner Air"
+                img={img23}
+                alt="Solutions to Reduce Smog: How Real Estate Can Play a Key Role in Cleaner Air"
+                title="Solutions to Reduce Smog: How Real Estate Can Play a Key Role in Cleaner Air"
+              />
+
+            {/* Commercial Plots for Sale in Multan | Investment Opportunities */}
+            <BlogsCard
                 link="/blog/investment-in-multan/"
                 heading="Investment in Multan: Top Real Estate Opportunities"
                 img={img22}

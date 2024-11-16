@@ -1,6 +1,4 @@
 import React, { useEffect } from "react";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useRef } from "react";
 import { AiFillTikTok } from "react-icons/ai";
 import { FaSquareInstagram } from "react-icons/fa6";
@@ -27,31 +25,6 @@ import sardarHamzaDreshak from "../public/sir Ameer Hamza Dreshak.webp";
 
 const Card = ({ percentage, title }) => {
   const numberRef = useRef();
-
-  useEffect(() => {
-    // GSAP animation for the number
-    gsap.fromTo(
-      numberRef.current,
-      { textContent: 0 },
-      {
-        textContent: percentage.replace(/[^0-9]/g, ""), // Extract numeric part
-        duration: 2,
-        ease: "power4.out",
-        snap: { textContent: 1 }, // Snap values to integers
-        scrollTrigger: {
-          trigger: numberRef.current,
-          start: "top 80%", // Start animation when 80% of the card is in view
-        },
-        onUpdate: function () {
-          numberRef.current.textContent = `${Math.floor(
-            this.targets()[0].textContent
-          )}${
-            percentage.includes("+") ? "+" : percentage.includes("%") ? "%" : ""
-          }`; // Append "+" or "%" if needed
-        },
-      }
-    );
-  }, [percentage]);
 
   return (
     <div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 shadow-md shadow-gray-100 border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl">
