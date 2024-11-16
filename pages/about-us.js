@@ -24,7 +24,6 @@ import img1 from "../public/about us img.jpeg";
 import sirAyyaz from "../public/sir ayyaz.webp";
 import mamAbrish from "../public/mam abrish.webp";
 import sardarHamzaDreshak from "../public/sir Ameer Hamza Dreshak.webp";
-import { useRef } from "react";
 
 const Card = ({ percentage, title }) => {
   const numberRef = useRef();
