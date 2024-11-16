@@ -53,7 +53,7 @@ const Footer = () => {
                 <a href="https://www.instagram.com/iesmarketing.pk?igsh=MTgyaXIwMHZhaXR1" target='_main' title="Instagram" className="flex items-center p-1">
                   <GrInstagram className="w-[30px] h-[30px] hover:text-[#fa8b17]" />
                 </a>
-                <a href="https://www.youtube.com/@iesmarketing01y" target='_main' title="YouTube" className="flex items-center p-1">
+                <a href="https://www.youtube.com/@iesmarketing01" target='_main' title="YouTube" className="flex items-center p-1">
                   <FaYoutube className="w-[35px] h-[35px] hover:text-[#fa8b17]" />
                 </a>
                 <a href="https://www.tiktok.com/@iesmarketing.pk?_t=8orLu0je4vP&_r=1" target='_main' title="YouTube" className="flex items-center p-1">

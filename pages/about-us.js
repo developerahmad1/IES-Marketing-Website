@@ -1,5 +1,7 @@
-import React from "react";
-// import "./CSS/AboutUs.css"
+import React, { useEffect } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useRef } from "react";
 import { AiFillTikTok } from "react-icons/ai";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
@@ -22,6 +24,52 @@ import img1 from "../public/about us img.jpeg";
 import sirAyyaz from "../public/sir ayyaz.webp";
 import mamAbrish from "../public/mam abrish.webp";
 import sardarHamzaDreshak from "../public/sir Ameer Hamza Dreshak.webp";
+import { useRef } from "react";
+
+const Card = ({ percentage, title }) => {
+  const numberRef = useRef();
+
+  useEffect(() => {
+    // GSAP animation for the number
+    gsap.fromTo(
+      numberRef.current,
+      { textContent: 0 },
+      {
+        textContent: percentage.replace(/[^0-9]/g, ""), // Extract numeric part
+        duration: 2,
+        ease: "power4.out",
+        snap: { textContent: 1 }, // Snap values to integers
+        scrollTrigger: {
+          trigger: numberRef.current,
+          start: "top 80%", // Start animation when 80% of the card is in view
+        },
+        onUpdate: function () {
+          numberRef.current.textContent = `${Math.floor(
+            this.targets()[0].textContent
+          )}${
+            percentage.includes("+") ? "+" : percentage.includes("%") ? "%" : ""
+          }`; // Append "+" or "%" if needed
+        },
+      }
+    );
+  }, [percentage]);
+
+  return (
+    <div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 shadow-md shadow-gray-100 border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl">
+      <div className="flex gap-5">
+        <div
+          className="font-manrope text-2xl font-bold text-indigo-600"
+          ref={numberRef}
+        >
+          {percentage}
+        </div>
+        <div className="flex-1">
+          <h4 className="text-xl text-gray-900 font-semibold mb-2">{title}</h4>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 const About = () => {
   function scrollToTop() {
@@ -242,8 +290,9 @@ const About = () => {
                     Chaudhary Tayyab Sultan (MD)
                   </h2>
                   <p className="font-normal text-xl leading-8 text-gray-500 max-w-2xl mx-auto text-justify">
-                    Chaudhary Tayyab Sultan</p>
-                    <p className="font-normal text-xl leading-8 text-gray-500 max-w-2xl mx-auto text-justify mt-1">
+                    Chaudhary Tayyab Sultan
+                  </p>
+                  <p className="font-normal text-xl leading-8 text-gray-500 max-w-2xl mx-auto text-justify mt-1">
                     He is the esteemed Managing Director of IES Marketing, known
                     for his remarkable achievements driven by dedication and a
                     focused work ethic. With years of experience, he champions a
@@ -320,89 +369,13 @@ const About = () => {
               Our Achievements
             </h2>
             <div className="flex flex-col gap-5 xl:gap-8 lg:flex-row lg:justify-between">
-              <div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 shadow-md shadow-gray-100  border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl">
-                <div className="flex gap-5">
-                  <div className="font-manrope text-2xl font-bold text-indigo-600">
-                    100%
-                  </div>
-                  <div className="flex-1">
-                    <h4 className="text-xl text-gray-900 font-semibold mb-2">
-                      Consumer Satisfaction
-                    </h4>
-                    {/* <p className="text-xs text-gray-500 leading-5">
-                    Company's remarkable growth journey as we continually innovate and drive towards new heights of success.
-                  </p> */}
-                  </div>
-                  {/* icon here */}
-                </div>
-              </div>
-              <div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 shadow-md shadow-gray-100  border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl">
-                <div className="flex gap-5">
-                  <div className="font-manrope text-2xl font-bold text-indigo-600">
-                    100%
-                  </div>
-                  <div className="flex-1">
-                    <h4 className="text-xl text-gray-900 font-semibold mb-2">
-                      Seamless transactions{" "}
-                    </h4>
-                    {/* <p className="text-xs text-gray-500 leading-5">
-                    Our very talented team members are the powerhouse of pagedone and pillars of our success.
-                  </p> */}
-                  </div>
-                  {/* icon here */}
-                </div>
-              </div>
-              <div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 shadow-md shadow-gray-100  border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl">
-                <div className="flex gap-5">
-                  <div className="font-manrope text-2xl font-bold text-indigo-600">
-                    100+
-                  </div>
-                  <div className="flex-1">
-                    <h4 className="text-xl text-gray-900 font-semibold mb-2">
-                      Properties{" "}
-                    </h4>
-                    {/* <p className="text-xs text-gray-500 leading-5">
-                    We have accomplished more than 625 projects worldwide and we are still counting many more.
-                  </p> */}
-                  </div>
-                  {/* icon here */}
-                </div>
-              </div>
+              <Card percentage="100%" title="Consumer Satisfaction" />
+              <Card percentage="100%" title="Seamless transactions" />
+              <Card percentage="100+" title="Properties" />
             </div>
-
             <div className="flex flex-col gap-5 xl:gap-8 lg:flex-row lg:justify-center mt-3">
-              <div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 shadow-md shadow-gray-100  border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl">
-                <div className="flex gap-5">
-                  <div className="font-manrope text-2xl font-bold text-indigo-600">
-                    100%
-                  </div>
-                  <div className="flex-1">
-                    <h4 className="text-xl text-gray-900 font-semibold mb-2">
-                      Deliverance
-                    </h4>
-                    {/* <p className="text-xs text-gray-500 leading-5">
-                    We have accomplished more than 625 projects worldwide and we are still counting many more.
-                  </p> */}
-                  </div>
-                  {/* icon here */}
-                </div>
-              </div>
-              <div className="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 shadow-md shadow-gray-100  border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl">
-                <div className="flex gap-5">
-                  <div className="font-manrope text-2xl font-bold text-indigo-600">
-                    13+
-                  </div>
-                  <div className="flex-1">
-                    <h4 className="text-xl text-gray-900 font-semibold mb-2">
-                      Award winning{" "}
-                    </h4>
-                    {/* <p className="text-xs text-gray-500 leading-5">
-                    We have accomplished more than 625 projects worldwide and we are still counting many more.
-                  </p> */}
-                  </div>
-                  {/* icon here */}
-                </div>
-              </div>
+              <Card percentage="100%" title="Deliverance" />
+              <Card percentage="13+" title="Award winning" />
             </div>
           </div>
         </section>

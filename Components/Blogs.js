@@ -586,7 +586,7 @@ const Blogs = ({ heading, showHead = true }) => {
 
               {/* 4th blog Top 11 Societies in Multan to Invest in 2024 */}
               <Link
-                href="/blog/top-11-societies-in-multan-to-invest-in-2024"
+                href="/blog/investment-societies-in-multan"
                 onClick={scrollToTop}
                 className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
               >
