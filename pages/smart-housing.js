@@ -47,18 +47,48 @@ const SmartHousing = () => {
   return (
     <div>
       <Head>
-        <title>Smart Housing Multan - IES Marketing</title>
+        <title>Smart Housing Multan – Best Real Estate Society in Multan</title>
         <meta
           name="keywords"
-          content="Smart Housing, Smart Housing Multan, Smart Housing Nishter Block, Smart Housing premium Block, Best Societies in Multan, Pakistan Real Estate, Real Estate Investment"
+          content="Smart Housing Multan, Smart Housing, Smart Housing Society, Investment in Smart Housing, Smart Housing Multan Plots, Buy Property in Smart Housing Multan"
         />
         <meta
           name="description"
-          content="Smart Housing Multan is a trustable and transparent society, offering contemporary living and urban convenience with a rapidly developing landscape."
+          content="Explore Smart Housing Multan – a top real estate society offering prime location, modern living, and investment opportunities in Multan."
+        />
+        <meta name="robots" content="index, follow" />
+        <meta
+          property="og:title"
+          content="Smart Housing Multan – Best Real Estate Society in Multan"
+        />
+        <meta
+          property="og:description"
+          content="Explore Smart Housing Multan – a top real estate society offering prime location, modern living, and investment opportunities in Multan."
+        />
+        <meta
+          property="og:image"
+          content="https://www.iesmkt.com/SmartHousing.webp"
+        />
+        <meta
+          property="og:url"
+          content="https://www.iesmkt.com/smart-housing/"
+        />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Smart Housing Multan – Best Real Estate Society in Multan"
+        />
+        <meta
+          name="twitter:description"
+          content="Explore Smart Housing Multan – a top real estate society offering prime location, modern living, and investment opportunities in Multan."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.iesmkt.com/SmartHousing.webp"
         />
         <link rel="canonical" href="https://www.iesmkt.com/smart-housing/" />
       </Head>
-
       <div>
         <header className="mb-14">
           <div
@@ -73,7 +103,7 @@ const SmartHousing = () => {
                   <div className="max-w-4xl mx-auto text-center">
                     {/* <span className="text-gray-200 font-semibold uppercase tracking-widest">IES Marketing</span> */}
                     <h1 className="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">
-                      Smart Housing Multan – Innovative Urban Living
+                    Smart Housing Multan – Best Real Estate Society in Multan
                     </h1>
                     <p className="max-w-3xl mx-auto mb-10 text-lg text-gray-300">
                       Smart Housing Society Multan is a trustable and
@@ -298,7 +328,7 @@ const SmartHousing = () => {
                 A-extension block.
               </p>
               {/* A Block */}
-              <h4 className="text-xl mt-5 font-semibold">A Block </h4>
+              <h3 className="text-xl mt-5 font-semibold">A Block </h3>
               <p className="text-lg leading-relaxed">
                 A-Block is actively under development, with significant progress
                 being made in infrastructure and utility installations. Most of
@@ -311,7 +341,7 @@ const SmartHousing = () => {
                 and sustainable design features.
               </p>
               {/* A-extension Block */}
-              <h4 className="text-xl mt-5 font-semibold ">A-extension Block</h4>
+              <h3 className="text-xl mt-5 font-semibold ">A-extension Block</h3>
               <p className="text-lg leading-relaxed">
                 A-extension block of Smart Housing Multan is an exclusive
                 addition designed to meet modern living standards with
@@ -323,7 +353,7 @@ const SmartHousing = () => {
                 and Nishter Block.
               </p>
               {/* B Block */}
-              <h4 className="text-xl font-semibold mt-5">B Block</h4>
+              <h3 className="text-xl font-semibold mt-5">B Block</h3>
               <p className="text-lg leading-relaxed">
                 B-block is situated near Nag Shah Chowk and offers easy access
                 to major roads and highways. The developers introduced all
@@ -336,7 +366,7 @@ const SmartHousing = () => {
                 accommodate buyers&apos; residential or commercial needs.
               </p>
               {/* Nishter Block */}
-              <h4 className="text-[24px] font-semibold mt-5">Nishter Block</h4>
+              <h3 className="text-[24px] font-semibold mt-5">Nishter Block</h3>
               <p className="text-lg leading-relaxed">
                 Nishter block is the largest block of the Smart Housing Project,
                 launched in 2023. It offers residential plots of 3.5, 5, 7, and
@@ -346,7 +376,7 @@ const SmartHousing = () => {
                 It is not a highly{" "}
               </p>
               {/* Premium Block */}
-              <h4 className="text-[24px] font-semibold mt-5">Premium Block</h4>
+              <h3 className="text-[24px] font-semibold mt-5">Premium Block</h3>
               <p className="text-lg leading-relaxed">
                 Smart Housing society has recently launched a new premium block
                 and promised to provide all the modern facilities and amenities
@@ -399,9 +429,9 @@ const SmartHousing = () => {
             {/* FAQS */}
             <section className="mb-12">
               <h3 className="text-3xl font-bold mb-4 text-start">FAQS</h3>
-              <h4 className="text-xl font-semibold mt-3 text-start">
+              <h3 className="text-xl font-semibold mt-3 text-start">
                 Is it safe to invest in Smart Housing Multan?
-              </h4>
+              </h3>
               <p className="text-[15px] sm:text-lg leading-relaxed">
                 It is completely safe to invest in the Smart Housing Multan
                 Project because it is verified by government authorities. The
@@ -411,9 +441,9 @@ const SmartHousing = () => {
                 looking to secure a stable and potentially lucrative real estate
                 investment in Multan City.
               </p>
-              <h4 className="text-xl font-semibold mt-5 text-start">
+              <h3 className="text-xl font-semibold mt-5 text-start">
                 Is Smart Housing Multan NOC approved?
-              </h4>
+              </h3>
               <p className="text-[15px] sm:text-lg leading-relaxed">
                 Smart Housing Multan is an NOC-approved project that signifies
                 its compliance with local regulations and ensures that it meets
@@ -423,9 +453,9 @@ const SmartHousing = () => {
                 project&apos;s credibility and integrity in the real estate
                 market.
               </p>
-              <h4 className="text-xl font-semibold mt-5 text-start">
+              <h3 className="text-xl font-semibold mt-5 text-start">
                 Is Smart Housing Multan good for long-term investment?
-              </h4>
+              </h3>
               <p className="text-[15px] sm:text-lg leading-relaxed">
                 Smart Housing Multan appears to be a promising option for
                 long-term investment due to its enhanced potential in the near
@@ -437,9 +467,9 @@ const SmartHousing = () => {
                 indicators that it will be good to consider to seek long-term
                 benefits.
               </p>
-              <h4 className="text-xl font-semibold mt-5 text-start">
+              <h3 className="text-xl font-semibold mt-5 text-start">
                 How can I buy a plot in Smart Housing Society Multan?
-              </h4>
+              </h3>
               <p className="text-[15px] sm:text-lg leading-relaxed">
                 It is an easy process to get a plot file in Smart Housing
                 Society Multan. Ask a reliable marketing company to get plot
@@ -451,10 +481,10 @@ const SmartHousing = () => {
                 your budget and needs and get a payment plan. Pay the down
                 payment and get your plot file in your hand.
               </p>
-              <h4 className="text-xl font-semibold mt-5 text-start">
+              <h3 className="text-xl font-semibold mt-5 text-start">
                 How many balloting events have been conducted in Smart Housing
                 Society Multan?
-              </h4>
+              </h3>
               <p className="text-[15px] sm:text-lg leading-relaxed">
                 Two balloting events have been conducted in Smart Housing
                 Society Multan and the second one is recently conducted on 20th
@@ -464,9 +494,9 @@ const SmartHousing = () => {
                 owners of plots, plot number, and location are uploaded on their
                 website.
               </p>
-              <h4 className="text-xl font-semibold mt-5 text-start">
+              <h3 className="text-xl font-semibold mt-5 text-start">
                 How much time will Smart Housing Society Multan take to develop?
-              </h4>
+              </h3>
               <p className="text-[15px] sm:text-lg leading-relaxed">
                 Smart Housing Society Multan is developing at a faster pace and
                 promises to provide a well-developed community equipped with
@@ -528,7 +558,10 @@ const SmartHousing = () => {
           </p>
         </section>
 
-        <OurProjects showHead={false}  heading="Our Other Real Estate Projects"/>
+        {/* <OurProjects
+          showHead={false}
+          heading="Our Other Real Estate Projects"
+        /> */}
       </div>
     </div>
   );
