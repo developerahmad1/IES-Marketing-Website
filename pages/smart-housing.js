@@ -407,12 +407,14 @@ const SmartHousing = () => {
               <div className="flex justify-start items-start mt-10 gap-3 flex-wrap">
                 <Image
                   src={paymentPlan}
-                  alt="Smart Housing Nishter Payment Plan"
+                  alt="Smart Housing Nishter Block Payment Plan"
+                  title="Smart Housing Nishter Block Payment Plan"
                   className="mx-auto border w-full sm:max-w-[400px] transition-all duration-[0.5s] hover:shadow-2xl"
                 />
                 <Image
                   src={paymentPlan2}
                   alt="Smart Housing Premium payment Plan"
+                  title="Smart Housing Premium payment Plan"
                   className="mx-auto w-full sm:max-w-[400px] border transition-all duration-[0.5s]  hover:shadow-2xl"
                 />
               </div>
@@ -534,6 +536,7 @@ const SmartHousing = () => {
                   }`}
                   src={src}
                   alt={altImagesNames[index]}
+                  title={altImagesNames[index]}
                   loading="lazy"
                   onLoad={() => handleImageLoad(index)}
                   onError={() => handleImageLoad(index)} // In case image fails to load
