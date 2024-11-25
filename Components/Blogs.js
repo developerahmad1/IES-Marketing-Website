@@ -26,6 +26,7 @@ import img19 from "../public/Blogs/Blog19_1.webp";
 import img20 from "../public/Blogs/Blog20_1.webp";
 import img22 from "../public/Blogs/Blog22_1.webp";
 import img23 from "../public/Blogs/Blog23_1.webp";
+import img24 from "../public/Blogs/Blog24_1.webp";
 
 const Blogs = ({ heading, showHead = true }) => {
   function scrollToTop() {
@@ -110,6 +111,14 @@ const Blogs = ({ heading, showHead = true }) => {
 
               
             {/* Commercial Plots for Sale in Multan | Investment Opportunities */}
+            <BlogsCard
+                link="/blog/real-estate-companies-in-multan/"
+                heading="Top Real Estate Companies in Multan - Trusted Agents"
+                img={img24}
+                alt="Top Real Estate Companies in Multan - Trusted Agents"
+                title="Top Real Estate Companies in Multan - Trusted Agents"
+              />
+
             <BlogsCard
                 link="/blog/solutions-to-reduce-smog/"
                 heading="Solutions to Reduce Smog: How Real Estate Can Play a Key Role in Cleaner Air"
