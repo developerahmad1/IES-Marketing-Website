@@ -30,7 +30,7 @@ const Adamshousing = () => {
     "Adams Houisng Development",
   ];
   const { openLeadpoup } = useAppContext();
-  useEffect(openLeadpoup, [])
+  useEffect(openLeadpoup, [openLeadpoup])
 
   // State to track loading state for each image
   const [loading, setLoading] = useState(Array(images.length).fill(true));

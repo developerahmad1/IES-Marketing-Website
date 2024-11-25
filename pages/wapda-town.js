@@ -10,7 +10,7 @@ import Image from 'next/image';
 
 const WapdaTown = () => {
     const { openLeadpoup } = useAppContext()
-    useEffect(openLeadpoup, [])
+    useEffect(openLeadpoup, [openLeadpoup])
 
     return (
         <>

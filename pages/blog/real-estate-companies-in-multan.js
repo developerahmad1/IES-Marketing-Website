@@ -22,7 +22,7 @@ const Best_real_estate_companies = () => {
         />
         <link
           rel="canonical"
-          href="https://www.iesmkt.com/real-estate-companies-in-multan/"
+          href="https://www.iesmkt.com/blog/real-estate-companies-in-multan/"
         />
         <meta
           property="og:title"
@@ -38,7 +38,7 @@ const Best_real_estate_companies = () => {
         />
         <meta
           property="og:url"
-          content="https://www.iesmkt.com/real-estate-companies-in-multan/"
+          content="https://www.iesmkt.com/blog/real-estate-companies-in-multan/"
         />
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary_large_image" />

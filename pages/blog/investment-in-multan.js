@@ -28,7 +28,7 @@ const Investment_In_Multan = () => {
   />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://www.iesmkt.com/blog/investment-in-multan/" />
-  <meta property="og:image" content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FBlog22_1.46adb2fd.webp&w=3840&q=75" />
+  <meta property="og:image" content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FBlog24_1.60c445e8.webp&w=3840&q=75" />
 
   {/* Twitter Card */}
   <meta name="twitter:card" content="summary_large_image" />
@@ -38,7 +38,7 @@ const Investment_In_Multan = () => {
   <meta name="twitter:description" 
     content="Explore profitable real estate options in Multan, including DHA, Royal Orchard, and other high-ROI locations." 
   />
-  <meta name="twitter:image" content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FBlog22_1.46adb2fd.webp&w=3840&q=75" />
+  <meta name="twitter:image" content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FBlog24_1.60c445e8.webp&w=3840&q=75" />
 
   {/* Canonical URL */}
   <link rel="canonical" href="https://www.iesmkt.com/blog/investment-in-multan/" />

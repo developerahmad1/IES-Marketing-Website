@@ -17,7 +17,7 @@ import Image from "next/image";
 
 const RoyalSwiss = () => {
   const { openLeadpoup } = useAppContext();
-  useEffect(openLeadpoup, []);
+  useEffect(openLeadpoup, [openLeadpoup]);
 
   const images = [img1, img2, img3, img4, img5, img6, img7, img8];
   const altNames = [

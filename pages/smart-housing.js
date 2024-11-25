@@ -18,7 +18,7 @@ import Image from "next/image";
 
 const SmartHousing = () => {
   const { openLeadpoup } = useAppContext();
-  useEffect(openLeadpoup, []);
+  useEffect(openLeadpoup, [openLeadpoup]);
 
   const images = [img1, img2, img3, img4, img6, img7, img8, img9, img10];
   const altImagesNames = [

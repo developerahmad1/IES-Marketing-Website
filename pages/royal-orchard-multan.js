@@ -19,7 +19,7 @@ import Image from "next/image";
 
 const RoyalOrchad = () => {
   const { openLeadpoup } = useAppContext();
-  useEffect(openLeadpoup, []);
+  useEffect(openLeadpoup, [openLeadpoup]);
 
   const images = [
     img1,

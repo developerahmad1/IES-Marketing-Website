@@ -9,7 +9,7 @@ import img1 from "../public/Buch Villas_1 .webp";
 
 const Buch_Exective_Villas = () => {
   const { openLeadpoup } = useAppContext();
-  useEffect(openLeadpoup, []);
+  useEffect(openLeadpoup, [openLeadpoup]);
 
   const schemaData = {
     "@context": "https://schema.org/",

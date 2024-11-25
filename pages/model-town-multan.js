@@ -85,6 +85,7 @@ const ModelTownMultan = () => {
               height={800}
               loading="lazy"
               className="mx-auto"
+              alt="Model Town Multan"
             />
             {/* History */}
             <section className="mb-12">
@@ -209,6 +210,7 @@ const ModelTownMultan = () => {
               width={500}
               height={500}
               className="mx-auto"
+              alt="Model Town Multan"
             />
             <p className="text-center">Source : Multan Development Authority</p>
 

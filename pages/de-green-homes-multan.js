@@ -21,7 +21,7 @@ import paymentPlan from "../public/De_Green_Homes_Payment_Plan.webp";
 
 const De_Green_Homes = () => {
   const { openLeadpoup } = useAppContext();
-  useEffect(openLeadpoup, []);
+  useEffect(openLeadpoup, [openLeadpoup]);
 
   return (
     <div>

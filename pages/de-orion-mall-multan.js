@@ -24,7 +24,7 @@ import Link from "next/link";
 
 const De_Orion_Mall_Multan = () => {
   const { openLeadpoup } = useAppContext();
-  useEffect(openLeadpoup, []);
+  useEffect(openLeadpoup, [openLeadpoup]);
 
   const [loadingImg3, setLoadingImg3] = useState(true);
   const [loadingImg4, setLoadingImg4] = useState(true);
