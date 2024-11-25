@@ -67,7 +67,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="py-6 text-sm text-center ">
-          <span className='text-[#ff8e2b]'> IES Marketing </span> is the best real estate company.
+          <span className='text-[#ff8e2b]'> IES Marketing </span> is the best real estate company!
         </div>
       </footer>
     </div>
