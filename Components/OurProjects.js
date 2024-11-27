@@ -14,6 +14,7 @@ import Image from "next/image";
 import ModelTownMultan from "@/pages/model-town-multan";
 import deGreenHomes from "../public/De_Green_Homes_1.jpg";
 import buchExecutiveVillas from "../public/Buch Villas_1 .webp";
+import lahoreSmartCity from "../public/lahore-smart-city.webp";
 
 const OurProjects = ({ showHead = true, heading }) => {
   function scrollToTop() {
@@ -129,7 +130,6 @@ const OurProjects = ({ showHead = true, heading }) => {
               </button>
             </div>
           </Link>
-
           {/* Royal orchard*/}
           <Link
             href="/royal-orchard-multan"
@@ -165,7 +165,6 @@ const OurProjects = ({ showHead = true, heading }) => {
               </button>
             </div>
           </Link>
-
           {/* city Housing */}
           <Link
             href="/citi-housing-multan"
@@ -202,7 +201,6 @@ const OurProjects = ({ showHead = true, heading }) => {
               </button>
             </div>
           </Link>
-
           {/* Adams housing */}
           <Link
             href="/adams-housing"
@@ -238,7 +236,6 @@ const OurProjects = ({ showHead = true, heading }) => {
               </button>
             </div>
           </Link>
-
           {/* Smart Housing card*/}
           <Link
             href="/smart-housing"
@@ -274,7 +271,6 @@ const OurProjects = ({ showHead = true, heading }) => {
               </button>
             </div>
           </Link>
-
           {/* Royal Swiss */}
           <Link
             href={`/royal-swiss`}
@@ -310,7 +306,6 @@ const OurProjects = ({ showHead = true, heading }) => {
               </button>
             </div>
           </Link>
-
           {/* Wapda Town Multan */}
           <Link
             href={`/wapda-town`}
@@ -344,7 +339,6 @@ const OurProjects = ({ showHead = true, heading }) => {
               </button>
             </div>
           </Link>
-
           {/* Model Town */}
           <Link
             href={`/model-town-multan`}
@@ -379,7 +373,6 @@ const OurProjects = ({ showHead = true, heading }) => {
               </button>
             </div>
           </Link>
-
           {/* De Green Homes */}
           <Link
             href={`/de-green-homes-multan`}
@@ -417,7 +410,6 @@ const OurProjects = ({ showHead = true, heading }) => {
               </button>
             </div>
           </Link>
-
           {/* De Orion */}
           <Link
             href={`/de-orion-mall-multan`}
@@ -453,7 +445,6 @@ const OurProjects = ({ showHead = true, heading }) => {
               </button>
             </div>
           </Link>
-
           {/* Buch Executive Villas - Pathway to Luxurious Living in Multan */}
           <Link
             href={`/buch-executive-villas-multan`}
@@ -479,6 +470,41 @@ const OurProjects = ({ showHead = true, heading }) => {
                 comprises more than 1,000 homes and has become a vibrant
                 neighborhood attracting those seeking an elegant lifestyle
                 surrounded by modern amenities and green spaces.
+              </p>
+            </div>
+            <div className="p-6 pt-0">
+              <button
+                className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                type="button"
+              >
+                View More
+              </button>
+            </div>
+          </Link>
+
+          {/* Lahore Smart City - A Revolutionary Housing Project */}
+          <Link
+            href={`/lahore-smart-city`}
+            onClick={scrollToTop}
+            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-gray-900 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
+          >
+            <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+              <Image
+                src={lahoreSmartCity}
+                alt="Lahore Smart City"
+                title="Lahore Smart City"
+                className="w-full"
+              />
+            </div>
+            <div className="p-6">
+              <h2 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                Lahore Smart City - A Revolutionary Housing Project
+              </h2>
+              <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+                Lahore Smart City (LSC) is known for being a cutting-edge and
+                environment-friendly residential project in Pakistan. This
+                project is the country&apos;s second and is a significant occurrence
+                in South Asia.
               </p>
             </div>
             <div className="p-6 pt-0">

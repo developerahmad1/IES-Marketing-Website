@@ -69,35 +69,45 @@ const Demo_Blog = () => {
 export default Demo_Blog;
 
 // &apos;
-//         <h3 className="text-[20px] font-bold md:text-[23px] text-start"></h3>
-//      <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start"></h2>
+//  <h3 className="text-[20px] font-[600] md:text-[22px] text-start"></h3>
+//   <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start"></h2>
 
-{
-  /* contact */
-  
-/* <section>
-  <p className="pb-2 italic font-bold ">
-    For more details and information, contact us on:
-  </p>
-  <p className="text-xl pb-3">
-    {" "}
-    <span className="font-bold">Email Address: </span>{" "}
-    <a
-      href="mailto:iesmarketingpakistan@gmail.com"
-      className="text-blue-500 hover:underline"
-    >
-      iesmarketingpakistan@gmail.com
-    </a>
-  </p>
-  <p className="text-xl pb-3">
-    {" "}
-    <span className="font-bold">Phone: </span>{" "}
-    <a href="tel:923338400108" className="text-blue-500 hover:underline">
-      +92333-8400108{" "}
-    </a>
-    ,{" "}
-    <a href="tel:92333-8400106" className="text-blue-500 hover:underline">
-      +92333-8400106
-    </a>
-  </p>
-</section>; */}
+
+
+
+
+
+
+             {/* contact 
+            <section>
+              <p className="pb-2 italic font-bold ">
+                For more details and information, contact us on:
+              </p>
+              <p className="text-xl pb-3">
+                {" "}
+                <span className="font-bold">Email Address: </span>{" "}
+                <a
+                  href="mailto:iesmarketingpakistan@gmail.com"
+                  className="text-blue-500 hover:underline"
+                >
+                  iesmarketingpakistan@gmail.com
+                </a>
+              </p>
+              <p className="text-xl pb-3">
+                {" "}
+                <span className="font-bold">Phone: </span>{" "}
+                <a
+                  href="tel:923338400108"
+                  className="text-blue-500 hover:underline"
+                >
+                  +92333-8400108{" "}
+                </a>
+                ,{" "}
+                <a
+                  href="tel:92333-8400106"
+                  className="text-blue-500 hover:underline"
+                >
+                  +92333-8400106
+                </a>
+              </p>
+            </section> */}
