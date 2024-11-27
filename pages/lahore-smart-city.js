@@ -42,7 +42,7 @@ const Lahore_Smart_City = () => {
         />
         <meta
           property="og:image"
-          content="https://www.iesmkt.com/assets/images/lahore-smart-city.jpg"
+          content="https://www.iesmkt.com/lahore-smart-city.webp"
         />
         <meta
           property="og:url"
@@ -62,7 +62,7 @@ const Lahore_Smart_City = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.iesmkt.com/assets/images/lahore-smart-city.jpg"
+          content="https://www.iesmkt.com/lahore-smart-city.webp"
         />
       </Head>
 
