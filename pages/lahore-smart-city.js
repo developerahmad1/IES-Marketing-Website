@@ -83,7 +83,7 @@ const Lahore_Smart_City = () => {
                       Lahore Smart City – A Revolutionary Housing Project
                     </h1>
                     <p className="max-w-3xl mx-auto mb-10 text-lg text-gray-300">
-                      Lahore Smart City is a testament to Pakistan's advancement
+                      Lahore Smart City is a testament to Pakistan&apos;s advancement
                       in urban development, due to its strategic location,
                       futuristic infrastructure, and smart features. It promises
                       a modern and sustainable lifestyle
