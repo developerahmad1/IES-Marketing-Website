@@ -13,7 +13,7 @@ import blog6 from "../public/Blogs/Blog6.webp";
 import blog7 from "../public/Blogs/Blog7_1.jpg";
 import blog8 from "../public/Blogs/Blog8.jpg";
 import blog9 from "../public/Blogs/Blog9.jpg";
-import blog10 from "../public/Blogs/Blog10.jpg";
+import blog10 from "../public/Blogs/investment-in-dha-multan.jpg";
 import blog11 from "../public/Blogs/Blog11.jpg";
 import img12 from "../public/Blogs/Blog12.jpg";
 import img13 from "../public/Blogs/Blog13.jpg";
@@ -408,7 +408,7 @@ const Blogs = ({ heading, showHead = true }) => {
 
               {/* 10th Investment Opportunities in DHA Multan */}
               <Link
-                href="/blog/investment-opportunities-in-dha-multan"
+                href="/blog/investment-in-dha-multan"
                 onClick={scrollToTop}
                 className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
               >

@@ -284,7 +284,7 @@ const DHA_Multan_Developmet_Charges_Update_2024 = () => {
                 <p className="pb-6">
                   To Read More:{" "}
                   <Link
-                    href={"/blog/investment-opportunities-in-dha-multan/"}
+                    href={"/blog/investment-in-dha-multan/"}
                     className="text-blue-500 hover:underline"
                   >
                     Investment Opportunities in DHA Multan
