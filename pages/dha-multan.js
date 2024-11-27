@@ -41,39 +41,44 @@ const DHAMultan = () => {
   return (
     <>
       <Head>
-        <title>DHA Multan – Redefining Urban Elegance</title>
+        <title>DHA Multan - Premium Society and Investment Opportunities</title>
         <meta
           name="keywords"
-          content="DHA Multan, DHA housing society, Defence housing authority, Best Societies in Multan, Pakistan Real Estate, Real Estate Investment"
+          content="DHA Multan, DHA Multan Housing, DHA Multan Investment, DHA Multan Plots, Buy Property in DHA Multan"
         />
         <meta
           name="description"
-          content="DHA Multan stands out for high-quality amenities, development, and durability. It offers a promising opportunity to invest and build a dream home."
+          content="DHA Multan offers modern amenities, prime location, and great investment opportunities. Learn more about DHA Multan's plots, houses, and payment plans."
         />
-        <link rel="canonical" href="https://www.iesmkt.com/dha-multan/" />
-
         <meta
           property="og:title"
-          content="DHA Multan – Redefining Urban Elegance"
+          content="DHA Multan - Premium Society and Investment Opportunities"
         />
         <meta
           property="og:description"
-          content="DHA Multan stands out for high-quality amenities, development, and durability. It offers a promising opportunity to invest and build a dream home."
+          content="DHA Multan offers modern amenities, prime location, and great investment opportunities. Learn more about DHA Multan's plots, houses, and payment plans."
         />
+        <meta property="og:image" content="https://www.iesmkt.com/DHA 1.webp" />
         <meta property="og:url" content="https://www.iesmkt.com/dha-multan/" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.iesmkt.com/DHA%201.webp" />
 
         <meta
           name="twitter:title"
-          content="DHA Multan – Redefining Urban Elegance"
+          content="DHA Multan - Premium Society and Investment Opportunities"
         />
         <meta
           name="twitter:description"
-          content="DHA Multan stands out for high-quality amenities, development, and durability. It offers a promising opportunity to invest and build a dream home."
+          content="DHA Multan offers modern amenities, prime location, and great investment opportunities. Learn more about DHA Multan's plots, houses, and payment plans."
         />
-        <meta name="twitter:url" content="https://www.iesmkt.com/dha-multan/" />
-        <meta name="twitter:image" content="https://www.iesmkt.com/DHA%201.webp" />
+        <meta
+          name="twitter:image"
+          content="https://www.iesmkt.com/DHA 1.webp"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+
+        <link rel="canonical" href="https://www.iesmkt.com/dha-multan/" />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="IES Marketing" />
       </Head>
 
       <div>
@@ -92,13 +97,16 @@ const DHAMultan = () => {
                   <div className="max-w-4xl mx-auto text-center">
                     {/* <span className="text-gray-200 font-semibold uppercase tracking-widest">IES Marketing</span> */}
                     <h1 className="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">
-                      DHA Multan – Redefining Urban Elegance
+                      DHA Multan - A Premium Housing Society in Multan
                     </h1>
                     <p className="max-w-3xl mx-auto mb-10 text-lg  text-gray-300 text-center">
-                      Defense Housing Authority (DHA) is a prestigious
-                      residential community featuring well-planned residential
-                      plots and commercial areas equipped with modern
-                      infrastructure and provide a secure living environment.
+                      Defense Housing Authority is renowned for its high-quality
+                      projects and trustworthiness across Pakistan. Similarly,
+                      DHA Multan meets high standards of quality and
+                      reliability. It offers multitude of benefits to residents
+                      and investors because properties in DHA projects tend to
+                      increase over time due to high demand and quality of
+                      development.
                     </p>
                     <div onClick={openLeadpoup}>
                       <a
@@ -139,7 +147,7 @@ const DHAMultan = () => {
 
             {/* History */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mb-4 text-start">
+              <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start">
                 DHA Multan Developer History and Owner
               </h2>
               <p className="text-lg leading-relaxed">
@@ -159,7 +167,7 @@ const DHAMultan = () => {
 
             {/* Other Popular Projects of Defence Housing Authority  */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mb-4 text-start">
+              <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start">
                 Other Popular Projects of Defense Housing Authority
               </h2>
               <p className="text-lg leading-relaxed">
@@ -187,7 +195,7 @@ const DHAMultan = () => {
 
             {/* NOC Status */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mb-4 text-start">
+              <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start">
                 DHA Multan NOC Status
               </h2>
               <p className="text-lg leading-relaxed">
@@ -208,7 +216,7 @@ const DHAMultan = () => {
 
             {/* development Status */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mb-4 text-start">
+              <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start">
                 DHA Multan Development Status
               </h2>
               <p className="text-lg leading-relaxed">
@@ -281,7 +289,7 @@ const DHAMultan = () => {
 
             {/* Location */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mb-4 text-start">
+              <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start">
                 DHA Multan Location
               </h2>
               <p className="text-lg leading-relaxed">
@@ -303,7 +311,7 @@ const DHAMultan = () => {
 
             {/* Accessibiulities */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mb-4 text-start">
+              <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start">
                 DHA Multan Accessibilities
               </h2>
               <p className="text-lg leading-relaxed">
@@ -326,7 +334,7 @@ const DHAMultan = () => {
 
             {/* DHA Multan Nearby Landmarks*/}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mb-4 text-start">
+              <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start">
                 DHA Multan Nearby Landmarks
               </h2>
               <p className="text-lg leading-relaxed">
@@ -349,7 +357,7 @@ const DHAMultan = () => {
 
             {/* DHA Multan Sectors */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mb-4 text-start">
+              <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start">
                 DHA Multan Sectors
               </h2>
               <p className="text-lg leading-relaxed">
@@ -417,7 +425,7 @@ const DHAMultan = () => {
 
             {/* Rumanza Golf Community */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mb-4 text-start">
+              <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start">
                 Rumanza Golf Community
               </h2>
               <p className="text-lg leading-relaxed">
@@ -438,7 +446,7 @@ const DHAMultan = () => {
 
             {/* Paymemnt Plans */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mb-4 text-start">
+              <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start">
                 DHA Multan Payment Plan
               </h2>
               <p className="text-lg leading-relaxed">
@@ -457,7 +465,9 @@ const DHAMultan = () => {
 
             {/* conclusion */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mb-4 text-start">Conclusion</h2>
+              <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start">
+                Conclusion
+              </h2>
               <p className="text-lg leading-relaxed">
                 Defense Housing Authority is renowned for its high-quality
                 projects and trustworthiness across Pakistan. Similarly, DHA
@@ -478,9 +488,9 @@ const DHAMultan = () => {
             {/* FAQS */}
             <section className="mb-12">
               <h2 className="text-3xl font-bold mb-4">FAQS</h2>
-              <h4 className="text-xl font-semibold mt-5 text-start">
+              <h3 className="text-[20px] font-[600] md:text-[22px] text-start mt-5">
                 Where is DHA Multan located?
-              </h4>
+              </h3>
               <p className="text-[15px] sm:text-lg leading-relaxed">
                 DHA Multan is connected to major routes and landmarks in Multan
                 city allowing people to access popular places within a few
@@ -490,9 +500,9 @@ const DHAMultan = () => {
                 Tabraiz, Shah rukn-e-alam, and Bahaudin Zakariya Gates. Also, it
                 will take around 30 minutes to reach from Piran Ghaib Road.
               </p>
-              <h4 className="text-xl font-semibold mt-5 text-start">
+              <h3 className="text-[20px] font-[600] md:text-[22px] text-start mt-5">
                 Why should I invest in DHA Multan?
-              </h4>
+              </h3>
               <p className="text-[15px] sm:text-lg leading-relaxed">
                 Investing in DHA Multan offers several compelling reasons for
                 short and long-term investment, but the primary reason is the
@@ -502,9 +512,9 @@ const DHAMultan = () => {
                 Furthermore, it provides a luxurious and affordable lifestyle to
                 people.
               </p>
-              <h4 className="text-xl font-semibold mt-5 text-start">
+              <h3 className="text-[20px] font-[600] md:text-[22px] text-start mt-5">
                 What amenities are present in DHA Multan?
-              </h4>
+              </h3>
               <p className="text-[15px] sm:text-lg leading-relaxed">
                 DHA Multan offers a combination of security, luxury, growth
                 potential, and provides a wide range of amenities, like gated
@@ -514,9 +524,9 @@ const DHAMultan = () => {
                 fitness centers, cinemas, and other modern facilities are also
                 present to facilitate the residents of the DHA Multan.
               </p>
-              <h4 className="text-xl font-semibold mt-5 text-start">
+              <h3 className="text-[20px] font-[600] md:text-[22px] text-start mt-5">
                 Is DHA Multan the largest DHA in Pakistan?
-              </h4>
+              </h3>
               <p className="text-[15px] sm:text-lg leading-relaxed">
                 DHA Multan is not the largest Defense Housing Authority’s
                 project, but it covers almost 10,000 acres land area. This
@@ -525,10 +535,10 @@ const DHAMultan = () => {
                 Pakistan and renamed as Lahore Cantonment Cooperative Housing
                 Society, but subsequently converted to DHA Lahore in 1999.
               </p>
-              <h4 className="text-xl font-semibold mt-5 text-start">
+              <h3 className="text-[20px] font-[600] md:text-[22px] text-start mt-5">
                 In which cities projects of Defense Housing Authority are
                 present?
-              </h4>
+              </h3>
               <p className="text-[15px] sm:text-lg leading-relaxed">
                 DHA projects are present in ten different cities of Pakistan,
                 but developers are planning to introduce an innovative urban
@@ -548,9 +558,9 @@ const DHAMultan = () => {
                 <li>DHA Hyderabad</li>
                 <li>DHA Valley</li>
               </ul>
-              <h4 className="text-xl font-semibold mt-5 text-start">
+              <h3 className="text-[20px] font-[600] md:text-[22px] text-start mt-5">
                 How many balloting events are held in DHA Multan?
-              </h4>
+              </h3>
               <p className="text-[15px] sm:text-lg leading-relaxed">
                 Until now, two balloting events are conducted in DHA Multan in
                 which all of their plots were sold. First balloting event was
@@ -588,6 +598,7 @@ const DHAMultan = () => {
                   }`}
                   src={src}
                   alt={altNames[index]}
+                  title={altNames[index]}
                   loading="lazy"
                   onLoad={() => handleImageLoad(index)}
                   onError={() => handleImageLoad(index)} // In case image fails to load
@@ -601,7 +612,9 @@ const DHAMultan = () => {
 
         {/* Disclaimer */}
         <section className="my-10 px-3 sm:px-20 text-justify">
-          <h2 className="text-3xl font-bold mb-4 text-start">Disclaimer</h2>
+          <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start">
+            Disclaimer
+          </h2>
           <p className="text-xl font-semibold mt-5">
             We collect information from credible and authentic online sources to
             provide up-to-date property details. We make no representations or
@@ -612,10 +625,10 @@ const DHAMultan = () => {
           </p>
         </section>
 
-        <OurProjects
+        {/* <OurProjects
           showHead={false}
           heading="Our Other Real Estate Projects"
-        />
+        /> */}
       </div>
     </>
   );
