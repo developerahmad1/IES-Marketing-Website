@@ -83,15 +83,10 @@ const Lahore_Smart_City = () => {
                       Lahore Smart City – A Revolutionary Housing Project
                     </h1>
                     <p className="max-w-3xl mx-auto mb-10 text-lg text-gray-300">
-                      Lahore Smart City (LSC) is known for being a cutting-edge
-                      and environment-friendly residential project in Pakistan.
-                      This project is the country&apos;s second and is a significant
-                      occurrence in South Asia. The goal of Lahore Smart City is
-                      to revolutionize modern housing by merging advanced
-                      technology with eco-friendly solutions. Its unique
-                      infrastructure, smart features, and strategic location
-                      make it an ideal choice for investors and residents alike.
-                      The Lahore Smart City offers cutting-edge facilities for
+                      Lahore Smart City is a testament to Pakistan's advancement
+                      in urban development, due to its strategic location,
+                      futuristic infrastructure, and smart features. It promises
+                      a modern and sustainable lifestyle
                     </p>
                     <div onClick={openLeadpoup}>
                       <a
@@ -117,9 +112,9 @@ const Lahore_Smart_City = () => {
             <p className="pb-6">
               Lahore Smart City (LSC) is known for being a cutting-edge and
               environment-friendly residential project in Pakistan. This project
-              is the country&apos;s second and is a significant occurrence in South
-              Asia. The goal of Lahore Smart City is to revolutionize modern
-              housing by merging advanced technology with eco-friendly
+              is the country&apos;s second and is a significant occurrence in
+              South Asia. The goal of Lahore Smart City is to revolutionize
+              modern housing by merging advanced technology with eco-friendly
               solutions. Its unique infrastructure, smart features, and
               strategic location make it an ideal choice for investors and
               residents alike. The Lahore Smart City offers cutting-edge
@@ -209,7 +204,7 @@ const Lahore_Smart_City = () => {
             <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start">
               Payment Plan of Lahore Smart City
             </h2>
-            <p className="pb-7">  
+            <p className="pb-7">
               The payment plan of Lahore Smart City is designed to be affordable
               and investor-friendly. It offers flexible installment options to
               cater to a diverse clientele. For more details about Lahore Smart
@@ -295,10 +290,10 @@ const Lahore_Smart_City = () => {
             </h3>
             <p className="pb-5">
               Future Development Holdings (FDH) and Habib Rafiq Limited (HRL),
-              well-known developers in Pakistan&apos;s real estate industry, are the
-              proprietors of Lahore Smart City. Collectively, they offer years
-              of experience to guarantee the project&apos;s success and the
-              development of global standards.
+              well-known developers in Pakistan&apos;s real estate industry, are
+              the proprietors of Lahore Smart City. Collectively, they offer
+              years of experience to guarantee the project&apos;s success and
+              the development of global standards.
             </p>
 
             <h3 className="text-[20px] font-[600] md:text-[22px] text-start">
