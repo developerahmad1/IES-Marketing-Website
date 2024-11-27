@@ -38,7 +38,7 @@ const InvestmentOpportunitiesInDHAMultan_10 = () => {
         />
         <meta
           property="og:image"
-          content="https://www.iesmkt.com/investment-in-dha-multan.jpg"
+          content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Finvestment-in-dha-multan.eae8dd89.jpg&w=3840&q=75"
         />
         <meta
           property="og:url"
@@ -56,7 +56,7 @@ const InvestmentOpportunitiesInDHAMultan_10 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.iesmkt.com/investment-in-dha-multan.jpg"
+          content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Finvestment-in-dha-multan.eae8dd89.jpg&w=3840&q=75"
         />
         <meta name="twitter:card" content="summary_large_image" />
 
@@ -78,9 +78,14 @@ const InvestmentOpportunitiesInDHAMultan_10 = () => {
             <div className="mb-4 md:mb-0 w-full mx-auto relative">
               <div className="px-4 py-2 sm:py-2 lg:px-0">
                 {/* Top Image */}
-                <Image src={img1} alt=" Investment Opportunities in DHA Multan - Secure Your Future
-                  Today"  title="pInvestment Opportunities in DHA Multan - Secure Your Future
-                  Today" className="mx-auto" />
+                <Image
+                  src={img1}
+                  alt=" Investment Opportunities in DHA Multan - Secure Your Future
+                  Today"
+                  title="pInvestment Opportunities in DHA Multan - Secure Your Future
+                  Today"
+                  className="mx-auto"
+                />
                 {/* Heading */}
                 <h1 className="text-3xl sm:text-4xl font-semibold text-gray-800 leading-tight mt-8">
                   Investment Opportunities in DHA Multan - Secure Your Future
@@ -325,7 +330,7 @@ const InvestmentOpportunitiesInDHAMultan_10 = () => {
               </div>
 
               {/* Social Media Section */}
-<SocialMediaSection />
+              <SocialMediaSection />
             </div>
           </main>
         </div>
