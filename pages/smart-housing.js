@@ -261,9 +261,9 @@ const SmartHousing = () => {
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13812.318492705257!2d71.44402929246822!3d30.063252069052993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8b66bb588cb3c26b%3A0xf56b38f814d92751!2sSmart%20Housing%20Multan!5e0!3m2!1sen!2s!4v1724130783166!5m2!1sen!2s"
                   height="450"
-                  allowfullscreen=""
+                  allowFullScreen=""
                   loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
+                  referrerPolicy="no-referrer-when-downgrade"
                   className="w-full"
                 ></iframe>
               </div>

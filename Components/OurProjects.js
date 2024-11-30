@@ -15,6 +15,7 @@ import ModelTownMultan from "@/pages/model-town-multan";
 import deGreenHomes from "../public/De_Green_Homes_1.jpg";
 import buchExecutiveVillas from "../public/Buch Villas_1 .webp";
 import lahoreSmartCity from "../public/lahore-smart-city.webp";
+import capitalSmartCity from "../public/capita-smart-city.webp";
 
 const OurProjects = ({ showHead = true, heading }) => {
   function scrollToTop() {
@@ -503,8 +504,44 @@ const OurProjects = ({ showHead = true, heading }) => {
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
                 Lahore Smart City (LSC) is known for being a cutting-edge and
                 environment-friendly residential project in Pakistan. This
-                project is the country&apos;s second and is a significant occurrence
-                in South Asia.
+                project is the country&apos;s second and is a significant
+                occurrence in South Asia.
+              </p>
+            </div>
+            <div className="p-6 pt-0">
+              <button
+                className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                type="button"
+              >
+                View More
+              </button>
+            </div>
+          </Link>
+
+          {/* Capital Smart City – A Gateway to Futuristic Living */}
+          <Link
+            href={`/capital-smart-city `}
+            onClick={scrollToTop}
+            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-gray-900 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
+          >
+            <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+              <Image
+                src={capitalSmartCity}
+                alt="Capital Smart City"
+                title="Capital Smart City"
+                className="w-full"
+              />
+            </div>
+            <div className="p-6">
+              <h2 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                Capital Smart City – A Gateway to Futuristic Living
+              </h2>
+              <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+                Capital Smart City (CSC) has set a new benchmark for residential
+                developments in Pakistan by providing modern infrastructure,
+                including a painstakingly planned residential area that
+                prioritizes sustainability, smart urban planning, and
+                eco-friendliness.
               </p>
             </div>
             <div className="p-6 pt-0">

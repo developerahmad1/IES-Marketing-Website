@@ -4,14 +4,24 @@ import { useRouter } from "next/router";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Image from "next/image";
 import iesLogo from "../public/IES-balck-logo-.webp";
-import Head from "next/head";
+import { FaAngleDown } from "react-icons/fa6";
 
 const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false); // Dropdown menu state
   const router = useRouter(); // Get the current route
 
   const toggleNav = () => {
     setNavOpen(!navOpen);
+  };
+
+  const toggleDropdown = () => {
+    setDropdownOpen(!dropdownOpen);
+  };
+
+  const closeAllMenus = () => {
+    setDropdownOpen(false);
+    setNavOpen(false);
   };
 
   return (
@@ -25,7 +35,12 @@ const Navbar = () => {
       <header className="navbar-header bg-white shadow-md w-full fixed z-30 top-0 left-0">
         <div className="mx-auto flex flex-n justify-between items-center flex-row relative z-20 p-4">
           <div className="flex items-center">
-            <Image src={iesLogo} alt="IES Marketing Logo" title="IES Marketing Logo" className="w-24" />
+            <Image
+              src={iesLogo}
+              alt="IES Marketing Logo"
+              title="IES Marketing Logo"
+              className="w-24"
+            />
           </div>
 
           <div className="md:hidden flex items-center">
@@ -39,35 +54,103 @@ const Navbar = () => {
 
           <nav className="hidden md:flex space-x-5 ml-auto text-gray-700 gap-2">
             <Link href="/" passHref>
-              <span className={`text-gray-700 hover:text-black ${router.pathname === '/' ? 'font-bold' : ''}`}>
+              <span
+                className={`text-gray-700 hover:text-black ${
+                  router.pathname === "/" ? "font-bold" : ""
+                }`}
+              >
                 Home
               </span>
             </Link>
             <Link href="/housing-societies-in-multan" passHref>
-              <span className={`text-gray-700 hover:text-black ${router.pathname === '/housing-societies-in-multan' ? 'font-bold' : ''}`}>
+              <span
+                className={`text-gray-700 hover:text-black ${
+                  router.pathname === "/housing-societies-in-multan"
+                    ? "font-bold"
+                    : ""
+                }`}
+              >
                 Our Projects
               </span>
             </Link>
             <Link href="/blogs" passHref>
-              <span className={`text-gray-700 hover:text-black ${router.pathname === '/blogs' ? 'font-bold' : ''}`}>
+              <span
+                className={`text-gray-700 hover:text-black ${
+                  router.pathname === "/blogs" ? "font-bold" : ""
+                }`}
+              >
                 Blogs
               </span>
             </Link>
             <Link href="/gallery" passHref>
-              <span className={`text-gray-700 hover:text-black ${router.pathname === '/gallery' ? 'font-bold' : ''}`}>
+              <span
+                className={`text-gray-700 hover:text-black ${
+                  router.pathname === "/gallery" ? "font-bold" : ""
+                }`}
+              >
                 Gallery
               </span>
             </Link>
             <Link href="/career" passHref>
-              <span className={`text-gray-700 hover:text-black ${router.pathname === '/career' ? 'font-bold' : ''}`}>
+              <span
+                className={`text-gray-700 hover:text-black ${
+                  router.pathname === "/career" ? "font-bold" : ""
+                }`}
+              >
                 Career
               </span>
             </Link>
             <Link href="/about-us" passHref>
-              <span className={`text-gray-700 hover:text-black ${router.pathname === '/about-us' ? 'font-bold' : ''}`}>
+              <span
+                className={`text-gray-700 hover:text-black ${
+                  router.pathname === "/about-us" ? "font-bold" : ""
+                }`}
+              >
                 About Us
               </span>
             </Link>
+            {/* Plots Dropdown */}
+            <div className="relative md:inline">
+              <button
+                onClick={toggleDropdown}
+                className="flex items-center hover:text-black w-full"
+              >
+                Plots
+                <span
+                  className={`ms-2 transition-transform ${
+                    dropdownOpen ? "rotate-180" : "rotate-0"
+                  }`}
+                >
+                  <FaAngleDown />
+                </span>
+              </button>
+
+              {/* Dropdown Menu for Large Screens */}
+              {dropdownOpen && (
+                <ul className="absolute left-0 top-full mt-2 bg-white shadow-lg rounded-md w-48 z-20 hidden md:block">
+                  <li>
+                    <Link
+                      href="/plots-for-sale-in-smart-housing-multan"
+                      className="block px-4 py-2 hover:bg-gray-100"
+                      onClick={closeAllMenus}
+                    >
+                      Smart Housing Multan
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/plots-for-sale-in-dha-multan"
+                      className="block px-4 py-2 hover:bg-gray-100"
+                      onClick={closeAllMenus}
+                    >
+                      DHA Multan
+                    </Link>
+                  </li>
+                </ul>
+              )}
+            </div>
+
+            
           </nav>
 
           <div className="hidden md:flex ml-auto space-x-5">
@@ -86,7 +169,9 @@ const Navbar = () => {
             <div className="px-4 py-4 space-y-4">
               <Link href="/" passHref>
                 <span
-                  className={`block text-gray-700 hover:text-black mt-1 ${router.pathname === '/' ? 'font-bold' : ''}`}
+                  className={`block text-gray-700 hover:text-black mt-1 ${
+                    router.pathname === "/" ? "font-bold" : ""
+                  }`}
                   onClick={toggleNav}
                 >
                   Home
@@ -94,7 +179,11 @@ const Navbar = () => {
               </Link>
               <Link href="/housing-societies-in-multan" passHref>
                 <span
-                  className={`block text-gray-700 hover:text-black mt-1 ${router.pathname === '/housing-societies-in-multan' ? 'font-bold' : ''}`}
+                  className={`block text-gray-700 hover:text-black mt-1 ${
+                    router.pathname === "/housing-societies-in-multan"
+                      ? "font-bold"
+                      : ""
+                  }`}
                   onClick={toggleNav}
                 >
                   Our Projects
@@ -102,7 +191,9 @@ const Navbar = () => {
               </Link>
               <Link href="/blogs" passHref>
                 <span
-                  className={`block text-gray-700 hover:text-black mt-1 ${router.pathname === '/blogs' ? 'font-bold' : ''}`}
+                  className={`block text-gray-700 hover:text-black mt-1 ${
+                    router.pathname === "/blogs" ? "font-bold" : ""
+                  }`}
                   onClick={toggleNav}
                 >
                   Blogs
@@ -110,7 +201,9 @@ const Navbar = () => {
               </Link>
               <Link href="/gallery" passHref>
                 <span
-                  className={`block text-gray-700 hover:text-black mt-1 ${router.pathname === '/gallery' ? 'font-bold' : ''}`}
+                  className={`block text-gray-700 hover:text-black mt-1 ${
+                    router.pathname === "/gallery" ? "font-bold" : ""
+                  }`}
                   onClick={toggleNav}
                 >
                   Gallery
@@ -118,7 +211,9 @@ const Navbar = () => {
               </Link>
               <Link href="/career" passHref>
                 <span
-                  className={`block text-gray-700 hover:text-black mt-1 ${router.pathname === '/career' ? 'font-bold' : ''}`}
+                  className={`block text-gray-700 hover:text-black mt-1 ${
+                    router.pathname === "/career" ? "font-bold" : ""
+                  }`}
                   onClick={toggleNav}
                 >
                   Career
@@ -126,13 +221,53 @@ const Navbar = () => {
               </Link>
               <Link href="/about-us" passHref>
                 <span
-                  className={`block text-gray-700 hover:text-black mt-1 ${router.pathname === '/about-us' ? 'font-bold' : ''}`}
+                  className={`block text-gray-700 hover:text-black mt-1 ${
+                    router.pathname === "/about-us" ? "font-bold" : ""
+                  }`}
                   onClick={toggleNav}
                 >
                   About Us
                 </span>
               </Link>
+            {/* Plots Dropdown */}
+            <div className="relative md:inline">
+              <button
+                onClick={toggleDropdown}
+                className="flex items-center hover:text-black w-full"
+              >
+                Plots
+                <span
+                  className={`ms-2 transition-transform ${
+                    dropdownOpen ? "rotate-180" : "rotate-0"
+                  }`}
+                >
+                  <FaAngleDown />
+                </span>
+              </button>
 
+              {dropdownOpen && navOpen && (
+                <ul className="block md:hidden w-full text-gray-700">
+                  <li>
+                    <Link
+                      href="/plots-for-sale-in-smart-housing-multan"
+                      className="block py-2 w-full border-t hover:bg-gray-100"
+                      onClick={closeAllMenus}
+                    >
+                      Smart Housing Multan
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/plots-for-sale-in-dha-multan"
+                      className="block py-2 w-full border-t hover:bg-gray-100"
+                      onClick={closeAllMenus}
+                    >
+                      DHA Multan
+                    </Link>
+                  </li>
+                </ul>
+              )}
+            </div>
               <a
                 href="tel:03338400106"
                 className="block bg-black-800 hover:text-white px-4 py-2 border-black border-2 rounded-full text-black text-center hover:bg-black transition duration-300"
@@ -157,3 +292,10 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
+
+
+
+
