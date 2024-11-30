@@ -66,49 +66,6 @@ const Capital_Smart_City = () => {
           content="https://www.iesmkt.com/capita-smart-city.webp"
         />
 
-        {/* Schema Markup for WebPage */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            name: "Capital Smart City Islamabad",
-            description:
-              "Explore Capital Smart City Islamabad - NOC approved, prime location, smart features, and flexible payment plans. Find residential and commercial plots.",
-          })}
-        </script>
-
-        {/* RealEstateListing Schema */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "RealEstateListing",
-            name: "Capital Smart City Islamabad",
-            description:
-              "Explore Capital Smart City, offering prime residential and commercial plots.",
-            url: "https://www.iesmkt.com/capital-smart-city/",
-            offers: [
-              {
-                "@type": "Offer",
-                itemOffered: {
-                  "@type": "Product",
-                  name: "Residential Plots",
-                },
-                priceCurrency: "PKR",
-                availability: "InStock",
-              },
-              {
-                "@type": "Offer",
-                itemOffered: {
-                  "@type": "Product",
-                  name: "Commercial Plots",
-                },
-                priceCurrency: "PKR",
-                availability: "InStock",
-              },
-            ],
-          })}
-        </script>
-
         {/* FAQ Schema Markup */}
         <script type="application/ld+json">
           {JSON.stringify({
@@ -120,7 +77,7 @@ const Capital_Smart_City = () => {
                 name: "Who is the owner of Capital Smart City?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "The owner of Capital Smart City is Future Development Holdings (FDH), in collaboration with Habib Rafiq Pvt. Ltd.",
+                  text: "The owner of Capital Smart City is Future Development Holdings (FDH) in collaboration with Habib Rafiq (Pvt) Ltd, a renowned name in Pakistan's real estate and construction industry.",
                 },
               },
               {
@@ -128,7 +85,7 @@ const Capital_Smart_City = () => {
                 name: "Is Capital Smart City legal?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes, Capital Smart City is legally approved by the Rawalpindi Development Authority (RDA).",
+                  text: "Yes, Capital Smart City is a legal housing society with an approved NOC (No Objection Certificate) from the Rawalpindi Development Authority (RDA).",
                 },
               },
               {
@@ -136,7 +93,7 @@ const Capital_Smart_City = () => {
                 name: "How big is Capital Smart City Islamabad?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Capital Smart City spans over 55,000 Kanal, making it one of the largest smart cities in Pakistan.",
+                  text: "Capital Smart City Islamabad spans over 55,000 Kanal, making it one of the largest housing societies in Pakistan. The project is designed to expand further, with plans to reach approximately 80,000 Kanal in the future.",
                 },
               },
               {
@@ -144,7 +101,7 @@ const Capital_Smart_City = () => {
                 name: "Is Capital Smart City a good investment?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes, Capital Smart City is an excellent investment opportunity due to its modern infrastructure, prime location, and high ROI potential.",
+                text: "Capital Smart City Islamabad offers a prime location, smart technologies, modern amenities, and eco-friendly development, making it a high-potential investment opportunity.",
                 },
               },
             ],

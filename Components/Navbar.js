@@ -137,15 +137,6 @@ const Navbar = () => {
                       Smart Housing Multan
                     </Link>
                   </li>
-                  <li>
-                    <Link
-                      href="/plots-for-sale-in-dha-multan"
-                      className="block px-4 py-2 hover:bg-gray-100"
-                      onClick={closeAllMenus}
-                    >
-                      DHA Multan
-                    </Link>
-                  </li>
                 </ul>
               )}
             </div>
@@ -254,15 +245,6 @@ const Navbar = () => {
                       onClick={closeAllMenus}
                     >
                       Smart Housing Multan
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/plots-for-sale-in-dha-multan"
-                      className="block py-2 w-full border-t hover:bg-gray-100"
-                      onClick={closeAllMenus}
-                    >
-                      DHA Multan
                     </Link>
                   </li>
                 </ul>
