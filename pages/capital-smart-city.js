@@ -66,49 +66,48 @@ const Capital_Smart_City = () => {
           content="https://www.iesmkt.com/capita-smart-city.webp"
         />
 
-        {/* FAQ Schema Markup */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: "Who is the owner of Capital Smart City?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "The owner of Capital Smart City is Future Development Holdings (FDH) in collaboration with Habib Rafiq (Pvt) Ltd, a renowned name in Pakistan's real estate and construction industry.",
+        {
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: [
+                {
+                  "@type": "Question",
+                  name: "Who is the owner of Capital Smart City?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "The owner of Capital Smart City is Future Development Holdings (FDH) in collaboration with Habib Rafiq (Pvt) Ltd, a renowned name in Pakistan's real estate and construction industry.",
+                  },
                 },
-              },
-              {
-                "@type": "Question",
-                name: "Is Capital Smart City legal?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Yes, Capital Smart City is a legal housing society with an approved NOC (No Objection Certificate) from the Rawalpindi Development Authority (RDA).",
+                {
+                  "@type": "Question",
+                  name: "Is Capital Smart City legal?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Yes, Capital Smart City is a legal housing society with an approved NOC (No Objection Certificate) from the Rawalpindi Development Authority (RDA).",
+                  },
                 },
-              },
-              {
-                "@type": "Question",
-                name: "How big is Capital Smart City Islamabad?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Capital Smart City Islamabad spans over 55,000 Kanal, making it one of the largest housing societies in Pakistan. The project is designed to expand further, with plans to reach approximately 80,000 Kanal in the future.",
+                {
+                  "@type": "Question",
+                  name: "How big is Capital Smart City Islamabad?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Capital Smart City Islamabad spans over 55,000 Kanal, making it one of the largest housing societies in Pakistan. The project is designed to expand further, with plans to reach approximately 80,000 Kanal in the future.",
+                  },
                 },
-              },
-              {
-                "@type": "Question",
-                name: "Is Capital Smart City a good investment?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                text: "Capital Smart City Islamabad offers a prime location, smart technologies, modern amenities, and eco-friendly development, making it a high-potential investment opportunity.",
+                {
+                  "@type": "Question",
+                  name: "Is Capital Smart City a good investment?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Capital Smart City Islamabad offers a prime location, smart technologies, modern amenities, and eco-friendly development, making it a high-potential investment opportunity.",
+                  },
                 },
-              },
-            ],
-          })}
-        </script>
-
-        {/* Additional Meta Tags */}
+              ],
+            })}
+          </script>
+        }
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charSet="UTF-8" />
       </Head>
@@ -166,8 +165,8 @@ const Capital_Smart_City = () => {
               eco-friendliness. Individuals seeking contemporary lives, such as
               families, and entrepreneurs will appreciate the innovation,
               comfort, and affordable creative mixtures. Capital Smart City
-              (CSC) is Pakistan&apos;s first smart city and the fourth in Asia. The
-              idea is to improve city life by merging current technology,
+              (CSC) is Pakistan&apos;s first smart city and the fourth in Asia.
+              The idea is to improve city life by merging current technology,
               sustainability, and lavish amenities. The development, located
               near Islamabad, provides residents with a secure and modern living
               environment, as well as significant business opportunities for
