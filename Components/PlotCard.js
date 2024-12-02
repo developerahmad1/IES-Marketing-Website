@@ -20,15 +20,20 @@ const PlotCard = ({ plotData }) => {
     confirmationAmount,
     halfYearly,
     ballotingAmount,
+    imgAlt,
+    imgTitle,
   } = plotData;
+
+
 
   return (
     <div className="max-w-md m-0 p-0 bg-white shadow-2xl rounded-2xl overflow-hidden transition-all transform hover:shadow-3xl duration-300 ease-in-out">
       {/* Image Section */}
       <div className="relative group">
         <img
-          src={imageUrl || "https://via.placeholder.com/400"}
-          alt="Plot"
+          src={imageUrl?.src}
+          alt={imgAlt}
+          title={imgTitle}
           className="w-full h-56 object-cover rounded-t-2xl transition-all duration-300 group-hover:opacity-90"
         />
         <span
