@@ -248,7 +248,7 @@ const Plots_For_Sale_In_Multan = () => {
               housing society connects you to key landmarks like Nishter 2 and
               Nawaz Sharif University of Agriculture. Innovative amenities,
               smart features, and sustainable development that cater to the
-              lifestyle of tomorrow. Whether you're looking affordable plots for
+              lifestyle of tomorrow. Whether you&apos;re looking affordable plots for
               your dream home or a lucrative commercial venture, Smart Housing
               Multan promises high returns and unmatched value. Invest today and
               step into a smarter, brighter future!
@@ -265,7 +265,7 @@ const Plots_For_Sale_In_Multan = () => {
               purposes, 2 Marla and 4 Marla plots are available, providing
               opportunities for business development. With these options, Smart
               Housing Multan ensures that every buyer finds the perfect fit for
-              their needs, whether it's building a dream home or launching a
+              their needs, whether it&apos;s building a dream home or launching a
               successful business.
             </p>
           </div>
