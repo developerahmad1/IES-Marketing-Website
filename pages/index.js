@@ -192,7 +192,7 @@ const Home = () => {
             <li>100% profit-based investment</li>
             <li>Marketing and developing services</li>
             <a
-              href="https://wa.me/923338400106?text=Hi.%20Sir%20I%20want%20to%20in%20buy%20a%20plot%20?"
+              href="https://wa.me/923326030828?text=Hi.%20Sir%20I%20want%20to%20in%20buy%20a%20plot%20?"
               target="_main"
             >
               <button className="mt-6 bg-[#2f3130] text-white rounded-full px-6 py-2 hover:bg-black transition">
