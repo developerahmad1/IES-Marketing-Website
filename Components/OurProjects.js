@@ -16,6 +16,7 @@ import deGreenHomes from "../public/De_Green_Homes_1.jpg";
 import buchExecutiveVillas from "../public/Buch Villas_1 .webp";
 import lahoreSmartCity from "../public/lahore-smart-city.webp";
 import capitalSmartCity from "../public/capita-smart-city.webp";
+import parkViewCity from "../public/park view city.webp";
 
 const OurProjects = ({ showHead = true, heading }) => {
   function scrollToTop() {
@@ -542,6 +543,40 @@ const OurProjects = ({ showHead = true, heading }) => {
                 including a painstakingly planned residential area that
                 prioritizes sustainability, smart urban planning, and
                 eco-friendliness.
+              </p>
+            </div>
+            <div className="p-6 pt-0">
+              <button
+                className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                type="button"
+              >
+                View More
+              </button>
+            </div>
+          </Link>
+
+          {/* Park View City Islamabad – A Gateway to Luxurious Living */}
+          <Link
+            href={`/park-view-city-islamabad`}
+            onClick={scrollToTop}
+            className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-gray-900 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
+          >
+            <div className="relative overflow-hidden text-white shadow-lg bg-clip-border rounded-t-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+              <Image
+                src={parkViewCity}
+                alt="Capital Smart City"
+                title="Capital Smart City"
+                className="w-full"
+              />
+            </div>
+            <div className="p-6">
+              <h2 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                Park View City Islamabad – A Gateway to Luxurious Living
+              </h2>
+              <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+                Park View City Islamabad is considered to be one of the most
+                desirable housing society in the capital, providing luxury,
+                simplicity, and unparalleled combinations.
               </p>
             </div>
             <div className="p-6 pt-0">
