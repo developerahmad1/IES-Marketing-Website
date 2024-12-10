@@ -51,7 +51,7 @@ const MiyawakiBotanicalForestInitiativeByDHAMultan_14 = () => {
                                 <p className="pb-6">
                                     An initiative of tree plantation builds on the success of previous tree planting campaigns. In the framework of their constant commitment to the stability of DHA Multan, about 200,000 trees under the Plantation Drive Sarsabz-o-Shadab, a national initiative to increase forest cover in Pakistan, were planted. These initiatives will not only help improve urban areas, but will also play a key role in improving biodiversity, reducing heat and improving air quality. It is planned by DHA Multan to plant 2.5 million trees in the coming five years that is around 300,000 trees per year. This long-term vision aims to transform DHA Multan into an intelligent, green and clean community, ensuring that residents use a healthier and more stable living environment.
                                 </p>
-                                <p className="pb-6">Read More: <Link href="/blog/dha-multan-sector-m" className="text-blue-500 hover:underline">Sector M of DHA Multan</Link></p>
+                                <p className="pb-6">Read More: <Link href="/dha-multan-sector-m" className="text-blue-500 hover:underline">Sector M of DHA Multan</Link></p>
 
                                 <h2 className="text-xl sm:text-3xl font-semibold text-gray-800 leading-tight">
                                     Benefits of the Miyawaki Botanical Forest Initiative

@@ -1,9 +1,5 @@
 import React from "react";
-import { AiFillTikTok } from "react-icons/ai";
-import { FaFacebookSquare, FaYoutube } from "react-icons/fa";
-import { FaSquareInstagram } from "react-icons/fa6";
-import instagram from "../../public/instagram_logo.png";
-import img1 from "../../public/Blogs/Blog11.jpg";
+import img1 from "../public/Blogs/Blog11.jpg";
 import Blogs from "@/Components/Blogs";
 import Head from "next/head";
 import Image from "next/image";
