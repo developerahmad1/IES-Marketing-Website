@@ -266,7 +266,7 @@ const SectorHOfDHAMultan_13 = () => {
                 <p className="pb-6">
                   <span className="font-bold">Read More:</span>{" "}
                   <Link
-                    href="/blog/sector-m-of-dha-multan"
+                    href="/blog/dha-multan-sector-m"
                     className="text-blue-500 hover:underline"
                   >
                     Sector M of DHA Multan Read More: Sector M of DHA Multan{" "}

@@ -235,7 +235,7 @@ const DHA_Multan_Developmet_Charges_Update_2024 = () => {
                 <p className="pb-6">
                   To Read More:{" "}
                   <Link
-                    href={"/blog/sector-m-of-dha-multan/"}
+                    href={"/blog/dha-multan-sector-m/"}
                     className="text-blue-500 hover:underline"
                   >
                     Sector M DHA Multan

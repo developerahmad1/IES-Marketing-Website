@@ -376,7 +376,7 @@ const Blogs = ({ heading, showHead = true }) => {
 
               {/* 11th Sector M of DHA Multan: A New Standard of Living */}
               <Link
-                href="/blog/sector-m-of-dha-multan"
+                href="/blog/dha-multan-sector-m"
                 onClick={scrollToTop}
                 height={600}
                 className="relative flex flex-col cursor-pointer border border-gray-300 rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl text-gray-700 bg-white bg-clip-border"
