@@ -46,7 +46,7 @@ const SectorMOfDHAMultana_11 = () => {
         />
         <meta
           property="og:image"
-          content="h2https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FBlog11.e3526a5f.jpg&w=3840&q=75"
+          content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FBlog11.e3526a5f.jpg&w=3840&q=75"
         />
         <meta property="og:site_name" content="IES Marketing" />
 
@@ -62,7 +62,7 @@ const SectorMOfDHAMultana_11 = () => {
         />
         <meta
           name="twitter:image"
-          content="h2https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FBlog11.e3526a5f.jpg&w=3840&q=75"
+          content="https://www.iesmkt.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FBlog11.e3526a5f.jpg&w=3840&q=75"
         />
 
         {/* Alternate Language Tags */}
