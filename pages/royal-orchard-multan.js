@@ -42,7 +42,7 @@ const RoyalOrchad = () => {
     "Royal Orchad mnodern Architecture",
     "Royal Orchard garden",
     "Royal Orchard Play Ground",
-    "Main entrance",
+    "Main entrance of Royal Orchard Multan",
     "Royal Orchard main boulevard",
     "Royal Orchard Greener Environment",
     "Royal Orchard Garden",
@@ -65,14 +65,50 @@ const RoyalOrchad = () => {
   return (
     <>
       <Head>
-        <title>Royal Orchard Multan - IES Marketing</title>
-        <meta
-          name="keywords"
-          content="Royal Orchard, Royal Orchard Multan, Habib Rafiq PVT, Best Societies in Multan, Pakistan Real Estate, Real Estate Investment"
-        />
+        <title>
+          Royal Orchard Multan | Complete Guide to Location & Features
+        </title>
         <meta
           name="description"
-          content="Royal Orchard Multan, developed by HRL Group, provides a luxurious and comfortable lifestyle.  It has 4000 Kanal land area that is approved by MDA."
+          content="Discover Royal Orchard Multan, a premium housing society with prime location, features, plot sizes, prices, and investment potential in this guide."
+        />
+        <meta
+          name="keywords"
+          content="Royal Orchard Multan, Royal Orchard, Royal Orchard housing society, Royal Orchard Multan prices, investment in Royal Orchard Multan, Multan housing societies,"
+        />
+        <link
+          rel="canonical"
+          href="https://www.iesmkt.com/royal-orchard-multan/"
+        />
+        <meta
+          property="og:title"
+          content="Royal Orchard Multan | Complete Guide to Location, Features & Prices"
+        />
+        <meta
+          property="og:description"
+          content="Discover everything about Royal Orchard Multan, from location to plot sizes and investment potential."
+        />
+        <meta
+          property="og:url"
+          content="https://www.iesmkt.com/royal-orchard-multan/"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://www.iesmkt.com/royal orchad 1.jpg"
+        />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:title"
+          content="Royal Orchard Multan | Complete Guide to Location, Features & Prices"
+        />
+        <meta
+          property="twitter:description"
+          content="Explore Royal Orchard Multan's features, location, and investment opportunities in this detailed guide."
+        />
+        <meta
+          property="twitter:image"
+          content="https://www.iesmkt.com/royal orchad 1.jpg"
         />
       </Head>
 
@@ -90,8 +126,8 @@ const RoyalOrchad = () => {
                 <div className="container px-4 mx-auto">
                   <div className="max-w-4xl mx-auto text-center">
                     <h1 className="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">
-                      Royal Orchard Multan – Premier Destination for Modern
-                      Living
+                      Royal Orchard Multan: A Premium Housing Society in the
+                      Heart of Multan
                     </h1>
                     <p className="max-w-4xl mx-auto mb-10 text-lg text-center text-gray-300">
                       Royal Orchard Multan provides a luxurious and comfortable
@@ -102,7 +138,7 @@ const RoyalOrchad = () => {
                     </p>
                     <div onClick={openLeadpoup}>
                       <a
-                        className="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-gray-200 rounded hover:bg-gray-100 text-gray-800 transition duration-200"
+                        className="inline-block w-full md:w-auto mb-4 md:mr-6 py-5 px-8 text-sm font-bold uppercase border-2 border-transparent bg-white rounded hover:bg-gray-100 text-gray-800 transition duration-200"
                         href="https://wa.me/923326030828?text=Hi.%20Sir%20I%20am%20interested%20in%20Royal%20Orchard.%20Can%20get%20More%20Information%20About%20it%20?"
                         target="_main"
                       >
@@ -121,7 +157,9 @@ const RoyalOrchad = () => {
           <div className="max-w-4xl mx-auto">
             {/* Introduction Section */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mb-4">Introduction</h2>
+              <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start">
+                Introduction
+              </h2>
               <p className="text-lg leading-relaxed">
                 Royal Orchard Multan provides a luxurious and comfortable
                 lifestyle in the fast-growing city of South Punjab. It offers
@@ -137,7 +175,7 @@ const RoyalOrchad = () => {
 
             {/* History */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mb-4 text-start">
+              <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start">
                 Royal Orchard Multan Developer History and Owner
               </h2>
               <p className="text-lg leading-relaxed">
@@ -151,7 +189,7 @@ const RoyalOrchad = () => {
 
             {/* Habib Rafiq Private Limited */}
             <section className="mb-12">
-              <h3 className="text-2xl font-bold mb-4 text-start">
+              <h3 className="text-[20px] font-[600] md:text-[22px] text-start">
                 Habib Rafiq Private Limited
               </h3>
               <p className="text-lg leading-relaxed">
@@ -179,7 +217,7 @@ const RoyalOrchad = () => {
 
             {/* Royal Developers and Builders Pvt. Limited */}
             <section className="mb-12">
-              <h3 className="text-2xl font-bold mb-4 text-start">
+              <h3 className="text-[20px] font-[600] md:text-[22px] text-start">
                 Royal Developers and Builders Pvt. Limited
               </h3>
               <p className="text-lg leading-relaxed">
@@ -204,7 +242,7 @@ const RoyalOrchad = () => {
 
             {/* NOC Status */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mb-4 text-start">
+              <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start">
                 Royal Orchard Multan NOC Status
               </h2>
               <p className="text-lg leading-relaxed">
@@ -223,7 +261,7 @@ const RoyalOrchad = () => {
 
             {/* development Status */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mb-4 text-start">
+              <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start">
                 Royal Orchard Multan Development status
               </h2>
               <p className="text-lg leading-relaxed">
@@ -257,7 +295,7 @@ const RoyalOrchad = () => {
 
             {/* Main Features */}
             <section className="mb-12">
-              <h2 className="text-3xl text-start font-bold mb-4">
+              <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start">
                 Key Features of Royal Orchard Multan
               </h2>
               <p className="text-lg leading-relaxed">
@@ -284,7 +322,7 @@ const RoyalOrchad = () => {
 
             {/* Location */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mb-4 text-start">
+              <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start">
                 Royal Orchard Multan Location
               </h2>
               <p className="text-lg leading-relaxed">
@@ -301,7 +339,7 @@ const RoyalOrchad = () => {
 
             {/* Accessibiulities */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mb-4 text-start">
+              <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start">
                 Royal Orchard Multan Accessibilities
               </h2>
               <p className="text-lg leading-relaxed">
@@ -325,7 +363,7 @@ const RoyalOrchad = () => {
 
             {/* NearBy LandMarks */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mb-4 text-start">
+              <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start">
                 Royal Orchard Multan Nearby Landmarks
               </h2>
               <p className="text-lg leading-relaxed">
@@ -350,7 +388,7 @@ const RoyalOrchad = () => {
 
             {/* Blocks */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mb-4 text-start">
+              <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start">
                 Royal Orchard Multan Blocks
               </h2>
               <p className="text-lg leading-relaxed">
@@ -383,7 +421,7 @@ const RoyalOrchad = () => {
 
             {/* Paymemnt Plans */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mb-4 text-start">
+              <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start">
                 Royal Orchard Multan Payment plan
               </h2>
               <p className="text-lg leading-relaxed">
@@ -399,7 +437,9 @@ const RoyalOrchad = () => {
 
             {/* conclusion */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold mb-4 text-start">Conclusion</h2>
+              <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start">
+                Conclusion
+              </h2>
               <p className="text-lg leading-relaxed">
                 Royal Orchard Multan stands as a testament to modern living and
                 quality development. Developed by the HRL Group, this project
@@ -415,8 +455,10 @@ const RoyalOrchad = () => {
 
             {/* FAQS */}
             <section className="mb-12">
-              <h3 className="text-3xl font-bold mb-4">FAQS</h3>
-              <h3 className="text-xl font-semibold mt-5 text-start">
+              <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start">
+                FAQS
+              </h2>
+              <h3 className="text-[20px] font-[600] md:text-[22px] text-start">
                 Who is the developer of Royal Orchard Multan?
               </h3>
               <p className="text-[15px] sm:text-lg leading-relaxed">
@@ -428,7 +470,7 @@ const RoyalOrchad = () => {
                 expertise. HRL Group is a name of trust in the real estate
                 industry, and its housing projects ensure success.
               </p>
-              <h3 className="text-xl font-semibold mt-5 text-start">
+              <h3 className="text-[20px] font-[600] md:text-[22px] text-start">
                 What amenities are present in Royal Orchard Multan?
               </h3>
               <p className="text-[15px] sm:text-lg leading-relaxed">
@@ -442,7 +484,7 @@ const RoyalOrchad = () => {
                 Multan locals to invest and get residential plots in Royal
                 Orchard Multan.
               </p>
-              <h3 className="text-xl font-semibold mt-5 text-start">
+              <h3 className="text-[20px] font-[600] md:text-[22px] text-start">
                 Is Royal Orchard Multan an affordable society?
               </h3>
               <p className="text-[15px] sm:text-lg leading-relaxed">
@@ -454,7 +496,7 @@ const RoyalOrchad = () => {
                 community provides a luxurious lifestyle at cost-effective
                 rates.
               </p>
-              <h3 className="text-xl font-semibold mt-5 text-start">
+              <h3 className="text-[20px] font-[600] md:text-[22px] text-start">
                 Is Royal Orchard Multan legal society?{" "}
               </h3>
               <p className="text-[15px] sm:text-lg leading-relaxed">
@@ -465,7 +507,7 @@ const RoyalOrchad = () => {
                 be in safe hands. This project ensures the satisfaction of
                 clients and you will get all details on visit to the office.
               </p>
-              <h3 className="text-xl font-semibold mt-5 text-start">
+              <h3 className="text-[20px] font-[600] md:text-[22px] text-start">
                 Is Royal Orchard Multan worth investment?
               </h3>
               <p className="text-[15px] sm:text-lg leading-relaxed">
@@ -477,7 +519,7 @@ const RoyalOrchad = () => {
                 is also good to consider from investment or commercial purposes
                 even if you do not want to get a residential plot there.
               </p>
-              <h3 className="text-xl font-semibold mt-5 text-start">
+              <h3 className="text-[20px] font-[600] md:text-[22px] text-start">
                 What is the location of Royal Orchard Multan?
               </h3>
               <p className="text-[15px] sm:text-lg leading-relaxed">
@@ -494,14 +536,14 @@ const RoyalOrchad = () => {
 
         {/* Images */}
         <section className="mb-12 px-2 sm:px-5">
-          <h3 className="text-3xl font-bold mb-4 text-center pb-4">
+          <h3 className="text-[20px] font-[600] md:text-[22px] text-start">
             Images Of Royal Orchad Multan
           </h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {images.map((src, index) => (
               <div
                 key={index}
-                className="w-full h-48 md:h-64 lg:h-80 bg-gray-200 flex items-center justify-center overflow-hidden border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl relative"
+                className="w-full h-48 md:h-64 lg:h-80 bg-white flex items-center justify-center overflow-hidden border rounded-2xl transition-all duration-[0.5s] hover:border-blue-800 hover:shadow-2xl relative"
               >
                 {/* Loading Spinner */}
                 {loading[index] && (
@@ -517,6 +559,7 @@ const RoyalOrchad = () => {
                   }`}
                   src={src}
                   alt={altNames[index]}
+                  title={altNames[index]}
                   loading="lazy"
                   onLoad={() => handleImageLoad(index)}
                   onError={() => handleImageLoad(index)} // In case image fails to load
@@ -530,7 +573,9 @@ const RoyalOrchad = () => {
 
         {/* Disclaimer */}
         <section className="my-10 px-3 sm:px-20 text-justify">
-          <h2 className="text-3xl font-bold mb-4 text-start">Disclaimer</h2>
+          <h2 className="text-2xl md:text-[28px] text-gray-800 font-semibold mt-6 text-start">
+            Disclaimer
+          </h2>
           <p className="text-xl font-semibold mt-5">
             We collect information from credible and authentic online sources to
             provide up-to-date property details. We make no representations or
@@ -541,7 +586,7 @@ const RoyalOrchad = () => {
           </p>
         </section>
 
-        <OurProjects showHead={false}  heading="Our Other Real Estate Projects"/>
+        {/* <OurProjects showHead={false}  heading="Our Other Real Estate Projects"/> */}
       </div>
     </>
   );
