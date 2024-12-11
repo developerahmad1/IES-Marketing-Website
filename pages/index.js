@@ -494,12 +494,13 @@ const Home = () => {
 
         {/* <Blogs heading="Our Latest Blogs" /> */}
 
+
         {/* youtube videos  */}
         <h3 className="text-5xl text-center font-bold">Latest Videos</h3>
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-1 mt-0 pb-5">
           <iframe
             className="w-full aspect-[16/9]"
-            src="https://www.youtube.com/embed/VD7_leetSIA?si=4Kwl3rRHKmIBpfI-"
+            src="https://www.youtube.com/embed/LH0O_8U0jJA?si=2urk-6xQ0i8cvhHE"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
