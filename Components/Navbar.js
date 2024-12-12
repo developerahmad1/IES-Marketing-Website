@@ -32,7 +32,7 @@ const Navbar = () => {
           onClick={toggleNav}
         ></div>
       )}
-      <header className="navbar-header bg-white shadow-md w-full fixed z-30 top-0 left-0">
+      <header className="navbar-header bg-white shadow-md w-full fixed z-[10000] top-0 left-0 ">
         <div className="mx-auto flex flex-n justify-between items-center flex-row relative z-20 p-4">
           <div className="flex items-center">
             <Image

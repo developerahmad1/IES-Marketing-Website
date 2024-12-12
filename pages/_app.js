@@ -30,8 +30,8 @@ export default function App({ Component, pageProps }) {
         </div>
         {/* <div className="h-[100px] w-full bg-white"></div> */}
 
-        {/* <Footer /> */}
-        <Footer2 />
+        <Footer />
+        {/* <Footer2 /> */}
       </div>
     </AppProvider>
   );
