@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import "@/styles/Home.css";
 import "@/styles/footer2.css";
+import "@/styles/textanimation.css";
 import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
 import { AppProvider } from "@/Context/AppContext";

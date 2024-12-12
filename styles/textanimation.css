@@ -1,0 +1,105 @@
+.text-animation-1 {
+  /* Clip Background Image */
+
+  background: url("/text-animation.png") repeat-y;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Animate Background Image */
+
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: animation1 30s linear infinite;
+
+  /* Activate hardware acceleration for smoother animations */
+
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+}
+
+/* Animate Background Image */
+
+@-webkit-keyframes animation1 {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.text-animation-2 {
+  /* Clip Background Image */
+
+  background: url("/text-animation.png") repeat-x;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Animate Background Image */
+
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: animation2 20s linear infinite;
+
+  /* Activate hardware acceleration for smoother animations */
+
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+}
+
+/* Animate Background Image */
+
+@-webkit-keyframes animation2 {
+  0% {
+    background-position: 0% 10%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text-animation-3 {
+    -webkit-text-stroke: 1px #fa8b17;
+    overflow: hidden;
+  }
+
+  .text-animation-3::before {
+    content: "IES Marketing";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* height: 100%; */
+    color: transparent;
+    background: repeating-linear-gradient(45deg, #fa8b17, #fa8b17 10px, black 10px, black 20px);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animation3 10s linear infinite;
+  }
+
+  @keyframes animation3 {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
+  }

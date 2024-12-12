@@ -190,7 +190,7 @@ const About = () => {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative text-center">
             <h1 className="max-w-2xl mx-auto text-center font-manrope font-bold text-4xl text-gray-900 mb-5 md:text-5xl md:leading-normal">
               Buy Your Property with <br />
-              <span className="text-[#fa8b17]">IES Marketing</span>
+              <div className="text-animation-3 text-5xl md:text-7xl font-[600] text-black relative h-[80px] md:h-[90px]">IES Marketing</div>
             </h1>
             <p className="max-w-2xl text-justify mx-auto  text-base font-normal leading-7 text-gray-500 mb-9">
               {`IES Marketing is a real estate agency offering extraordinary
@@ -217,7 +217,7 @@ const About = () => {
               </div>
               <div className=" flex items-start">
                 <div className="data w-full">
-                  <h2 className="text-start font-manrope font-bold text-4xl lg:text-3xl text-black mb-3 max-lg:text-center relative mt-8 md:mt-0">
+                  <h2 className="text-start font-manrope font-bold text-4xl lg:text-3xl text-black mb-3 max-lg:text-center relative mt-8 md:mt-0  animate2  ">
                     Syed Ali Akbar Kirmani{" "}
                     <span className="text-2xl mb-2">(CEO)</span>
                   </h2>
@@ -258,7 +258,7 @@ const About = () => {
                     title="Chaudhary Tayyab Sultan"
                   />
                   {/* icon here */}
-                  <h2 className="font-manrope font-bold text-4xl lg:text-4xl text-black mb-4">
+                  <h2 className="font-manrope font-bold text-4xl lg:text-4xl text-black mb-4 animate2">
                     Chaudhary Tayyab Sultan (MD)
                   </h2>
                   <p className="font-normal text-xl leading-8 text-gray-500 max-w-2xl mx-auto text-justify">
