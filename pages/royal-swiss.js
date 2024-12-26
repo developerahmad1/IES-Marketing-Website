@@ -372,7 +372,7 @@ const RoyalSwiss = () => {
                 to pay 58 monthly installments and nine bi-annual installments
                 in this time frame.{" "}
               </p>
-              <div className="flex justify-start items-start mt-10 gap-3 flex-wrap">
+              {/* <div className="flex justify-start items-start mt-10 gap-3 flex-wrap">
                 <Image
                   src={paymentPlan}
                   alt="Royal Swiss Payment Plan"
@@ -383,7 +383,7 @@ const RoyalSwiss = () => {
                   alt="Royal Swiss Payment Plan"
                   className="mx-auto w-full sm:max-w-[400px] border rounded-xl transition-all duration-[0.5s] hover:border-black hover:shadow-2xl"
                 />
-              </div>
+              </div> */}
             </section>
 
             {/* Conclusion */}
