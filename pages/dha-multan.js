@@ -51,7 +51,7 @@ const DHAMultan = () => {
         />
         <meta
           name="description"
-          content="Discover DHA Multan, Pakistan's top housing society. Explore plots, sectors, map, amenities, prices, and investment opportunities in this ultimate guide."
+          content="Discover DHA Multan, Pakistan top housing society. Explore plots, sectors, map, amenities, prices, and investment opportunities in this ultimate guide."
         />
         <meta
           property="og:title"
@@ -59,7 +59,7 @@ const DHAMultan = () => {
         />
         <meta
           property="og:description"
-          content="Explore DHA Multan's prime location, modern amenities, plot prices, and sectors. A complete guide for investors and homeowners."
+          content="Explore DHA Multan prime location, modern amenities, plot prices, and sectors. A complete guide for investors and homeowners."
         />
         <meta
           property="og:image"
@@ -101,7 +101,7 @@ const DHAMultan = () => {
                   <div className="max-w-4xl mx-auto text-center">
                     {/* <span className="text-gray-200 font-semibold uppercase tracking-widest">IES Marketing</span> */}
                     <h1 className="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">
-                      DHA Multan: Comprehensive Overview of Pakistan's Premier
+                    DHA Multan: Comprehensive Overview of Pakistan Premier
                       Housing Society{" "}
                     </h1>
                     <p className="max-w-3xl mx-auto mb-10 text-lg  text-gray-300 text-center">
