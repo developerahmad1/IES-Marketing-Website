@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import img1 from "../public/DHA 1.webp";
+import img1 from "../public/DHA multan.webp";
 import img2 from "../public/DHA 2.webp";
 import img3 from "../public/DHA 3.webp";
 import img4 from "../public/DHA 4.webp";
@@ -18,13 +18,13 @@ const DHAMultan = () => {
 
   const images = [img1, img2, img3, img4, img5, img6, img7];
   const altNames = [
-    "DHA Multan",
-    "DHA Multan main entrance",
-    "DHA Multan Drone view",
-    "DHA Multan arena",
-    "DHA Multan monuments",
-    "DHA Multan Housing Society",
-    "DHA residential community",
+    "DHA Multan - Premier Housing Society in Pakistan",
+    "Main Entrance of DHA Multan - Iconic Gateway",
+    "Drone View of DHA Multan - Scenic Housing Community",
+    "DHA Multan Arena - A Hub for Entertainment and Activities",
+    "Monuments in DHA Multan - Symbolizing Elegance and Culture",
+    "DHA Multan Housing Society - Luxury Living in Pakistan",
+    "DHA Multan Residential Community - Modern Homes and Amenities",
   ];
 
   const [loading, setLoading] = useState(Array(images.length).fill(true));
@@ -41,41 +41,45 @@ const DHAMultan = () => {
   return (
     <>
       <Head>
-        <title>DHA Multan - Premium Society and Investment Opportunities</title>
+        <title>
+          DHA Multan | Comprehensive Guide to Plots, Sectors, and Investment
+          Opportunities
+        </title>
         <meta
           name="keywords"
-          content="DHA Multan, DHA Multan Housing, DHA Multan Investment, DHA Multan Plots, Buy Property in DHA Multan"
+          content="DHA Multan, Defence Housing Authority Multan, plots in DHA Multan, DHA Multan investment, DHA Multan map, DHA Multan plot prices, DHA Multan amenities, DHA Multan location, residential plots DHA Multan, real estate DHA Multan"
         />
         <meta
           name="description"
-          content="DHA Multan offers modern amenities, prime location, and great investment opportunities. Learn more about DHA Multan's plots, houses, and payment plans."
+          content="Discover DHA Multan, Pakistan's top housing society. Explore plots, sectors, map, amenities, prices, and investment opportunities in this ultimate guide."
         />
         <meta
           property="og:title"
-          content="DHA Multan - Premium Society and Investment Opportunities"
+          content="DHA Multan | Your Ultimate Guide to Investment and Living"
         />
         <meta
           property="og:description"
-          content="DHA Multan offers modern amenities, prime location, and great investment opportunities. Learn more about DHA Multan's plots, houses, and payment plans."
+          content="Explore DHA Multan's prime location, modern amenities, plot prices, and sectors. A complete guide for investors and homeowners."
         />
-        <meta property="og:image" content="https://www.iesmkt.com/DHA 1.webp" />
+        <meta
+          property="og:image"
+          content="https://www.iesmkt.com/DHA multan.webp"
+        />
         <meta property="og:url" content="https://www.iesmkt.com/dha-multan/" />
-        <meta property="og:type" content="website" />
-
+        <meta property="og:type" content="article" />
         <meta
           name="twitter:title"
-          content="DHA Multan - Premium Society and Investment Opportunities"
+          content="DHA Multan - Complete Guide to Investment & Living"
         />
         <meta
           name="twitter:description"
-          content="DHA Multan offers modern amenities, prime location, and great investment opportunities. Learn more about DHA Multan's plots, houses, and payment plans."
+          content="Discover everything about DHA Multan: plots, sectors, investment opportunities, and amenities. Your guide to real estate success."
         />
         <meta
           name="twitter:image"
-          content="https://www.iesmkt.com/DHA 1.webp"
+          content="https://www.iesmkt.com/DHA multan.webp"
         />
         <meta name="twitter:card" content="summary_large_image" />
-
         <link rel="canonical" href="https://www.iesmkt.com/dha-multan/" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="IES Marketing" />
@@ -87,7 +91,7 @@ const DHAMultan = () => {
           <div
             className="w-full bg-center bg-cover"
             style={{
-              backgroundImage: `url('/DHA 1.webp')`, // Using the imported image
+              backgroundImage: `url('/DHA multan.webp')`, // Using the imported image
               height: "100vh",
             }}
           >
@@ -97,7 +101,8 @@ const DHAMultan = () => {
                   <div className="max-w-4xl mx-auto text-center">
                     {/* <span className="text-gray-200 font-semibold uppercase tracking-widest">IES Marketing</span> */}
                     <h1 className="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">
-                      DHA Multan - A Premium Housing Society in Multan
+                      DHA Multan: Comprehensive Overview of Pakistan's Premier
+                      Housing Society{" "}
                     </h1>
                     <p className="max-w-3xl mx-auto mb-10 text-lg  text-gray-300 text-center">
                       Defense Housing Authority is renowned for its high-quality
